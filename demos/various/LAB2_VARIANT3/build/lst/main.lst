@@ -1,0 +1,5487 @@
+GAS LISTING /tmp/ccFT8Er8.s 			page 1
+
+
+   1              		.file	"main.c"
+   2              		.text
+   3              	.Ltext0:
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "main.c"
+   5              		.section	.rodata.print_buffer_state.str1.4,"aMS",@progbits,1
+   6              		.align 4
+   7              	.LC0:
+   8 0000 25733A20 		.string	"%s: count=%2u, head=%2u, tail=%2u\r\n"
+   8      636F756E 
+   8      743D2532 
+   8      752C2068 
+   8      6561643D 
+   9              		.section	.rodata.print_buffer_state.str1.1,"aMS",@progbits,1
+  10              	.LC1:
+  11 0000 436F6E74 		.string	"Contents: "
+  11      656E7473 
+  11      3A2000
+  12              	.LC2:
+  13 000b 656D7074 		.string	"empty"
+  13      7900
+  14              	.LC3:
+  15 0011 25336420 		.string	"%3d "
+  15      00
+  16              	.LC4:
+  17 0016 0D0A00   		.string	"\r\n"
+  18              		.section	.text.print_buffer_state,"ax",@progbits
+  19              		.p2align 4
+  20              		.type	print_buffer_state, @function
+  21              	print_buffer_state:
+  22              	.LVL0:
+  23              	.LFB299:
+  24              		.file 1 "main.c"
+  25              		.loc 1 35 103 view -0
+  26              		.cfi_startproc
+  27              		.loc 1 36 5 view .LVU1
+  28              		.loc 1 35 103 is_stmt 0 view .LVU2
+  29 0000 55       		pushl	%ebp
+  30              		.cfi_def_cfa_offset 8
+  31              		.cfi_offset 5, -8
+  32 0001 57       		pushl	%edi
+  33              		.cfi_def_cfa_offset 12
+  34              		.cfi_offset 7, -12
+  35 0002 31FF     		xorl	%edi, %edi
+  36 0004 56       		pushl	%esi
+  37              		.cfi_def_cfa_offset 16
+  38              		.cfi_offset 6, -16
+  39 0005 53       		pushl	%ebx
+  40              		.cfi_def_cfa_offset 20
+  41              		.cfi_offset 3, -20
+  42 0006 E8FCFFFF 		call	__x86.get_pc_thunk.bx
+  42      FF
+  43 000b 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
+  43      0000
+  44 0011 83EC24   		subl	$36, %esp
+  45              		.cfi_def_cfa_offset 56
+  46              		.loc 1 35 103 view .LVU3
+  47 0014 8B742438 		movl	56(%esp), %esi
+GAS LISTING /tmp/ccFT8Er8.s 			page 2
+
+
+  48 0018 89542410 		movl	%edx, 16(%esp)
+  49              		.loc 1 36 5 view .LVU4
+  50 001c 56       		pushl	%esi
+  51              		.cfi_def_cfa_offset 60
+  52 001d 8BAB0000 		movl	SD1@GOT(%ebx), %ebp
+  52      0000
+  53 0023 51       		pushl	%ecx
+  54              		.cfi_def_cfa_offset 64
+  55 0024 FF742444 		pushl	68(%esp)
+  56              		.cfi_def_cfa_offset 68
+  57 0028 50       		pushl	%eax
+  58              		.cfi_def_cfa_offset 72
+  59 0029 8D830000 		leal	.LC0@GOTOFF(%ebx), %eax
+  59      0000
+  60              	.LVL1:
+  61              		.loc 1 36 5 view .LVU5
+  62 002f 50       		pushl	%eax
+  63              		.cfi_def_cfa_offset 76
+  64 0030 55       		pushl	%ebp
+  65              		.cfi_def_cfa_offset 80
+  66 0031 E8FCFFFF 		call	chprintf@PLT
+  66      FF
+  67              	.LVL2:
+  68              		.loc 1 37 5 is_stmt 1 view .LVU6
+  69 0036 83C418   		addl	$24, %esp
+  70              		.cfi_def_cfa_offset 56
+  71 0039 8D830000 		leal	.LC1@GOTOFF(%ebx), %eax
+  71      0000
+  72 003f 50       		pushl	%eax
+  73              		.cfi_def_cfa_offset 60
+  74 0040 55       		pushl	%ebp
+  75              		.cfi_def_cfa_offset 64
+  76 0041 E8FCFFFF 		call	chprintf@PLT
+  76      FF
+  77              	.LVL3:
+  78              		.loc 1 39 5 view .LVU7
+  79              		.loc 1 39 8 is_stmt 0 view .LVU8
+  80 0046 83C410   		addl	$16, %esp
+  81              		.cfi_def_cfa_offset 48
+  82 0049 8D830000 		leal	.LC3@GOTOFF(%ebx), %eax
+  82      0000
+  83 004f 8944240C 		movl	%eax, 12(%esp)
+  84 0053 8B442434 		movl	52(%esp), %eax
+  85 0057 85C0     		testl	%eax, %eax
+  86 0059 7455     		je	.L11
+  87 005b 8D742600 		.p2align 4,,10
+  87      90
+  88              		.p2align 3
+  89              	.L2:
+  90              	.LVL4:
+  91              	.LBB29:
+  92              	.LBB30:
+  93              		.loc 1 44 13 is_stmt 1 discriminator 3 view .LVU9
+  94 0060 83EC04   		subl	$4, %esp
+  95              		.cfi_def_cfa_offset 52
+  96              		.loc 1 43 40 is_stmt 0 discriminator 3 view .LVU10
+  97 0063 83C701   		addl	$1, %edi
+GAS LISTING /tmp/ccFT8Er8.s 			page 3
+
+
+  98              	.LVL5:
+  99              		.loc 1 44 13 discriminator 3 view .LVU11
+ 100 0066 8B44240C 		movl	12(%esp), %eax
+ 101 006a FF34B0   		pushl	(%eax,%esi,4)
+ 102              		.cfi_def_cfa_offset 56
+ 103 006d FF742414 		pushl	20(%esp)
+ 104              		.cfi_def_cfa_offset 60
+ 105 0071 55       		pushl	%ebp
+ 106              		.cfi_def_cfa_offset 64
+ 107 0072 E8FCFFFF 		call	chprintf@PLT
+ 107      FF
+ 108              	.LVL6:
+ 109              		.loc 1 45 13 is_stmt 1 discriminator 3 view .LVU12
+ 110              		.loc 1 45 24 is_stmt 0 discriminator 3 view .LVU13
+ 111 0077 8D4E01   		leal	1(%esi), %ecx
+ 112              		.loc 1 45 17 discriminator 3 view .LVU14
+ 113 007a B8CDCCCC 		movl	$-858993459, %eax
+ 113      CC
+ 114              		.loc 1 43 30 discriminator 3 view .LVU15
+ 115 007f 83C410   		addl	$16, %esp
+ 116              		.cfi_def_cfa_offset 48
+ 117              		.loc 1 45 17 discriminator 3 view .LVU16
+ 118 0082 F7E1     		mull	%ecx
+ 119 0084 C1EA03   		shrl	$3, %edx
+ 120 0087 8D0492   		leal	(%edx,%edx,4), %eax
+ 121 008a 01C0     		addl	%eax, %eax
+ 122 008c 29C1     		subl	%eax, %ecx
+ 123 008e 89CE     		movl	%ecx, %esi
+ 124              	.LVL7:
+ 125              		.loc 1 43 40 is_stmt 1 discriminator 3 view .LVU17
+ 126              		.loc 1 43 30 discriminator 3 view .LVU18
+ 127 0090 397C2434 		cmpl	%edi, 52(%esp)
+ 128 0094 75CA     		jne	.L2
+ 129              	.LVL8:
+ 130              	.L3:
+ 131              		.loc 1 43 30 is_stmt 0 discriminator 3 view .LVU19
+ 132              	.LBE30:
+ 133              	.LBE29:
+ 134              		.loc 1 48 5 is_stmt 1 view .LVU20
+ 135 0096 83EC08   		subl	$8, %esp
+ 136              		.cfi_def_cfa_offset 56
+ 137 0099 8D830000 		leal	.LC4@GOTOFF(%ebx), %eax
+ 137      0000
+ 138 009f 50       		pushl	%eax
+ 139              		.cfi_def_cfa_offset 60
+ 140 00a0 55       		pushl	%ebp
+ 141              		.cfi_def_cfa_offset 64
+ 142 00a1 E8FCFFFF 		call	chprintf@PLT
+ 142      FF
+ 143              	.LVL9:
+ 144              		.loc 1 49 1 is_stmt 0 view .LVU21
+ 145 00a6 83C42C   		addl	$44, %esp
+ 146              		.cfi_def_cfa_offset 20
+ 147 00a9 5B       		popl	%ebx
+ 148              		.cfi_restore 3
+ 149              		.cfi_def_cfa_offset 16
+ 150 00aa 5E       		popl	%esi
+GAS LISTING /tmp/ccFT8Er8.s 			page 4
+
+
+ 151              		.cfi_restore 6
+ 152              		.cfi_def_cfa_offset 12
+ 153 00ab 5F       		popl	%edi
+ 154              		.cfi_restore 7
+ 155              		.cfi_def_cfa_offset 8
+ 156 00ac 5D       		popl	%ebp
+ 157              		.cfi_restore 5
+ 158              		.cfi_def_cfa_offset 4
+ 159 00ad C3       		ret
+ 160 00ae 6690     		.p2align 4,,10
+ 161              		.p2align 3
+ 162              	.L11:
+ 163              		.cfi_def_cfa_offset 48
+ 164              		.cfi_offset 3, -20
+ 165              		.cfi_offset 5, -8
+ 166              		.cfi_offset 6, -16
+ 167              		.cfi_offset 7, -12
+ 168              		.loc 1 40 9 is_stmt 1 view .LVU22
+ 169 00b0 83EC08   		subl	$8, %esp
+ 170              		.cfi_def_cfa_offset 56
+ 171 00b3 8D830000 		leal	.LC2@GOTOFF(%ebx), %eax
+ 171      0000
+ 172 00b9 50       		pushl	%eax
+ 173              		.cfi_def_cfa_offset 60
+ 174 00ba 55       		pushl	%ebp
+ 175              		.cfi_def_cfa_offset 64
+ 176 00bb E8FCFFFF 		call	chprintf@PLT
+ 176      FF
+ 177              	.LVL10:
+ 178 00c0 83C410   		addl	$16, %esp
+ 179              		.cfi_def_cfa_offset 48
+ 180 00c3 EBD1     		jmp	.L3
+ 181              		.cfi_endproc
+ 182              	.LFE299:
+ 183              		.size	print_buffer_state, .-print_buffer_state
+ 184              		.section	.rodata.main.str1.4,"aMS",@progbits,1
+ 185              		.align 4
+ 186              	.LC5:
+ 187 0000 0D0A3D3D 		.string	"\r\n=== Dual Ring Buffer (Main Loop) ===\r\n"
+ 187      3D204475 
+ 187      616C2052 
+ 187      696E6720 
+ 187      42756666 
+ 188 0029 000000   		.align 4
+ 189              	.LC6:
+ 190 002c 5461736B 		.string	"Task1: writes to buffer1, reads from buffer2 every %u ms\r\n"
+ 190      313A2077 
+ 190      72697465 
+ 190      7320746F 
+ 190      20627566 
+ 191 0067 00       		.align 4
+ 192              	.LC7:
+ 193 0068 5461736B 		.string	"Task2: reads from buffer1, writes to buffer2 every %u ms\r\n"
+ 193      323A2072 
+ 193      65616473 
+ 193      2066726F 
+ 193      6D206275 
+GAS LISTING /tmp/ccFT8Er8.s 			page 5
+
+
+ 194 00a3 00       		.align 4
+ 195              	.LC8:
+ 196 00a4 4D6F6E69 		.string	"Monitor: prints status every %u ms\r\n"
+ 196      746F723A 
+ 196      20707269 
+ 196      6E747320 
+ 196      73746174 
+ 197 00c9 000000   		.align 4
+ 198              	.LC9:
+ 199 00cc 42756666 		.string	"Buffer size: %d items each\r\n\r\n"
+ 199      65722073 
+ 199      697A653A 
+ 199      20256420 
+ 199      6974656D 
+ 200 00eb 00       		.align 4
+ 201              	.LC10:
+ 202 00ec 5B544153 		.string	"[TASK1] Added to buffer1: %3d (count: %2u/10)\r\n"
+ 202      4B315D20 
+ 202      41646465 
+ 202      6420746F 
+ 202      20627566 
+ 203              		.align 4
+ 204              	.LC11:
+ 205 011c 5B544153 		.string	"[TASK1] Buffer1 full, skipping write\r\n"
+ 205      4B315D20 
+ 205      42756666 
+ 205      65723120 
+ 205      66756C6C 
+ 206 0143 00       		.align 4
+ 207              	.LC12:
+ 208 0144 5B544153 		.string	"[TASK1] Read from buffer2: %3d (count: %2u/10)\r\n"
+ 208      4B315D20 
+ 208      52656164 
+ 208      2066726F 
+ 208      6D206275 
+ 209 0175 000000   		.align 4
+ 210              	.LC13:
+ 211 0178 5B544153 		.string	"[TASK2] Read from buffer1: %3d (count: %2u/10)\r\n"
+ 211      4B325D20 
+ 211      52656164 
+ 211      2066726F 
+ 211      6D206275 
+ 212 01a9 000000   		.align 4
+ 213              	.LC14:
+ 214 01ac 5B544153 		.string	"[TASK2] Added to buffer2: %3d (count: %2u/10)\r\n"
+ 214      4B325D20 
+ 214      41646465 
+ 214      6420746F 
+ 214      20627566 
+ 215              		.align 4
+ 216              	.LC15:
+ 217 01dc 5B544153 		.string	"[TASK2] Buffer2 full, skipping write\r\n"
+ 217      4B325D20 
+ 217      42756666 
+ 217      65723220 
+ 217      66756C6C 
+ 218              		.section	.rodata.main.str1.1,"aMS",@progbits,1
+GAS LISTING /tmp/ccFT8Er8.s 			page 6
+
+
+ 219              	.LC16:
+ 220 0000 0D0A3D3D 		.string	"\r\n=== Buffer Status ===\r\n"
+ 220      3D204275 
+ 220      66666572 
+ 220      20537461 
+ 220      74757320 
+ 221              	.LC17:
+ 222 001a 42756666 		.string	"Buffer1"
+ 222      65723100 
+ 223              	.LC18:
+ 224 0022 42756666 		.string	"Buffer2"
+ 224      65723200 
+ 225              	.LC19:
+ 226 002a 3D3D3D3D 		.string	"====================\r\n\r\n"
+ 226      3D3D3D3D 
+ 226      3D3D3D3D 
+ 226      3D3D3D3D 
+ 226      3D3D3D3D 
+ 227              		.section	.text.startup.main,"ax",@progbits
+ 228              		.p2align 4
+ 229              		.globl	main
+ 230              		.type	main, @function
+ 231              	main:
+ 232              	.LFB300:
+ 233              		.loc 1 51 16 view -0
+ 234              		.cfi_startproc
+ 235              		.loc 1 52 5 view .LVU24
+ 236              		.loc 1 51 16 is_stmt 0 view .LVU25
+ 237 0000 8D4C2404 		leal	4(%esp), %ecx
+ 238              		.cfi_def_cfa 1, 0
+ 239 0004 83E4F0   		andl	$-16, %esp
+ 240 0007 FF71FC   		pushl	-4(%ecx)
+ 241 000a 55       		pushl	%ebp
+ 242 000b 89E5     		movl	%esp, %ebp
+ 243              		.cfi_escape 0x10,0x5,0x2,0x75,0
+ 244 000d 57       		pushl	%edi
+ 245              		.cfi_escape 0x10,0x7,0x2,0x75,0x7c
+ 246 000e E8FCFFFF 		call	__x86.get_pc_thunk.di
+ 246      FF
+ 247 0013 81C70200 		addl	$_GLOBAL_OFFSET_TABLE_, %edi
+ 247      0000
+ 248 0019 56       		pushl	%esi
+ 249 001a 53       		pushl	%ebx
+ 250 001b 51       		pushl	%ecx
+ 251              		.cfi_escape 0xf,0x3,0x75,0x70,0x6
+ 252              		.cfi_escape 0x10,0x6,0x2,0x75,0x78
+ 253              		.cfi_escape 0x10,0x3,0x2,0x75,0x74
+ 254 001c 83EC48   		subl	$72, %esp
+ 255              		.loc 1 52 5 view .LVU26
+ 256 001f 89FB     		movl	%edi, %ebx
+ 257 0021 E8FCFFFF 		call	halInit@PLT
+ 257      FF
+ 258              	.LVL11:
+ 259              		.loc 1 53 5 is_stmt 1 view .LVU27
+ 260 0026 E8FCFFFF 		call	chSysInit@PLT
+ 260      FF
+ 261              	.LVL12:
+GAS LISTING /tmp/ccFT8Er8.s 			page 7
+
+
+ 262              		.loc 1 54 5 view .LVU28
+ 263 002b 8BB70000 		movl	SD1@GOT(%edi), %esi
+ 263      0000
+ 264 0031 83EC08   		subl	$8, %esp
+ 265 0034 6A00     		pushl	$0
+ 266 0036 56       		pushl	%esi
+ 267 0037 8975E4   		movl	%esi, -28(%ebp)
+ 268 003a E8FCFFFF 		call	sdStart@PLT
+ 268      FF
+ 269              	.LVL13:
+ 270              		.loc 1 56 5 view .LVU29
+ 271 003f 59       		popl	%ecx
+ 272 0040 58       		popl	%eax
+ 273 0041 8D870000 		leal	.LC5@GOTOFF(%edi), %eax
+ 273      0000
+ 274 0047 50       		pushl	%eax
+ 275 0048 56       		pushl	%esi
+ 276 0049 E8FCFFFF 		call	chprintf@PLT
+ 276      FF
+ 277              	.LVL14:
+ 278              		.loc 1 57 5 view .LVU30
+ 279 004e 83C40C   		addl	$12, %esp
+ 280 0051 8D870000 		leal	.LC6@GOTOFF(%edi), %eax
+ 280      0000
+ 281 0057 68C80000 		pushl	$200
+ 281      00
+ 282 005c 50       		pushl	%eax
+ 283 005d 56       		pushl	%esi
+ 284 005e E8FCFFFF 		call	chprintf@PLT
+ 284      FF
+ 285              	.LVL15:
+ 286              		.loc 1 58 5 view .LVU31
+ 287 0063 83C40C   		addl	$12, %esp
+ 288 0066 8D870000 		leal	.LC7@GOTOFF(%edi), %eax
+ 288      0000
+ 289 006c 682C0100 		pushl	$300
+ 289      00
+ 290 0071 50       		pushl	%eax
+ 291 0072 56       		pushl	%esi
+ 292 0073 E8FCFFFF 		call	chprintf@PLT
+ 292      FF
+ 293              	.LVL16:
+ 294              		.loc 1 59 5 view .LVU32
+ 295 0078 83C40C   		addl	$12, %esp
+ 296 007b 8D870000 		leal	.LC8@GOTOFF(%edi), %eax
+ 296      0000
+ 297 0081 68E80300 		pushl	$1000
+ 297      00
+ 298 0086 50       		pushl	%eax
+ 299 0087 56       		pushl	%esi
+ 300 0088 E8FCFFFF 		call	chprintf@PLT
+ 300      FF
+ 301              	.LVL17:
+ 302              		.loc 1 60 5 view .LVU33
+ 303 008d 83C40C   		addl	$12, %esp
+ 304 0090 8D870000 		leal	.LC9@GOTOFF(%edi), %eax
+ 304      0000
+GAS LISTING /tmp/ccFT8Er8.s 			page 8
+
+
+ 305 0096 6A0A     		pushl	$10
+ 306 0098 50       		pushl	%eax
+ 307 0099 56       		pushl	%esi
+ 308 009a E8FCFFFF 		call	chprintf@PLT
+ 308      FF
+ 309              	.LVL18:
+ 310 009f 8B870000 		movl	ch0@GOT(%edi), %eax
+ 310      0000
+ 311 00a5 83C410   		addl	$16, %esp
+ 312 00a8 8945D8   		movl	%eax, -40(%ebp)
+ 313 00ab 8B870000 		movl	port_irq_sts@GOT(%edi), %eax
+ 313      0000
+ 314 00b1 8945D4   		movl	%eax, -44(%ebp)
+ 315 00b4 8D870000 		leal	buffer1@GOTOFF(%edi), %eax
+ 315      0000
+ 316 00ba 8945E0   		movl	%eax, -32(%ebp)
+ 317 00bd 8D870000 		leal	.LC10@GOTOFF(%edi), %eax
+ 317      0000
+ 318 00c3 8945BC   		movl	%eax, -68(%ebp)
+ 319 00c6 8D870000 		leal	.LC11@GOTOFF(%edi), %eax
+ 319      0000
+ 320 00cc 8945B8   		movl	%eax, -72(%ebp)
+ 321 00cf 8D870000 		leal	buffer2@GOTOFF(%edi), %eax
+ 321      0000
+ 322 00d5 8945DC   		movl	%eax, -36(%ebp)
+ 323 00d8 8D870000 		leal	.LC12@GOTOFF(%edi), %eax
+ 323      0000
+ 324 00de 8945AC   		movl	%eax, -84(%ebp)
+ 325 00e1 8D870000 		leal	.LC13@GOTOFF(%edi), %eax
+ 325      0000
+ 326 00e7 8945A8   		movl	%eax, -88(%ebp)
+ 327 00ea 8D870000 		leal	.LC14@GOTOFF(%edi), %eax
+ 327      0000
+ 328 00f0 8945B4   		movl	%eax, -76(%ebp)
+ 329 00f3 8D870000 		leal	.LC15@GOTOFF(%edi), %eax
+ 329      0000
+ 330 00f9 8945B0   		movl	%eax, -80(%ebp)
+ 331 00fc 8D870000 		leal	.LC16@GOTOFF(%edi), %eax
+ 331      0000
+ 332 0102 8945D0   		movl	%eax, -48(%ebp)
+ 333 0105 8D870000 		leal	.LC17@GOTOFF(%edi), %eax
+ 333      0000
+ 334 010b 8945CC   		movl	%eax, -52(%ebp)
+ 335 010e 8D870000 		leal	.LC18@GOTOFF(%edi), %eax
+ 335      0000
+ 336 0114 8945C8   		movl	%eax, -56(%ebp)
+ 337 0117 8D870000 		leal	.LC19@GOTOFF(%edi), %eax
+ 337      0000
+ 338 011d 8945C4   		movl	%eax, -60(%ebp)
+ 339 0120 E9E00000 		jmp	.L22
+ 339      00
+ 340              	.LVL19:
+ 341              		.p2align 4,,10
+ 342 0125 8D7600   		.p2align 3
+ 343              	.L32:
+ 344              	.LBB31:
+ 345              	.LBB32:
+GAS LISTING /tmp/ccFT8Er8.s 			page 9
+
+
+ 346              		.loc 1 101 17 view .LVU34
+ 347              		.loc 1 101 41 is_stmt 0 view .LVU35
+ 348 0128 8B970000 		movl	number_counter@GOTOFF(%edi), %edx
+ 348      0000
+ 349              		.loc 1 102 24 view .LVU36
+ 350 012e 8B9F0000 		movl	buffer2_head@GOTOFF(%edi), %ebx
+ 350      0000
+ 351              		.loc 1 104 30 view .LVU37
+ 352 0134 83C101   		addl	$1, %ecx
+ 353 0137 898F0000 		movl	%ecx, buffer2_count@GOTOFF(%edi)
+ 353      0000
+ 354              		.loc 1 101 41 view .LVU38
+ 355 013d 8D4201   		leal	1(%edx), %eax
+ 356              		.loc 1 102 39 view .LVU39
+ 357 0140 8955C0   		movl	%edx, -64(%ebp)
+ 358              		.loc 1 101 41 view .LVU40
+ 359 0143 89870000 		movl	%eax, number_counter@GOTOFF(%edi)
+ 359      0000
+ 360              	.LVL20:
+ 361              		.loc 1 102 17 is_stmt 1 view .LVU41
+ 362              		.loc 1 102 39 is_stmt 0 view .LVU42
+ 363 0149 8B45DC   		movl	-36(%ebp), %eax
+ 364 014c 891498   		movl	%edx, (%eax,%ebx,4)
+ 365              		.loc 1 103 17 is_stmt 1 view .LVU43
+ 366              		.loc 1 103 46 is_stmt 0 view .LVU44
+ 367 014f 83C301   		addl	$1, %ebx
+ 368              		.loc 1 103 51 view .LVU45
+ 369 0152 B8CDCCCC 		movl	$-858993459, %eax
+ 369      CC
+ 370 0157 F7E3     		mull	%ebx
+ 371              	.LVL21:
+ 372              		.loc 1 105 17 view .LVU46
+ 373 0159 51       		pushl	%ecx
+ 374 015a FF75C0   		pushl	-64(%ebp)
+ 375 015d FF75B4   		pushl	-76(%ebp)
+ 376              		.loc 1 103 51 view .LVU47
+ 377 0160 C1EA03   		shrl	$3, %edx
+ 378              		.loc 1 105 17 view .LVU48
+ 379 0163 FF75E4   		pushl	-28(%ebp)
+ 380              		.loc 1 103 51 view .LVU49
+ 381 0166 8D0492   		leal	(%edx,%edx,4), %eax
+ 382 0169 01C0     		addl	%eax, %eax
+ 383 016b 29C3     		subl	%eax, %ebx
+ 384 016d 899F0000 		movl	%ebx, buffer2_head@GOTOFF(%edi)
+ 384      0000
+ 385              		.loc 1 104 17 is_stmt 1 view .LVU50
+ 386              		.loc 1 105 17 view .LVU51
+ 387 0173 89FB     		movl	%edi, %ebx
+ 388 0175 E8FCFFFF 		call	chprintf@PLT
+ 388      FF
+ 389              	.LVL22:
+ 390              	.LBE32:
+ 391 017a 83C410   		addl	$16, %esp
+ 392              	.LVL23:
+ 393              	.L20:
+ 394              		.loc 1 110 13 view .LVU52
+ 395              		.loc 1 110 29 is_stmt 0 view .LVU53
+GAS LISTING /tmp/ccFT8Er8.s 			page 10
+
+
+ 396 017d 89B70000 		movl	%esi, last_task2_time@GOTOFF(%edi)
+ 396      0000
+ 397              	.L17:
+ 398              		.loc 1 114 9 is_stmt 1 view .LVU54
+ 399              		.loc 1 114 17 is_stmt 0 view .LVU55
+ 400 0183 89F0     		movl	%esi, %eax
+ 401 0185 2B870000 		subl	last_monitor_time@GOTOFF(%edi), %eax
+ 401      0000
+ 402              		.loc 1 114 12 view .LVU56
+ 403 018b 3DE70300 		cmpl	$999, %eax
+ 403      00
+ 404 0190 7664     		jbe	.L21
+ 405              		.loc 1 115 13 is_stmt 1 view .LVU57
+ 406 0192 83EC08   		subl	$8, %esp
+ 407 0195 FF75D0   		pushl	-48(%ebp)
+ 408 0198 89FB     		movl	%edi, %ebx
+ 409 019a FF75E4   		pushl	-28(%ebp)
+ 410 019d E8FCFFFF 		call	chprintf@PLT
+ 410      FF
+ 411              	.LVL24:
+ 412              		.loc 1 116 13 view .LVU58
+ 413 01a2 58       		popl	%eax
+ 414 01a3 5A       		popl	%edx
+ 415 01a4 FFB70000 		pushl	buffer1_count@GOTOFF(%edi)
+ 415      0000
+ 416 01aa 8B8F0000 		movl	buffer1_head@GOTOFF(%edi), %ecx
+ 416      0000
+ 417 01b0 FFB70000 		pushl	buffer1_tail@GOTOFF(%edi)
+ 417      0000
+ 418 01b6 8B55E0   		movl	-32(%ebp), %edx
+ 419 01b9 8B45CC   		movl	-52(%ebp), %eax
+ 420 01bc E8FCFFFF 		call	print_buffer_state
+ 420      FF
+ 421              	.LVL25:
+ 422              		.loc 1 117 13 view .LVU59
+ 423 01c1 59       		popl	%ecx
+ 424 01c2 58       		popl	%eax
+ 425 01c3 FFB70000 		pushl	buffer2_count@GOTOFF(%edi)
+ 425      0000
+ 426 01c9 8B8F0000 		movl	buffer2_head@GOTOFF(%edi), %ecx
+ 426      0000
+ 427 01cf FFB70000 		pushl	buffer2_tail@GOTOFF(%edi)
+ 427      0000
+ 428 01d5 8B55DC   		movl	-36(%ebp), %edx
+ 429 01d8 8B45C8   		movl	-56(%ebp), %eax
+ 430 01db E8FCFFFF 		call	print_buffer_state
+ 430      FF
+ 431              	.LVL26:
+ 432              		.loc 1 118 13 view .LVU60
+ 433 01e0 58       		popl	%eax
+ 434 01e1 5A       		popl	%edx
+ 435 01e2 FF75C4   		pushl	-60(%ebp)
+ 436 01e5 FF75E4   		pushl	-28(%ebp)
+ 437 01e8 E8FCFFFF 		call	chprintf@PLT
+ 437      FF
+ 438              	.LVL27:
+ 439              		.loc 1 119 13 view .LVU61
+GAS LISTING /tmp/ccFT8Er8.s 			page 11
+
+
+ 440              		.loc 1 119 31 is_stmt 0 view .LVU62
+ 441 01ed 89B70000 		movl	%esi, last_monitor_time@GOTOFF(%edi)
+ 441      0000
+ 442 01f3 83C410   		addl	$16, %esp
+ 443              	.L21:
+ 444              		.loc 1 122 9 is_stmt 1 view .LVU63
+ 445 01f6 83EC0C   		subl	$12, %esp
+ 446 01f9 89FB     		movl	%edi, %ebx
+ 447 01fb 6A0A     		pushl	$10
+ 448 01fd E8FCFFFF 		call	chThdSleep@PLT
+ 448      FF
+ 449              	.LVL28:
+ 450              	.LBE31:
+ 451              		.loc 1 62 11 view .LVU64
+ 452              		.loc 1 62 18 is_stmt 0 view .LVU65
+ 453 0202 83C410   		addl	$16, %esp
+ 454              	.LVL29:
+ 455              	.L22:
+ 456              		.loc 1 62 5 is_stmt 1 view .LVU66
+ 457              	.LBB44:
+ 458              		.loc 1 63 9 view .LVU67
+ 459              	.LBB33:
+ 460              	.LBI33:
+ 461              		.file 2 "../../../os/rt/include/chvt.h"
+ 462              		.loc 2 154 25 view .LVU68
+ 463              	.LBB34:
+ 464              		.loc 2 155 3 view .LVU69
+ 465              		.loc 2 157 3 view .LVU70
+ 466              		.loc 2 158 3 view .LVU71
+ 467              	.LBB35:
+ 468              	.LBI35:
+ 469              		.loc 2 135 25 view .LVU72
+ 470              	.LBB36:
+ 471              		.loc 2 138 3 view .LVU73
+ 472              		.loc 2 138 26 is_stmt 0 view .LVU74
+ 473 0205 8B45D8   		movl	-40(%ebp), %eax
+ 474 0208 8B701C   		movl	28(%eax), %esi
+ 475              	.LVL30:
+ 476              		.loc 2 138 26 view .LVU75
+ 477              	.LBE36:
+ 478              	.LBE35:
+ 479              		.loc 2 159 3 is_stmt 1 view .LVU76
+ 480              	.LBB37:
+ 481              	.LBI37:
+ 482              		.file 3 "../../../os/rt/include/chsys.h"
+ 483              		.loc 3 421 20 view .LVU77
+ 484              	.LBB38:
+ 485              		.loc 3 423 23 view .LVU78
+ 486              		.loc 3 424 34 view .LVU79
+ 487              		.loc 3 430 3 view .LVU80
+ 488              		.loc 3 430 3 view .LVU81
+ 489              		.loc 3 430 3 view .LVU82
+ 490              		.loc 3 434 3 view .LVU83
+ 491              	.LBB39:
+ 492              	.LBI39:
+ 493              		.file 4 "../../../os/common/ports/SIMIA32/chcore.h"
+ 494              		.loc 4 370 20 view .LVU84
+GAS LISTING /tmp/ccFT8Er8.s 			page 12
+
+
+ 495              	.LBB40:
+ 496              		.loc 4 372 3 view .LVU85
+ 497              		.loc 4 372 16 is_stmt 0 view .LVU86
+ 498 020b 8B45D4   		movl	-44(%ebp), %eax
+ 499 020e C7000000 		movl	$0, (%eax)
+ 499      0000
+ 500              	.LBE40:
+ 501              	.LBE39:
+ 502              	.LBE38:
+ 503              	.LBE37:
+ 504              		.loc 2 161 3 is_stmt 1 view .LVU87
+ 505              	.LVL31:
+ 506              		.loc 2 161 3 is_stmt 0 view .LVU88
+ 507              	.LBE34:
+ 508              	.LBE33:
+ 509              		.loc 1 66 9 is_stmt 1 view .LVU89
+ 510              		.loc 1 66 17 is_stmt 0 view .LVU90
+ 511 0214 89F0     		movl	%esi, %eax
+ 512 0216 2B870000 		subl	last_task1_time@GOTOFF(%edi), %eax
+ 512      0000
+ 513              		.loc 1 66 12 view .LVU91
+ 514 021c 3DC70000 		cmpl	$199, %eax
+ 514      00
+ 515 0221 7674     		jbe	.L13
+ 516              		.loc 1 68 13 is_stmt 1 view .LVU92
+ 517              		.loc 1 68 31 is_stmt 0 view .LVU93
+ 518 0223 8B8F0000 		movl	buffer1_count@GOTOFF(%edi), %ecx
+ 518      0000
+ 519              		.loc 1 68 16 view .LVU94
+ 520 0229 83F909   		cmpl	$9, %ecx
+ 521 022c 0F87AE00 		ja	.L14
+ 521      0000
+ 522              	.LBB41:
+ 523              		.loc 1 69 17 is_stmt 1 view .LVU95
+ 524              		.loc 1 69 41 is_stmt 0 view .LVU96
+ 525 0232 8B970000 		movl	number_counter@GOTOFF(%edi), %edx
+ 525      0000
+ 526              		.loc 1 70 24 view .LVU97
+ 527 0238 8B9F0000 		movl	buffer1_head@GOTOFF(%edi), %ebx
+ 527      0000
+ 528              		.loc 1 72 30 view .LVU98
+ 529 023e 83C101   		addl	$1, %ecx
+ 530 0241 898F0000 		movl	%ecx, buffer1_count@GOTOFF(%edi)
+ 530      0000
+ 531              		.loc 1 69 41 view .LVU99
+ 532 0247 8D4201   		leal	1(%edx), %eax
+ 533              		.loc 1 70 39 view .LVU100
+ 534 024a 8955C0   		movl	%edx, -64(%ebp)
+ 535              		.loc 1 69 41 view .LVU101
+ 536 024d 89870000 		movl	%eax, number_counter@GOTOFF(%edi)
+ 536      0000
+ 537              	.LVL32:
+ 538              		.loc 1 70 17 is_stmt 1 view .LVU102
+ 539              		.loc 1 70 39 is_stmt 0 view .LVU103
+ 540 0253 8B45E0   		movl	-32(%ebp), %eax
+ 541 0256 891498   		movl	%edx, (%eax,%ebx,4)
+ 542              		.loc 1 71 17 is_stmt 1 view .LVU104
+GAS LISTING /tmp/ccFT8Er8.s 			page 13
+
+
+ 543              		.loc 1 71 46 is_stmt 0 view .LVU105
+ 544 0259 83C301   		addl	$1, %ebx
+ 545              		.loc 1 71 51 view .LVU106
+ 546 025c B8CDCCCC 		movl	$-858993459, %eax
+ 546      CC
+ 547 0261 F7E3     		mull	%ebx
+ 548              	.LVL33:
+ 549              		.loc 1 73 17 view .LVU107
+ 550 0263 51       		pushl	%ecx
+ 551 0264 FF75C0   		pushl	-64(%ebp)
+ 552 0267 FF75BC   		pushl	-68(%ebp)
+ 553              		.loc 1 71 51 view .LVU108
+ 554 026a C1EA03   		shrl	$3, %edx
+ 555              		.loc 1 73 17 view .LVU109
+ 556 026d FF75E4   		pushl	-28(%ebp)
+ 557              		.loc 1 71 51 view .LVU110
+ 558 0270 8D0492   		leal	(%edx,%edx,4), %eax
+ 559 0273 01C0     		addl	%eax, %eax
+ 560 0275 29C3     		subl	%eax, %ebx
+ 561 0277 899F0000 		movl	%ebx, buffer1_head@GOTOFF(%edi)
+ 561      0000
+ 562              		.loc 1 72 17 is_stmt 1 view .LVU111
+ 563              		.loc 1 73 17 view .LVU112
+ 564 027d 89FB     		movl	%edi, %ebx
+ 565 027f E8FCFFFF 		call	chprintf@PLT
+ 565      FF
+ 566              	.LVL34:
+ 567              	.LBE41:
+ 568              		.loc 1 79 31 is_stmt 0 view .LVU113
+ 569 0284 8B8F0000 		movl	buffer2_count@GOTOFF(%edi), %ecx
+ 569      0000
+ 570 028a 83C410   		addl	$16, %esp
+ 571              		.loc 1 79 13 is_stmt 1 view .LVU114
+ 572              		.loc 1 79 16 is_stmt 0 view .LVU115
+ 573 028d 85C9     		testl	%ecx, %ecx
+ 574 028f 756C     		jne	.L30
+ 575              	.LVL35:
+ 576              	.L16:
+ 577              		.loc 1 86 13 is_stmt 1 view .LVU116
+ 578              		.loc 1 86 29 is_stmt 0 view .LVU117
+ 579 0291 89B70000 		movl	%esi, last_task1_time@GOTOFF(%edi)
+ 579      0000
+ 580              	.L13:
+ 581              		.loc 1 90 9 is_stmt 1 view .LVU118
+ 582              		.loc 1 90 17 is_stmt 0 view .LVU119
+ 583 0297 89F0     		movl	%esi, %eax
+ 584 0299 2B870000 		subl	last_task2_time@GOTOFF(%edi), %eax
+ 584      0000
+ 585              		.loc 1 90 12 view .LVU120
+ 586 029f 3D2B0100 		cmpl	$299, %eax
+ 586      00
+ 587 02a4 0F86D9FE 		jbe	.L17
+ 587      FFFF
+ 588              		.loc 1 92 13 is_stmt 1 view .LVU121
+ 589              		.loc 1 92 31 is_stmt 0 view .LVU122
+ 590 02aa 8B8F0000 		movl	buffer1_count@GOTOFF(%edi), %ecx
+ 590      0000
+GAS LISTING /tmp/ccFT8Er8.s 			page 14
+
+
+ 591              		.loc 1 92 16 view .LVU123
+ 592 02b0 85C9     		testl	%ecx, %ecx
+ 593 02b2 0F859800 		jne	.L31
+ 593      0000
+ 594              	.L18:
+ 595              		.loc 1 100 13 is_stmt 1 view .LVU124
+ 596              		.loc 1 100 31 is_stmt 0 view .LVU125
+ 597 02b8 8B8F0000 		movl	buffer2_count@GOTOFF(%edi), %ecx
+ 597      0000
+ 598              		.loc 1 100 16 view .LVU126
+ 599 02be 83F909   		cmpl	$9, %ecx
+ 600 02c1 0F8661FE 		jbe	.L32
+ 600      FFFF
+ 601              		.loc 1 107 17 is_stmt 1 view .LVU127
+ 602 02c7 83EC08   		subl	$8, %esp
+ 603 02ca FF75B0   		pushl	-80(%ebp)
+ 604 02cd 89FB     		movl	%edi, %ebx
+ 605 02cf FF75E4   		pushl	-28(%ebp)
+ 606 02d2 E8FCFFFF 		call	chprintf@PLT
+ 606      FF
+ 607              	.LVL36:
+ 608 02d7 83C410   		addl	$16, %esp
+ 609 02da E99EFEFF 		jmp	.L20
+ 609      FF
+ 610 02df 90       		.p2align 4,,10
+ 611              		.p2align 3
+ 612              	.L14:
+ 613              		.loc 1 75 17 view .LVU128
+ 614 02e0 83EC08   		subl	$8, %esp
+ 615 02e3 FF75B8   		pushl	-72(%ebp)
+ 616 02e6 89FB     		movl	%edi, %ebx
+ 617 02e8 FF75E4   		pushl	-28(%ebp)
+ 618 02eb E8FCFFFF 		call	chprintf@PLT
+ 618      FF
+ 619              	.LVL37:
+ 620              		.loc 1 79 31 is_stmt 0 view .LVU129
+ 621 02f0 8B8F0000 		movl	buffer2_count@GOTOFF(%edi), %ecx
+ 621      0000
+ 622              		.loc 1 75 17 view .LVU130
+ 623 02f6 83C410   		addl	$16, %esp
+ 624              		.loc 1 79 13 is_stmt 1 view .LVU131
+ 625              		.loc 1 79 16 is_stmt 0 view .LVU132
+ 626 02f9 85C9     		testl	%ecx, %ecx
+ 627 02fb 7494     		je	.L16
+ 628              	.L30:
+ 629              	.LBB42:
+ 630              		.loc 1 80 17 is_stmt 1 view .LVU133
+ 631              		.loc 1 80 34 is_stmt 0 view .LVU134
+ 632 02fd 8B870000 		movl	buffer2_tail@GOTOFF(%edi), %eax
+ 632      0000
+ 633              	.LVL38:
+ 634              		.loc 1 81 17 is_stmt 1 view .LVU135
+ 635              		.loc 1 82 30 is_stmt 0 view .LVU136
+ 636 0303 83E901   		subl	$1, %ecx
+ 637              		.loc 1 83 17 view .LVU137
+ 638 0306 51       		pushl	%ecx
+ 639              	.LVL39:
+GAS LISTING /tmp/ccFT8Er8.s 			page 15
+
+
+ 640              		.loc 1 81 46 view .LVU138
+ 641 0307 8945C0   		movl	%eax, -64(%ebp)
+ 642 030a 8D5801   		leal	1(%eax), %ebx
+ 643              		.loc 1 81 51 view .LVU139
+ 644 030d B8CDCCCC 		movl	$-858993459, %eax
+ 644      CC
+ 645 0312 F7E3     		mull	%ebx
+ 646              		.loc 1 82 30 view .LVU140
+ 647 0314 898F0000 		movl	%ecx, buffer2_count@GOTOFF(%edi)
+ 647      0000
+ 648              		.loc 1 83 17 view .LVU141
+ 649 031a 8B4DDC   		movl	-36(%ebp), %ecx
+ 650              		.loc 1 81 51 view .LVU142
+ 651 031d C1EA03   		shrl	$3, %edx
+ 652 0320 8D0492   		leal	(%edx,%edx,4), %eax
+ 653 0323 01C0     		addl	%eax, %eax
+ 654 0325 29C3     		subl	%eax, %ebx
+ 655              		.loc 1 83 17 view .LVU143
+ 656 0327 8B45C0   		movl	-64(%ebp), %eax
+ 657              		.loc 1 81 51 view .LVU144
+ 658 032a 899F0000 		movl	%ebx, buffer2_tail@GOTOFF(%edi)
+ 658      0000
+ 659              		.loc 1 82 17 is_stmt 1 view .LVU145
+ 660              		.loc 1 83 17 view .LVU146
+ 661 0330 89FB     		movl	%edi, %ebx
+ 662 0332 FF3481   		pushl	(%ecx,%eax,4)
+ 663 0335 FF75AC   		pushl	-84(%ebp)
+ 664 0338 FF75E4   		pushl	-28(%ebp)
+ 665 033b E8FCFFFF 		call	chprintf@PLT
+ 665      FF
+ 666              	.LVL40:
+ 667 0340 83C410   		addl	$16, %esp
+ 668 0343 E949FFFF 		jmp	.L16
+ 668      FF
+ 669 0348 8DB42600 		.p2align 4,,10
+ 669      00000090 
+ 670              		.p2align 3
+ 671              	.L31:
+ 672              		.loc 1 83 17 is_stmt 0 view .LVU147
+ 673              	.LBE42:
+ 674              	.LBB43:
+ 675              		.loc 1 93 17 is_stmt 1 view .LVU148
+ 676              		.loc 1 93 34 is_stmt 0 view .LVU149
+ 677 0350 8B870000 		movl	buffer1_tail@GOTOFF(%edi), %eax
+ 677      0000
+ 678              	.LVL41:
+ 679              		.loc 1 94 17 is_stmt 1 view .LVU150
+ 680              		.loc 1 95 30 is_stmt 0 view .LVU151
+ 681 0356 83E901   		subl	$1, %ecx
+ 682              		.loc 1 96 17 view .LVU152
+ 683 0359 51       		pushl	%ecx
+ 684              	.LVL42:
+ 685              		.loc 1 94 46 view .LVU153
+ 686 035a 8945C0   		movl	%eax, -64(%ebp)
+ 687 035d 8D5801   		leal	1(%eax), %ebx
+ 688              		.loc 1 94 51 view .LVU154
+ 689 0360 B8CDCCCC 		movl	$-858993459, %eax
+GAS LISTING /tmp/ccFT8Er8.s 			page 16
+
+
+ 689      CC
+ 690 0365 F7E3     		mull	%ebx
+ 691              		.loc 1 95 30 view .LVU155
+ 692 0367 898F0000 		movl	%ecx, buffer1_count@GOTOFF(%edi)
+ 692      0000
+ 693              		.loc 1 96 17 view .LVU156
+ 694 036d 8B4DE0   		movl	-32(%ebp), %ecx
+ 695              		.loc 1 94 51 view .LVU157
+ 696 0370 C1EA03   		shrl	$3, %edx
+ 697 0373 8D0492   		leal	(%edx,%edx,4), %eax
+ 698 0376 01C0     		addl	%eax, %eax
+ 699 0378 29C3     		subl	%eax, %ebx
+ 700              		.loc 1 96 17 view .LVU158
+ 701 037a 8B45C0   		movl	-64(%ebp), %eax
+ 702              		.loc 1 94 51 view .LVU159
+ 703 037d 899F0000 		movl	%ebx, buffer1_tail@GOTOFF(%edi)
+ 703      0000
+ 704              		.loc 1 95 17 is_stmt 1 view .LVU160
+ 705              		.loc 1 96 17 view .LVU161
+ 706 0383 89FB     		movl	%edi, %ebx
+ 707 0385 FF3481   		pushl	(%ecx,%eax,4)
+ 708 0388 FF75A8   		pushl	-88(%ebp)
+ 709 038b FF75E4   		pushl	-28(%ebp)
+ 710 038e E8FCFFFF 		call	chprintf@PLT
+ 710      FF
+ 711              	.LVL43:
+ 712 0393 83C410   		addl	$16, %esp
+ 713 0396 E91DFFFF 		jmp	.L18
+ 713      FF
+ 714              	.LBE43:
+ 715              	.LBE44:
+ 716              		.cfi_endproc
+ 717              	.LFE300:
+ 718              		.size	main, .-main
+ 719              		.section	.data.number_counter,"aw"
+ 720              		.align 4
+ 721              		.type	number_counter, @object
+ 722              		.size	number_counter, 4
+ 723              	number_counter:
+ 724 0000 01000000 		.long	1
+ 725              		.section	.bss.last_monitor_time,"aw",@nobits
+ 726              		.align 4
+ 727              		.type	last_monitor_time, @object
+ 728              		.size	last_monitor_time, 4
+ 729              	last_monitor_time:
+ 730 0000 00000000 		.zero	4
+ 731              		.section	.bss.last_task2_time,"aw",@nobits
+ 732              		.align 4
+ 733              		.type	last_task2_time, @object
+ 734              		.size	last_task2_time, 4
+ 735              	last_task2_time:
+ 736 0000 00000000 		.zero	4
+ 737              		.section	.bss.last_task1_time,"aw",@nobits
+ 738              		.align 4
+ 739              		.type	last_task1_time, @object
+ 740              		.size	last_task1_time, 4
+ 741              	last_task1_time:
+GAS LISTING /tmp/ccFT8Er8.s 			page 17
+
+
+ 742 0000 00000000 		.zero	4
+ 743              		.section	.bss.buffer2_count,"aw",@nobits
+ 744              		.align 4
+ 745              		.type	buffer2_count, @object
+ 746              		.size	buffer2_count, 4
+ 747              	buffer2_count:
+ 748 0000 00000000 		.zero	4
+ 749              		.section	.bss.buffer2_tail,"aw",@nobits
+ 750              		.align 4
+ 751              		.type	buffer2_tail, @object
+ 752              		.size	buffer2_tail, 4
+ 753              	buffer2_tail:
+ 754 0000 00000000 		.zero	4
+ 755              		.section	.bss.buffer2_head,"aw",@nobits
+ 756              		.align 4
+ 757              		.type	buffer2_head, @object
+ 758              		.size	buffer2_head, 4
+ 759              	buffer2_head:
+ 760 0000 00000000 		.zero	4
+ 761              		.section	.bss.buffer2,"aw",@nobits
+ 762              		.align 32
+ 763              		.type	buffer2, @object
+ 764              		.size	buffer2, 40
+ 765              	buffer2:
+ 766 0000 00000000 		.zero	40
+ 766      00000000 
+ 766      00000000 
+ 766      00000000 
+ 766      00000000 
+ 767              		.section	.bss.buffer1_count,"aw",@nobits
+ 768              		.align 4
+ 769              		.type	buffer1_count, @object
+ 770              		.size	buffer1_count, 4
+ 771              	buffer1_count:
+ 772 0000 00000000 		.zero	4
+ 773              		.section	.bss.buffer1_tail,"aw",@nobits
+ 774              		.align 4
+ 775              		.type	buffer1_tail, @object
+ 776              		.size	buffer1_tail, 4
+ 777              	buffer1_tail:
+ 778 0000 00000000 		.zero	4
+ 779              		.section	.bss.buffer1_head,"aw",@nobits
+ 780              		.align 4
+ 781              		.type	buffer1_head, @object
+ 782              		.size	buffer1_head, 4
+ 783              	buffer1_head:
+ 784 0000 00000000 		.zero	4
+ 785              		.section	.bss.buffer1,"aw",@nobits
+ 786              		.align 32
+ 787              		.type	buffer1, @object
+ 788              		.size	buffer1, 40
+ 789              	buffer1:
+ 790 0000 00000000 		.zero	40
+ 790      00000000 
+ 790      00000000 
+ 790      00000000 
+ 790      00000000 
+GAS LISTING /tmp/ccFT8Er8.s 			page 18
+
+
+ 791              		.section	.text.__x86.get_pc_thunk.bx,"axG",@progbits,__x86.get_pc_thunk.bx,comdat
+ 792              		.globl	__x86.get_pc_thunk.bx
+ 793              		.hidden	__x86.get_pc_thunk.bx
+ 794              		.type	__x86.get_pc_thunk.bx, @function
+ 795              	__x86.get_pc_thunk.bx:
+ 796              	.LFB301:
+ 797              		.cfi_startproc
+ 798 0000 8B1C24   		movl	(%esp), %ebx
+ 799 0003 C3       		ret
+ 800              		.cfi_endproc
+ 801              	.LFE301:
+ 802              		.section	.text.__x86.get_pc_thunk.di,"axG",@progbits,__x86.get_pc_thunk.di,comdat
+ 803              		.globl	__x86.get_pc_thunk.di
+ 804              		.hidden	__x86.get_pc_thunk.di
+ 805              		.type	__x86.get_pc_thunk.di, @function
+ 806              	__x86.get_pc_thunk.di:
+ 807              	.LFB302:
+ 808              		.cfi_startproc
+ 809 0000 8B3C24   		movl	(%esp), %edi
+ 810 0003 C3       		ret
+ 811              		.cfi_endproc
+ 812              	.LFE302:
+ 813              		.text
+ 814              	.Letext0:
+ 815              		.file 5 "/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h"
+ 816              		.file 6 "/usr/include/bits/types.h"
+ 817              		.file 7 "/usr/include/bits/stdint-intn.h"
+ 818              		.file 8 "/usr/include/bits/stdint-uintn.h"
+ 819              		.file 9 "../../../os/common/ports/SIMIA32/compilers/GCC/chtypes.h"
+ 820              		.file 10 "../../../os/rt/include/chearly.h"
+ 821              		.file 11 "../../../os/rt/include/chobjects.h"
+ 822              		.file 12 "../../../os/rt/include/chrfcu.h"
+ 823              		.file 13 "../../../os/rt/include/chdebug.h"
+ 824              		.file 14 "../../../os/rt/include/chtime.h"
+ 825              		.file 15 "../../../os/rt/include/chlists.h"
+ 826              		.file 16 "../../../os/rt/include/chsem.h"
+ 827              		.file 17 "../../../os/rt/include/chmtx.h"
+ 828              		.file 18 "../../../os/rt/include/chevents.h"
+ 829              		.file 19 "../../../os/hal/include/hal_streams.h"
+ 830              		.file 20 "../../../os/hal/include/hal_queues.h"
+ 831              		.file 21 "../../../os/hal/include/hal_serial.h"
+ 832              		.file 22 "../../../os/hal/ports/simulator/posix/hal_serial_lld.h"
+ 833              		.file 23 "../../../os/hal/lib/streams/chprintf.h"
+ 834              		.file 24 "../../../os/hal/include/hal.h"
+ 835              		.file 25 "../../../os/rt/include/chthreads.h"
+ 836              		.section	.debug_info,"",@progbits
+ 837              	.Ldebug_info0:
+ 838 0000 DD100000 		.long	0x10dd
+ 839 0004 0500     		.value	0x5
+ 840 0006 01       		.byte	0x1
+ 841 0007 04       		.byte	0x4
+ 842 0008 00000000 		.long	.Ldebug_abbrev0
+ 843 000c 20       		.uleb128 0x20
+ 844 000d 3F040000 		.long	.LASF192
+ 845 0011 1D       		.byte	0x1d
+ 846 0012 2F000000 		.long	.LASF0
+ 847 0016 00000000 		.long	.LASF1
+GAS LISTING /tmp/ccFT8Er8.s 			page 19
+
+
+ 848 001a 1B000000 		.long	.LLRL12
+ 849 001e 00000000 		.long	0
+ 850 0022 00000000 		.long	.Ldebug_line0
+ 851 0026 21       		.uleb128 0x21
+ 852 0027 04       		.byte	0x4
+ 853 0028 05       		.byte	0x5
+ 854 0029 696E7400 		.string	"int"
+ 855 002d 02       		.uleb128 0x2
+ 856 002e 3A000000 		.long	.LASF11
+ 857 0032 05       		.byte	0x5
+ 858 0033 D1       		.byte	0xd1
+ 859 0034 17       		.byte	0x17
+ 860 0035 3E000000 		.long	0x3e
+ 861 0039 11       		.uleb128 0x11
+ 862 003a 2D000000 		.long	0x2d
+ 863 003e 09       		.uleb128 0x9
+ 864 003f 04       		.byte	0x4
+ 865 0040 07       		.byte	0x7
+ 866 0041 F4020000 		.long	.LASF2
+ 867 0045 09       		.uleb128 0x9
+ 868 0046 04       		.byte	0x4
+ 869 0047 05       		.byte	0x5
+ 870 0048 9A000000 		.long	.LASF3
+ 871 004c 09       		.uleb128 0x9
+ 872 004d 08       		.byte	0x8
+ 873 004e 05       		.byte	0x5
+ 874 004f 4C010000 		.long	.LASF4
+ 875 0053 09       		.uleb128 0x9
+ 876 0054 0C       		.byte	0xc
+ 877 0055 04       		.byte	0x4
+ 878 0056 45050000 		.long	.LASF5
+ 879 005a 09       		.uleb128 0x9
+ 880 005b 10       		.byte	0x10
+ 881 005c 04       		.byte	0x4
+ 882 005d B7000000 		.long	.LASF6
+ 883 0061 09       		.uleb128 0x9
+ 884 0062 01       		.byte	0x1
+ 885 0063 08       		.byte	0x8
+ 886 0064 4F060000 		.long	.LASF7
+ 887 0068 09       		.uleb128 0x9
+ 888 0069 02       		.byte	0x2
+ 889 006a 07       		.byte	0x7
+ 890 006b 6A030000 		.long	.LASF8
+ 891 006f 09       		.uleb128 0x9
+ 892 0070 04       		.byte	0x4
+ 893 0071 07       		.byte	0x7
+ 894 0072 1B070000 		.long	.LASF9
+ 895 0076 09       		.uleb128 0x9
+ 896 0077 01       		.byte	0x1
+ 897 0078 06       		.byte	0x6
+ 898 0079 5A010000 		.long	.LASF10
+ 899 007d 02       		.uleb128 0x2
+ 900 007e 57000000 		.long	.LASF12
+ 901 0082 06       		.byte	0x6
+ 902 0083 26       		.byte	0x26
+ 903 0084 17       		.byte	0x17
+ 904 0085 61000000 		.long	0x61
+GAS LISTING /tmp/ccFT8Er8.s 			page 20
+
+
+ 905 0089 09       		.uleb128 0x9
+ 906 008a 02       		.byte	0x2
+ 907 008b 05       		.byte	0x5
+ 908 008c FA010000 		.long	.LASF13
+ 909 0090 02       		.uleb128 0x2
+ 910 0091 F4030000 		.long	.LASF14
+ 911 0095 06       		.byte	0x6
+ 912 0096 29       		.byte	0x29
+ 913 0097 14       		.byte	0x14
+ 914 0098 26000000 		.long	0x26
+ 915 009c 02       		.uleb128 0x2
+ 916 009d 5C020000 		.long	.LASF15
+ 917 00a1 06       		.byte	0x6
+ 918 00a2 2A       		.byte	0x2a
+ 919 00a3 16       		.byte	0x16
+ 920 00a4 3E000000 		.long	0x3e
+ 921 00a8 02       		.uleb128 0x2
+ 922 00a9 D8050000 		.long	.LASF16
+ 923 00ad 06       		.byte	0x6
+ 924 00ae 30       		.byte	0x30
+ 925 00af 2E       		.byte	0x2e
+ 926 00b0 B4000000 		.long	0xb4
+ 927 00b4 09       		.uleb128 0x9
+ 928 00b5 08       		.byte	0x8
+ 929 00b6 07       		.byte	0x7
+ 930 00b7 C1000000 		.long	.LASF17
+ 931 00bb 22       		.uleb128 0x22
+ 932 00bc 04       		.byte	0x4
+ 933 00bd 09       		.uleb128 0x9
+ 934 00be 01       		.byte	0x1
+ 935 00bf 06       		.byte	0x6
+ 936 00c0 34070000 		.long	.LASF18
+ 937 00c4 0D       		.uleb128 0xd
+ 938 00c5 BD000000 		.long	0xbd
+ 939 00c9 02       		.uleb128 0x2
+ 940 00ca 47060000 		.long	.LASF19
+ 941 00ce 07       		.byte	0x7
+ 942 00cf 1A       		.byte	0x1a
+ 943 00d0 13       		.byte	0x13
+ 944 00d1 90000000 		.long	0x90
+ 945 00d5 02       		.uleb128 0x2
+ 946 00d6 7F080000 		.long	.LASF20
+ 947 00da 08       		.byte	0x8
+ 948 00db 18       		.byte	0x18
+ 949 00dc 13       		.byte	0x13
+ 950 00dd 7D000000 		.long	0x7d
+ 951 00e1 0D       		.uleb128 0xd
+ 952 00e2 D5000000 		.long	0xd5
+ 953 00e6 02       		.uleb128 0x2
+ 954 00e7 E9060000 		.long	.LASF21
+ 955 00eb 08       		.byte	0x8
+ 956 00ec 1A       		.byte	0x1a
+ 957 00ed 14       		.byte	0x14
+ 958 00ee 9C000000 		.long	0x9c
+ 959 00f2 02       		.uleb128 0x2
+ 960 00f3 4E000000 		.long	.LASF22
+ 961 00f7 08       		.byte	0x8
+GAS LISTING /tmp/ccFT8Er8.s 			page 21
+
+
+ 962 00f8 1B       		.byte	0x1b
+ 963 00f9 14       		.byte	0x14
+ 964 00fa A8000000 		.long	0xa8
+ 965 00fe 11       		.uleb128 0x11
+ 966 00ff F2000000 		.long	0xf2
+ 967 0103 02       		.uleb128 0x2
+ 968 0104 D9070000 		.long	.LASF23
+ 969 0108 09       		.byte	0x9
+ 970 0109 37       		.byte	0x37
+ 971 010a 1D       		.byte	0x1d
+ 972 010b E6000000 		.long	0xe6
+ 973 010f 02       		.uleb128 0x2
+ 974 0110 B7030000 		.long	.LASF24
+ 975 0114 09       		.byte	0x9
+ 976 0115 38       		.byte	0x38
+ 977 0116 1D       		.byte	0x1d
+ 978 0117 D5000000 		.long	0xd5
+ 979 011b 02       		.uleb128 0x2
+ 980 011c CE010000 		.long	.LASF25
+ 981 0120 09       		.byte	0x9
+ 982 0121 39       		.byte	0x39
+ 983 0122 1D       		.byte	0x1d
+ 984 0123 D5000000 		.long	0xd5
+ 985 0127 02       		.uleb128 0x2
+ 986 0128 F3050000 		.long	.LASF26
+ 987 012c 09       		.byte	0x9
+ 988 012d 3A       		.byte	0x3a
+ 989 012e 1D       		.byte	0x1d
+ 990 012f D5000000 		.long	0xd5
+ 991 0133 02       		.uleb128 0x2
+ 992 0134 21060000 		.long	.LASF27
+ 993 0138 09       		.byte	0x9
+ 994 0139 3C       		.byte	0x3c
+ 995 013a 1D       		.byte	0x1d
+ 996 013b E6000000 		.long	0xe6
+ 997 013f 02       		.uleb128 0x2
+ 998 0140 9C030000 		.long	.LASF28
+ 999 0144 09       		.byte	0x9
+ 1000 0145 3D       		.byte	0x3d
+ 1001 0146 1D       		.byte	0x1d
+ 1002 0147 C9000000 		.long	0xc9
+ 1003 014b 02       		.uleb128 0x2
+ 1004 014c E8030000 		.long	.LASF29
+ 1005 0150 09       		.byte	0x9
+ 1006 0151 3F       		.byte	0x3f
+ 1007 0152 1D       		.byte	0x1d
+ 1008 0153 E6000000 		.long	0xe6
+ 1009 0157 02       		.uleb128 0x2
+ 1010 0158 EB070000 		.long	.LASF30
+ 1011 015c 09       		.byte	0x9
+ 1012 015d 40       		.byte	0x40
+ 1013 015e 1D       		.byte	0x1d
+ 1014 015f E6000000 		.long	0xe6
+ 1015 0163 02       		.uleb128 0x2
+ 1016 0164 DB020000 		.long	.LASF31
+ 1017 0168 09       		.byte	0x9
+ 1018 0169 41       		.byte	0x41
+GAS LISTING /tmp/ccFT8Er8.s 			page 22
+
+
+ 1019 016a 1D       		.byte	0x1d
+ 1020 016b C9000000 		.long	0xc9
+ 1021 016f 02       		.uleb128 0x2
+ 1022 0170 E9050000 		.long	.LASF32
+ 1023 0174 0A       		.byte	0xa
+ 1024 0175 80       		.byte	0x80
+ 1025 0176 12       		.byte	0x12
+ 1026 0177 3E000000 		.long	0x3e
+ 1027 017b 02       		.uleb128 0x2
+ 1028 017c 48070000 		.long	.LASF33
+ 1029 0180 0A       		.byte	0xa
+ 1030 0181 85       		.byte	0x85
+ 1031 0182 1A       		.byte	0x1a
+ 1032 0183 87010000 		.long	0x187
+ 1033 0187 06       		.uleb128 0x6
+ 1034 0188 87030000 		.long	.LASF50
+ 1035 018c 50       		.byte	0x50
+ 1036 018d 0B       		.byte	0xb
+ 1037 018e A9       		.byte	0xa9
+ 1038 018f 08       		.byte	0x8
+ 1039 0190 7C020000 		.long	0x27c
+ 1040 0194 08       		.uleb128 0x8
+ 1041 0195 68647200 		.string	"hdr"
+ 1042 0199 0B       		.byte	0xb
+ 1043 019a BA       		.byte	0xba
+ 1044 019b 05       		.byte	0x5
+ 1045 019c 08060000 		.long	0x608
+ 1046 01a0 00       		.byte	0
+ 1047 01a1 08       		.uleb128 0x8
+ 1048 01a2 63747800 		.string	"ctx"
+ 1049 01a6 0B       		.byte	0xb
+ 1050 01a7 BE       		.byte	0xbe
+ 1051 01a8 21       		.byte	0x21
+ 1052 01a9 19050000 		.long	0x519
+ 1053 01ad 0C       		.byte	0xc
+ 1054 01ae 01       		.uleb128 0x1
+ 1055 01af 03070000 		.long	.LASF34
+ 1056 01b3 0B       		.byte	0xb
+ 1057 01b4 C2       		.byte	0xc2
+ 1058 01b5 22       		.byte	0x22
+ 1059 01b6 07070000 		.long	0x707
+ 1060 01ba 10       		.byte	0x10
+ 1061 01bb 01       		.uleb128 0x1
+ 1062 01bc 2D070000 		.long	.LASF35
+ 1063 01c0 0B       		.byte	0xb
+ 1064 01c1 C8       		.byte	0xc8
+ 1065 01c2 22       		.byte	0x22
+ 1066 01c3 0C070000 		.long	0x70c
+ 1067 01c7 14       		.byte	0x14
+ 1068 01c8 01       		.uleb128 0x1
+ 1069 01c9 5D080000 		.long	.LASF36
+ 1070 01cd 0B       		.byte	0xb
+ 1071 01ce CD       		.byte	0xcd
+ 1072 01cf 21       		.byte	0x21
+ 1073 01d0 0C070000 		.long	0x70c
+ 1074 01d4 18       		.byte	0x18
+ 1075 01d5 01       		.uleb128 0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 23
+
+
+ 1076 01d6 AC010000 		.long	.LASF37
+ 1077 01da 0B       		.byte	0xb
+ 1078 01db D1       		.byte	0xd1
+ 1079 01dc 21       		.byte	0x21
+ 1080 01dd 1B010000 		.long	0x11b
+ 1081 01e1 1C       		.byte	0x1c
+ 1082 01e2 01       		.uleb128 0x1
+ 1083 01e3 97080000 		.long	.LASF38
+ 1084 01e7 0B       		.byte	0xb
+ 1085 01e8 D5       		.byte	0xd5
+ 1086 01e9 21       		.byte	0x21
+ 1087 01ea 0F010000 		.long	0x10f
+ 1088 01ee 1D       		.byte	0x1d
+ 1089 01ef 01       		.uleb128 0x1
+ 1090 01f0 32010000 		.long	.LASF39
+ 1091 01f4 0B       		.byte	0xb
+ 1092 01f5 DA       		.byte	0xda
+ 1093 01f6 21       		.byte	0x21
+ 1094 01f7 27010000 		.long	0x127
+ 1095 01fb 1E       		.byte	0x1e
+ 1096 01fc 01       		.uleb128 0x1
+ 1097 01fd 48030000 		.long	.LASF40
+ 1098 0201 0B       		.byte	0xb
+ 1099 0202 DE       		.byte	0xde
+ 1100 0203 22       		.byte	0x22
+ 1101 0204 58030000 		.long	0x358
+ 1102 0208 20       		.byte	0x20
+ 1103 0209 01       		.uleb128 0x1
+ 1104 020a 25030000 		.long	.LASF41
+ 1105 020e 0B       		.byte	0xb
+ 1106 020f E2       		.byte	0xe2
+ 1107 0210 21       		.byte	0x21
+ 1108 0211 C3030000 		.long	0x3c3
+ 1109 0215 24       		.byte	0x24
+ 1110 0216 01       		.uleb128 0x1
+ 1111 0217 D8000000 		.long	.LASF42
+ 1112 021b 0B       		.byte	0xb
+ 1113 021c E8       		.byte	0xe8
+ 1114 021d 21       		.byte	0x21
+ 1115 021e EC050000 		.long	0x5ec
+ 1116 0222 2C       		.byte	0x2c
+ 1117 0223 01       		.uleb128 0x1
+ 1118 0224 25010000 		.long	.LASF43
+ 1119 0228 0B       		.byte	0xb
+ 1120 0229 EE       		.byte	0xee
+ 1121 022a 22       		.byte	0x22
+ 1122 022b BB000000 		.long	0xbb
+ 1123 022f 30       		.byte	0x30
+ 1124 0230 1A       		.uleb128 0x1a
+ 1125 0231 7500     		.string	"u"
+ 1126 0233 3F01     		.value	0x13f
+ 1127 0235 30060000 		.long	0x630
+ 1128 0239 34       		.byte	0x34
+ 1129 023a 07       		.uleb128 0x7
+ 1130 023b 89020000 		.long	.LASF44
+ 1131 023f 4401     		.value	0x144
+ 1132 0241 21       		.byte	0x21
+GAS LISTING /tmp/ccFT8Er8.s 			page 24
+
+
+ 1133 0242 97030000 		.long	0x397
+ 1134 0246 38       		.byte	0x38
+ 1135 0247 07       		.uleb128 0x7
+ 1136 0248 A3010000 		.long	.LASF45
+ 1137 024c 4A01     		.value	0x14a
+ 1138 024e 21       		.byte	0x21
+ 1139 024f C3030000 		.long	0x3c3
+ 1140 0253 3C       		.byte	0x3c
+ 1141 0254 07       		.uleb128 0x7
+ 1142 0255 A2030000 		.long	.LASF46
+ 1143 0259 5001     		.value	0x150
+ 1144 025b 21       		.byte	0x21
+ 1145 025c 4B010000 		.long	0x14b
+ 1146 0260 44       		.byte	0x44
+ 1147 0261 07       		.uleb128 0x7
+ 1148 0262 DB080000 		.long	.LASF47
+ 1149 0266 5701     		.value	0x157
+ 1150 0268 22       		.byte	0x22
+ 1151 0269 02070000 		.long	0x702
+ 1152 026d 48       		.byte	0x48
+ 1153 026e 07       		.uleb128 0x7
+ 1154 026f 67020000 		.long	.LASF48
+ 1155 0273 5B01     		.value	0x15b
+ 1156 0275 21       		.byte	0x21
+ 1157 0276 33010000 		.long	0x133
+ 1158 027a 4C       		.byte	0x4c
+ 1159 027b 00       		.byte	0
+ 1160 027c 02       		.uleb128 0x2
+ 1161 027d 97070000 		.long	.LASF49
+ 1162 0281 0A       		.byte	0xa
+ 1163 0282 8A       		.byte	0x8a
+ 1164 0283 1F       		.byte	0x1f
+ 1165 0284 88020000 		.long	0x288
+ 1166 0288 15       		.uleb128 0x15
+ 1167 0289 88070000 		.long	.LASF51
+ 1168 028d E0       		.byte	0xe0
+ 1169 028e 9701     		.value	0x197
+ 1170 0290 08       		.byte	0x8
+ 1171 0291 0A030000 		.long	0x30a
+ 1172 0295 07       		.uleb128 0x7
+ 1173 0296 6C080000 		.long	.LASF52
+ 1174 029a 9B01     		.value	0x19b
+ 1175 029c 21       		.byte	0x21
+ 1176 029d 39070000 		.long	0x739
+ 1177 02a1 00       		.byte	0
+ 1178 02a2 07       		.uleb128 0x7
+ 1179 02a3 90010000 		.long	.LASF53
+ 1180 02a7 9F01     		.value	0x19f
+ 1181 02a9 21       		.byte	0x21
+ 1182 02aa 81050000 		.long	0x581
+ 1183 02ae 10       		.byte	0x10
+ 1184 02af 07       		.uleb128 0x7
+ 1185 02b0 BF070000 		.long	.LASF54
+ 1186 02b4 A601     		.value	0x1a6
+ 1187 02b6 21       		.byte	0x21
+ 1188 02b7 A8050000 		.long	0x5a8
+ 1189 02bb 28       		.byte	0x28
+GAS LISTING /tmp/ccFT8Er8.s 			page 25
+
+
+ 1190 02bc 07       		.uleb128 0x7
+ 1191 02bd 92000000 		.long	.LASF55
+ 1192 02c1 AB01     		.value	0x1ab
+ 1193 02c3 21       		.byte	0x21
+ 1194 02c4 6F010000 		.long	0x16f
+ 1195 02c8 30       		.byte	0x30
+ 1196 02c9 07       		.uleb128 0x7
+ 1197 02ca 35000000 		.long	.LASF56
+ 1198 02ce B101     		.value	0x1b1
+ 1199 02d0 21       		.byte	0x21
+ 1200 02d1 31030000 		.long	0x331
+ 1201 02d5 34       		.byte	0x34
+ 1202 02d6 07       		.uleb128 0x7
+ 1203 02d7 39070000 		.long	.LASF57
+ 1204 02db B601     		.value	0x1b6
+ 1205 02dd 22       		.byte	0x22
+ 1206 02de A3070000 		.long	0x7a3
+ 1207 02e2 38       		.byte	0x38
+ 1208 02e3 07       		.uleb128 0x7
+ 1209 02e4 CF030000 		.long	.LASF58
+ 1210 02e8 BA01     		.value	0x1ba
+ 1211 02ea 21       		.byte	0x21
+ 1212 02eb 7B010000 		.long	0x17b
+ 1213 02ef 3C       		.byte	0x3c
+ 1214 02f0 07       		.uleb128 0x7
+ 1215 02f1 91030000 		.long	.LASF59
+ 1216 02f5 BF01     		.value	0x1bf
+ 1217 02f7 21       		.byte	0x21
+ 1218 02f8 7B010000 		.long	0x17b
+ 1219 02fc 8C       		.byte	0x8c
+ 1220 02fd 1A       		.uleb128 0x1a
+ 1221 02fe 64626700 		.string	"dbg"
+ 1222 0302 C401     		.value	0x1c4
+ 1223 0304 62030000 		.long	0x362
+ 1224 0308 DC       		.byte	0xdc
+ 1225 0309 00       		.byte	0
+ 1226 030a 02       		.uleb128 0x2
+ 1227 030b F7040000 		.long	.LASF60
+ 1228 030f 0C       		.byte	0xc
+ 1229 0310 3F       		.byte	0x3f
+ 1230 0311 12       		.byte	0x12
+ 1231 0312 E6000000 		.long	0xe6
+ 1232 0316 06       		.uleb128 0x6
+ 1233 0317 D7010000 		.long	.LASF61
+ 1234 031b 04       		.byte	0x4
+ 1235 031c 0C       		.byte	0xc
+ 1236 031d 44       		.byte	0x44
+ 1237 031e 10       		.byte	0x10
+ 1238 031f 31030000 		.long	0x331
+ 1239 0323 01       		.uleb128 0x1
+ 1240 0324 4F080000 		.long	.LASF62
+ 1241 0328 0C       		.byte	0xc
+ 1242 0329 48       		.byte	0x48
+ 1243 032a 21       		.byte	0x21
+ 1244 032b 0A030000 		.long	0x30a
+ 1245 032f 00       		.byte	0
+ 1246 0330 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 26
+
+
+ 1247 0331 02       		.uleb128 0x2
+ 1248 0332 5D060000 		.long	.LASF63
+ 1249 0336 0C       		.byte	0xc
+ 1250 0337 49       		.byte	0x49
+ 1251 0338 03       		.byte	0x3
+ 1252 0339 16030000 		.long	0x316
+ 1253 033d 06       		.uleb128 0x6
+ 1254 033e 31060000 		.long	.LASF64
+ 1255 0342 04       		.byte	0x4
+ 1256 0343 0D       		.byte	0xd
+ 1257 0344 3E       		.byte	0x3e
+ 1258 0345 10       		.byte	0x10
+ 1259 0346 58030000 		.long	0x358
+ 1260 034a 01       		.uleb128 0x1
+ 1261 034b 77070000 		.long	.LASF65
+ 1262 034f 0D       		.byte	0xd
+ 1263 0350 46       		.byte	0x46
+ 1264 0351 24       		.byte	0x24
+ 1265 0352 5D030000 		.long	0x35d
+ 1266 0356 00       		.byte	0
+ 1267 0357 00       		.byte	0
+ 1268 0358 03       		.uleb128 0x3
+ 1269 0359 C4000000 		.long	0xc4
+ 1270 035d 11       		.uleb128 0x11
+ 1271 035e 58030000 		.long	0x358
+ 1272 0362 02       		.uleb128 0x2
+ 1273 0363 83000000 		.long	.LASF66
+ 1274 0367 0D       		.byte	0xd
+ 1275 0368 51       		.byte	0x51
+ 1276 0369 03       		.byte	0x3
+ 1277 036a 3D030000 		.long	0x33d
+ 1278 036e 02       		.uleb128 0x2
+ 1279 036f 5F070000 		.long	.LASF67
+ 1280 0373 0E       		.byte	0xe
+ 1281 0374 6D       		.byte	0x6d
+ 1282 0375 12       		.byte	0x12
+ 1283 0376 E6000000 		.long	0xe6
+ 1284 037a 11       		.uleb128 0x11
+ 1285 037b 6E030000 		.long	0x36e
+ 1286 037f 02       		.uleb128 0x2
+ 1287 0380 CD020000 		.long	.LASF68
+ 1288 0384 0E       		.byte	0xe
+ 1289 0385 79       		.byte	0x79
+ 1290 0386 12       		.byte	0x12
+ 1291 0387 E6000000 		.long	0xe6
+ 1292 038b 02       		.uleb128 0x2
+ 1293 038c 37030000 		.long	.LASF69
+ 1294 0390 0E       		.byte	0xe
+ 1295 0391 9B       		.byte	0x9b
+ 1296 0392 12       		.byte	0x12
+ 1297 0393 F2000000 		.long	0xf2
+ 1298 0397 02       		.uleb128 0x2
+ 1299 0398 7D030000 		.long	.LASF70
+ 1300 039c 0F       		.byte	0xf
+ 1301 039d 32       		.byte	0x32
+ 1302 039e 18       		.byte	0x18
+ 1303 039f A3030000 		.long	0x3a3
+GAS LISTING /tmp/ccFT8Er8.s 			page 27
+
+
+ 1304 03a3 06       		.uleb128 0x6
+ 1305 03a4 C7030000 		.long	.LASF71
+ 1306 03a8 04       		.byte	0x4
+ 1307 03a9 0F       		.byte	0xf
+ 1308 03aa 38       		.byte	0x38
+ 1309 03ab 08       		.byte	0x8
+ 1310 03ac BE030000 		.long	0x3be
+ 1311 03b0 01       		.uleb128 0x1
+ 1312 03b1 20010000 		.long	.LASF72
+ 1313 03b5 0F       		.byte	0xf
+ 1314 03b6 39       		.byte	0x39
+ 1315 03b7 1A       		.byte	0x1a
+ 1316 03b8 BE030000 		.long	0x3be
+ 1317 03bc 00       		.byte	0
+ 1318 03bd 00       		.byte	0
+ 1319 03be 03       		.uleb128 0x3
+ 1320 03bf 97030000 		.long	0x397
+ 1321 03c3 02       		.uleb128 0x2
+ 1322 03c4 2C030000 		.long	.LASF73
+ 1323 03c8 0F       		.byte	0xf
+ 1324 03c9 3F       		.byte	0x3f
+ 1325 03ca 19       		.byte	0x19
+ 1326 03cb CF030000 		.long	0x3cf
+ 1327 03cf 06       		.uleb128 0x6
+ 1328 03d0 DF010000 		.long	.LASF74
+ 1329 03d4 08       		.byte	0x8
+ 1330 03d5 0F       		.byte	0xf
+ 1331 03d6 45       		.byte	0x45
+ 1332 03d7 08       		.byte	0x8
+ 1333 03d8 F7030000 		.long	0x3f7
+ 1334 03dc 01       		.uleb128 0x1
+ 1335 03dd 20010000 		.long	.LASF72
+ 1336 03e1 0F       		.byte	0xf
+ 1337 03e2 46       		.byte	0x46
+ 1338 03e3 1A       		.byte	0x1a
+ 1339 03e4 F7030000 		.long	0x3f7
+ 1340 03e8 00       		.byte	0
+ 1341 03e9 01       		.uleb128 0x1
+ 1342 03ea 61000000 		.long	.LASF75
+ 1343 03ee 0F       		.byte	0xf
+ 1344 03ef 47       		.byte	0x47
+ 1345 03f0 1A       		.byte	0x1a
+ 1346 03f1 F7030000 		.long	0x3f7
+ 1347 03f5 04       		.byte	0x4
+ 1348 03f6 00       		.byte	0
+ 1349 03f7 03       		.uleb128 0x3
+ 1350 03f8 C3030000 		.long	0x3c3
+ 1351 03fc 02       		.uleb128 0x2
+ 1352 03fd A3000000 		.long	.LASF76
+ 1353 0401 0F       		.byte	0xf
+ 1354 0402 4E       		.byte	0x4e
+ 1355 0403 22       		.byte	0x22
+ 1356 0404 08040000 		.long	0x408
+ 1357 0408 06       		.uleb128 0x6
+ 1358 0409 C7070000 		.long	.LASF77
+ 1359 040d 0C       		.byte	0xc
+ 1360 040e 0F       		.byte	0xf
+GAS LISTING /tmp/ccFT8Er8.s 			page 28
+
+
+ 1361 040f 55       		.byte	0x55
+ 1362 0410 08       		.byte	0x8
+ 1363 0411 3D040000 		.long	0x43d
+ 1364 0415 01       		.uleb128 0x1
+ 1365 0416 20010000 		.long	.LASF72
+ 1366 041a 0F       		.byte	0xf
+ 1367 041b 56       		.byte	0x56
+ 1368 041c 1A       		.byte	0x1a
+ 1369 041d 3D040000 		.long	0x43d
+ 1370 0421 00       		.byte	0
+ 1371 0422 01       		.uleb128 0x1
+ 1372 0423 61000000 		.long	.LASF75
+ 1373 0427 0F       		.byte	0xf
+ 1374 0428 57       		.byte	0x57
+ 1375 0429 1A       		.byte	0x1a
+ 1376 042a 3D040000 		.long	0x43d
+ 1377 042e 04       		.byte	0x4
+ 1378 042f 01       		.uleb128 0x1
+ 1379 0430 A9050000 		.long	.LASF78
+ 1380 0434 0F       		.byte	0xf
+ 1381 0435 58       		.byte	0x58
+ 1382 0436 19       		.byte	0x19
+ 1383 0437 33010000 		.long	0x133
+ 1384 043b 08       		.byte	0x8
+ 1385 043c 00       		.byte	0
+ 1386 043d 03       		.uleb128 0x3
+ 1387 043e FC030000 		.long	0x3fc
+ 1388 0442 02       		.uleb128 0x2
+ 1389 0443 24020000 		.long	.LASF79
+ 1390 0447 0F       		.byte	0xf
+ 1391 0448 5F       		.byte	0x5f
+ 1392 0449 1E       		.byte	0x1e
+ 1393 044a 4E040000 		.long	0x44e
+ 1394 044e 06       		.uleb128 0x6
+ 1395 044f 82010000 		.long	.LASF80
+ 1396 0453 0C       		.byte	0xc
+ 1397 0454 0F       		.byte	0xf
+ 1398 0455 64       		.byte	0x64
+ 1399 0456 08       		.byte	0x8
+ 1400 0457 83040000 		.long	0x483
+ 1401 045b 01       		.uleb128 0x1
+ 1402 045c 20010000 		.long	.LASF72
+ 1403 0460 0F       		.byte	0xf
+ 1404 0461 65       		.byte	0x65
+ 1405 0462 1A       		.byte	0x1a
+ 1406 0463 83040000 		.long	0x483
+ 1407 0467 00       		.byte	0
+ 1408 0468 01       		.uleb128 0x1
+ 1409 0469 61000000 		.long	.LASF75
+ 1410 046d 0F       		.byte	0xf
+ 1411 046e 66       		.byte	0x66
+ 1412 046f 1A       		.byte	0x1a
+ 1413 0470 83040000 		.long	0x483
+ 1414 0474 04       		.byte	0x4
+ 1415 0475 01       		.uleb128 0x1
+ 1416 0476 41000000 		.long	.LASF81
+ 1417 047a 0F       		.byte	0xf
+GAS LISTING /tmp/ccFT8Er8.s 			page 29
+
+
+ 1418 047b 67       		.byte	0x67
+ 1419 047c 19       		.byte	0x19
+ 1420 047d 7F030000 		.long	0x37f
+ 1421 0481 08       		.byte	0x8
+ 1422 0482 00       		.byte	0
+ 1423 0483 03       		.uleb128 0x3
+ 1424 0484 42040000 		.long	0x442
+ 1425 0488 03       		.uleb128 0x3
+ 1426 0489 D5000000 		.long	0xd5
+ 1427 048d 1B       		.uleb128 0x1b
+ 1428 048e 10       		.byte	0x10
+ 1429 048f 04       		.byte	0x4
+ 1430 0490 87       		.byte	0x87
+ 1431 0491 A1040000 		.long	0x4a1
+ 1432 0495 08       		.uleb128 0x8
+ 1433 0496 6100     		.string	"a"
+ 1434 0498 04       		.byte	0x4
+ 1435 0499 88       		.byte	0x88
+ 1436 049a 0B       		.byte	0xb
+ 1437 049b A1040000 		.long	0x4a1
+ 1438 049f 00       		.byte	0
+ 1439 04a0 00       		.byte	0
+ 1440 04a1 12       		.uleb128 0x12
+ 1441 04a2 D5000000 		.long	0xd5
+ 1442 04a6 B1040000 		.long	0x4b1
+ 1443 04aa 13       		.uleb128 0x13
+ 1444 04ab 3E000000 		.long	0x3e
+ 1445 04af 0F       		.byte	0xf
+ 1446 04b0 00       		.byte	0
+ 1447 04b1 23       		.uleb128 0x23
+ 1448 04b2 B2010000 		.long	.LASF193
+ 1449 04b6 04       		.byte	0x4
+ 1450 04b7 89       		.byte	0x89
+ 1451 04b8 03       		.byte	0x3
+ 1452 04b9 8D040000 		.long	0x48d
+ 1453 04bd 10       		.byte	0x10
+ 1454 04be 02       		.uleb128 0x2
+ 1455 04bf 69070000 		.long	.LASF82
+ 1456 04c3 04       		.byte	0x4
+ 1457 04c4 8E       		.byte	0x8e
+ 1458 04c5 0F       		.byte	0xf
+ 1459 04c6 BB000000 		.long	0xbb
+ 1460 04ca 06       		.uleb128 0x6
+ 1461 04cb 66000000 		.long	.LASF83
+ 1462 04cf 14       		.byte	0x14
+ 1463 04d0 04       		.byte	0x4
+ 1464 04d1 9D       		.byte	0x9d
+ 1465 04d2 08       		.byte	0x8
+ 1466 04d3 19050000 		.long	0x519
+ 1467 04d7 08       		.uleb128 0x8
+ 1468 04d8 65627800 		.string	"ebx"
+ 1469 04dc 04       		.byte	0x4
+ 1470 04dd 9E       		.byte	0x9e
+ 1471 04de 0B       		.byte	0xb
+ 1472 04df BE040000 		.long	0x4be
+ 1473 04e3 00       		.byte	0
+ 1474 04e4 08       		.uleb128 0x8
+GAS LISTING /tmp/ccFT8Er8.s 			page 30
+
+
+ 1475 04e5 65646900 		.string	"edi"
+ 1476 04e9 04       		.byte	0x4
+ 1477 04ea 9F       		.byte	0x9f
+ 1478 04eb 0B       		.byte	0xb
+ 1479 04ec BE040000 		.long	0x4be
+ 1480 04f0 04       		.byte	0x4
+ 1481 04f1 08       		.uleb128 0x8
+ 1482 04f2 65736900 		.string	"esi"
+ 1483 04f6 04       		.byte	0x4
+ 1484 04f7 A0       		.byte	0xa0
+ 1485 04f8 0B       		.byte	0xb
+ 1486 04f9 BE040000 		.long	0x4be
+ 1487 04fd 08       		.byte	0x8
+ 1488 04fe 08       		.uleb128 0x8
+ 1489 04ff 65627000 		.string	"ebp"
+ 1490 0503 04       		.byte	0x4
+ 1491 0504 A1       		.byte	0xa1
+ 1492 0505 0B       		.byte	0xb
+ 1493 0506 BE040000 		.long	0x4be
+ 1494 050a 0C       		.byte	0xc
+ 1495 050b 08       		.uleb128 0x8
+ 1496 050c 65697000 		.string	"eip"
+ 1497 0510 04       		.byte	0x4
+ 1498 0511 A2       		.byte	0xa2
+ 1499 0512 0B       		.byte	0xb
+ 1500 0513 BE040000 		.long	0x4be
+ 1501 0517 10       		.byte	0x10
+ 1502 0518 00       		.byte	0
+ 1503 0519 06       		.uleb128 0x6
+ 1504 051a 8A050000 		.long	.LASF84
+ 1505 051e 04       		.byte	0x4
+ 1506 051f 04       		.byte	0x4
+ 1507 0520 AA       		.byte	0xaa
+ 1508 0521 08       		.byte	0x8
+ 1509 0522 33050000 		.long	0x533
+ 1510 0526 08       		.uleb128 0x8
+ 1511 0527 737000   		.string	"sp"
+ 1512 052a 04       		.byte	0x4
+ 1513 052b AB       		.byte	0xab
+ 1514 052c 17       		.byte	0x17
+ 1515 052d 33050000 		.long	0x533
+ 1516 0531 00       		.byte	0
+ 1517 0532 00       		.byte	0
+ 1518 0533 03       		.uleb128 0x3
+ 1519 0534 CA040000 		.long	0x4ca
+ 1520 0538 09       		.uleb128 0x9
+ 1521 0539 01       		.byte	0x1
+ 1522 053a 02       		.byte	0x2
+ 1523 053b 41060000 		.long	.LASF85
+ 1524 053f 24       		.uleb128 0x24
+ 1525 0540 4F020000 		.long	.LASF119
+ 1526 0544 04       		.byte	0x4
+ 1527 0545 1C01     		.value	0x11c
+ 1528 0547 11       		.byte	0x11
+ 1529 0548 03010000 		.long	0x103
+ 1530 054c 06       		.uleb128 0x6
+ 1531 054d 24050000 		.long	.LASF86
+GAS LISTING /tmp/ccFT8Er8.s 			page 31
+
+
+ 1532 0551 18       		.byte	0x18
+ 1533 0552 0B       		.byte	0xb
+ 1534 0553 64       		.byte	0x64
+ 1535 0554 10       		.byte	0x10
+ 1536 0555 81050000 		.long	0x581
+ 1537 0559 01       		.uleb128 0x1
+ 1538 055a E3050000 		.long	.LASF87
+ 1539 055e 0B       		.byte	0xb
+ 1540 055f 68       		.byte	0x68
+ 1541 0560 21       		.byte	0x21
+ 1542 0561 42040000 		.long	0x442
+ 1543 0565 00       		.byte	0
+ 1544 0566 01       		.uleb128 0x1
+ 1545 0567 BF030000 		.long	.LASF88
+ 1546 056b 0B       		.byte	0xb
+ 1547 056c 6D       		.byte	0x6d
+ 1548 056d 21       		.byte	0x21
+ 1549 056e 7A030000 		.long	0x37a
+ 1550 0572 0C       		.byte	0xc
+ 1551 0573 01       		.uleb128 0x1
+ 1552 0574 1C040000 		.long	.LASF89
+ 1553 0578 0B       		.byte	0xb
+ 1554 0579 81       		.byte	0x81
+ 1555 057a 21       		.byte	0x21
+ 1556 057b FE000000 		.long	0xfe
+ 1557 057f 10       		.byte	0x10
+ 1558 0580 00       		.byte	0
+ 1559 0581 02       		.uleb128 0x2
+ 1560 0582 FF000000 		.long	.LASF90
+ 1561 0586 0B       		.byte	0xb
+ 1562 0587 83       		.byte	0x83
+ 1563 0588 03       		.byte	0x3
+ 1564 0589 4C050000 		.long	0x54c
+ 1565 058d 06       		.uleb128 0x6
+ 1566 058e 3C020000 		.long	.LASF91
+ 1567 0592 08       		.byte	0x8
+ 1568 0593 0B       		.byte	0xb
+ 1569 0594 88       		.byte	0x88
+ 1570 0595 10       		.byte	0x10
+ 1571 0596 A8050000 		.long	0x5a8
+ 1572 059a 01       		.uleb128 0x1
+ 1573 059b 5E030000 		.long	.LASF92
+ 1574 059f 0B       		.byte	0xb
+ 1575 05a0 8C       		.byte	0x8c
+ 1576 05a1 21       		.byte	0x21
+ 1577 05a2 C3030000 		.long	0x3c3
+ 1578 05a6 00       		.byte	0
+ 1579 05a7 00       		.byte	0
+ 1580 05a8 02       		.uleb128 0x2
+ 1581 05a9 D7060000 		.long	.LASF93
+ 1582 05ad 0B       		.byte	0xb
+ 1583 05ae 8D       		.byte	0x8d
+ 1584 05af 03       		.byte	0x3
+ 1585 05b0 8D050000 		.long	0x58d
+ 1586 05b4 02       		.uleb128 0x2
+ 1587 05b5 08050000 		.long	.LASF94
+ 1588 05b9 0B       		.byte	0xb
+GAS LISTING /tmp/ccFT8Er8.s 			page 32
+
+
+ 1589 05ba 92       		.byte	0x92
+ 1590 05bb 14       		.byte	0x14
+ 1591 05bc C0050000 		.long	0x5c0
+ 1592 05c0 03       		.uleb128 0x3
+ 1593 05c1 7B010000 		.long	0x17b
+ 1594 05c5 06       		.uleb128 0x6
+ 1595 05c6 72000000 		.long	.LASF95
+ 1596 05ca 08       		.byte	0x8
+ 1597 05cb 0B       		.byte	0xb
+ 1598 05cc 97       		.byte	0x97
+ 1599 05cd 10       		.byte	0x10
+ 1600 05ce E0050000 		.long	0x5e0
+ 1601 05d2 01       		.uleb128 0x1
+ 1602 05d3 5E030000 		.long	.LASF92
+ 1603 05d7 0B       		.byte	0xb
+ 1604 05d8 9B       		.byte	0x9b
+ 1605 05d9 21       		.byte	0x21
+ 1606 05da C3030000 		.long	0x3c3
+ 1607 05de 00       		.byte	0
+ 1608 05df 00       		.byte	0
+ 1609 05e0 02       		.uleb128 0x2
+ 1610 05e1 BA060000 		.long	.LASF96
+ 1611 05e5 0B       		.byte	0xb
+ 1612 05e6 9C       		.byte	0x9c
+ 1613 05e7 03       		.byte	0x3
+ 1614 05e8 C5050000 		.long	0x5c5
+ 1615 05ec 02       		.uleb128 0x2
+ 1616 05ed 4D030000 		.long	.LASF97
+ 1617 05f1 0B       		.byte	0xb
+ 1618 05f2 A1       		.byte	0xa1
+ 1619 05f3 10       		.byte	0x10
+ 1620 05f4 F8050000 		.long	0x5f8
+ 1621 05f8 03       		.uleb128 0x3
+ 1622 05f9 FD050000 		.long	0x5fd
+ 1623 05fd 1C       		.uleb128 0x1c
+ 1624 05fe 08060000 		.long	0x608
+ 1625 0602 04       		.uleb128 0x4
+ 1626 0603 C0050000 		.long	0x5c0
+ 1627 0607 00       		.byte	0
+ 1628 0608 25       		.uleb128 0x25
+ 1629 0609 0C       		.byte	0xc
+ 1630 060a 0B       		.byte	0xb
+ 1631 060b AD       		.byte	0xad
+ 1632 060c 03       		.byte	0x3
+ 1633 060d 30060000 		.long	0x630
+ 1634 0611 16       		.uleb128 0x16
+ 1635 0612 C7080000 		.long	.LASF98
+ 1636 0616 B1       		.byte	0xb1
+ 1637 0617 97030000 		.long	0x397
+ 1638 061b 16       		.uleb128 0x16
+ 1639 061c 5E030000 		.long	.LASF92
+ 1640 0620 B5       		.byte	0xb5
+ 1641 0621 C3030000 		.long	0x3c3
+ 1642 0625 16       		.uleb128 0x16
+ 1643 0626 81070000 		.long	.LASF99
+ 1644 062a B9       		.byte	0xb9
+ 1645 062b FC030000 		.long	0x3fc
+GAS LISTING /tmp/ccFT8Er8.s 			page 33
+
+
+ 1646 062f 00       		.byte	0
+ 1647 0630 26       		.uleb128 0x26
+ 1648 0631 04       		.byte	0x4
+ 1649 0632 0B       		.byte	0xb
+ 1650 0633 0201     		.value	0x102
+ 1651 0635 03       		.byte	0x3
+ 1652 0636 9B060000 		.long	0x69b
+ 1653 063a 0C       		.uleb128 0xc
+ 1654 063b 47000000 		.long	.LASF100
+ 1655 063f 0901     		.value	0x109
+ 1656 0641 21       		.byte	0x21
+ 1657 0642 3F010000 		.long	0x13f
+ 1658 0646 0C       		.uleb128 0xc
+ 1659 0647 E0000000 		.long	.LASF101
+ 1660 064b 1001     		.value	0x110
+ 1661 064d 21       		.byte	0x21
+ 1662 064e 3F010000 		.long	0x13f
+ 1663 0652 0C       		.uleb128 0xc
+ 1664 0653 A4080000 		.long	.LASF102
+ 1665 0657 1701     		.value	0x117
+ 1666 0659 22       		.byte	0x22
+ 1667 065a BB000000 		.long	0xbb
+ 1668 065e 0C       		.uleb128 0xc
+ 1669 065f 1F030000 		.long	.LASF103
+ 1670 0663 1E01     		.value	0x11e
+ 1671 0665 22       		.byte	0x22
+ 1672 0666 9B060000 		.long	0x69b
+ 1673 066a 0C       		.uleb128 0xc
+ 1674 066b F7000000 		.long	.LASF104
+ 1675 066f 2301     		.value	0x123
+ 1676 0671 21       		.byte	0x21
+ 1677 0672 3F010000 		.long	0x13f
+ 1678 0676 0C       		.uleb128 0xc
+ 1679 0677 11030000 		.long	.LASF105
+ 1680 067b 2C01     		.value	0x12c
+ 1681 067d 22       		.byte	0x22
+ 1682 067e C8060000 		.long	0x6c8
+ 1683 0682 0C       		.uleb128 0xc
+ 1684 0683 F2060000 		.long	.LASF106
+ 1685 0687 3501     		.value	0x135
+ 1686 0689 22       		.byte	0x22
+ 1687 068a 02070000 		.long	0x702
+ 1688 068e 0C       		.uleb128 0xc
+ 1689 068f 80060000 		.long	.LASF107
+ 1690 0693 3D01     		.value	0x13d
+ 1691 0695 21       		.byte	0x21
+ 1692 0696 4B010000 		.long	0x14b
+ 1693 069a 00       		.byte	0
+ 1694 069b 03       		.uleb128 0x3
+ 1695 069c B4050000 		.long	0x5b4
+ 1696 06a0 06       		.uleb128 0x6
+ 1697 06a1 CA060000 		.long	.LASF108
+ 1698 06a5 0C       		.byte	0xc
+ 1699 06a6 10       		.byte	0x10
+ 1700 06a7 34       		.byte	0x34
+ 1701 06a8 10       		.byte	0x10
+ 1702 06a9 C8060000 		.long	0x6c8
+GAS LISTING /tmp/ccFT8Er8.s 			page 34
+
+
+ 1703 06ad 01       		.uleb128 0x1
+ 1704 06ae 5E030000 		.long	.LASF92
+ 1705 06b2 10       		.byte	0x10
+ 1706 06b3 35       		.byte	0x35
+ 1707 06b4 19       		.byte	0x19
+ 1708 06b5 C3030000 		.long	0x3c3
+ 1709 06b9 00       		.byte	0
+ 1710 06ba 08       		.uleb128 0x8
+ 1711 06bb 636E7400 		.string	"cnt"
+ 1712 06bf 10       		.byte	0x10
+ 1713 06c0 37       		.byte	0x37
+ 1714 06c1 19       		.byte	0x19
+ 1715 06c2 63010000 		.long	0x163
+ 1716 06c6 08       		.byte	0x8
+ 1717 06c7 00       		.byte	0
+ 1718 06c8 03       		.uleb128 0x3
+ 1719 06c9 A0060000 		.long	0x6a0
+ 1720 06cd 06       		.uleb128 0x6
+ 1721 06ce A5070000 		.long	.LASF109
+ 1722 06d2 10       		.byte	0x10
+ 1723 06d3 11       		.byte	0x11
+ 1724 06d4 39       		.byte	0x39
+ 1725 06d5 08       		.byte	0x8
+ 1726 06d6 02070000 		.long	0x702
+ 1727 06da 01       		.uleb128 0x1
+ 1728 06db 5E030000 		.long	.LASF92
+ 1729 06df 11       		.byte	0x11
+ 1730 06e0 3A       		.byte	0x3a
+ 1731 06e1 19       		.byte	0x19
+ 1732 06e2 C3030000 		.long	0x3c3
+ 1733 06e6 00       		.byte	0
+ 1734 06e7 01       		.uleb128 0x1
+ 1735 06e8 03070000 		.long	.LASF34
+ 1736 06ec 11       		.byte	0x11
+ 1737 06ed 3C       		.byte	0x3c
+ 1738 06ee 1A       		.byte	0x1a
+ 1739 06ef C0050000 		.long	0x5c0
+ 1740 06f3 08       		.byte	0x8
+ 1741 06f4 01       		.uleb128 0x1
+ 1742 06f5 20010000 		.long	.LASF72
+ 1743 06f9 11       		.byte	0x11
+ 1744 06fa 3E       		.byte	0x3e
+ 1745 06fb 1A       		.byte	0x1a
+ 1746 06fc C1070000 		.long	0x7c1
+ 1747 0700 0C       		.byte	0xc
+ 1748 0701 00       		.byte	0
+ 1749 0702 03       		.uleb128 0x3
+ 1750 0703 CD060000 		.long	0x6cd
+ 1751 0707 03       		.uleb128 0x3
+ 1752 0708 7C020000 		.long	0x27c
+ 1753 070c 03       		.uleb128 0x3
+ 1754 070d B1040000 		.long	0x4b1
+ 1755 0711 15       		.uleb128 0x15
+ 1756 0712 DA030000 		.long	.LASF110
+ 1757 0716 10       		.byte	0x10
+ 1758 0717 6C01     		.value	0x16c
+ 1759 0719 10       		.byte	0x10
+GAS LISTING /tmp/ccFT8Er8.s 			page 35
+
+
+ 1760 071a 39070000 		.long	0x739
+ 1761 071e 07       		.uleb128 0x7
+ 1762 071f 81070000 		.long	.LASF99
+ 1763 0723 7101     		.value	0x171
+ 1764 0725 21       		.byte	0x21
+ 1765 0726 FC030000 		.long	0x3fc
+ 1766 072a 00       		.byte	0
+ 1767 072b 07       		.uleb128 0x7
+ 1768 072c F8070000 		.long	.LASF111
+ 1769 0730 7501     		.value	0x175
+ 1770 0732 22       		.byte	0x22
+ 1771 0733 C0050000 		.long	0x5c0
+ 1772 0737 0C       		.byte	0xc
+ 1773 0738 00       		.byte	0
+ 1774 0739 1D       		.uleb128 0x1d
+ 1775 073a 28000000 		.long	.LASF112
+ 1776 073e 7601     		.value	0x176
+ 1777 0740 11070000 		.long	0x711
+ 1778 0744 15       		.uleb128 0x15
+ 1779 0745 74050000 		.long	.LASF113
+ 1780 0749 14       		.byte	0x14
+ 1781 074a 7B01     		.value	0x17b
+ 1782 074c 10       		.byte	0x10
+ 1783 074d 93070000 		.long	0x793
+ 1784 0751 07       		.uleb128 0x7
+ 1785 0752 48030000 		.long	.LASF40
+ 1786 0756 7F01     		.value	0x17f
+ 1787 0758 22       		.byte	0x22
+ 1788 0759 58030000 		.long	0x358
+ 1789 075d 00       		.byte	0
+ 1790 075e 07       		.uleb128 0x7
+ 1791 075f 51050000 		.long	.LASF114
+ 1792 0763 8301     		.value	0x183
+ 1793 0765 22       		.byte	0x22
+ 1794 0766 0C070000 		.long	0x70c
+ 1795 076a 04       		.byte	0x4
+ 1796 076b 07       		.uleb128 0x7
+ 1797 076c 41010000 		.long	.LASF115
+ 1798 0770 8701     		.value	0x187
+ 1799 0772 22       		.byte	0x22
+ 1800 0773 0C070000 		.long	0x70c
+ 1801 0777 08       		.byte	0x8
+ 1802 0778 07       		.uleb128 0x7
+ 1803 0779 91020000 		.long	.LASF116
+ 1804 077d 8C01     		.value	0x18c
+ 1805 077f 22       		.byte	0x22
+ 1806 0780 0C070000 		.long	0x70c
+ 1807 0784 0C       		.byte	0xc
+ 1808 0785 07       		.uleb128 0x7
+ 1809 0786 AE050000 		.long	.LASF117
+ 1810 078a 9001     		.value	0x190
+ 1811 078c 22       		.byte	0x22
+ 1812 078d 0C070000 		.long	0x70c
+ 1813 0791 10       		.byte	0x10
+ 1814 0792 00       		.byte	0
+ 1815 0793 1D       		.uleb128 0x1d
+ 1816 0794 2B080000 		.long	.LASF118
+GAS LISTING /tmp/ccFT8Er8.s 			page 36
+
+
+ 1817 0798 9201     		.value	0x192
+ 1818 079a 44070000 		.long	0x744
+ 1819 079e 0D       		.uleb128 0xd
+ 1820 079f 93070000 		.long	0x793
+ 1821 07a3 03       		.uleb128 0x3
+ 1822 07a4 9E070000 		.long	0x79e
+ 1823 07a8 27       		.uleb128 0x27
+ 1824 07a9 63683000 		.string	"ch0"
+ 1825 07ad 03       		.byte	0x3
+ 1826 07ae 4101     		.value	0x141
+ 1827 07b0 16       		.byte	0x16
+ 1828 07b1 7C020000 		.long	0x27c
+ 1829 07b5 02       		.uleb128 0x2
+ 1830 07b6 A0020000 		.long	.LASF120
+ 1831 07ba 11       		.byte	0x11
+ 1832 07bb 34       		.byte	0x34
+ 1833 07bc 19       		.byte	0x19
+ 1834 07bd CD060000 		.long	0x6cd
+ 1835 07c1 03       		.uleb128 0x3
+ 1836 07c2 B5070000 		.long	0x7b5
+ 1837 07c6 02       		.uleb128 0x2
+ 1838 07c7 AE070000 		.long	.LASF121
+ 1839 07cb 12       		.byte	0x12
+ 1840 07cc 37       		.byte	0x37
+ 1841 07cd 1F       		.byte	0x1f
+ 1842 07ce D2070000 		.long	0x7d2
+ 1843 07d2 06       		.uleb128 0x6
+ 1844 07d3 E3080000 		.long	.LASF122
+ 1845 07d7 14       		.byte	0x14
+ 1846 07d8 12       		.byte	0x12
+ 1847 07d9 3C       		.byte	0x3c
+ 1848 07da 08       		.byte	0x8
+ 1849 07db 21080000 		.long	0x821
+ 1850 07df 01       		.uleb128 0x1
+ 1851 07e0 20010000 		.long	.LASF72
+ 1852 07e4 12       		.byte	0x12
+ 1853 07e5 3D       		.byte	0x3d
+ 1854 07e6 1A       		.byte	0x1a
+ 1855 07e7 21080000 		.long	0x821
+ 1856 07eb 00       		.byte	0
+ 1857 07ec 01       		.uleb128 0x1
+ 1858 07ed 1B050000 		.long	.LASF123
+ 1859 07f1 12       		.byte	0x12
+ 1860 07f2 40       		.byte	0x40
+ 1861 07f3 1A       		.byte	0x1a
+ 1862 07f4 C0050000 		.long	0x5c0
+ 1863 07f8 04       		.byte	0x4
+ 1864 07f9 01       		.uleb128 0x1
+ 1865 07fa E2060000 		.long	.LASF124
+ 1866 07fe 12       		.byte	0x12
+ 1867 07ff 42       		.byte	0x42
+ 1868 0800 19       		.byte	0x19
+ 1869 0801 4B010000 		.long	0x14b
+ 1870 0805 08       		.byte	0x8
+ 1871 0806 01       		.uleb128 0x1
+ 1872 0807 97080000 		.long	.LASF38
+ 1873 080b 12       		.byte	0x12
+GAS LISTING /tmp/ccFT8Er8.s 			page 37
+
+
+ 1874 080c 44       		.byte	0x44
+ 1875 080d 19       		.byte	0x19
+ 1876 080e 57010000 		.long	0x157
+ 1877 0812 0C       		.byte	0xc
+ 1878 0813 01       		.uleb128 0x1
+ 1879 0814 48020000 		.long	.LASF125
+ 1880 0818 12       		.byte	0x12
+ 1881 0819 46       		.byte	0x46
+ 1882 081a 19       		.byte	0x19
+ 1883 081b 57010000 		.long	0x157
+ 1884 081f 10       		.byte	0x10
+ 1885 0820 00       		.byte	0
+ 1886 0821 03       		.uleb128 0x3
+ 1887 0822 C6070000 		.long	0x7c6
+ 1888 0826 06       		.uleb128 0x6
+ 1889 0827 72080000 		.long	.LASF126
+ 1890 082b 04       		.byte	0x4
+ 1891 082c 12       		.byte	0x12
+ 1892 082d 4D       		.byte	0x4d
+ 1893 082e 10       		.byte	0x10
+ 1894 082f 41080000 		.long	0x841
+ 1895 0833 01       		.uleb128 0x1
+ 1896 0834 20010000 		.long	.LASF72
+ 1897 0838 12       		.byte	0x12
+ 1898 0839 4E       		.byte	0x4e
+ 1899 083a 1A       		.byte	0x1a
+ 1900 083b 21080000 		.long	0x821
+ 1901 083f 00       		.byte	0
+ 1902 0840 00       		.byte	0
+ 1903 0841 02       		.uleb128 0x2
+ 1904 0842 71060000 		.long	.LASF127
+ 1905 0846 12       		.byte	0x12
+ 1906 0847 51       		.byte	0x51
+ 1907 0848 03       		.byte	0x3
+ 1908 0849 26080000 		.long	0x826
+ 1909 084d 06       		.uleb128 0x6
+ 1910 084e 8E060000 		.long	.LASF128
+ 1911 0852 14       		.byte	0x14
+ 1912 0853 13       		.byte	0x13
+ 1913 0854 4F       		.byte	0x4f
+ 1914 0855 08       		.byte	0x8
+ 1915 0856 9C080000 		.long	0x89c
+ 1916 085a 01       		.uleb128 0x1
+ 1917 085b B7080000 		.long	.LASF129
+ 1918 085f 13       		.byte	0x13
+ 1919 0860 50       		.byte	0x50
+ 1920 0861 03       		.byte	0x3
+ 1921 0862 2D000000 		.long	0x2d
+ 1922 0866 00       		.byte	0
+ 1923 0867 01       		.uleb128 0x1
+ 1924 0868 26040000 		.long	.LASF130
+ 1925 086c 13       		.byte	0x13
+ 1926 086d 50       		.byte	0x50
+ 1927 086e 03       		.byte	0x3
+ 1928 086f BF080000 		.long	0x8bf
+ 1929 0873 04       		.byte	0x4
+ 1930 0874 01       		.uleb128 0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 38
+
+
+ 1931 0875 AB030000 		.long	.LASF131
+ 1932 0879 13       		.byte	0x13
+ 1933 087a 50       		.byte	0x50
+ 1934 087b 03       		.byte	0x3
+ 1935 087c DD080000 		.long	0x8dd
+ 1936 0880 08       		.byte	0x8
+ 1937 0881 08       		.uleb128 0x8
+ 1938 0882 70757400 		.string	"put"
+ 1939 0886 13       		.byte	0x13
+ 1940 0887 50       		.byte	0x50
+ 1941 0888 03       		.byte	0x3
+ 1942 0889 F6080000 		.long	0x8f6
+ 1943 088d 0C       		.byte	0xc
+ 1944 088e 08       		.uleb128 0x8
+ 1945 088f 67657400 		.string	"get"
+ 1946 0893 13       		.byte	0x13
+ 1947 0894 50       		.byte	0x50
+ 1948 0895 03       		.byte	0x3
+ 1949 0896 0A090000 		.long	0x90a
+ 1950 089a 10       		.byte	0x10
+ 1951 089b 00       		.byte	0
+ 1952 089c 0D       		.uleb128 0xd
+ 1953 089d 4D080000 		.long	0x84d
+ 1954 08a1 0B       		.uleb128 0xb
+ 1955 08a2 2D000000 		.long	0x2d
+ 1956 08a6 BA080000 		.long	0x8ba
+ 1957 08aa 04       		.uleb128 0x4
+ 1958 08ab BB000000 		.long	0xbb
+ 1959 08af 04       		.uleb128 0x4
+ 1960 08b0 BA080000 		.long	0x8ba
+ 1961 08b4 04       		.uleb128 0x4
+ 1962 08b5 2D000000 		.long	0x2d
+ 1963 08b9 00       		.byte	0
+ 1964 08ba 03       		.uleb128 0x3
+ 1965 08bb E1000000 		.long	0xe1
+ 1966 08bf 03       		.uleb128 0x3
+ 1967 08c0 A1080000 		.long	0x8a1
+ 1968 08c4 0B       		.uleb128 0xb
+ 1969 08c5 2D000000 		.long	0x2d
+ 1970 08c9 DD080000 		.long	0x8dd
+ 1971 08cd 04       		.uleb128 0x4
+ 1972 08ce BB000000 		.long	0xbb
+ 1973 08d2 04       		.uleb128 0x4
+ 1974 08d3 88040000 		.long	0x488
+ 1975 08d7 04       		.uleb128 0x4
+ 1976 08d8 2D000000 		.long	0x2d
+ 1977 08dc 00       		.byte	0
+ 1978 08dd 03       		.uleb128 0x3
+ 1979 08de C4080000 		.long	0x8c4
+ 1980 08e2 0B       		.uleb128 0xb
+ 1981 08e3 3F010000 		.long	0x13f
+ 1982 08e7 F6080000 		.long	0x8f6
+ 1983 08eb 04       		.uleb128 0x4
+ 1984 08ec BB000000 		.long	0xbb
+ 1985 08f0 04       		.uleb128 0x4
+ 1986 08f1 D5000000 		.long	0xd5
+ 1987 08f5 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 39
+
+
+ 1988 08f6 03       		.uleb128 0x3
+ 1989 08f7 E2080000 		.long	0x8e2
+ 1990 08fb 0B       		.uleb128 0xb
+ 1991 08fc 3F010000 		.long	0x13f
+ 1992 0900 0A090000 		.long	0x90a
+ 1993 0904 04       		.uleb128 0x4
+ 1994 0905 BB000000 		.long	0xbb
+ 1995 0909 00       		.byte	0
+ 1996 090a 03       		.uleb128 0x3
+ 1997 090b FB080000 		.long	0x8fb
+ 1998 090f 1B       		.uleb128 0x1b
+ 1999 0910 04       		.byte	0x4
+ 2000 0911 13       		.byte	0x13
+ 2001 0912 5A       		.byte	0x5a
+ 2002 0913 25090000 		.long	0x925
+ 2003 0917 08       		.uleb128 0x8
+ 2004 0918 766D7400 		.string	"vmt"
+ 2005 091c 13       		.byte	0x13
+ 2006 091d 5C       		.byte	0x5c
+ 2007 091e 29       		.byte	0x29
+ 2008 091f 25090000 		.long	0x925
+ 2009 0923 00       		.byte	0
+ 2010 0924 00       		.byte	0
+ 2011 0925 03       		.uleb128 0x3
+ 2012 0926 9C080000 		.long	0x89c
+ 2013 092a 02       		.uleb128 0x2
+ 2014 092b A8020000 		.long	.LASF132
+ 2015 092f 13       		.byte	0x13
+ 2016 0930 5E       		.byte	0x5e
+ 2017 0931 03       		.byte	0x3
+ 2018 0932 0F090000 		.long	0x90f
+ 2019 0936 0B       		.uleb128 0xb
+ 2020 0937 3F010000 		.long	0x13f
+ 2021 093b 4F090000 		.long	0x94f
+ 2022 093f 04       		.uleb128 0x4
+ 2023 0940 BB000000 		.long	0xbb
+ 2024 0944 04       		.uleb128 0x4
+ 2025 0945 D5000000 		.long	0xd5
+ 2026 0949 04       		.uleb128 0x4
+ 2027 094a 7F030000 		.long	0x37f
+ 2028 094e 00       		.byte	0
+ 2029 094f 03       		.uleb128 0x3
+ 2030 0950 36090000 		.long	0x936
+ 2031 0954 0B       		.uleb128 0xb
+ 2032 0955 3F010000 		.long	0x13f
+ 2033 0959 68090000 		.long	0x968
+ 2034 095d 04       		.uleb128 0x4
+ 2035 095e BB000000 		.long	0xbb
+ 2036 0962 04       		.uleb128 0x4
+ 2037 0963 7F030000 		.long	0x37f
+ 2038 0967 00       		.byte	0
+ 2039 0968 03       		.uleb128 0x3
+ 2040 0969 54090000 		.long	0x954
+ 2041 096d 0B       		.uleb128 0xb
+ 2042 096e 2D000000 		.long	0x2d
+ 2043 0972 8B090000 		.long	0x98b
+ 2044 0976 04       		.uleb128 0x4
+GAS LISTING /tmp/ccFT8Er8.s 			page 40
+
+
+ 2045 0977 BB000000 		.long	0xbb
+ 2046 097b 04       		.uleb128 0x4
+ 2047 097c BA080000 		.long	0x8ba
+ 2048 0980 04       		.uleb128 0x4
+ 2049 0981 2D000000 		.long	0x2d
+ 2050 0985 04       		.uleb128 0x4
+ 2051 0986 7F030000 		.long	0x37f
+ 2052 098a 00       		.byte	0
+ 2053 098b 03       		.uleb128 0x3
+ 2054 098c 6D090000 		.long	0x96d
+ 2055 0990 0B       		.uleb128 0xb
+ 2056 0991 2D000000 		.long	0x2d
+ 2057 0995 AE090000 		.long	0x9ae
+ 2058 0999 04       		.uleb128 0x4
+ 2059 099a BB000000 		.long	0xbb
+ 2060 099e 04       		.uleb128 0x4
+ 2061 099f 88040000 		.long	0x488
+ 2062 09a3 04       		.uleb128 0x4
+ 2063 09a4 2D000000 		.long	0x2d
+ 2064 09a8 04       		.uleb128 0x4
+ 2065 09a9 7F030000 		.long	0x37f
+ 2066 09ad 00       		.byte	0
+ 2067 09ae 03       		.uleb128 0x3
+ 2068 09af 90090000 		.long	0x990
+ 2069 09b3 0B       		.uleb128 0xb
+ 2070 09b4 3F010000 		.long	0x13f
+ 2071 09b8 CC090000 		.long	0x9cc
+ 2072 09bc 04       		.uleb128 0x4
+ 2073 09bd BB000000 		.long	0xbb
+ 2074 09c1 04       		.uleb128 0x4
+ 2075 09c2 3E000000 		.long	0x3e
+ 2076 09c6 04       		.uleb128 0x4
+ 2077 09c7 BB000000 		.long	0xbb
+ 2078 09cb 00       		.byte	0
+ 2079 09cc 03       		.uleb128 0x3
+ 2080 09cd B3090000 		.long	0x9b3
+ 2081 09d1 02       		.uleb128 0x2
+ 2082 09d2 15010000 		.long	.LASF133
+ 2083 09d6 14       		.byte	0x14
+ 2084 09d7 3A       		.byte	0x3a
+ 2085 09d8 19       		.byte	0x19
+ 2086 09d9 DD090000 		.long	0x9dd
+ 2087 09dd 06       		.uleb128 0x6
+ 2088 09de 46080000 		.long	.LASF134
+ 2089 09e2 24       		.byte	0x24
+ 2090 09e3 14       		.byte	0x14
+ 2091 09e4 4B       		.byte	0x4b
+ 2092 09e5 08       		.byte	0x8
+ 2093 09e6 530A0000 		.long	0xa53
+ 2094 09ea 01       		.uleb128 0x1
+ 2095 09eb 37010000 		.long	.LASF135
+ 2096 09ef 14       		.byte	0x14
+ 2097 09f0 4C       		.byte	0x4c
+ 2098 09f1 19       		.byte	0x19
+ 2099 09f2 E0050000 		.long	0x5e0
+ 2100 09f6 00       		.byte	0
+ 2101 09f7 01       		.uleb128 0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 41
+
+
+ 2102 09f8 3B050000 		.long	.LASF136
+ 2103 09fc 14       		.byte	0x14
+ 2104 09fd 4D       		.byte	0x4d
+ 2105 09fe 19       		.byte	0x19
+ 2106 09ff 39000000 		.long	0x39
+ 2107 0a03 08       		.byte	0x8
+ 2108 0a04 01       		.uleb128 0x1
+ 2109 0a05 04020000 		.long	.LASF137
+ 2110 0a09 14       		.byte	0x14
+ 2111 0a0a 4E       		.byte	0x4e
+ 2112 0a0b 1A       		.byte	0x1a
+ 2113 0a0c 88040000 		.long	0x488
+ 2114 0a10 0C       		.byte	0xc
+ 2115 0a11 01       		.uleb128 0x1
+ 2116 0a12 40080000 		.long	.LASF138
+ 2117 0a16 14       		.byte	0x14
+ 2118 0a17 4F       		.byte	0x4f
+ 2119 0a18 1A       		.byte	0x1a
+ 2120 0a19 88040000 		.long	0x488
+ 2121 0a1d 10       		.byte	0x10
+ 2122 0a1e 01       		.uleb128 0x1
+ 2123 0a1f 0D020000 		.long	.LASF139
+ 2124 0a23 14       		.byte	0x14
+ 2125 0a24 51       		.byte	0x51
+ 2126 0a25 1A       		.byte	0x1a
+ 2127 0a26 88040000 		.long	0x488
+ 2128 0a2a 14       		.byte	0x14
+ 2129 0a2b 01       		.uleb128 0x1
+ 2130 0a2c 29060000 		.long	.LASF140
+ 2131 0a30 14       		.byte	0x14
+ 2132 0a31 52       		.byte	0x52
+ 2133 0a32 1A       		.byte	0x1a
+ 2134 0a33 88040000 		.long	0x488
+ 2135 0a37 18       		.byte	0x18
+ 2136 0a38 01       		.uleb128 0x1
+ 2137 0a39 63080000 		.long	.LASF141
+ 2138 0a3d 14       		.byte	0x14
+ 2139 0a3e 53       		.byte	0x53
+ 2140 0a3f 19       		.byte	0x19
+ 2141 0a40 530A0000 		.long	0xa53
+ 2142 0a44 1C       		.byte	0x1c
+ 2143 0a45 01       		.uleb128 0x1
+ 2144 0a46 15020000 		.long	.LASF142
+ 2145 0a4a 14       		.byte	0x14
+ 2146 0a4b 54       		.byte	0x54
+ 2147 0a4c 1A       		.byte	0x1a
+ 2148 0a4d BB000000 		.long	0xbb
+ 2149 0a51 20       		.byte	0x20
+ 2150 0a52 00       		.byte	0
+ 2151 0a53 02       		.uleb128 0x2
+ 2152 0a54 06040000 		.long	.LASF143
+ 2153 0a58 14       		.byte	0x14
+ 2154 0a59 41       		.byte	0x41
+ 2155 0a5a 10       		.byte	0x10
+ 2156 0a5b 5F0A0000 		.long	0xa5f
+ 2157 0a5f 03       		.uleb128 0x3
+ 2158 0a60 640A0000 		.long	0xa64
+GAS LISTING /tmp/ccFT8Er8.s 			page 42
+
+
+ 2159 0a64 1C       		.uleb128 0x1c
+ 2160 0a65 6F0A0000 		.long	0xa6f
+ 2161 0a69 04       		.uleb128 0x4
+ 2162 0a6a 6F0A0000 		.long	0xa6f
+ 2163 0a6e 00       		.byte	0
+ 2164 0a6f 03       		.uleb128 0x3
+ 2165 0a70 D1090000 		.long	0x9d1
+ 2166 0a74 02       		.uleb128 0x2
+ 2167 0a75 2C040000 		.long	.LASF144
+ 2168 0a79 14       		.byte	0x14
+ 2169 0a7a 61       		.byte	0x61
+ 2170 0a7b 14       		.byte	0x14
+ 2171 0a7c D1090000 		.long	0x9d1
+ 2172 0a80 02       		.uleb128 0x2
+ 2173 0a81 00080000 		.long	.LASF145
+ 2174 0a85 14       		.byte	0x14
+ 2175 0a86 6D       		.byte	0x6d
+ 2176 0a87 14       		.byte	0x14
+ 2177 0a88 D1090000 		.long	0x9d1
+ 2178 0a8c 28       		.uleb128 0x28
+ 2179 0a8d 07       		.byte	0x7
+ 2180 0a8e 04       		.byte	0x4
+ 2181 0a8f 3E000000 		.long	0x3e
+ 2182 0a93 15       		.byte	0x15
+ 2183 0a94 58       		.byte	0x58
+ 2184 0a95 0E       		.byte	0xe
+ 2185 0a96 AD0A0000 		.long	0xaad
+ 2186 0a9a 17       		.uleb128 0x17
+ 2187 0a9b 1E000000 		.long	.LASF146
+ 2188 0a9f 00       		.byte	0
+ 2189 0aa0 17       		.uleb128 0x17
+ 2190 0aa1 FB050000 		.long	.LASF147
+ 2191 0aa5 01       		.byte	0x1
+ 2192 0aa6 17       		.uleb128 0x17
+ 2193 0aa7 E2070000 		.long	.LASF148
+ 2194 0aab 02       		.byte	0x2
+ 2195 0aac 00       		.byte	0
+ 2196 0aad 02       		.uleb128 0x2
+ 2197 0aae F9060000 		.long	.LASF149
+ 2198 0ab2 15       		.byte	0x15
+ 2199 0ab3 5C       		.byte	0x5c
+ 2200 0ab4 03       		.byte	0x3
+ 2201 0ab5 8C0A0000 		.long	0xa8c
+ 2202 0ab9 02       		.uleb128 0x2
+ 2203 0aba 09070000 		.long	.LASF150
+ 2204 0abe 15       		.byte	0x15
+ 2205 0abf 61       		.byte	0x61
+ 2206 0ac0 22       		.byte	0x22
+ 2207 0ac1 C50A0000 		.long	0xac5
+ 2208 0ac5 06       		.uleb128 0x6
+ 2209 0ac6 BC010000 		.long	.LASF151
+ 2210 0aca A0       		.byte	0xa0
+ 2211 0acb 15       		.byte	0x15
+ 2212 0acc 7B       		.byte	0x7b
+ 2213 0acd 08       		.byte	0x8
+ 2214 0ace 530B0000 		.long	0xb53
+ 2215 0ad2 08       		.uleb128 0x8
+GAS LISTING /tmp/ccFT8Er8.s 			page 43
+
+
+ 2216 0ad3 766D7400 		.string	"vmt"
+ 2217 0ad7 15       		.byte	0x15
+ 2218 0ad8 7D       		.byte	0x7d
+ 2219 0ad9 21       		.byte	0x21
+ 2220 0ada 0E0C0000 		.long	0xc0e
+ 2221 0ade 00       		.byte	0
+ 2222 0adf 01       		.uleb128 0x1
+ 2223 0ae0 64030000 		.long	.LASF152
+ 2224 0ae4 15       		.byte	0x15
+ 2225 0ae5 7E       		.byte	0x7e
+ 2226 0ae6 03       		.byte	0x3
+ 2227 0ae7 41080000 		.long	0x841
+ 2228 0aeb 04       		.byte	0x4
+ 2229 0aec 01       		.uleb128 0x1
+ 2230 0aed AC010000 		.long	.LASF37
+ 2231 0af1 15       		.byte	0x15
+ 2232 0af2 7E       		.byte	0x7e
+ 2233 0af3 03       		.byte	0x3
+ 2234 0af4 AD0A0000 		.long	0xaad
+ 2235 0af8 08       		.byte	0x8
+ 2236 0af9 01       		.uleb128 0x1
+ 2237 0afa 18030000 		.long	.LASF153
+ 2238 0afe 15       		.byte	0x15
+ 2239 0aff 7E       		.byte	0x7e
+ 2240 0b00 03       		.byte	0x3
+ 2241 0b01 740A0000 		.long	0xa74
+ 2242 0b05 0C       		.byte	0xc
+ 2243 0b06 01       		.uleb128 0x1
+ 2244 0b07 87060000 		.long	.LASF154
+ 2245 0b0b 15       		.byte	0x15
+ 2246 0b0c 7E       		.byte	0x7e
+ 2247 0b0d 03       		.byte	0x3
+ 2248 0b0e 800A0000 		.long	0xa80
+ 2249 0b12 30       		.byte	0x30
+ 2250 0b13 08       		.uleb128 0x8
+ 2251 0b14 696200   		.string	"ib"
+ 2252 0b17 15       		.byte	0x15
+ 2253 0b18 7E       		.byte	0x7e
+ 2254 0b19 03       		.byte	0x3
+ 2255 0b1a 130C0000 		.long	0xc13
+ 2256 0b1e 54       		.byte	0x54
+ 2257 0b1f 08       		.uleb128 0x8
+ 2258 0b20 6F6200   		.string	"ob"
+ 2259 0b23 15       		.byte	0x15
+ 2260 0b24 7E       		.byte	0x7e
+ 2261 0b25 03       		.byte	0x3
+ 2262 0b26 130C0000 		.long	0xc13
+ 2263 0b2a 74       		.byte	0x74
+ 2264 0b2b 01       		.uleb128 0x1
+ 2265 0b2c AF060000 		.long	.LASF155
+ 2266 0b30 15       		.byte	0x15
+ 2267 0b31 7E       		.byte	0x7e
+ 2268 0b32 03       		.byte	0x3
+ 2269 0b33 26000000 		.long	0x26
+ 2270 0b37 94       		.byte	0x94
+ 2271 0b38 01       		.uleb128 0x1
+ 2272 0b39 54080000 		.long	.LASF156
+GAS LISTING /tmp/ccFT8Er8.s 			page 44
+
+
+ 2273 0b3d 15       		.byte	0x15
+ 2274 0b3e 7E       		.byte	0x7e
+ 2275 0b3f 03       		.byte	0x3
+ 2276 0b40 26000000 		.long	0x26
+ 2277 0b44 98       		.byte	0x98
+ 2278 0b45 01       		.uleb128 0x1
+ 2279 0b46 22080000 		.long	.LASF157
+ 2280 0b4a 15       		.byte	0x15
+ 2281 0b4b 7E       		.byte	0x7e
+ 2282 0b4c 03       		.byte	0x3
+ 2283 0b4d 58030000 		.long	0x358
+ 2284 0b51 9C       		.byte	0x9c
+ 2285 0b52 00       		.byte	0
+ 2286 0b53 29       		.uleb128 0x29
+ 2287 0b54 66010000 		.long	.LASF194
+ 2288 0b58 00       		.byte	0
+ 2289 0b59 16       		.byte	0x16
+ 2290 0b5a 5B       		.byte	0x5b
+ 2291 0b5b 10       		.byte	0x10
+ 2292 0b5c 02       		.uleb128 0x2
+ 2293 0b5d CB050000 		.long	.LASF158
+ 2294 0b61 16       		.byte	0x16
+ 2295 0b62 5C       		.byte	0x5c
+ 2296 0b63 03       		.byte	0x3
+ 2297 0b64 530B0000 		.long	0xb53
+ 2298 0b68 0D       		.uleb128 0xd
+ 2299 0b69 5C0B0000 		.long	0xb5c
+ 2300 0b6d 2A       		.uleb128 0x2a
+ 2301 0b6e 53443100 		.string	"SD1"
+ 2302 0b72 16       		.byte	0x16
+ 2303 0b73 7A       		.byte	0x7a
+ 2304 0b74 15       		.byte	0x15
+ 2305 0b75 B90A0000 		.long	0xab9
+ 2306 0b79 06       		.uleb128 0x6
+ 2307 0b7a 01030000 		.long	.LASF159
+ 2308 0b7e 28       		.byte	0x28
+ 2309 0b7f 15       		.byte	0x15
+ 2310 0b80 70       		.byte	0x70
+ 2311 0b81 08       		.byte	0x8
+ 2312 0b82 090C0000 		.long	0xc09
+ 2313 0b86 01       		.uleb128 0x1
+ 2314 0b87 B7080000 		.long	.LASF129
+ 2315 0b8b 15       		.byte	0x15
+ 2316 0b8c 71       		.byte	0x71
+ 2317 0b8d 03       		.byte	0x3
+ 2318 0b8e 2D000000 		.long	0x2d
+ 2319 0b92 00       		.byte	0
+ 2320 0b93 01       		.uleb128 0x1
+ 2321 0b94 26040000 		.long	.LASF130
+ 2322 0b98 15       		.byte	0x15
+ 2323 0b99 71       		.byte	0x71
+ 2324 0b9a 03       		.byte	0x3
+ 2325 0b9b BF080000 		.long	0x8bf
+ 2326 0b9f 04       		.byte	0x4
+ 2327 0ba0 01       		.uleb128 0x1
+ 2328 0ba1 AB030000 		.long	.LASF131
+ 2329 0ba5 15       		.byte	0x15
+GAS LISTING /tmp/ccFT8Er8.s 			page 45
+
+
+ 2330 0ba6 71       		.byte	0x71
+ 2331 0ba7 03       		.byte	0x3
+ 2332 0ba8 DD080000 		.long	0x8dd
+ 2333 0bac 08       		.byte	0x8
+ 2334 0bad 08       		.uleb128 0x8
+ 2335 0bae 70757400 		.string	"put"
+ 2336 0bb2 15       		.byte	0x15
+ 2337 0bb3 71       		.byte	0x71
+ 2338 0bb4 03       		.byte	0x3
+ 2339 0bb5 F6080000 		.long	0x8f6
+ 2340 0bb9 0C       		.byte	0xc
+ 2341 0bba 08       		.uleb128 0x8
+ 2342 0bbb 67657400 		.string	"get"
+ 2343 0bbf 15       		.byte	0x15
+ 2344 0bc0 71       		.byte	0x71
+ 2345 0bc1 03       		.byte	0x3
+ 2346 0bc2 0A090000 		.long	0x90a
+ 2347 0bc6 10       		.byte	0x10
+ 2348 0bc7 01       		.uleb128 0x1
+ 2349 0bc8 3A040000 		.long	.LASF160
+ 2350 0bcc 15       		.byte	0x15
+ 2351 0bcd 71       		.byte	0x71
+ 2352 0bce 03       		.byte	0x3
+ 2353 0bcf 4F090000 		.long	0x94f
+ 2354 0bd3 14       		.byte	0x14
+ 2355 0bd4 01       		.uleb128 0x1
+ 2356 0bd5 43030000 		.long	.LASF161
+ 2357 0bd9 15       		.byte	0x15
+ 2358 0bda 71       		.byte	0x71
+ 2359 0bdb 03       		.byte	0x3
+ 2360 0bdc 68090000 		.long	0x968
+ 2361 0be0 18       		.byte	0x18
+ 2362 0be1 01       		.uleb128 0x1
+ 2363 0be2 B0030000 		.long	.LASF162
+ 2364 0be6 15       		.byte	0x15
+ 2365 0be7 71       		.byte	0x71
+ 2366 0be8 03       		.byte	0x3
+ 2367 0be9 8B090000 		.long	0x98b
+ 2368 0bed 1C       		.byte	0x1c
+ 2369 0bee 01       		.uleb128 0x1
+ 2370 0bef 2C010000 		.long	.LASF163
+ 2371 0bf3 15       		.byte	0x15
+ 2372 0bf4 71       		.byte	0x71
+ 2373 0bf5 03       		.byte	0x3
+ 2374 0bf6 AE090000 		.long	0x9ae
+ 2375 0bfa 20       		.byte	0x20
+ 2376 0bfb 08       		.uleb128 0x8
+ 2377 0bfc 63746C00 		.string	"ctl"
+ 2378 0c00 15       		.byte	0x15
+ 2379 0c01 71       		.byte	0x71
+ 2380 0c02 03       		.byte	0x3
+ 2381 0c03 CC090000 		.long	0x9cc
+ 2382 0c07 24       		.byte	0x24
+ 2383 0c08 00       		.byte	0
+ 2384 0c09 0D       		.uleb128 0xd
+ 2385 0c0a 790B0000 		.long	0xb79
+ 2386 0c0e 03       		.uleb128 0x3
+GAS LISTING /tmp/ccFT8Er8.s 			page 46
+
+
+ 2387 0c0f 090C0000 		.long	0xc09
+ 2388 0c13 12       		.uleb128 0x12
+ 2389 0c14 D5000000 		.long	0xd5
+ 2390 0c18 230C0000 		.long	0xc23
+ 2391 0c1c 13       		.uleb128 0x13
+ 2392 0c1d 3E000000 		.long	0x3e
+ 2393 0c21 1F       		.byte	0x1f
+ 2394 0c22 00       		.byte	0
+ 2395 0c23 0F       		.uleb128 0xf
+ 2396 0c24 9D080000 		.long	.LASF175
+ 2397 0c28 01       		.byte	0x1
+ 2398 0c29 05       		.byte	0x5
+ 2399 0c2a 1E       		.byte	0x1e
+ 2400 0c2b 2F0C0000 		.long	0xc2f
+ 2401 0c2f 03       		.uleb128 0x3
+ 2402 0c30 2A090000 		.long	0x92a
+ 2403 0c34 12       		.uleb128 0x12
+ 2404 0c35 26000000 		.long	0x26
+ 2405 0c39 440C0000 		.long	0xc44
+ 2406 0c3d 13       		.uleb128 0x13
+ 2407 0c3e 3E000000 		.long	0x3e
+ 2408 0c42 09       		.byte	0x9
+ 2409 0c43 00       		.byte	0
+ 2410 0c44 0A       		.uleb128 0xa
+ 2411 0c45 1C020000 		.long	.LASF164
+ 2412 0c49 0A       		.byte	0xa
+ 2413 0c4a 0C       		.byte	0xc
+ 2414 0c4b 340C0000 		.long	0xc34
+ 2415 0c4f 05       		.uleb128 0x5
+ 2416 0c50 03       		.byte	0x3
+ 2417 0c51 00000000 		.long	buffer1
+ 2418 0c55 0A       		.uleb128 0xa
+ 2419 0c56 67050000 		.long	.LASF165
+ 2420 0c5a 0B       		.byte	0xb
+ 2421 0c5b 0F       		.byte	0xf
+ 2422 0c5c 2D000000 		.long	0x2d
+ 2423 0c60 05       		.uleb128 0x5
+ 2424 0c61 03       		.byte	0x3
+ 2425 0c62 00000000 		.long	buffer1_head
+ 2426 0c66 0A       		.uleb128 0xa
+ 2427 0c67 06000000 		.long	.LASF166
+ 2428 0c6b 0C       		.byte	0xc
+ 2429 0c6c 0F       		.byte	0xf
+ 2430 0c6d 2D000000 		.long	0x2d
+ 2431 0c71 05       		.uleb128 0x5
+ 2432 0c72 03       		.byte	0x3
+ 2433 0c73 00000000 		.long	buffer1_tail
+ 2434 0c77 0A       		.uleb128 0xa
+ 2435 0c78 E9000000 		.long	.LASF167
+ 2436 0c7c 0D       		.byte	0xd
+ 2437 0c7d 0F       		.byte	0xf
+ 2438 0c7e 2D000000 		.long	0x2d
+ 2439 0c82 05       		.uleb128 0x5
+ 2440 0c83 03       		.byte	0x3
+ 2441 0c84 00000000 		.long	buffer1_count
+ 2442 0c88 0A       		.uleb128 0xa
+ 2443 0c89 FE030000 		.long	.LASF168
+GAS LISTING /tmp/ccFT8Er8.s 			page 47
+
+
+ 2444 0c8d 10       		.byte	0x10
+ 2445 0c8e 0C       		.byte	0xc
+ 2446 0c8f 340C0000 		.long	0xc34
+ 2447 0c93 05       		.uleb128 0x5
+ 2448 0c94 03       		.byte	0x3
+ 2449 0c95 00000000 		.long	buffer2
+ 2450 0c99 0A       		.uleb128 0xa
+ 2451 0c9a 64060000 		.long	.LASF169
+ 2452 0c9e 11       		.byte	0x11
+ 2453 0c9f 0F       		.byte	0xf
+ 2454 0ca0 2D000000 		.long	0x2d
+ 2455 0ca4 05       		.uleb128 0x5
+ 2456 0ca5 03       		.byte	0x3
+ 2457 0ca6 00000000 		.long	buffer2_head
+ 2458 0caa 0A       		.uleb128 0xa
+ 2459 0cab 7C020000 		.long	.LASF170
+ 2460 0caf 12       		.byte	0x12
+ 2461 0cb0 0F       		.byte	0xf
+ 2462 0cb1 2D000000 		.long	0x2d
+ 2463 0cb5 05       		.uleb128 0x5
+ 2464 0cb6 03       		.byte	0x3
+ 2465 0cb7 00000000 		.long	buffer2_tail
+ 2466 0cbb 0A       		.uleb128 0xa
+ 2467 0cbc 03060000 		.long	.LASF171
+ 2468 0cc0 13       		.byte	0x13
+ 2469 0cc1 0F       		.byte	0xf
+ 2470 0cc2 2D000000 		.long	0x2d
+ 2471 0cc6 05       		.uleb128 0x5
+ 2472 0cc7 03       		.byte	0x3
+ 2473 0cc8 00000000 		.long	buffer2_count
+ 2474 0ccc 0A       		.uleb128 0xa
+ 2475 0ccd BD020000 		.long	.LASF172
+ 2476 0cd1 16       		.byte	0x16
+ 2477 0cd2 12       		.byte	0x12
+ 2478 0cd3 6E030000 		.long	0x36e
+ 2479 0cd7 05       		.uleb128 0x5
+ 2480 0cd8 03       		.byte	0x3
+ 2481 0cd9 00000000 		.long	last_task1_time
+ 2482 0cdd 0A       		.uleb128 0xa
+ 2483 0cde 87080000 		.long	.LASF173
+ 2484 0ce2 17       		.byte	0x17
+ 2485 0ce3 12       		.byte	0x12
+ 2486 0ce4 6E030000 		.long	0x36e
+ 2487 0ce8 05       		.uleb128 0x5
+ 2488 0ce9 03       		.byte	0x3
+ 2489 0cea 00000000 		.long	last_task2_time
+ 2490 0cee 0A       		.uleb128 0xa
+ 2491 0cef E8010000 		.long	.LASF174
+ 2492 0cf3 18       		.byte	0x18
+ 2493 0cf4 12       		.byte	0x12
+ 2494 0cf5 6E030000 		.long	0x36e
+ 2495 0cf9 05       		.uleb128 0x5
+ 2496 0cfa 03       		.byte	0x3
+ 2497 0cfb 00000000 		.long	last_monitor_time
+ 2498 0cff 0F       		.uleb128 0xf
+ 2499 0d00 10040000 		.long	.LASF176
+ 2500 0d04 01       		.byte	0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 48
+
+
+ 2501 0d05 1B       		.byte	0x1b
+ 2502 0d06 0F       		.byte	0xf
+ 2503 0d07 2D000000 		.long	0x2d
+ 2504 0d0b 0F       		.uleb128 0xf
+ 2505 0d0c 70020000 		.long	.LASF177
+ 2506 0d10 01       		.byte	0x1
+ 2507 0d11 1C       		.byte	0x1c
+ 2508 0d12 0F       		.byte	0xf
+ 2509 0d13 2D000000 		.long	0x2d
+ 2510 0d17 0F       		.uleb128 0xf
+ 2511 0d18 51070000 		.long	.LASF178
+ 2512 0d1c 01       		.byte	0x1
+ 2513 0d1d 1D       		.byte	0x1d
+ 2514 0d1e 0F       		.byte	0xf
+ 2515 0d1f 2D000000 		.long	0x2d
+ 2516 0d23 0F       		.uleb128 0xf
+ 2517 0d24 11060000 		.long	.LASF179
+ 2518 0d28 01       		.byte	0x1
+ 2519 0d29 1E       		.byte	0x1e
+ 2520 0d2a 0F       		.byte	0xf
+ 2521 0d2b 2D000000 		.long	0x2d
+ 2522 0d2f 0A       		.uleb128 0xa
+ 2523 0d30 BC050000 		.long	.LASF180
+ 2524 0d34 20       		.byte	0x20
+ 2525 0d35 0C       		.byte	0xc
+ 2526 0d36 26000000 		.long	0x26
+ 2527 0d3a 05       		.uleb128 0x5
+ 2528 0d3b 03       		.byte	0x3
+ 2529 0d3c 00000000 		.long	number_counter
+ 2530 0d40 2B       		.uleb128 0x2b
+ 2531 0d41 13000000 		.long	.LASF195
+ 2532 0d45 19       		.byte	0x19
+ 2533 0d46 DC01     		.value	0x1dc
+ 2534 0d48 08       		.byte	0x8
+ 2535 0d49 530D0000 		.long	0xd53
+ 2536 0d4d 04       		.uleb128 0x4
+ 2537 0d4e 7F030000 		.long	0x37f
+ 2538 0d52 00       		.byte	0
+ 2539 0d53 2C       		.uleb128 0x2c
+ 2540 0d54 F2080000 		.long	.LASF181
+ 2541 0d58 17       		.byte	0x17
+ 2542 0d59 2B       		.byte	0x2b
+ 2543 0d5a 07       		.byte	0x7
+ 2544 0d5b 26000000 		.long	0x26
+ 2545 0d5f 6F0D0000 		.long	0xd6f
+ 2546 0d63 04       		.uleb128 0x4
+ 2547 0d64 2F0C0000 		.long	0xc2f
+ 2548 0d68 04       		.uleb128 0x4
+ 2549 0d69 58030000 		.long	0x358
+ 2550 0d6d 2D       		.uleb128 0x2d
+ 2551 0d6e 00       		.byte	0
+ 2552 0d6f 2E       		.uleb128 0x2e
+ 2553 0d70 40070000 		.long	.LASF182
+ 2554 0d74 15       		.byte	0x15
+ 2555 0d75 8601     		.value	0x186
+ 2556 0d77 09       		.byte	0x9
+ 2557 0d78 3F010000 		.long	0x13f
+GAS LISTING /tmp/ccFT8Er8.s 			page 49
+
+
+ 2558 0d7c 8B0D0000 		.long	0xd8b
+ 2559 0d80 04       		.uleb128 0x4
+ 2560 0d81 8B0D0000 		.long	0xd8b
+ 2561 0d85 04       		.uleb128 0x4
+ 2562 0d86 900D0000 		.long	0xd90
+ 2563 0d8a 00       		.byte	0
+ 2564 0d8b 03       		.uleb128 0x3
+ 2565 0d8c B90A0000 		.long	0xab9
+ 2566 0d90 03       		.uleb128 0x3
+ 2567 0d91 680B0000 		.long	0xb68
+ 2568 0d95 2F       		.uleb128 0x2f
+ 2569 0d96 78010000 		.long	.LASF183
+ 2570 0d9a 03       		.byte	0x3
+ 2571 0d9b 4E01     		.value	0x14e
+ 2572 0d9d 08       		.byte	0x8
+ 2573 0d9e 30       		.uleb128 0x30
+ 2574 0d9f 34020000 		.long	.LASF184
+ 2575 0da3 18       		.byte	0x18
+ 2576 0da4 FD       		.byte	0xfd
+ 2577 0da5 08       		.byte	0x8
+ 2578 0da6 31       		.uleb128 0x31
+ 2579 0da7 D6080000 		.long	.LASF196
+ 2580 0dab 01       		.byte	0x1
+ 2581 0dac 33       		.byte	0x33
+ 2582 0dad 05       		.byte	0x5
+ 2583 0dae 26000000 		.long	0x26
+ 2584 0db2 00000000 		.long	.LFB300
+ 2585 0db6 9B030000 		.long	.LFE300-.LFB300
+ 2586 0dba 01       		.uleb128 0x1
+ 2587 0dbb 9C       		.byte	0x9c
+ 2588 0dbc 9B0F0000 		.long	0xf9b
+ 2589 0dc0 32       		.uleb128 0x32
+ 2590 0dc1 0C000000 		.long	.LLRL5
+ 2591 0dc5 520F0000 		.long	0xf52
+ 2592 0dc9 0E       		.uleb128 0xe
+ 2593 0dca 6E6F7700 		.string	"now"
+ 2594 0dce 3F       		.byte	0x3f
+ 2595 0dcf 13       		.byte	0x13
+ 2596 0dd0 6E030000 		.long	0x36e
+ 2597 0dd4 10000000 		.long	.LLST6
+ 2598 0dd8 0C000000 		.long	.LVUS6
+ 2599 0ddc 10       		.uleb128 0x10
+ 2600 0ddd 32020000 		.long	.LBB41
+ 2601 0de1 52000000 		.long	.LBE41-.LBB41
+ 2602 0de5 060E0000 		.long	0xe06
+ 2603 0de9 0E       		.uleb128 0xe
+ 2604 0dea 6E756D00 		.string	"num"
+ 2605 0dee 45       		.byte	0x45
+ 2606 0def 15       		.byte	0x15
+ 2607 0df0 26000000 		.long	0x26
+ 2608 0df4 27000000 		.long	.LLST9
+ 2609 0df8 23000000 		.long	.LVUS9
+ 2610 0dfc 05       		.uleb128 0x5
+ 2611 0dfd 84020000 		.long	.LVL34
+ 2612 0e01 530D0000 		.long	0xd53
+ 2613 0e05 00       		.byte	0
+ 2614 0e06 10       		.uleb128 0x10
+GAS LISTING /tmp/ccFT8Er8.s 			page 50
+
+
+ 2615 0e07 FD020000 		.long	.LBB42
+ 2616 0e0b 53000000 		.long	.LBE42-.LBB42
+ 2617 0e0f 300E0000 		.long	0xe30
+ 2618 0e13 0E       		.uleb128 0xe
+ 2619 0e14 6E756D00 		.string	"num"
+ 2620 0e18 50       		.byte	0x50
+ 2621 0e19 15       		.byte	0x15
+ 2622 0e1a 26000000 		.long	0x26
+ 2623 0e1e 3A000000 		.long	.LLST10
+ 2624 0e22 38000000 		.long	.LVUS10
+ 2625 0e26 05       		.uleb128 0x5
+ 2626 0e27 40030000 		.long	.LVL40
+ 2627 0e2b 530D0000 		.long	0xd53
+ 2628 0e2f 00       		.byte	0
+ 2629 0e30 10       		.uleb128 0x10
+ 2630 0e31 50030000 		.long	.LBB43
+ 2631 0e35 4B000000 		.long	.LBE43-.LBB43
+ 2632 0e39 5A0E0000 		.long	0xe5a
+ 2633 0e3d 0E       		.uleb128 0xe
+ 2634 0e3e 6E756D00 		.string	"num"
+ 2635 0e42 5D       		.byte	0x5d
+ 2636 0e43 15       		.byte	0x15
+ 2637 0e44 26000000 		.long	0x26
+ 2638 0e48 4C000000 		.long	.LLST11
+ 2639 0e4c 4A000000 		.long	.LVUS11
+ 2640 0e50 05       		.uleb128 0x5
+ 2641 0e51 93030000 		.long	.LVL43
+ 2642 0e55 530D0000 		.long	0xd53
+ 2643 0e59 00       		.byte	0
+ 2644 0e5a 10       		.uleb128 0x10
+ 2645 0e5b 28010000 		.long	.LBB32
+ 2646 0e5f 52000000 		.long	.LBE32-.LBB32
+ 2647 0e63 840E0000 		.long	0xe84
+ 2648 0e67 0E       		.uleb128 0xe
+ 2649 0e68 6E756D00 		.string	"num"
+ 2650 0e6c 65       		.byte	0x65
+ 2651 0e6d 15       		.byte	0x15
+ 2652 0e6e 26000000 		.long	0x26
+ 2653 0e72 60000000 		.long	.LLST7
+ 2654 0e76 5C000000 		.long	.LVUS7
+ 2655 0e7a 05       		.uleb128 0x5
+ 2656 0e7b 7A010000 		.long	.LVL22
+ 2657 0e7f 530D0000 		.long	0xd53
+ 2658 0e83 00       		.byte	0
+ 2659 0e84 33       		.uleb128 0x33
+ 2660 0e85 70100000 		.long	0x1070
+ 2661 0e89 05020000 		.long	.LBI33
+ 2662 0e8d 02       		.byte	.LVU68
+ 2663 0e8e 05020000 		.long	.LBB33
+ 2664 0e92 0F000000 		.long	.LBE33-.LBB33
+ 2665 0e96 01       		.byte	0x1
+ 2666 0e97 3F       		.byte	0x3f
+ 2667 0e98 19       		.byte	0x19
+ 2668 0e99 EC0E0000 		.long	0xeec
+ 2669 0e9d 34       		.uleb128 0x34
+ 2670 0e9e 81100000 		.long	0x1081
+ 2671 0ea2 75000000 		.long	.LLST8
+GAS LISTING /tmp/ccFT8Er8.s 			page 51
+
+
+ 2672 0ea6 71000000 		.long	.LVUS8
+ 2673 0eaa 35       		.uleb128 0x35
+ 2674 0eab 8E100000 		.long	0x108e
+ 2675 0eaf 05020000 		.long	.LBI35
+ 2676 0eb3 06       		.byte	.LVU72
+ 2677 0eb4 05020000 		.long	.LBB35
+ 2678 0eb8 06000000 		.long	.LBE35-.LBB35
+ 2679 0ebc 02       		.byte	0x2
+ 2680 0ebd 9E       		.byte	0x9e
+ 2681 0ebe 0D       		.byte	0xd
+ 2682 0ebf 36       		.uleb128 0x36
+ 2683 0ec0 9B100000 		.long	0x109b
+ 2684 0ec4 0B020000 		.long	.LBI37
+ 2685 0ec8 02       		.byte	.LVU77
+ 2686 0ec9 0B020000 		.long	.LBB37
+ 2687 0ecd 09000000 		.long	.LBE37-.LBB37
+ 2688 0ed1 02       		.byte	0x2
+ 2689 0ed2 9F       		.byte	0x9f
+ 2690 0ed3 03       		.byte	0x3
+ 2691 0ed4 37       		.uleb128 0x37
+ 2692 0ed5 D0100000 		.long	0x10d0
+ 2693 0ed9 0B020000 		.long	.LBI39
+ 2694 0edd 09       		.byte	.LVU84
+ 2695 0ede 0B020000 		.long	.LBB39
+ 2696 0ee2 09000000 		.long	.LBE39-.LBB39
+ 2697 0ee6 03       		.byte	0x3
+ 2698 0ee7 B201     		.value	0x1b2
+ 2699 0ee9 03       		.byte	0x3
+ 2700 0eea 00       		.byte	0
+ 2701 0eeb 00       		.byte	0
+ 2702 0eec 05       		.uleb128 0x5
+ 2703 0eed A2010000 		.long	.LVL24
+ 2704 0ef1 530D0000 		.long	0xd53
+ 2705 0ef5 1E       		.uleb128 0x1e
+ 2706 0ef6 C1010000 		.long	.LVL25
+ 2707 0efa 9B0F0000 		.long	0xf9b
+ 2708 0efe 110F0000 		.long	0xf11
+ 2709 0f02 14       		.uleb128 0x14
+ 2710 0f03 01       		.uleb128 0x1
+ 2711 0f04 50       		.byte	0x50
+ 2712 0f05 03       		.uleb128 0x3
+ 2713 0f06 75       		.byte	0x75
+ 2714 0f07 4C       		.sleb128 -52
+ 2715 0f08 06       		.byte	0x6
+ 2716 0f09 14       		.uleb128 0x14
+ 2717 0f0a 01       		.uleb128 0x1
+ 2718 0f0b 52       		.byte	0x52
+ 2719 0f0c 03       		.uleb128 0x3
+ 2720 0f0d 75       		.byte	0x75
+ 2721 0f0e 60       		.sleb128 -32
+ 2722 0f0f 06       		.byte	0x6
+ 2723 0f10 00       		.byte	0
+ 2724 0f11 1E       		.uleb128 0x1e
+ 2725 0f12 E0010000 		.long	.LVL26
+ 2726 0f16 9B0F0000 		.long	0xf9b
+ 2727 0f1a 2D0F0000 		.long	0xf2d
+ 2728 0f1e 14       		.uleb128 0x14
+GAS LISTING /tmp/ccFT8Er8.s 			page 52
+
+
+ 2729 0f1f 01       		.uleb128 0x1
+ 2730 0f20 50       		.byte	0x50
+ 2731 0f21 03       		.uleb128 0x3
+ 2732 0f22 75       		.byte	0x75
+ 2733 0f23 48       		.sleb128 -56
+ 2734 0f24 06       		.byte	0x6
+ 2735 0f25 14       		.uleb128 0x14
+ 2736 0f26 01       		.uleb128 0x1
+ 2737 0f27 52       		.byte	0x52
+ 2738 0f28 03       		.uleb128 0x3
+ 2739 0f29 75       		.byte	0x75
+ 2740 0f2a 5C       		.sleb128 -36
+ 2741 0f2b 06       		.byte	0x6
+ 2742 0f2c 00       		.byte	0
+ 2743 0f2d 05       		.uleb128 0x5
+ 2744 0f2e ED010000 		.long	.LVL27
+ 2745 0f32 530D0000 		.long	0xd53
+ 2746 0f36 05       		.uleb128 0x5
+ 2747 0f37 02020000 		.long	.LVL28
+ 2748 0f3b 400D0000 		.long	0xd40
+ 2749 0f3f 05       		.uleb128 0x5
+ 2750 0f40 D7020000 		.long	.LVL36
+ 2751 0f44 530D0000 		.long	0xd53
+ 2752 0f48 05       		.uleb128 0x5
+ 2753 0f49 F0020000 		.long	.LVL37
+ 2754 0f4d 530D0000 		.long	0xd53
+ 2755 0f51 00       		.byte	0
+ 2756 0f52 05       		.uleb128 0x5
+ 2757 0f53 26000000 		.long	.LVL11
+ 2758 0f57 9E0D0000 		.long	0xd9e
+ 2759 0f5b 05       		.uleb128 0x5
+ 2760 0f5c 2B000000 		.long	.LVL12
+ 2761 0f60 950D0000 		.long	0xd95
+ 2762 0f64 05       		.uleb128 0x5
+ 2763 0f65 3F000000 		.long	.LVL13
+ 2764 0f69 6F0D0000 		.long	0xd6f
+ 2765 0f6d 05       		.uleb128 0x5
+ 2766 0f6e 4E000000 		.long	.LVL14
+ 2767 0f72 530D0000 		.long	0xd53
+ 2768 0f76 05       		.uleb128 0x5
+ 2769 0f77 63000000 		.long	.LVL15
+ 2770 0f7b 530D0000 		.long	0xd53
+ 2771 0f7f 05       		.uleb128 0x5
+ 2772 0f80 78000000 		.long	.LVL16
+ 2773 0f84 530D0000 		.long	0xd53
+ 2774 0f88 05       		.uleb128 0x5
+ 2775 0f89 8D000000 		.long	.LVL17
+ 2776 0f8d 530D0000 		.long	0xd53
+ 2777 0f91 05       		.uleb128 0x5
+ 2778 0f92 9F000000 		.long	.LVL18
+ 2779 0f96 530D0000 		.long	0xd53
+ 2780 0f9a 00       		.byte	0
+ 2781 0f9b 38       		.uleb128 0x38
+ 2782 0f9c 0F080000 		.long	.LASF197
+ 2783 0fa0 01       		.byte	0x1
+ 2784 0fa1 23       		.byte	0x23
+ 2785 0fa2 0D       		.byte	0xd
+GAS LISTING /tmp/ccFT8Er8.s 			page 53
+
+
+ 2786 0fa3 00000000 		.long	.LFB299
+ 2787 0fa7 C5000000 		.long	.LFE299-.LFB299
+ 2788 0fab 01       		.uleb128 0x1
+ 2789 0fac 9C       		.byte	0x9c
+ 2790 0fad 6B100000 		.long	0x106b
+ 2791 0fb1 18       		.uleb128 0x18
+ 2792 0fb2 48030000 		.long	.LASF40
+ 2793 0fb6 2C       		.byte	0x2c
+ 2794 0fb7 58030000 		.long	0x358
+ 2795 0fbb 8E000000 		.long	.LLST0
+ 2796 0fbf 88000000 		.long	.LVUS0
+ 2797 0fc3 18       		.uleb128 0x18
+ 2798 0fc4 70070000 		.long	.LASF185
+ 2799 0fc8 37       		.byte	0x37
+ 2800 0fc9 6B100000 		.long	0x106b
+ 2801 0fcd AD000000 		.long	.LLST1
+ 2802 0fd1 A9000000 		.long	.LVUS1
+ 2803 0fd5 18       		.uleb128 0x18
+ 2804 0fd6 16070000 		.long	.LASF186
+ 2805 0fda 46       		.byte	0x46
+ 2806 0fdb 2D000000 		.long	0x2d
+ 2807 0fdf C3000000 		.long	.LLST2
+ 2808 0fe3 BF000000 		.long	.LVUS2
+ 2809 0fe7 1F       		.uleb128 0x1f
+ 2810 0fe8 03050000 		.long	.LASF187
+ 2811 0fec 53       		.byte	0x53
+ 2812 0fed 2D000000 		.long	0x2d
+ 2813 0ff1 02       		.uleb128 0x2
+ 2814 0ff2 91       		.byte	0x91
+ 2815 0ff3 00       		.sleb128 0
+ 2816 0ff4 1F       		.uleb128 0x1f
+ 2817 0ff5 00000000 		.long	.LASF188
+ 2818 0ff9 60       		.byte	0x60
+ 2819 0ffa 2D000000 		.long	0x2d
+ 2820 0ffe 02       		.uleb128 0x2
+ 2821 0fff 91       		.byte	0x91
+ 2822 1000 04       		.sleb128 4
+ 2823 1001 10       		.uleb128 0x10
+ 2824 1002 60000000 		.long	.LBB29
+ 2825 1006 36000000 		.long	.LBE29-.LBB29
+ 2826 100a 46100000 		.long	0x1046
+ 2827 100e 0E       		.uleb128 0xe
+ 2828 100f 69647800 		.string	"idx"
+ 2829 1013 2A       		.byte	0x2a
+ 2830 1014 10       		.byte	0x10
+ 2831 1015 2D000000 		.long	0x2d
+ 2832 1019 DB000000 		.long	.LLST3
+ 2833 101d D7000000 		.long	.LVUS3
+ 2834 1021 39       		.uleb128 0x39
+ 2835 1022 60000000 		.long	.LBB30
+ 2836 1026 36000000 		.long	.LBE30-.LBB30
+ 2837 102a 0E       		.uleb128 0xe
+ 2838 102b 6900     		.string	"i"
+ 2839 102d 2B       		.byte	0x2b
+ 2840 102e 15       		.byte	0x15
+ 2841 102f 2D000000 		.long	0x2d
+ 2842 1033 F1000000 		.long	.LLST4
+GAS LISTING /tmp/ccFT8Er8.s 			page 54
+
+
+ 2843 1037 EB000000 		.long	.LVUS4
+ 2844 103b 05       		.uleb128 0x5
+ 2845 103c 77000000 		.long	.LVL6
+ 2846 1040 530D0000 		.long	0xd53
+ 2847 1044 00       		.byte	0
+ 2848 1045 00       		.byte	0
+ 2849 1046 05       		.uleb128 0x5
+ 2850 1047 36000000 		.long	.LVL2
+ 2851 104b 530D0000 		.long	0xd53
+ 2852 104f 05       		.uleb128 0x5
+ 2853 1050 46000000 		.long	.LVL3
+ 2854 1054 530D0000 		.long	0xd53
+ 2855 1058 05       		.uleb128 0x5
+ 2856 1059 A6000000 		.long	.LVL9
+ 2857 105d 530D0000 		.long	0xd53
+ 2858 1061 05       		.uleb128 0x5
+ 2859 1062 C0000000 		.long	.LVL10
+ 2860 1066 530D0000 		.long	0xd53
+ 2861 106a 00       		.byte	0
+ 2862 106b 03       		.uleb128 0x3
+ 2863 106c 26000000 		.long	0x26
+ 2864 1070 3A       		.uleb128 0x3a
+ 2865 1071 97050000 		.long	.LASF198
+ 2866 1075 02       		.byte	0x2
+ 2867 1076 9A       		.byte	0x9a
+ 2868 1077 19       		.byte	0x19
+ 2869 1078 6E030000 		.long	0x36e
+ 2870 107c 03       		.byte	0x3
+ 2871 107d 8E100000 		.long	0x108e
+ 2872 1081 0F       		.uleb128 0xf
+ 2873 1082 BF030000 		.long	.LASF88
+ 2874 1086 02       		.byte	0x2
+ 2875 1087 9B       		.byte	0x9b
+ 2876 1088 0D       		.byte	0xd
+ 2877 1089 6E030000 		.long	0x36e
+ 2878 108d 00       		.byte	0
+ 2879 108e 3B       		.uleb128 0x3b
+ 2880 108f E1020000 		.long	.LASF199
+ 2881 1093 02       		.byte	0x2
+ 2882 1094 87       		.byte	0x87
+ 2883 1095 19       		.byte	0x19
+ 2884 1096 6E030000 		.long	0x36e
+ 2885 109a 03       		.byte	0x3
+ 2886 109b 3C       		.uleb128 0x3c
+ 2887 109c AB080000 		.long	.LASF200
+ 2888 10a0 03       		.byte	0x3
+ 2889 10a1 A501     		.value	0x1a5
+ 2890 10a3 14       		.byte	0x14
+ 2891 10a4 03       		.byte	0x3
+ 2892 10a5 B3100000 		.long	0x10b3
+ 2893 10a9 3D       		.uleb128 0x3d
+ 2894 10aa A6060000 		.long	.LASF201
+ 2895 10ae C3100000 		.long	0x10c3
+ 2896 10b2 00       		.byte	0
+ 2897 10b3 12       		.uleb128 0x12
+ 2898 10b4 C4000000 		.long	0xc4
+ 2899 10b8 C3100000 		.long	0x10c3
+GAS LISTING /tmp/ccFT8Er8.s 			page 55
+
+
+ 2900 10bc 13       		.uleb128 0x13
+ 2901 10bd 3E000000 		.long	0x3e
+ 2902 10c1 0B       		.byte	0xb
+ 2903 10c2 00       		.byte	0
+ 2904 10c3 0D       		.uleb128 0xd
+ 2905 10c4 B3100000 		.long	0x10b3
+ 2906 10c8 19       		.uleb128 0x19
+ 2907 10c9 5D050000 		.long	.LASF189
+ 2908 10cd 03       		.byte	0x3
+ 2909 10ce 9701     		.value	0x197
+ 2910 10d0 19       		.uleb128 0x19
+ 2911 10d1 97010000 		.long	.LASF190
+ 2912 10d5 04       		.byte	0x4
+ 2913 10d6 7201     		.value	0x172
+ 2914 10d8 19       		.uleb128 0x19
+ 2915 10d9 CC080000 		.long	.LASF191
+ 2916 10dd 04       		.byte	0x4
+ 2917 10de 6901     		.value	0x169
+ 2918 10e0 00       		.byte	0
+ 2919              		.section	.debug_abbrev,"",@progbits
+ 2920              	.Ldebug_abbrev0:
+ 2921 0000 01       		.uleb128 0x1
+ 2922 0001 0D       		.uleb128 0xd
+ 2923 0002 00       		.byte	0
+ 2924 0003 03       		.uleb128 0x3
+ 2925 0004 0E       		.uleb128 0xe
+ 2926 0005 3A       		.uleb128 0x3a
+ 2927 0006 0B       		.uleb128 0xb
+ 2928 0007 3B       		.uleb128 0x3b
+ 2929 0008 0B       		.uleb128 0xb
+ 2930 0009 39       		.uleb128 0x39
+ 2931 000a 0B       		.uleb128 0xb
+ 2932 000b 49       		.uleb128 0x49
+ 2933 000c 13       		.uleb128 0x13
+ 2934 000d 38       		.uleb128 0x38
+ 2935 000e 0B       		.uleb128 0xb
+ 2936 000f 00       		.byte	0
+ 2937 0010 00       		.byte	0
+ 2938 0011 02       		.uleb128 0x2
+ 2939 0012 16       		.uleb128 0x16
+ 2940 0013 00       		.byte	0
+ 2941 0014 03       		.uleb128 0x3
+ 2942 0015 0E       		.uleb128 0xe
+ 2943 0016 3A       		.uleb128 0x3a
+ 2944 0017 0B       		.uleb128 0xb
+ 2945 0018 3B       		.uleb128 0x3b
+ 2946 0019 0B       		.uleb128 0xb
+ 2947 001a 39       		.uleb128 0x39
+ 2948 001b 0B       		.uleb128 0xb
+ 2949 001c 49       		.uleb128 0x49
+ 2950 001d 13       		.uleb128 0x13
+ 2951 001e 00       		.byte	0
+ 2952 001f 00       		.byte	0
+ 2953 0020 03       		.uleb128 0x3
+ 2954 0021 0F       		.uleb128 0xf
+ 2955 0022 00       		.byte	0
+ 2956 0023 0B       		.uleb128 0xb
+GAS LISTING /tmp/ccFT8Er8.s 			page 56
+
+
+ 2957 0024 21       		.uleb128 0x21
+ 2958 0025 04       		.sleb128 4
+ 2959 0026 49       		.uleb128 0x49
+ 2960 0027 13       		.uleb128 0x13
+ 2961 0028 00       		.byte	0
+ 2962 0029 00       		.byte	0
+ 2963 002a 04       		.uleb128 0x4
+ 2964 002b 05       		.uleb128 0x5
+ 2965 002c 00       		.byte	0
+ 2966 002d 49       		.uleb128 0x49
+ 2967 002e 13       		.uleb128 0x13
+ 2968 002f 00       		.byte	0
+ 2969 0030 00       		.byte	0
+ 2970 0031 05       		.uleb128 0x5
+ 2971 0032 48       		.uleb128 0x48
+ 2972 0033 00       		.byte	0
+ 2973 0034 7D       		.uleb128 0x7d
+ 2974 0035 01       		.uleb128 0x1
+ 2975 0036 7F       		.uleb128 0x7f
+ 2976 0037 13       		.uleb128 0x13
+ 2977 0038 00       		.byte	0
+ 2978 0039 00       		.byte	0
+ 2979 003a 06       		.uleb128 0x6
+ 2980 003b 13       		.uleb128 0x13
+ 2981 003c 01       		.byte	0x1
+ 2982 003d 03       		.uleb128 0x3
+ 2983 003e 0E       		.uleb128 0xe
+ 2984 003f 0B       		.uleb128 0xb
+ 2985 0040 0B       		.uleb128 0xb
+ 2986 0041 3A       		.uleb128 0x3a
+ 2987 0042 0B       		.uleb128 0xb
+ 2988 0043 3B       		.uleb128 0x3b
+ 2989 0044 0B       		.uleb128 0xb
+ 2990 0045 39       		.uleb128 0x39
+ 2991 0046 0B       		.uleb128 0xb
+ 2992 0047 01       		.uleb128 0x1
+ 2993 0048 13       		.uleb128 0x13
+ 2994 0049 00       		.byte	0
+ 2995 004a 00       		.byte	0
+ 2996 004b 07       		.uleb128 0x7
+ 2997 004c 0D       		.uleb128 0xd
+ 2998 004d 00       		.byte	0
+ 2999 004e 03       		.uleb128 0x3
+ 3000 004f 0E       		.uleb128 0xe
+ 3001 0050 3A       		.uleb128 0x3a
+ 3002 0051 21       		.uleb128 0x21
+ 3003 0052 0B       		.sleb128 11
+ 3004 0053 3B       		.uleb128 0x3b
+ 3005 0054 05       		.uleb128 0x5
+ 3006 0055 39       		.uleb128 0x39
+ 3007 0056 0B       		.uleb128 0xb
+ 3008 0057 49       		.uleb128 0x49
+ 3009 0058 13       		.uleb128 0x13
+ 3010 0059 38       		.uleb128 0x38
+ 3011 005a 0B       		.uleb128 0xb
+ 3012 005b 00       		.byte	0
+ 3013 005c 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 57
+
+
+ 3014 005d 08       		.uleb128 0x8
+ 3015 005e 0D       		.uleb128 0xd
+ 3016 005f 00       		.byte	0
+ 3017 0060 03       		.uleb128 0x3
+ 3018 0061 08       		.uleb128 0x8
+ 3019 0062 3A       		.uleb128 0x3a
+ 3020 0063 0B       		.uleb128 0xb
+ 3021 0064 3B       		.uleb128 0x3b
+ 3022 0065 0B       		.uleb128 0xb
+ 3023 0066 39       		.uleb128 0x39
+ 3024 0067 0B       		.uleb128 0xb
+ 3025 0068 49       		.uleb128 0x49
+ 3026 0069 13       		.uleb128 0x13
+ 3027 006a 38       		.uleb128 0x38
+ 3028 006b 0B       		.uleb128 0xb
+ 3029 006c 00       		.byte	0
+ 3030 006d 00       		.byte	0
+ 3031 006e 09       		.uleb128 0x9
+ 3032 006f 24       		.uleb128 0x24
+ 3033 0070 00       		.byte	0
+ 3034 0071 0B       		.uleb128 0xb
+ 3035 0072 0B       		.uleb128 0xb
+ 3036 0073 3E       		.uleb128 0x3e
+ 3037 0074 0B       		.uleb128 0xb
+ 3038 0075 03       		.uleb128 0x3
+ 3039 0076 0E       		.uleb128 0xe
+ 3040 0077 00       		.byte	0
+ 3041 0078 00       		.byte	0
+ 3042 0079 0A       		.uleb128 0xa
+ 3043 007a 34       		.uleb128 0x34
+ 3044 007b 00       		.byte	0
+ 3045 007c 03       		.uleb128 0x3
+ 3046 007d 0E       		.uleb128 0xe
+ 3047 007e 3A       		.uleb128 0x3a
+ 3048 007f 21       		.uleb128 0x21
+ 3049 0080 01       		.sleb128 1
+ 3050 0081 3B       		.uleb128 0x3b
+ 3051 0082 0B       		.uleb128 0xb
+ 3052 0083 39       		.uleb128 0x39
+ 3053 0084 0B       		.uleb128 0xb
+ 3054 0085 49       		.uleb128 0x49
+ 3055 0086 13       		.uleb128 0x13
+ 3056 0087 02       		.uleb128 0x2
+ 3057 0088 18       		.uleb128 0x18
+ 3058 0089 00       		.byte	0
+ 3059 008a 00       		.byte	0
+ 3060 008b 0B       		.uleb128 0xb
+ 3061 008c 15       		.uleb128 0x15
+ 3062 008d 01       		.byte	0x1
+ 3063 008e 27       		.uleb128 0x27
+ 3064 008f 19       		.uleb128 0x19
+ 3065 0090 49       		.uleb128 0x49
+ 3066 0091 13       		.uleb128 0x13
+ 3067 0092 01       		.uleb128 0x1
+ 3068 0093 13       		.uleb128 0x13
+ 3069 0094 00       		.byte	0
+ 3070 0095 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 58
+
+
+ 3071 0096 0C       		.uleb128 0xc
+ 3072 0097 0D       		.uleb128 0xd
+ 3073 0098 00       		.byte	0
+ 3074 0099 03       		.uleb128 0x3
+ 3075 009a 0E       		.uleb128 0xe
+ 3076 009b 3A       		.uleb128 0x3a
+ 3077 009c 21       		.uleb128 0x21
+ 3078 009d 0B       		.sleb128 11
+ 3079 009e 3B       		.uleb128 0x3b
+ 3080 009f 05       		.uleb128 0x5
+ 3081 00a0 39       		.uleb128 0x39
+ 3082 00a1 0B       		.uleb128 0xb
+ 3083 00a2 49       		.uleb128 0x49
+ 3084 00a3 13       		.uleb128 0x13
+ 3085 00a4 00       		.byte	0
+ 3086 00a5 00       		.byte	0
+ 3087 00a6 0D       		.uleb128 0xd
+ 3088 00a7 26       		.uleb128 0x26
+ 3089 00a8 00       		.byte	0
+ 3090 00a9 49       		.uleb128 0x49
+ 3091 00aa 13       		.uleb128 0x13
+ 3092 00ab 00       		.byte	0
+ 3093 00ac 00       		.byte	0
+ 3094 00ad 0E       		.uleb128 0xe
+ 3095 00ae 34       		.uleb128 0x34
+ 3096 00af 00       		.byte	0
+ 3097 00b0 03       		.uleb128 0x3
+ 3098 00b1 08       		.uleb128 0x8
+ 3099 00b2 3A       		.uleb128 0x3a
+ 3100 00b3 21       		.uleb128 0x21
+ 3101 00b4 01       		.sleb128 1
+ 3102 00b5 3B       		.uleb128 0x3b
+ 3103 00b6 0B       		.uleb128 0xb
+ 3104 00b7 39       		.uleb128 0x39
+ 3105 00b8 0B       		.uleb128 0xb
+ 3106 00b9 49       		.uleb128 0x49
+ 3107 00ba 13       		.uleb128 0x13
+ 3108 00bb 02       		.uleb128 0x2
+ 3109 00bc 17       		.uleb128 0x17
+ 3110 00bd B742     		.uleb128 0x2137
+ 3111 00bf 17       		.uleb128 0x17
+ 3112 00c0 00       		.byte	0
+ 3113 00c1 00       		.byte	0
+ 3114 00c2 0F       		.uleb128 0xf
+ 3115 00c3 34       		.uleb128 0x34
+ 3116 00c4 00       		.byte	0
+ 3117 00c5 03       		.uleb128 0x3
+ 3118 00c6 0E       		.uleb128 0xe
+ 3119 00c7 3A       		.uleb128 0x3a
+ 3120 00c8 0B       		.uleb128 0xb
+ 3121 00c9 3B       		.uleb128 0x3b
+ 3122 00ca 0B       		.uleb128 0xb
+ 3123 00cb 39       		.uleb128 0x39
+ 3124 00cc 0B       		.uleb128 0xb
+ 3125 00cd 49       		.uleb128 0x49
+ 3126 00ce 13       		.uleb128 0x13
+ 3127 00cf 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 59
+
+
+ 3128 00d0 00       		.byte	0
+ 3129 00d1 10       		.uleb128 0x10
+ 3130 00d2 0B       		.uleb128 0xb
+ 3131 00d3 01       		.byte	0x1
+ 3132 00d4 11       		.uleb128 0x11
+ 3133 00d5 01       		.uleb128 0x1
+ 3134 00d6 12       		.uleb128 0x12
+ 3135 00d7 06       		.uleb128 0x6
+ 3136 00d8 01       		.uleb128 0x1
+ 3137 00d9 13       		.uleb128 0x13
+ 3138 00da 00       		.byte	0
+ 3139 00db 00       		.byte	0
+ 3140 00dc 11       		.uleb128 0x11
+ 3141 00dd 35       		.uleb128 0x35
+ 3142 00de 00       		.byte	0
+ 3143 00df 49       		.uleb128 0x49
+ 3144 00e0 13       		.uleb128 0x13
+ 3145 00e1 00       		.byte	0
+ 3146 00e2 00       		.byte	0
+ 3147 00e3 12       		.uleb128 0x12
+ 3148 00e4 01       		.uleb128 0x1
+ 3149 00e5 01       		.byte	0x1
+ 3150 00e6 49       		.uleb128 0x49
+ 3151 00e7 13       		.uleb128 0x13
+ 3152 00e8 01       		.uleb128 0x1
+ 3153 00e9 13       		.uleb128 0x13
+ 3154 00ea 00       		.byte	0
+ 3155 00eb 00       		.byte	0
+ 3156 00ec 13       		.uleb128 0x13
+ 3157 00ed 21       		.uleb128 0x21
+ 3158 00ee 00       		.byte	0
+ 3159 00ef 49       		.uleb128 0x49
+ 3160 00f0 13       		.uleb128 0x13
+ 3161 00f1 2F       		.uleb128 0x2f
+ 3162 00f2 0B       		.uleb128 0xb
+ 3163 00f3 00       		.byte	0
+ 3164 00f4 00       		.byte	0
+ 3165 00f5 14       		.uleb128 0x14
+ 3166 00f6 49       		.uleb128 0x49
+ 3167 00f7 00       		.byte	0
+ 3168 00f8 02       		.uleb128 0x2
+ 3169 00f9 18       		.uleb128 0x18
+ 3170 00fa 7E       		.uleb128 0x7e
+ 3171 00fb 18       		.uleb128 0x18
+ 3172 00fc 00       		.byte	0
+ 3173 00fd 00       		.byte	0
+ 3174 00fe 15       		.uleb128 0x15
+ 3175 00ff 13       		.uleb128 0x13
+ 3176 0100 01       		.byte	0x1
+ 3177 0101 03       		.uleb128 0x3
+ 3178 0102 0E       		.uleb128 0xe
+ 3179 0103 0B       		.uleb128 0xb
+ 3180 0104 0B       		.uleb128 0xb
+ 3181 0105 3A       		.uleb128 0x3a
+ 3182 0106 21       		.uleb128 0x21
+ 3183 0107 0B       		.sleb128 11
+ 3184 0108 3B       		.uleb128 0x3b
+GAS LISTING /tmp/ccFT8Er8.s 			page 60
+
+
+ 3185 0109 05       		.uleb128 0x5
+ 3186 010a 39       		.uleb128 0x39
+ 3187 010b 0B       		.uleb128 0xb
+ 3188 010c 01       		.uleb128 0x1
+ 3189 010d 13       		.uleb128 0x13
+ 3190 010e 00       		.byte	0
+ 3191 010f 00       		.byte	0
+ 3192 0110 16       		.uleb128 0x16
+ 3193 0111 0D       		.uleb128 0xd
+ 3194 0112 00       		.byte	0
+ 3195 0113 03       		.uleb128 0x3
+ 3196 0114 0E       		.uleb128 0xe
+ 3197 0115 3A       		.uleb128 0x3a
+ 3198 0116 21       		.uleb128 0x21
+ 3199 0117 0B       		.sleb128 11
+ 3200 0118 3B       		.uleb128 0x3b
+ 3201 0119 0B       		.uleb128 0xb
+ 3202 011a 39       		.uleb128 0x39
+ 3203 011b 21       		.uleb128 0x21
+ 3204 011c 21       		.sleb128 33
+ 3205 011d 49       		.uleb128 0x49
+ 3206 011e 13       		.uleb128 0x13
+ 3207 011f 00       		.byte	0
+ 3208 0120 00       		.byte	0
+ 3209 0121 17       		.uleb128 0x17
+ 3210 0122 28       		.uleb128 0x28
+ 3211 0123 00       		.byte	0
+ 3212 0124 03       		.uleb128 0x3
+ 3213 0125 0E       		.uleb128 0xe
+ 3214 0126 1C       		.uleb128 0x1c
+ 3215 0127 0B       		.uleb128 0xb
+ 3216 0128 00       		.byte	0
+ 3217 0129 00       		.byte	0
+ 3218 012a 18       		.uleb128 0x18
+ 3219 012b 05       		.uleb128 0x5
+ 3220 012c 00       		.byte	0
+ 3221 012d 03       		.uleb128 0x3
+ 3222 012e 0E       		.uleb128 0xe
+ 3223 012f 3A       		.uleb128 0x3a
+ 3224 0130 21       		.uleb128 0x21
+ 3225 0131 01       		.sleb128 1
+ 3226 0132 3B       		.uleb128 0x3b
+ 3227 0133 21       		.uleb128 0x21
+ 3228 0134 23       		.sleb128 35
+ 3229 0135 39       		.uleb128 0x39
+ 3230 0136 0B       		.uleb128 0xb
+ 3231 0137 49       		.uleb128 0x49
+ 3232 0138 13       		.uleb128 0x13
+ 3233 0139 02       		.uleb128 0x2
+ 3234 013a 17       		.uleb128 0x17
+ 3235 013b B742     		.uleb128 0x2137
+ 3236 013d 17       		.uleb128 0x17
+ 3237 013e 00       		.byte	0
+ 3238 013f 00       		.byte	0
+ 3239 0140 19       		.uleb128 0x19
+ 3240 0141 2E       		.uleb128 0x2e
+ 3241 0142 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 61
+
+
+ 3242 0143 03       		.uleb128 0x3
+ 3243 0144 0E       		.uleb128 0xe
+ 3244 0145 3A       		.uleb128 0x3a
+ 3245 0146 0B       		.uleb128 0xb
+ 3246 0147 3B       		.uleb128 0x3b
+ 3247 0148 05       		.uleb128 0x5
+ 3248 0149 39       		.uleb128 0x39
+ 3249 014a 21       		.uleb128 0x21
+ 3250 014b 14       		.sleb128 20
+ 3251 014c 27       		.uleb128 0x27
+ 3252 014d 19       		.uleb128 0x19
+ 3253 014e 20       		.uleb128 0x20
+ 3254 014f 21       		.uleb128 0x21
+ 3255 0150 03       		.sleb128 3
+ 3256 0151 00       		.byte	0
+ 3257 0152 00       		.byte	0
+ 3258 0153 1A       		.uleb128 0x1a
+ 3259 0154 0D       		.uleb128 0xd
+ 3260 0155 00       		.byte	0
+ 3261 0156 03       		.uleb128 0x3
+ 3262 0157 08       		.uleb128 0x8
+ 3263 0158 3A       		.uleb128 0x3a
+ 3264 0159 21       		.uleb128 0x21
+ 3265 015a 0B       		.sleb128 11
+ 3266 015b 3B       		.uleb128 0x3b
+ 3267 015c 05       		.uleb128 0x5
+ 3268 015d 39       		.uleb128 0x39
+ 3269 015e 21       		.uleb128 0x21
+ 3270 015f 21       		.sleb128 33
+ 3271 0160 49       		.uleb128 0x49
+ 3272 0161 13       		.uleb128 0x13
+ 3273 0162 38       		.uleb128 0x38
+ 3274 0163 0B       		.uleb128 0xb
+ 3275 0164 00       		.byte	0
+ 3276 0165 00       		.byte	0
+ 3277 0166 1B       		.uleb128 0x1b
+ 3278 0167 13       		.uleb128 0x13
+ 3279 0168 01       		.byte	0x1
+ 3280 0169 0B       		.uleb128 0xb
+ 3281 016a 0B       		.uleb128 0xb
+ 3282 016b 3A       		.uleb128 0x3a
+ 3283 016c 0B       		.uleb128 0xb
+ 3284 016d 3B       		.uleb128 0x3b
+ 3285 016e 0B       		.uleb128 0xb
+ 3286 016f 39       		.uleb128 0x39
+ 3287 0170 21       		.uleb128 0x21
+ 3288 0171 09       		.sleb128 9
+ 3289 0172 01       		.uleb128 0x1
+ 3290 0173 13       		.uleb128 0x13
+ 3291 0174 00       		.byte	0
+ 3292 0175 00       		.byte	0
+ 3293 0176 1C       		.uleb128 0x1c
+ 3294 0177 15       		.uleb128 0x15
+ 3295 0178 01       		.byte	0x1
+ 3296 0179 27       		.uleb128 0x27
+ 3297 017a 19       		.uleb128 0x19
+ 3298 017b 01       		.uleb128 0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 62
+
+
+ 3299 017c 13       		.uleb128 0x13
+ 3300 017d 00       		.byte	0
+ 3301 017e 00       		.byte	0
+ 3302 017f 1D       		.uleb128 0x1d
+ 3303 0180 16       		.uleb128 0x16
+ 3304 0181 00       		.byte	0
+ 3305 0182 03       		.uleb128 0x3
+ 3306 0183 0E       		.uleb128 0xe
+ 3307 0184 3A       		.uleb128 0x3a
+ 3308 0185 21       		.uleb128 0x21
+ 3309 0186 0B       		.sleb128 11
+ 3310 0187 3B       		.uleb128 0x3b
+ 3311 0188 05       		.uleb128 0x5
+ 3312 0189 39       		.uleb128 0x39
+ 3313 018a 21       		.uleb128 0x21
+ 3314 018b 03       		.sleb128 3
+ 3315 018c 49       		.uleb128 0x49
+ 3316 018d 13       		.uleb128 0x13
+ 3317 018e 00       		.byte	0
+ 3318 018f 00       		.byte	0
+ 3319 0190 1E       		.uleb128 0x1e
+ 3320 0191 48       		.uleb128 0x48
+ 3321 0192 01       		.byte	0x1
+ 3322 0193 7D       		.uleb128 0x7d
+ 3323 0194 01       		.uleb128 0x1
+ 3324 0195 7F       		.uleb128 0x7f
+ 3325 0196 13       		.uleb128 0x13
+ 3326 0197 01       		.uleb128 0x1
+ 3327 0198 13       		.uleb128 0x13
+ 3328 0199 00       		.byte	0
+ 3329 019a 00       		.byte	0
+ 3330 019b 1F       		.uleb128 0x1f
+ 3331 019c 05       		.uleb128 0x5
+ 3332 019d 00       		.byte	0
+ 3333 019e 03       		.uleb128 0x3
+ 3334 019f 0E       		.uleb128 0xe
+ 3335 01a0 3A       		.uleb128 0x3a
+ 3336 01a1 21       		.uleb128 0x21
+ 3337 01a2 01       		.sleb128 1
+ 3338 01a3 3B       		.uleb128 0x3b
+ 3339 01a4 21       		.uleb128 0x21
+ 3340 01a5 23       		.sleb128 35
+ 3341 01a6 39       		.uleb128 0x39
+ 3342 01a7 0B       		.uleb128 0xb
+ 3343 01a8 49       		.uleb128 0x49
+ 3344 01a9 13       		.uleb128 0x13
+ 3345 01aa 02       		.uleb128 0x2
+ 3346 01ab 18       		.uleb128 0x18
+ 3347 01ac 00       		.byte	0
+ 3348 01ad 00       		.byte	0
+ 3349 01ae 20       		.uleb128 0x20
+ 3350 01af 11       		.uleb128 0x11
+ 3351 01b0 01       		.byte	0x1
+ 3352 01b1 25       		.uleb128 0x25
+ 3353 01b2 0E       		.uleb128 0xe
+ 3354 01b3 13       		.uleb128 0x13
+ 3355 01b4 0B       		.uleb128 0xb
+GAS LISTING /tmp/ccFT8Er8.s 			page 63
+
+
+ 3356 01b5 03       		.uleb128 0x3
+ 3357 01b6 1F       		.uleb128 0x1f
+ 3358 01b7 1B       		.uleb128 0x1b
+ 3359 01b8 1F       		.uleb128 0x1f
+ 3360 01b9 55       		.uleb128 0x55
+ 3361 01ba 17       		.uleb128 0x17
+ 3362 01bb 11       		.uleb128 0x11
+ 3363 01bc 01       		.uleb128 0x1
+ 3364 01bd 10       		.uleb128 0x10
+ 3365 01be 17       		.uleb128 0x17
+ 3366 01bf 00       		.byte	0
+ 3367 01c0 00       		.byte	0
+ 3368 01c1 21       		.uleb128 0x21
+ 3369 01c2 24       		.uleb128 0x24
+ 3370 01c3 00       		.byte	0
+ 3371 01c4 0B       		.uleb128 0xb
+ 3372 01c5 0B       		.uleb128 0xb
+ 3373 01c6 3E       		.uleb128 0x3e
+ 3374 01c7 0B       		.uleb128 0xb
+ 3375 01c8 03       		.uleb128 0x3
+ 3376 01c9 08       		.uleb128 0x8
+ 3377 01ca 00       		.byte	0
+ 3378 01cb 00       		.byte	0
+ 3379 01cc 22       		.uleb128 0x22
+ 3380 01cd 0F       		.uleb128 0xf
+ 3381 01ce 00       		.byte	0
+ 3382 01cf 0B       		.uleb128 0xb
+ 3383 01d0 0B       		.uleb128 0xb
+ 3384 01d1 00       		.byte	0
+ 3385 01d2 00       		.byte	0
+ 3386 01d3 23       		.uleb128 0x23
+ 3387 01d4 16       		.uleb128 0x16
+ 3388 01d5 00       		.byte	0
+ 3389 01d6 03       		.uleb128 0x3
+ 3390 01d7 0E       		.uleb128 0xe
+ 3391 01d8 3A       		.uleb128 0x3a
+ 3392 01d9 0B       		.uleb128 0xb
+ 3393 01da 3B       		.uleb128 0x3b
+ 3394 01db 0B       		.uleb128 0xb
+ 3395 01dc 39       		.uleb128 0x39
+ 3396 01dd 0B       		.uleb128 0xb
+ 3397 01de 49       		.uleb128 0x49
+ 3398 01df 13       		.uleb128 0x13
+ 3399 01e0 8801     		.uleb128 0x88
+ 3400 01e2 0B       		.uleb128 0xb
+ 3401 01e3 00       		.byte	0
+ 3402 01e4 00       		.byte	0
+ 3403 01e5 24       		.uleb128 0x24
+ 3404 01e6 34       		.uleb128 0x34
+ 3405 01e7 00       		.byte	0
+ 3406 01e8 03       		.uleb128 0x3
+ 3407 01e9 0E       		.uleb128 0xe
+ 3408 01ea 3A       		.uleb128 0x3a
+ 3409 01eb 0B       		.uleb128 0xb
+ 3410 01ec 3B       		.uleb128 0x3b
+ 3411 01ed 05       		.uleb128 0x5
+ 3412 01ee 39       		.uleb128 0x39
+GAS LISTING /tmp/ccFT8Er8.s 			page 64
+
+
+ 3413 01ef 0B       		.uleb128 0xb
+ 3414 01f0 49       		.uleb128 0x49
+ 3415 01f1 13       		.uleb128 0x13
+ 3416 01f2 3F       		.uleb128 0x3f
+ 3417 01f3 19       		.uleb128 0x19
+ 3418 01f4 3C       		.uleb128 0x3c
+ 3419 01f5 19       		.uleb128 0x19
+ 3420 01f6 00       		.byte	0
+ 3421 01f7 00       		.byte	0
+ 3422 01f8 25       		.uleb128 0x25
+ 3423 01f9 17       		.uleb128 0x17
+ 3424 01fa 01       		.byte	0x1
+ 3425 01fb 0B       		.uleb128 0xb
+ 3426 01fc 0B       		.uleb128 0xb
+ 3427 01fd 3A       		.uleb128 0x3a
+ 3428 01fe 0B       		.uleb128 0xb
+ 3429 01ff 3B       		.uleb128 0x3b
+ 3430 0200 0B       		.uleb128 0xb
+ 3431 0201 39       		.uleb128 0x39
+ 3432 0202 0B       		.uleb128 0xb
+ 3433 0203 01       		.uleb128 0x1
+ 3434 0204 13       		.uleb128 0x13
+ 3435 0205 00       		.byte	0
+ 3436 0206 00       		.byte	0
+ 3437 0207 26       		.uleb128 0x26
+ 3438 0208 17       		.uleb128 0x17
+ 3439 0209 01       		.byte	0x1
+ 3440 020a 0B       		.uleb128 0xb
+ 3441 020b 0B       		.uleb128 0xb
+ 3442 020c 3A       		.uleb128 0x3a
+ 3443 020d 0B       		.uleb128 0xb
+ 3444 020e 3B       		.uleb128 0x3b
+ 3445 020f 05       		.uleb128 0x5
+ 3446 0210 39       		.uleb128 0x39
+ 3447 0211 0B       		.uleb128 0xb
+ 3448 0212 01       		.uleb128 0x1
+ 3449 0213 13       		.uleb128 0x13
+ 3450 0214 00       		.byte	0
+ 3451 0215 00       		.byte	0
+ 3452 0216 27       		.uleb128 0x27
+ 3453 0217 34       		.uleb128 0x34
+ 3454 0218 00       		.byte	0
+ 3455 0219 03       		.uleb128 0x3
+ 3456 021a 08       		.uleb128 0x8
+ 3457 021b 3A       		.uleb128 0x3a
+ 3458 021c 0B       		.uleb128 0xb
+ 3459 021d 3B       		.uleb128 0x3b
+ 3460 021e 05       		.uleb128 0x5
+ 3461 021f 39       		.uleb128 0x39
+ 3462 0220 0B       		.uleb128 0xb
+ 3463 0221 49       		.uleb128 0x49
+ 3464 0222 13       		.uleb128 0x13
+ 3465 0223 3F       		.uleb128 0x3f
+ 3466 0224 19       		.uleb128 0x19
+ 3467 0225 3C       		.uleb128 0x3c
+ 3468 0226 19       		.uleb128 0x19
+ 3469 0227 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 65
+
+
+ 3470 0228 00       		.byte	0
+ 3471 0229 28       		.uleb128 0x28
+ 3472 022a 04       		.uleb128 0x4
+ 3473 022b 01       		.byte	0x1
+ 3474 022c 3E       		.uleb128 0x3e
+ 3475 022d 0B       		.uleb128 0xb
+ 3476 022e 0B       		.uleb128 0xb
+ 3477 022f 0B       		.uleb128 0xb
+ 3478 0230 49       		.uleb128 0x49
+ 3479 0231 13       		.uleb128 0x13
+ 3480 0232 3A       		.uleb128 0x3a
+ 3481 0233 0B       		.uleb128 0xb
+ 3482 0234 3B       		.uleb128 0x3b
+ 3483 0235 0B       		.uleb128 0xb
+ 3484 0236 39       		.uleb128 0x39
+ 3485 0237 0B       		.uleb128 0xb
+ 3486 0238 01       		.uleb128 0x1
+ 3487 0239 13       		.uleb128 0x13
+ 3488 023a 00       		.byte	0
+ 3489 023b 00       		.byte	0
+ 3490 023c 29       		.uleb128 0x29
+ 3491 023d 13       		.uleb128 0x13
+ 3492 023e 00       		.byte	0
+ 3493 023f 03       		.uleb128 0x3
+ 3494 0240 0E       		.uleb128 0xe
+ 3495 0241 0B       		.uleb128 0xb
+ 3496 0242 0B       		.uleb128 0xb
+ 3497 0243 3A       		.uleb128 0x3a
+ 3498 0244 0B       		.uleb128 0xb
+ 3499 0245 3B       		.uleb128 0x3b
+ 3500 0246 0B       		.uleb128 0xb
+ 3501 0247 39       		.uleb128 0x39
+ 3502 0248 0B       		.uleb128 0xb
+ 3503 0249 00       		.byte	0
+ 3504 024a 00       		.byte	0
+ 3505 024b 2A       		.uleb128 0x2a
+ 3506 024c 34       		.uleb128 0x34
+ 3507 024d 00       		.byte	0
+ 3508 024e 03       		.uleb128 0x3
+ 3509 024f 08       		.uleb128 0x8
+ 3510 0250 3A       		.uleb128 0x3a
+ 3511 0251 0B       		.uleb128 0xb
+ 3512 0252 3B       		.uleb128 0x3b
+ 3513 0253 0B       		.uleb128 0xb
+ 3514 0254 39       		.uleb128 0x39
+ 3515 0255 0B       		.uleb128 0xb
+ 3516 0256 49       		.uleb128 0x49
+ 3517 0257 13       		.uleb128 0x13
+ 3518 0258 3F       		.uleb128 0x3f
+ 3519 0259 19       		.uleb128 0x19
+ 3520 025a 3C       		.uleb128 0x3c
+ 3521 025b 19       		.uleb128 0x19
+ 3522 025c 00       		.byte	0
+ 3523 025d 00       		.byte	0
+ 3524 025e 2B       		.uleb128 0x2b
+ 3525 025f 2E       		.uleb128 0x2e
+ 3526 0260 01       		.byte	0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 66
+
+
+ 3527 0261 3F       		.uleb128 0x3f
+ 3528 0262 19       		.uleb128 0x19
+ 3529 0263 03       		.uleb128 0x3
+ 3530 0264 0E       		.uleb128 0xe
+ 3531 0265 3A       		.uleb128 0x3a
+ 3532 0266 0B       		.uleb128 0xb
+ 3533 0267 3B       		.uleb128 0x3b
+ 3534 0268 05       		.uleb128 0x5
+ 3535 0269 39       		.uleb128 0x39
+ 3536 026a 0B       		.uleb128 0xb
+ 3537 026b 27       		.uleb128 0x27
+ 3538 026c 19       		.uleb128 0x19
+ 3539 026d 3C       		.uleb128 0x3c
+ 3540 026e 19       		.uleb128 0x19
+ 3541 026f 01       		.uleb128 0x1
+ 3542 0270 13       		.uleb128 0x13
+ 3543 0271 00       		.byte	0
+ 3544 0272 00       		.byte	0
+ 3545 0273 2C       		.uleb128 0x2c
+ 3546 0274 2E       		.uleb128 0x2e
+ 3547 0275 01       		.byte	0x1
+ 3548 0276 3F       		.uleb128 0x3f
+ 3549 0277 19       		.uleb128 0x19
+ 3550 0278 03       		.uleb128 0x3
+ 3551 0279 0E       		.uleb128 0xe
+ 3552 027a 3A       		.uleb128 0x3a
+ 3553 027b 0B       		.uleb128 0xb
+ 3554 027c 3B       		.uleb128 0x3b
+ 3555 027d 0B       		.uleb128 0xb
+ 3556 027e 39       		.uleb128 0x39
+ 3557 027f 0B       		.uleb128 0xb
+ 3558 0280 27       		.uleb128 0x27
+ 3559 0281 19       		.uleb128 0x19
+ 3560 0282 49       		.uleb128 0x49
+ 3561 0283 13       		.uleb128 0x13
+ 3562 0284 3C       		.uleb128 0x3c
+ 3563 0285 19       		.uleb128 0x19
+ 3564 0286 01       		.uleb128 0x1
+ 3565 0287 13       		.uleb128 0x13
+ 3566 0288 00       		.byte	0
+ 3567 0289 00       		.byte	0
+ 3568 028a 2D       		.uleb128 0x2d
+ 3569 028b 18       		.uleb128 0x18
+ 3570 028c 00       		.byte	0
+ 3571 028d 00       		.byte	0
+ 3572 028e 00       		.byte	0
+ 3573 028f 2E       		.uleb128 0x2e
+ 3574 0290 2E       		.uleb128 0x2e
+ 3575 0291 01       		.byte	0x1
+ 3576 0292 3F       		.uleb128 0x3f
+ 3577 0293 19       		.uleb128 0x19
+ 3578 0294 03       		.uleb128 0x3
+ 3579 0295 0E       		.uleb128 0xe
+ 3580 0296 3A       		.uleb128 0x3a
+ 3581 0297 0B       		.uleb128 0xb
+ 3582 0298 3B       		.uleb128 0x3b
+ 3583 0299 05       		.uleb128 0x5
+GAS LISTING /tmp/ccFT8Er8.s 			page 67
+
+
+ 3584 029a 39       		.uleb128 0x39
+ 3585 029b 0B       		.uleb128 0xb
+ 3586 029c 27       		.uleb128 0x27
+ 3587 029d 19       		.uleb128 0x19
+ 3588 029e 49       		.uleb128 0x49
+ 3589 029f 13       		.uleb128 0x13
+ 3590 02a0 3C       		.uleb128 0x3c
+ 3591 02a1 19       		.uleb128 0x19
+ 3592 02a2 01       		.uleb128 0x1
+ 3593 02a3 13       		.uleb128 0x13
+ 3594 02a4 00       		.byte	0
+ 3595 02a5 00       		.byte	0
+ 3596 02a6 2F       		.uleb128 0x2f
+ 3597 02a7 2E       		.uleb128 0x2e
+ 3598 02a8 00       		.byte	0
+ 3599 02a9 3F       		.uleb128 0x3f
+ 3600 02aa 19       		.uleb128 0x19
+ 3601 02ab 03       		.uleb128 0x3
+ 3602 02ac 0E       		.uleb128 0xe
+ 3603 02ad 3A       		.uleb128 0x3a
+ 3604 02ae 0B       		.uleb128 0xb
+ 3605 02af 3B       		.uleb128 0x3b
+ 3606 02b0 05       		.uleb128 0x5
+ 3607 02b1 39       		.uleb128 0x39
+ 3608 02b2 0B       		.uleb128 0xb
+ 3609 02b3 27       		.uleb128 0x27
+ 3610 02b4 19       		.uleb128 0x19
+ 3611 02b5 3C       		.uleb128 0x3c
+ 3612 02b6 19       		.uleb128 0x19
+ 3613 02b7 00       		.byte	0
+ 3614 02b8 00       		.byte	0
+ 3615 02b9 30       		.uleb128 0x30
+ 3616 02ba 2E       		.uleb128 0x2e
+ 3617 02bb 00       		.byte	0
+ 3618 02bc 3F       		.uleb128 0x3f
+ 3619 02bd 19       		.uleb128 0x19
+ 3620 02be 03       		.uleb128 0x3
+ 3621 02bf 0E       		.uleb128 0xe
+ 3622 02c0 3A       		.uleb128 0x3a
+ 3623 02c1 0B       		.uleb128 0xb
+ 3624 02c2 3B       		.uleb128 0x3b
+ 3625 02c3 0B       		.uleb128 0xb
+ 3626 02c4 39       		.uleb128 0x39
+ 3627 02c5 0B       		.uleb128 0xb
+ 3628 02c6 27       		.uleb128 0x27
+ 3629 02c7 19       		.uleb128 0x19
+ 3630 02c8 3C       		.uleb128 0x3c
+ 3631 02c9 19       		.uleb128 0x19
+ 3632 02ca 00       		.byte	0
+ 3633 02cb 00       		.byte	0
+ 3634 02cc 31       		.uleb128 0x31
+ 3635 02cd 2E       		.uleb128 0x2e
+ 3636 02ce 01       		.byte	0x1
+ 3637 02cf 3F       		.uleb128 0x3f
+ 3638 02d0 19       		.uleb128 0x19
+ 3639 02d1 03       		.uleb128 0x3
+ 3640 02d2 0E       		.uleb128 0xe
+GAS LISTING /tmp/ccFT8Er8.s 			page 68
+
+
+ 3641 02d3 3A       		.uleb128 0x3a
+ 3642 02d4 0B       		.uleb128 0xb
+ 3643 02d5 3B       		.uleb128 0x3b
+ 3644 02d6 0B       		.uleb128 0xb
+ 3645 02d7 39       		.uleb128 0x39
+ 3646 02d8 0B       		.uleb128 0xb
+ 3647 02d9 27       		.uleb128 0x27
+ 3648 02da 19       		.uleb128 0x19
+ 3649 02db 49       		.uleb128 0x49
+ 3650 02dc 13       		.uleb128 0x13
+ 3651 02dd 11       		.uleb128 0x11
+ 3652 02de 01       		.uleb128 0x1
+ 3653 02df 12       		.uleb128 0x12
+ 3654 02e0 06       		.uleb128 0x6
+ 3655 02e1 40       		.uleb128 0x40
+ 3656 02e2 18       		.uleb128 0x18
+ 3657 02e3 7A       		.uleb128 0x7a
+ 3658 02e4 19       		.uleb128 0x19
+ 3659 02e5 01       		.uleb128 0x1
+ 3660 02e6 13       		.uleb128 0x13
+ 3661 02e7 00       		.byte	0
+ 3662 02e8 00       		.byte	0
+ 3663 02e9 32       		.uleb128 0x32
+ 3664 02ea 0B       		.uleb128 0xb
+ 3665 02eb 01       		.byte	0x1
+ 3666 02ec 55       		.uleb128 0x55
+ 3667 02ed 17       		.uleb128 0x17
+ 3668 02ee 01       		.uleb128 0x1
+ 3669 02ef 13       		.uleb128 0x13
+ 3670 02f0 00       		.byte	0
+ 3671 02f1 00       		.byte	0
+ 3672 02f2 33       		.uleb128 0x33
+ 3673 02f3 1D       		.uleb128 0x1d
+ 3674 02f4 01       		.byte	0x1
+ 3675 02f5 31       		.uleb128 0x31
+ 3676 02f6 13       		.uleb128 0x13
+ 3677 02f7 52       		.uleb128 0x52
+ 3678 02f8 01       		.uleb128 0x1
+ 3679 02f9 B842     		.uleb128 0x2138
+ 3680 02fb 0B       		.uleb128 0xb
+ 3681 02fc 11       		.uleb128 0x11
+ 3682 02fd 01       		.uleb128 0x1
+ 3683 02fe 12       		.uleb128 0x12
+ 3684 02ff 06       		.uleb128 0x6
+ 3685 0300 58       		.uleb128 0x58
+ 3686 0301 0B       		.uleb128 0xb
+ 3687 0302 59       		.uleb128 0x59
+ 3688 0303 0B       		.uleb128 0xb
+ 3689 0304 57       		.uleb128 0x57
+ 3690 0305 0B       		.uleb128 0xb
+ 3691 0306 01       		.uleb128 0x1
+ 3692 0307 13       		.uleb128 0x13
+ 3693 0308 00       		.byte	0
+ 3694 0309 00       		.byte	0
+ 3695 030a 34       		.uleb128 0x34
+ 3696 030b 34       		.uleb128 0x34
+ 3697 030c 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 69
+
+
+ 3698 030d 31       		.uleb128 0x31
+ 3699 030e 13       		.uleb128 0x13
+ 3700 030f 02       		.uleb128 0x2
+ 3701 0310 17       		.uleb128 0x17
+ 3702 0311 B742     		.uleb128 0x2137
+ 3703 0313 17       		.uleb128 0x17
+ 3704 0314 00       		.byte	0
+ 3705 0315 00       		.byte	0
+ 3706 0316 35       		.uleb128 0x35
+ 3707 0317 1D       		.uleb128 0x1d
+ 3708 0318 00       		.byte	0
+ 3709 0319 31       		.uleb128 0x31
+ 3710 031a 13       		.uleb128 0x13
+ 3711 031b 52       		.uleb128 0x52
+ 3712 031c 01       		.uleb128 0x1
+ 3713 031d B842     		.uleb128 0x2138
+ 3714 031f 0B       		.uleb128 0xb
+ 3715 0320 11       		.uleb128 0x11
+ 3716 0321 01       		.uleb128 0x1
+ 3717 0322 12       		.uleb128 0x12
+ 3718 0323 06       		.uleb128 0x6
+ 3719 0324 58       		.uleb128 0x58
+ 3720 0325 0B       		.uleb128 0xb
+ 3721 0326 59       		.uleb128 0x59
+ 3722 0327 0B       		.uleb128 0xb
+ 3723 0328 57       		.uleb128 0x57
+ 3724 0329 0B       		.uleb128 0xb
+ 3725 032a 00       		.byte	0
+ 3726 032b 00       		.byte	0
+ 3727 032c 36       		.uleb128 0x36
+ 3728 032d 1D       		.uleb128 0x1d
+ 3729 032e 01       		.byte	0x1
+ 3730 032f 31       		.uleb128 0x31
+ 3731 0330 13       		.uleb128 0x13
+ 3732 0331 52       		.uleb128 0x52
+ 3733 0332 01       		.uleb128 0x1
+ 3734 0333 B842     		.uleb128 0x2138
+ 3735 0335 0B       		.uleb128 0xb
+ 3736 0336 11       		.uleb128 0x11
+ 3737 0337 01       		.uleb128 0x1
+ 3738 0338 12       		.uleb128 0x12
+ 3739 0339 06       		.uleb128 0x6
+ 3740 033a 58       		.uleb128 0x58
+ 3741 033b 0B       		.uleb128 0xb
+ 3742 033c 59       		.uleb128 0x59
+ 3743 033d 0B       		.uleb128 0xb
+ 3744 033e 57       		.uleb128 0x57
+ 3745 033f 0B       		.uleb128 0xb
+ 3746 0340 00       		.byte	0
+ 3747 0341 00       		.byte	0
+ 3748 0342 37       		.uleb128 0x37
+ 3749 0343 1D       		.uleb128 0x1d
+ 3750 0344 00       		.byte	0
+ 3751 0345 31       		.uleb128 0x31
+ 3752 0346 13       		.uleb128 0x13
+ 3753 0347 52       		.uleb128 0x52
+ 3754 0348 01       		.uleb128 0x1
+GAS LISTING /tmp/ccFT8Er8.s 			page 70
+
+
+ 3755 0349 B842     		.uleb128 0x2138
+ 3756 034b 0B       		.uleb128 0xb
+ 3757 034c 11       		.uleb128 0x11
+ 3758 034d 01       		.uleb128 0x1
+ 3759 034e 12       		.uleb128 0x12
+ 3760 034f 06       		.uleb128 0x6
+ 3761 0350 58       		.uleb128 0x58
+ 3762 0351 0B       		.uleb128 0xb
+ 3763 0352 59       		.uleb128 0x59
+ 3764 0353 05       		.uleb128 0x5
+ 3765 0354 57       		.uleb128 0x57
+ 3766 0355 0B       		.uleb128 0xb
+ 3767 0356 00       		.byte	0
+ 3768 0357 00       		.byte	0
+ 3769 0358 38       		.uleb128 0x38
+ 3770 0359 2E       		.uleb128 0x2e
+ 3771 035a 01       		.byte	0x1
+ 3772 035b 03       		.uleb128 0x3
+ 3773 035c 0E       		.uleb128 0xe
+ 3774 035d 3A       		.uleb128 0x3a
+ 3775 035e 0B       		.uleb128 0xb
+ 3776 035f 3B       		.uleb128 0x3b
+ 3777 0360 0B       		.uleb128 0xb
+ 3778 0361 39       		.uleb128 0x39
+ 3779 0362 0B       		.uleb128 0xb
+ 3780 0363 27       		.uleb128 0x27
+ 3781 0364 19       		.uleb128 0x19
+ 3782 0365 11       		.uleb128 0x11
+ 3783 0366 01       		.uleb128 0x1
+ 3784 0367 12       		.uleb128 0x12
+ 3785 0368 06       		.uleb128 0x6
+ 3786 0369 40       		.uleb128 0x40
+ 3787 036a 18       		.uleb128 0x18
+ 3788 036b 7A       		.uleb128 0x7a
+ 3789 036c 19       		.uleb128 0x19
+ 3790 036d 01       		.uleb128 0x1
+ 3791 036e 13       		.uleb128 0x13
+ 3792 036f 00       		.byte	0
+ 3793 0370 00       		.byte	0
+ 3794 0371 39       		.uleb128 0x39
+ 3795 0372 0B       		.uleb128 0xb
+ 3796 0373 01       		.byte	0x1
+ 3797 0374 11       		.uleb128 0x11
+ 3798 0375 01       		.uleb128 0x1
+ 3799 0376 12       		.uleb128 0x12
+ 3800 0377 06       		.uleb128 0x6
+ 3801 0378 00       		.byte	0
+ 3802 0379 00       		.byte	0
+ 3803 037a 3A       		.uleb128 0x3a
+ 3804 037b 2E       		.uleb128 0x2e
+ 3805 037c 01       		.byte	0x1
+ 3806 037d 03       		.uleb128 0x3
+ 3807 037e 0E       		.uleb128 0xe
+ 3808 037f 3A       		.uleb128 0x3a
+ 3809 0380 0B       		.uleb128 0xb
+ 3810 0381 3B       		.uleb128 0x3b
+ 3811 0382 0B       		.uleb128 0xb
+GAS LISTING /tmp/ccFT8Er8.s 			page 71
+
+
+ 3812 0383 39       		.uleb128 0x39
+ 3813 0384 0B       		.uleb128 0xb
+ 3814 0385 27       		.uleb128 0x27
+ 3815 0386 19       		.uleb128 0x19
+ 3816 0387 49       		.uleb128 0x49
+ 3817 0388 13       		.uleb128 0x13
+ 3818 0389 20       		.uleb128 0x20
+ 3819 038a 0B       		.uleb128 0xb
+ 3820 038b 01       		.uleb128 0x1
+ 3821 038c 13       		.uleb128 0x13
+ 3822 038d 00       		.byte	0
+ 3823 038e 00       		.byte	0
+ 3824 038f 3B       		.uleb128 0x3b
+ 3825 0390 2E       		.uleb128 0x2e
+ 3826 0391 00       		.byte	0
+ 3827 0392 03       		.uleb128 0x3
+ 3828 0393 0E       		.uleb128 0xe
+ 3829 0394 3A       		.uleb128 0x3a
+ 3830 0395 0B       		.uleb128 0xb
+ 3831 0396 3B       		.uleb128 0x3b
+ 3832 0397 0B       		.uleb128 0xb
+ 3833 0398 39       		.uleb128 0x39
+ 3834 0399 0B       		.uleb128 0xb
+ 3835 039a 27       		.uleb128 0x27
+ 3836 039b 19       		.uleb128 0x19
+ 3837 039c 49       		.uleb128 0x49
+ 3838 039d 13       		.uleb128 0x13
+ 3839 039e 20       		.uleb128 0x20
+ 3840 039f 0B       		.uleb128 0xb
+ 3841 03a0 00       		.byte	0
+ 3842 03a1 00       		.byte	0
+ 3843 03a2 3C       		.uleb128 0x3c
+ 3844 03a3 2E       		.uleb128 0x2e
+ 3845 03a4 01       		.byte	0x1
+ 3846 03a5 03       		.uleb128 0x3
+ 3847 03a6 0E       		.uleb128 0xe
+ 3848 03a7 3A       		.uleb128 0x3a
+ 3849 03a8 0B       		.uleb128 0xb
+ 3850 03a9 3B       		.uleb128 0x3b
+ 3851 03aa 05       		.uleb128 0x5
+ 3852 03ab 39       		.uleb128 0x39
+ 3853 03ac 0B       		.uleb128 0xb
+ 3854 03ad 27       		.uleb128 0x27
+ 3855 03ae 19       		.uleb128 0x19
+ 3856 03af 20       		.uleb128 0x20
+ 3857 03b0 0B       		.uleb128 0xb
+ 3858 03b1 01       		.uleb128 0x1
+ 3859 03b2 13       		.uleb128 0x13
+ 3860 03b3 00       		.byte	0
+ 3861 03b4 00       		.byte	0
+ 3862 03b5 3D       		.uleb128 0x3d
+ 3863 03b6 34       		.uleb128 0x34
+ 3864 03b7 00       		.byte	0
+ 3865 03b8 03       		.uleb128 0x3
+ 3866 03b9 0E       		.uleb128 0xe
+ 3867 03ba 49       		.uleb128 0x49
+ 3868 03bb 13       		.uleb128 0x13
+GAS LISTING /tmp/ccFT8Er8.s 			page 72
+
+
+ 3869 03bc 34       		.uleb128 0x34
+ 3870 03bd 19       		.uleb128 0x19
+ 3871 03be 00       		.byte	0
+ 3872 03bf 00       		.byte	0
+ 3873 03c0 00       		.byte	0
+ 3874              		.section	.debug_loclists,"",@progbits
+ 3875 0000 04010000 		.long	.Ldebug_loc3-.Ldebug_loc2
+ 3876              	.Ldebug_loc2:
+ 3877 0004 0500     		.value	0x5
+ 3878 0006 04       		.byte	0x4
+ 3879 0007 00       		.byte	0
+ 3880 0008 00000000 		.long	0
+ 3881              	.Ldebug_loc0:
+ 3882              	.LVUS6:
+ 3883 000c 00       		.uleb128 .LVU34
+ 3884 000d 00       		.uleb128 .LVU66
+ 3885 000e 01       		.uleb128 .LVU88
+ 3886 000f 00       		.uleb128 0
+ 3887              	.LLST6:
+ 3888 0010 06       		.byte	0x6
+ 3889 0011 25010000 		.long	.LVL19
+ 3890 0015 04       		.byte	0x4
+ 3891 0016 00       		.uleb128 .LVL19-.LVL19
+ 3892 0017 E001     		.uleb128 .LVL29-.LVL19
+ 3893 0019 01       		.uleb128 0x1
+ 3894 001a 56       		.byte	0x56
+ 3895 001b 04       		.byte	0x4
+ 3896 001c EF01     		.uleb128 .LVL31-.LVL19
+ 3897 001e F604     		.uleb128 .LFE300-.LVL19
+ 3898 0020 01       		.uleb128 0x1
+ 3899 0021 56       		.byte	0x56
+ 3900 0022 00       		.byte	0
+ 3901              	.LVUS9:
+ 3902 0023 00       		.uleb128 .LVU102
+ 3903 0024 00       		.uleb128 .LVU107
+ 3904 0025 00       		.uleb128 .LVU107
+ 3905 0026 00       		.uleb128 .LVU116
+ 3906              	.LLST9:
+ 3907 0027 06       		.byte	0x6
+ 3908 0028 53020000 		.long	.LVL32
+ 3909 002c 04       		.byte	0x4
+ 3910 002d 00       		.uleb128 .LVL32-.LVL32
+ 3911 002e 10       		.uleb128 .LVL33-.LVL32
+ 3912 002f 01       		.uleb128 0x1
+ 3913 0030 52       		.byte	0x52
+ 3914 0031 04       		.byte	0x4
+ 3915 0032 10       		.uleb128 .LVL33-.LVL32
+ 3916 0033 3E       		.uleb128 .LVL35-.LVL32
+ 3917 0034 02       		.uleb128 0x2
+ 3918 0035 75       		.byte	0x75
+ 3919 0036 40       		.sleb128 -64
+ 3920 0037 00       		.byte	0
+ 3921              	.LVUS10:
+ 3922 0038 00       		.uleb128 .LVU135
+ 3923 0039 00       		.uleb128 .LVU138
+ 3924              	.LLST10:
+ 3925 003a 08       		.byte	0x8
+GAS LISTING /tmp/ccFT8Er8.s 			page 73
+
+
+ 3926 003b 03030000 		.long	.LVL38
+ 3927 003f 04       		.uleb128 .LVL39-.LVL38
+ 3928 0040 08       		.uleb128 0x8
+ 3929 0041 70       		.byte	0x70
+ 3930 0042 00       		.sleb128 0
+ 3931 0043 32       		.byte	0x32
+ 3932 0044 24       		.byte	0x24
+ 3933 0045 75       		.byte	0x75
+ 3934 0046 5C       		.sleb128 -36
+ 3935 0047 06       		.byte	0x6
+ 3936 0048 22       		.byte	0x22
+ 3937 0049 00       		.byte	0
+ 3938              	.LVUS11:
+ 3939 004a 00       		.uleb128 .LVU150
+ 3940 004b 00       		.uleb128 .LVU153
+ 3941              	.LLST11:
+ 3942 004c 08       		.byte	0x8
+ 3943 004d 56030000 		.long	.LVL41
+ 3944 0051 04       		.uleb128 .LVL42-.LVL41
+ 3945 0052 08       		.uleb128 0x8
+ 3946 0053 70       		.byte	0x70
+ 3947 0054 00       		.sleb128 0
+ 3948 0055 32       		.byte	0x32
+ 3949 0056 24       		.byte	0x24
+ 3950 0057 75       		.byte	0x75
+ 3951 0058 60       		.sleb128 -32
+ 3952 0059 06       		.byte	0x6
+ 3953 005a 22       		.byte	0x22
+ 3954 005b 00       		.byte	0
+ 3955              	.LVUS7:
+ 3956 005c 00       		.uleb128 .LVU41
+ 3957 005d 00       		.uleb128 .LVU46
+ 3958 005e 00       		.uleb128 .LVU46
+ 3959 005f 00       		.uleb128 .LVU52
+ 3960              	.LLST7:
+ 3961 0060 06       		.byte	0x6
+ 3962 0061 49010000 		.long	.LVL20
+ 3963 0065 04       		.byte	0x4
+ 3964 0066 00       		.uleb128 .LVL20-.LVL20
+ 3965 0067 10       		.uleb128 .LVL21-.LVL20
+ 3966 0068 01       		.uleb128 0x1
+ 3967 0069 52       		.byte	0x52
+ 3968 006a 04       		.byte	0x4
+ 3969 006b 10       		.uleb128 .LVL21-.LVL20
+ 3970 006c 34       		.uleb128 .LVL23-.LVL20
+ 3971 006d 02       		.uleb128 0x2
+ 3972 006e 75       		.byte	0x75
+ 3973 006f 40       		.sleb128 -64
+ 3974 0070 00       		.byte	0
+ 3975              	.LVUS8:
+ 3976 0071 00       		.uleb128 .LVU34
+ 3977 0072 00       		.uleb128 .LVU66
+ 3978 0073 00       		.uleb128 .LVU75
+ 3979 0074 00       		.uleb128 0
+ 3980              	.LLST8:
+ 3981 0075 06       		.byte	0x6
+ 3982 0076 25010000 		.long	.LVL19
+GAS LISTING /tmp/ccFT8Er8.s 			page 74
+
+
+ 3983 007a 04       		.byte	0x4
+ 3984 007b 00       		.uleb128 .LVL19-.LVL19
+ 3985 007c E001     		.uleb128 .LVL29-.LVL19
+ 3986 007e 01       		.uleb128 0x1
+ 3987 007f 56       		.byte	0x56
+ 3988 0080 04       		.byte	0x4
+ 3989 0081 E601     		.uleb128 .LVL30-.LVL19
+ 3990 0083 F604     		.uleb128 .LFE300-.LVL19
+ 3991 0085 01       		.uleb128 0x1
+ 3992 0086 56       		.byte	0x56
+ 3993 0087 00       		.byte	0
+ 3994              	.LVUS0:
+ 3995 0088 00       		.uleb128 0
+ 3996 0089 00       		.uleb128 .LVU5
+ 3997 008a 00       		.uleb128 .LVU5
+ 3998 008b 00       		.uleb128 .LVU6
+ 3999 008c 00       		.uleb128 .LVU6
+ 4000 008d 00       		.uleb128 0
+ 4001              	.LLST0:
+ 4002 008e 06       		.byte	0x6
+ 4003 008f 00000000 		.long	.LVL0
+ 4004 0093 04       		.byte	0x4
+ 4005 0094 00       		.uleb128 .LVL0-.LVL0
+ 4006 0095 2F       		.uleb128 .LVL1-.LVL0
+ 4007 0096 01       		.uleb128 0x1
+ 4008 0097 50       		.byte	0x50
+ 4009 0098 04       		.byte	0x4
+ 4010 0099 2F       		.uleb128 .LVL1-.LVL0
+ 4011 009a 35       		.uleb128 .LVL2-1-.LVL0
+ 4012 009b 03       		.uleb128 0x3
+ 4013 009c 91       		.byte	0x91
+ 4014 009d B87F     		.sleb128 -72
+ 4015 009f 04       		.byte	0x4
+ 4016 00a0 35       		.uleb128 .LVL2-1-.LVL0
+ 4017 00a1 C501     		.uleb128 .LFE299-.LVL0
+ 4018 00a3 04       		.uleb128 0x4
+ 4019 00a4 A3       		.byte	0xa3
+ 4020 00a5 01       		.uleb128 0x1
+ 4021 00a6 50       		.byte	0x50
+ 4022 00a7 9F       		.byte	0x9f
+ 4023 00a8 00       		.byte	0
+ 4024              	.LVUS1:
+ 4025 00a9 00       		.uleb128 0
+ 4026 00aa 00       		.uleb128 .LVU6
+ 4027 00ab 00       		.uleb128 .LVU6
+ 4028 00ac 00       		.uleb128 0
+ 4029              	.LLST1:
+ 4030 00ad 06       		.byte	0x6
+ 4031 00ae 00000000 		.long	.LVL0
+ 4032 00b2 04       		.byte	0x4
+ 4033 00b3 00       		.uleb128 .LVL0-.LVL0
+ 4034 00b4 35       		.uleb128 .LVL2-1-.LVL0
+ 4035 00b5 01       		.uleb128 0x1
+ 4036 00b6 52       		.byte	0x52
+ 4037 00b7 04       		.byte	0x4
+ 4038 00b8 35       		.uleb128 .LVL2-1-.LVL0
+ 4039 00b9 C501     		.uleb128 .LFE299-.LVL0
+GAS LISTING /tmp/ccFT8Er8.s 			page 75
+
+
+ 4040 00bb 02       		.uleb128 0x2
+ 4041 00bc 91       		.byte	0x91
+ 4042 00bd 58       		.sleb128 -40
+ 4043 00be 00       		.byte	0
+ 4044              	.LVUS2:
+ 4045 00bf 00       		.uleb128 0
+ 4046 00c0 00       		.uleb128 .LVU6
+ 4047 00c1 00       		.uleb128 .LVU6
+ 4048 00c2 00       		.uleb128 0
+ 4049              	.LLST2:
+ 4050 00c3 06       		.byte	0x6
+ 4051 00c4 00000000 		.long	.LVL0
+ 4052 00c8 04       		.byte	0x4
+ 4053 00c9 00       		.uleb128 .LVL0-.LVL0
+ 4054 00ca 35       		.uleb128 .LVL2-1-.LVL0
+ 4055 00cb 01       		.uleb128 0x1
+ 4056 00cc 51       		.byte	0x51
+ 4057 00cd 04       		.byte	0x4
+ 4058 00ce 35       		.uleb128 .LVL2-1-.LVL0
+ 4059 00cf C501     		.uleb128 .LFE299-.LVL0
+ 4060 00d1 04       		.uleb128 0x4
+ 4061 00d2 A3       		.byte	0xa3
+ 4062 00d3 01       		.uleb128 0x1
+ 4063 00d4 51       		.byte	0x51
+ 4064 00d5 9F       		.byte	0x9f
+ 4065 00d6 00       		.byte	0
+ 4066              	.LVUS3:
+ 4067 00d7 00       		.uleb128 .LVU9
+ 4068 00d8 00       		.uleb128 .LVU17
+ 4069 00d9 00       		.uleb128 .LVU17
+ 4070 00da 00       		.uleb128 .LVU19
+ 4071              	.LLST3:
+ 4072 00db 06       		.byte	0x6
+ 4073 00dc 60000000 		.long	.LVL4
+ 4074 00e0 04       		.byte	0x4
+ 4075 00e1 00       		.uleb128 .LVL4-.LVL4
+ 4076 00e2 30       		.uleb128 .LVL7-.LVL4
+ 4077 00e3 01       		.uleb128 0x1
+ 4078 00e4 56       		.byte	0x56
+ 4079 00e5 04       		.byte	0x4
+ 4080 00e6 30       		.uleb128 .LVL7-.LVL4
+ 4081 00e7 36       		.uleb128 .LVL8-.LVL4
+ 4082 00e8 01       		.uleb128 0x1
+ 4083 00e9 51       		.byte	0x51
+ 4084 00ea 00       		.byte	0
+ 4085              	.LVUS4:
+ 4086 00eb 00       		.uleb128 .LVU9
+ 4087 00ec 00       		.uleb128 .LVU11
+ 4088 00ed 00       		.uleb128 .LVU11
+ 4089 00ee 01       		.uleb128 .LVU18
+ 4090 00ef 01       		.uleb128 .LVU18
+ 4091 00f0 00       		.uleb128 .LVU19
+ 4092              	.LLST4:
+ 4093 00f1 06       		.byte	0x6
+ 4094 00f2 60000000 		.long	.LVL4
+ 4095 00f6 04       		.byte	0x4
+ 4096 00f7 00       		.uleb128 .LVL4-.LVL4
+GAS LISTING /tmp/ccFT8Er8.s 			page 76
+
+
+ 4097 00f8 06       		.uleb128 .LVL5-.LVL4
+ 4098 00f9 01       		.uleb128 0x1
+ 4099 00fa 57       		.byte	0x57
+ 4100 00fb 04       		.byte	0x4
+ 4101 00fc 06       		.uleb128 .LVL5-.LVL4
+ 4102 00fd 30       		.uleb128 .LVL7-.LVL4
+ 4103 00fe 03       		.uleb128 0x3
+ 4104 00ff 77       		.byte	0x77
+ 4105 0100 7F       		.sleb128 -1
+ 4106 0101 9F       		.byte	0x9f
+ 4107 0102 04       		.byte	0x4
+ 4108 0103 30       		.uleb128 .LVL7-.LVL4
+ 4109 0104 36       		.uleb128 .LVL8-.LVL4
+ 4110 0105 01       		.uleb128 0x1
+ 4111 0106 57       		.byte	0x57
+ 4112 0107 00       		.byte	0
+ 4113              	.Ldebug_loc3:
+ 4114              		.section	.debug_aranges,"",@progbits
+ 4115 0000 24000000 		.long	0x24
+ 4116 0004 0200     		.value	0x2
+ 4117 0006 00000000 		.long	.Ldebug_info0
+ 4118 000a 04       		.byte	0x4
+ 4119 000b 00       		.byte	0
+ 4120 000c 0000     		.value	0
+ 4121 000e 0000     		.value	0
+ 4122 0010 00000000 		.long	.LFB299
+ 4123 0014 C5000000 		.long	.LFE299-.LFB299
+ 4124 0018 00000000 		.long	.LFB300
+ 4125 001c 9B030000 		.long	.LFE300-.LFB300
+ 4126 0020 00000000 		.long	0
+ 4127 0024 00000000 		.long	0
+ 4128              		.section	.debug_rnglists,"",@progbits
+ 4129              	.Ldebug_ranges0:
+ 4130 0000 26000000 		.long	.Ldebug_ranges3-.Ldebug_ranges2
+ 4131              	.Ldebug_ranges2:
+ 4132 0004 0500     		.value	0x5
+ 4133 0006 04       		.byte	0x4
+ 4134 0007 00       		.byte	0
+ 4135 0008 00000000 		.long	0
+ 4136              	.LLRL5:
+ 4137 000c 05       		.byte	0x5
+ 4138 000d 28010000 		.long	.LBB31
+ 4139 0011 04       		.byte	0x4
+ 4140 0012 00       		.uleb128 .LBB31-.LBB31
+ 4141 0013 DA01     		.uleb128 .LBE31-.LBB31
+ 4142 0015 04       		.byte	0x4
+ 4143 0016 DD01     		.uleb128 .LBB44-.LBB31
+ 4144 0018 F304     		.uleb128 .LBE44-.LBB31
+ 4145 001a 00       		.byte	0
+ 4146              	.LLRL12:
+ 4147 001b 07       		.byte	0x7
+ 4148 001c 00000000 		.long	.LFB299
+ 4149 0020 C501     		.uleb128 .LFE299-.LFB299
+ 4150 0022 07       		.byte	0x7
+ 4151 0023 00000000 		.long	.LFB300
+ 4152 0027 9B07     		.uleb128 .LFE300-.LFB300
+ 4153 0029 00       		.byte	0
+GAS LISTING /tmp/ccFT8Er8.s 			page 77
+
+
+ 4154              	.Ldebug_ranges3:
+ 4155              		.section	.debug_line,"",@progbits
+ 4156              	.Ldebug_line0:
+ 4157 0000 36030000 		.section	.debug_str,"MS",@progbits,1
+ 4157      05000400 
+ 4157      C2000000 
+ 4157      010101FB 
+ 4157      0E0D0001 
+ 4158              	.LASF188:
+ 4159 0000 636F756E 		.string	"count"
+ 4159      7400
+ 4160              	.LASF166:
+ 4161 0006 62756666 		.string	"buffer1_tail"
+ 4161      6572315F 
+ 4161      7461696C 
+ 4161      00
+ 4162              	.LASF195:
+ 4163 0013 63685468 		.string	"chThdSleep"
+ 4163      64536C65 
+ 4163      657000
+ 4164              	.LASF146:
+ 4165 001e 53445F55 		.string	"SD_UNINIT"
+ 4165      4E494E49 
+ 4165      5400
+ 4166              	.LASF112:
+ 4167 0028 72656164 		.string	"ready_list_t"
+ 4167      795F6C69 
+ 4167      73745F74 
+ 4167      00
+ 4168              	.LASF56:
+ 4169 0035 72666375 		.string	"rfcu"
+ 4169      00
+ 4170              	.LASF11:
+ 4171 003a 73697A65 		.string	"size_t"
+ 4171      5F7400
+ 4172              	.LASF81:
+ 4173 0041 64656C74 		.string	"delta"
+ 4173      6100
+ 4174              	.LASF100:
+ 4175 0047 7264796D 		.string	"rdymsg"
+ 4175      736700
+ 4176              	.LASF22:
+ 4177 004e 75696E74 		.string	"uint64_t"
+ 4177      36345F74 
+ 4177      00
+ 4178              	.LASF12:
+ 4179 0057 5F5F7569 		.string	"__uint8_t"
+ 4179      6E74385F 
+ 4179      7400
+ 4180              	.LASF75:
+ 4181 0061 70726576 		.string	"prev"
+ 4181      00
+ 4182              	.LASF83:
+ 4183 0066 706F7274 		.string	"port_intctx"
+ 4183      5F696E74 
+ 4183      63747800 
+ 4184              	.LASF95:
+GAS LISTING /tmp/ccFT8Er8.s 			page 78
+
+
+ 4185 0072 63685F74 		.string	"ch_threads_queue"
+ 4185      68726561 
+ 4185      64735F71 
+ 4185      75657565 
+ 4185      00
+ 4186              	.LASF66:
+ 4187 0083 73797374 		.string	"system_debug_t"
+ 4187      656D5F64 
+ 4187      65627567 
+ 4187      5F7400
+ 4188              	.LASF55:
+ 4189 0092 636F7265 		.string	"core_id"
+ 4189      5F696400 
+ 4190              	.LASF3:
+ 4191 009a 6C6F6E67 		.string	"long int"
+ 4191      20696E74 
+ 4191      00
+ 4192              	.LASF76:
+ 4193 00a3 63685F70 		.string	"ch_priority_queue_t"
+ 4193      72696F72 
+ 4193      6974795F 
+ 4193      71756575 
+ 4193      655F7400 
+ 4194              	.LASF6:
+ 4195 00b7 5F466C6F 		.string	"_Float128"
+ 4195      61743132 
+ 4195      3800
+ 4196              	.LASF17:
+ 4197 00c1 6C6F6E67 		.string	"long long unsigned int"
+ 4197      206C6F6E 
+ 4197      6720756E 
+ 4197      7369676E 
+ 4197      65642069 
+ 4198              	.LASF42:
+ 4199 00d8 64697370 		.string	"dispose"
+ 4199      6F736500 
+ 4200              	.LASF101:
+ 4201 00e0 65786974 		.string	"exitcode"
+ 4201      636F6465 
+ 4201      00
+ 4202              	.LASF167:
+ 4203 00e9 62756666 		.string	"buffer1_count"
+ 4203      6572315F 
+ 4203      636F756E 
+ 4203      7400
+ 4204              	.LASF104:
+ 4205 00f7 73656E74 		.string	"sentmsg"
+ 4205      6D736700 
+ 4206              	.LASF90:
+ 4207 00ff 76697274 		.string	"virtual_timers_list_t"
+ 4207      75616C5F 
+ 4207      74696D65 
+ 4207      72735F6C 
+ 4207      6973745F 
+ 4208              	.LASF133:
+ 4209 0115 696F5F71 		.string	"io_queue_t"
+ 4209      75657565 
+GAS LISTING /tmp/ccFT8Er8.s 			page 79
+
+
+ 4209      5F7400
+ 4210              	.LASF72:
+ 4211 0120 6E657874 		.string	"next"
+ 4211      00
+ 4212              	.LASF43:
+ 4213 0125 6F626A65 		.string	"object"
+ 4213      637400
+ 4214              	.LASF163:
+ 4215 012c 72656164 		.string	"readt"
+ 4215      7400
+ 4216              	.LASF39:
+ 4217 0132 72656673 		.string	"refs"
+ 4217      00
+ 4218              	.LASF135:
+ 4219 0137 715F7761 		.string	"q_waiting"
+ 4219      6974696E 
+ 4219      6700
+ 4220              	.LASF115:
+ 4221 0141 63737461 		.string	"cstack_end"
+ 4221      636B5F65 
+ 4221      6E6400
+ 4222              	.LASF4:
+ 4223 014c 6C6F6E67 		.string	"long long int"
+ 4223      206C6F6E 
+ 4223      6720696E 
+ 4223      7400
+ 4224              	.LASF10:
+ 4225 015a 7369676E 		.string	"signed char"
+ 4225      65642063 
+ 4225      68617200 
+ 4226              	.LASF194:
+ 4227 0166 68616C5F 		.string	"hal_serial_config"
+ 4227      73657269 
+ 4227      616C5F63 
+ 4227      6F6E6669 
+ 4227      6700
+ 4228              	.LASF183:
+ 4229 0178 63685379 		.string	"chSysInit"
+ 4229      73496E69 
+ 4229      7400
+ 4230              	.LASF80:
+ 4231 0182 63685F64 		.string	"ch_delta_list"
+ 4231      656C7461 
+ 4231      5F6C6973 
+ 4231      7400
+ 4232              	.LASF53:
+ 4233 0190 76746C69 		.string	"vtlist"
+ 4233      737400
+ 4234              	.LASF190:
+ 4235 0197 706F7274 		.string	"port_unlock"
+ 4235      5F756E6C 
+ 4235      6F636B00 
+ 4236              	.LASF45:
+ 4237 01a3 6D736771 		.string	"msgqueue"
+ 4237      75657565 
+ 4237      00
+ 4238              	.LASF37:
+GAS LISTING /tmp/ccFT8Er8.s 			page 80
+
+
+ 4239 01ac 73746174 		.string	"state"
+ 4239      6500
+ 4240              	.LASF193:
+ 4241 01b2 73746B6C 		.string	"stkline_t"
+ 4241      696E655F 
+ 4241      7400
+ 4242              	.LASF151:
+ 4243 01bc 68616C5F 		.string	"hal_serial_driver"
+ 4243      73657269 
+ 4243      616C5F64 
+ 4243      72697665 
+ 4243      7200
+ 4244              	.LASF25:
+ 4245 01ce 74737461 		.string	"tstate_t"
+ 4245      74655F74 
+ 4245      00
+ 4246              	.LASF61:
+ 4247 01d7 63685F72 		.string	"ch_rfcu"
+ 4247      66637500 
+ 4248              	.LASF74:
+ 4249 01df 63685F71 		.string	"ch_queue"
+ 4249      75657565 
+ 4249      00
+ 4250              	.LASF174:
+ 4251 01e8 6C617374 		.string	"last_monitor_time"
+ 4251      5F6D6F6E 
+ 4251      69746F72 
+ 4251      5F74696D 
+ 4251      6500
+ 4252              	.LASF13:
+ 4253 01fa 73686F72 		.string	"short int"
+ 4253      7420696E 
+ 4253      7400
+ 4254              	.LASF137:
+ 4255 0204 715F6275 		.string	"q_buffer"
+ 4255      66666572 
+ 4255      00
+ 4256              	.LASF139:
+ 4257 020d 715F7772 		.string	"q_wrptr"
+ 4257      70747200 
+ 4258              	.LASF142:
+ 4259 0215 715F6C69 		.string	"q_link"
+ 4259      6E6B00
+ 4260              	.LASF164:
+ 4261 021c 62756666 		.string	"buffer1"
+ 4261      65723100 
+ 4262              	.LASF79:
+ 4263 0224 63685F64 		.string	"ch_delta_list_t"
+ 4263      656C7461 
+ 4263      5F6C6973 
+ 4263      745F7400 
+ 4264              	.LASF184:
+ 4265 0234 68616C49 		.string	"halInit"
+ 4265      6E697400 
+ 4266              	.LASF91:
+ 4267 023c 63685F72 		.string	"ch_registry"
+ 4267      65676973 
+GAS LISTING /tmp/ccFT8Er8.s 			page 81
+
+
+ 4267      74727900 
+ 4268              	.LASF125:
+ 4269 0248 77666C61 		.string	"wflags"
+ 4269      677300
+ 4270              	.LASF119:
+ 4271 024f 706F7274 		.string	"port_irq_sts"
+ 4271      5F697271 
+ 4271      5F737473 
+ 4271      00
+ 4272              	.LASF15:
+ 4273 025c 5F5F7569 		.string	"__uint32_t"
+ 4273      6E743332 
+ 4273      5F7400
+ 4274              	.LASF48:
+ 4275 0267 7265616C 		.string	"realprio"
+ 4275      7072696F 
+ 4275      00
+ 4276              	.LASF177:
+ 4277 0270 7461736B 		.string	"task2_speed"
+ 4277      325F7370 
+ 4277      65656400 
+ 4278              	.LASF170:
+ 4279 027c 62756666 		.string	"buffer2_tail"
+ 4279      6572325F 
+ 4279      7461696C 
+ 4279      00
+ 4280              	.LASF44:
+ 4281 0289 77616974 		.string	"waiting"
+ 4281      696E6700 
+ 4282              	.LASF116:
+ 4283 0291 69646C65 		.string	"idlestack_base"
+ 4283      73746163 
+ 4283      6B5F6261 
+ 4283      736500
+ 4284              	.LASF120:
+ 4285 02a0 6D757465 		.string	"mutex_t"
+ 4285      785F7400 
+ 4286              	.LASF132:
+ 4287 02a8 42617365 		.string	"BaseSequentialStream"
+ 4287      53657175 
+ 4287      656E7469 
+ 4287      616C5374 
+ 4287      7265616D 
+ 4288              	.LASF172:
+ 4289 02bd 6C617374 		.string	"last_task1_time"
+ 4289      5F746173 
+ 4289      6B315F74 
+ 4289      696D6500 
+ 4290              	.LASF68:
+ 4291 02cd 73797369 		.string	"sysinterval_t"
+ 4291      6E746572 
+ 4291      76616C5F 
+ 4291      7400
+ 4292              	.LASF31:
+ 4293 02db 636E745F 		.string	"cnt_t"
+ 4293      7400
+ 4294              	.LASF199:
+GAS LISTING /tmp/ccFT8Er8.s 			page 82
+
+
+ 4295 02e1 63685654 		.string	"chVTGetSystemTimeX"
+ 4295      47657453 
+ 4295      79737465 
+ 4295      6D54696D 
+ 4295      655800
+ 4296              	.LASF2:
+ 4297 02f4 756E7369 		.string	"unsigned int"
+ 4297      676E6564 
+ 4297      20696E74 
+ 4297      00
+ 4298              	.LASF159:
+ 4299 0301 53657269 		.string	"SerialDriverVMT"
+ 4299      616C4472 
+ 4299      69766572 
+ 4299      564D5400 
+ 4300              	.LASF105:
+ 4301 0311 77747365 		.string	"wtsemp"
+ 4301      6D7000
+ 4302              	.LASF153:
+ 4303 0318 69717565 		.string	"iqueue"
+ 4303      756500
+ 4304              	.LASF103:
+ 4305 031f 77747472 		.string	"wttrp"
+ 4305      7000
+ 4306              	.LASF41:
+ 4307 0325 72717565 		.string	"rqueue"
+ 4307      756500
+ 4308              	.LASF73:
+ 4309 032c 63685F71 		.string	"ch_queue_t"
+ 4309      75657565 
+ 4309      5F7400
+ 4310              	.LASF69:
+ 4311 0337 74696D65 		.string	"time_conv_t"
+ 4311      5F636F6E 
+ 4311      765F7400 
+ 4312              	.LASF161:
+ 4313 0343 67657474 		.string	"gett"
+ 4313      00
+ 4314              	.LASF40:
+ 4315 0348 6E616D65 		.string	"name"
+ 4315      00
+ 4316              	.LASF97:
+ 4317 034d 74687265 		.string	"thread_dispose_t"
+ 4317      61645F64 
+ 4317      6973706F 
+ 4317      73655F74 
+ 4317      00
+ 4318              	.LASF92:
+ 4319 035e 71756575 		.string	"queue"
+ 4319      6500
+ 4320              	.LASF152:
+ 4321 0364 6576656E 		.string	"event"
+ 4321      7400
+ 4322              	.LASF8:
+ 4323 036a 73686F72 		.string	"short unsigned int"
+ 4323      7420756E 
+ 4323      7369676E 
+GAS LISTING /tmp/ccFT8Er8.s 			page 83
+
+
+ 4323      65642069 
+ 4323      6E7400
+ 4324              	.LASF70:
+ 4325 037d 63685F6C 		.string	"ch_list_t"
+ 4325      6973745F 
+ 4325      7400
+ 4326              	.LASF50:
+ 4327 0387 63685F74 		.string	"ch_thread"
+ 4327      68726561 
+ 4327      6400
+ 4328              	.LASF59:
+ 4329 0391 6D61696E 		.string	"mainthread"
+ 4329      74687265 
+ 4329      616400
+ 4330              	.LASF28:
+ 4331 039c 6D73675F 		.string	"msg_t"
+ 4331      7400
+ 4332              	.LASF46:
+ 4333 03a2 6570656E 		.string	"epending"
+ 4333      64696E67 
+ 4333      00
+ 4334              	.LASF131:
+ 4335 03ab 72656164 		.string	"read"
+ 4335      00
+ 4336              	.LASF162:
+ 4337 03b0 77726974 		.string	"writet"
+ 4337      657400
+ 4338              	.LASF24:
+ 4339 03b7 746D6F64 		.string	"tmode_t"
+ 4339      655F7400 
+ 4340              	.LASF88:
+ 4341 03bf 73797374 		.string	"systime"
+ 4341      696D6500 
+ 4342              	.LASF71:
+ 4343 03c7 63685F6C 		.string	"ch_list"
+ 4343      69737400 
+ 4344              	.LASF58:
+ 4345 03cf 69646C65 		.string	"idlethread"
+ 4345      74687265 
+ 4345      616400
+ 4346              	.LASF110:
+ 4347 03da 63685F72 		.string	"ch_ready_list"
+ 4347      65616479 
+ 4347      5F6C6973 
+ 4347      7400
+ 4348              	.LASF29:
+ 4349 03e8 6576656E 		.string	"eventmask_t"
+ 4349      746D6173 
+ 4349      6B5F7400 
+ 4350              	.LASF14:
+ 4351 03f4 5F5F696E 		.string	"__int32_t"
+ 4351      7433325F 
+ 4351      7400
+ 4352              	.LASF168:
+ 4353 03fe 62756666 		.string	"buffer2"
+ 4353      65723200 
+ 4354              	.LASF143:
+GAS LISTING /tmp/ccFT8Er8.s 			page 84
+
+
+ 4355 0406 716E6F74 		.string	"qnotify_t"
+ 4355      6966795F 
+ 4355      7400
+ 4356              	.LASF176:
+ 4357 0410 7461736B 		.string	"task1_speed"
+ 4357      315F7370 
+ 4357      65656400 
+ 4358              	.LASF89:
+ 4359 041c 6C617374 		.string	"laststamp"
+ 4359      7374616D 
+ 4359      7000
+ 4360              	.LASF130:
+ 4361 0426 77726974 		.string	"write"
+ 4361      6500
+ 4362              	.LASF144:
+ 4363 042c 696E7075 		.string	"input_queue_t"
+ 4363      745F7175 
+ 4363      6575655F 
+ 4363      7400
+ 4364              	.LASF160:
+ 4365 043a 70757474 		.string	"putt"
+ 4365      00
+ 4366              	.LASF192:
+ 4367 043f 474E5520 		.string	"GNU C17 11.4.0 -m32 -mtune=generic -march=i686 -ggdb -O2 -ffunction-sections -fdata-secti
+ 4367      43313720 
+ 4367      31312E34 
+ 4367      2E30202D 
+ 4367      6D333220 
+ 4368              	.LASF60:
+ 4369 04f7 72666375 		.string	"rfcu_mask_t"
+ 4369      5F6D6173 
+ 4369      6B5F7400 
+ 4370              	.LASF187:
+ 4371 0503 7461696C 		.string	"tail"
+ 4371      00
+ 4372              	.LASF94:
+ 4373 0508 74687265 		.string	"thread_reference_t"
+ 4373      61645F72 
+ 4373      65666572 
+ 4373      656E6365 
+ 4373      5F7400
+ 4374              	.LASF123:
+ 4375 051b 6C697374 		.string	"listener"
+ 4375      656E6572 
+ 4375      00
+ 4376              	.LASF86:
+ 4377 0524 63685F76 		.string	"ch_virtual_timers_list"
+ 4377      69727475 
+ 4377      616C5F74 
+ 4377      696D6572 
+ 4377      735F6C69 
+ 4378              	.LASF136:
+ 4379 053b 715F636F 		.string	"q_counter"
+ 4379      756E7465 
+ 4379      7200
+ 4380              	.LASF5:
+ 4381 0545 6C6F6E67 		.string	"long double"
+GAS LISTING /tmp/ccFT8Er8.s 			page 85
+
+
+ 4381      20646F75 
+ 4381      626C6500 
+ 4382              	.LASF114:
+ 4383 0551 63737461 		.string	"cstack_base"
+ 4383      636B5F62 
+ 4383      61736500 
+ 4384              	.LASF189:
+ 4385 055d 63685379 		.string	"chSysLock"
+ 4385      734C6F63 
+ 4385      6B00
+ 4386              	.LASF165:
+ 4387 0567 62756666 		.string	"buffer1_head"
+ 4387      6572315F 
+ 4387      68656164 
+ 4387      00
+ 4388              	.LASF113:
+ 4389 0574 63685F6F 		.string	"ch_os_instance_config"
+ 4389      735F696E 
+ 4389      7374616E 
+ 4389      63655F63 
+ 4389      6F6E6669 
+ 4390              	.LASF84:
+ 4391 058a 706F7274 		.string	"port_context"
+ 4391      5F636F6E 
+ 4391      74657874 
+ 4391      00
+ 4392              	.LASF198:
+ 4393 0597 63685654 		.string	"chVTGetSystemTime"
+ 4393      47657453 
+ 4393      79737465 
+ 4393      6D54696D 
+ 4393      6500
+ 4394              	.LASF78:
+ 4395 05a9 7072696F 		.string	"prio"
+ 4395      00
+ 4396              	.LASF117:
+ 4397 05ae 69646C65 		.string	"idlestack_end"
+ 4397      73746163 
+ 4397      6B5F656E 
+ 4397      6400
+ 4398              	.LASF180:
+ 4399 05bc 6E756D62 		.string	"number_counter"
+ 4399      65725F63 
+ 4399      6F756E74 
+ 4399      657200
+ 4400              	.LASF158:
+ 4401 05cb 53657269 		.string	"SerialConfig"
+ 4401      616C436F 
+ 4401      6E666967 
+ 4401      00
+ 4402              	.LASF16:
+ 4403 05d8 5F5F7569 		.string	"__uint64_t"
+ 4403      6E743634 
+ 4403      5F7400
+ 4404              	.LASF87:
+ 4405 05e3 646C6973 		.string	"dlist"
+ 4405      7400
+GAS LISTING /tmp/ccFT8Er8.s 			page 86
+
+
+ 4406              	.LASF32:
+ 4407 05e9 636F7265 		.string	"core_id_t"
+ 4407      5F69645F 
+ 4407      7400
+ 4408              	.LASF26:
+ 4409 05f3 74726566 		.string	"trefs_t"
+ 4409      735F7400 
+ 4410              	.LASF147:
+ 4411 05fb 53445F53 		.string	"SD_STOP"
+ 4411      544F5000 
+ 4412              	.LASF171:
+ 4413 0603 62756666 		.string	"buffer2_count"
+ 4413      6572325F 
+ 4413      636F756E 
+ 4413      7400
+ 4414              	.LASF179:
+ 4415 0611 64656661 		.string	"default_timeout"
+ 4415      756C745F 
+ 4415      74696D65 
+ 4415      6F757400 
+ 4416              	.LASF27:
+ 4417 0621 74707269 		.string	"tprio_t"
+ 4417      6F5F7400 
+ 4418              	.LASF140:
+ 4419 0629 715F7264 		.string	"q_rdptr"
+ 4419      70747200 
+ 4420              	.LASF64:
+ 4421 0631 63685F73 		.string	"ch_system_debug"
+ 4421      79737465 
+ 4421      6D5F6465 
+ 4421      62756700 
+ 4422              	.LASF85:
+ 4423 0641 5F426F6F 		.string	"_Bool"
+ 4423      6C00
+ 4424              	.LASF19:
+ 4425 0647 696E7433 		.string	"int32_t"
+ 4425      325F7400 
+ 4426              	.LASF7:
+ 4427 064f 756E7369 		.string	"unsigned char"
+ 4427      676E6564 
+ 4427      20636861 
+ 4427      7200
+ 4428              	.LASF63:
+ 4429 065d 72666375 		.string	"rfcu_t"
+ 4429      5F7400
+ 4430              	.LASF169:
+ 4431 0664 62756666 		.string	"buffer2_head"
+ 4431      6572325F 
+ 4431      68656164 
+ 4431      00
+ 4432              	.LASF127:
+ 4433 0671 6576656E 		.string	"event_source_t"
+ 4433      745F736F 
+ 4433      75726365 
+ 4433      5F7400
+ 4434              	.LASF107:
+ 4435 0680 65776D61 		.string	"ewmask"
+GAS LISTING /tmp/ccFT8Er8.s 			page 87
+
+
+ 4435      736B00
+ 4436              	.LASF154:
+ 4437 0687 6F717565 		.string	"oqueue"
+ 4437      756500
+ 4438              	.LASF128:
+ 4439 068e 42617365 		.string	"BaseSequentialStreamVMT"
+ 4439      53657175 
+ 4439      656E7469 
+ 4439      616C5374 
+ 4439      7265616D 
+ 4440              	.LASF201:
+ 4441 06a6 5F5F6675 		.string	"__func__"
+ 4441      6E635F5F 
+ 4441      00
+ 4442              	.LASF155:
+ 4443 06af 636F6D5F 		.string	"com_listen"
+ 4443      6C697374 
+ 4443      656E00
+ 4444              	.LASF96:
+ 4445 06ba 74687265 		.string	"threads_queue_t"
+ 4445      6164735F 
+ 4445      71756575 
+ 4445      655F7400 
+ 4446              	.LASF108:
+ 4447 06ca 63685F73 		.string	"ch_semaphore"
+ 4447      656D6170 
+ 4447      686F7265 
+ 4447      00
+ 4448              	.LASF93:
+ 4449 06d7 72656769 		.string	"registry_t"
+ 4449      73747279 
+ 4449      5F7400
+ 4450              	.LASF124:
+ 4451 06e2 6576656E 		.string	"events"
+ 4451      747300
+ 4452              	.LASF21:
+ 4453 06e9 75696E74 		.string	"uint32_t"
+ 4453      33325F74 
+ 4453      00
+ 4454              	.LASF106:
+ 4455 06f2 77746D74 		.string	"wtmtxp"
+ 4455      787000
+ 4456              	.LASF149:
+ 4457 06f9 73647374 		.string	"sdstate_t"
+ 4457      6174655F 
+ 4457      7400
+ 4458              	.LASF34:
+ 4459 0703 6F776E65 		.string	"owner"
+ 4459      7200
+ 4460              	.LASF150:
+ 4461 0709 53657269 		.string	"SerialDriver"
+ 4461      616C4472 
+ 4461      69766572 
+ 4461      00
+ 4462              	.LASF186:
+ 4463 0716 68656164 		.string	"head"
+ 4463      00
+GAS LISTING /tmp/ccFT8Er8.s 			page 88
+
+
+ 4464              	.LASF9:
+ 4465 071b 6C6F6E67 		.string	"long unsigned int"
+ 4465      20756E73 
+ 4465      69676E65 
+ 4465      6420696E 
+ 4465      7400
+ 4466              	.LASF35:
+ 4467 072d 77616261 		.string	"wabase"
+ 4467      736500
+ 4468              	.LASF18:
+ 4469 0734 63686172 		.string	"char"
+ 4469      00
+ 4470              	.LASF57:
+ 4471 0739 636F6E66 		.string	"config"
+ 4471      696700
+ 4472              	.LASF182:
+ 4473 0740 73645374 		.string	"sdStart"
+ 4473      61727400 
+ 4474              	.LASF33:
+ 4475 0748 74687265 		.string	"thread_t"
+ 4475      61645F74 
+ 4475      00
+ 4476              	.LASF178:
+ 4477 0751 6D6F6E69 		.string	"monitor_speed"
+ 4477      746F725F 
+ 4477      73706565 
+ 4477      6400
+ 4478              	.LASF67:
+ 4479 075f 73797374 		.string	"systime_t"
+ 4479      696D655F 
+ 4479      7400
+ 4480              	.LASF82:
+ 4481 0769 72656778 		.string	"regx86"
+ 4481      383600
+ 4482              	.LASF185:
+ 4483 0770 62756666 		.string	"buffer"
+ 4483      657200
+ 4484              	.LASF65:
+ 4485 0777 70616E69 		.string	"panic_msg"
+ 4485      635F6D73 
+ 4485      6700
+ 4486              	.LASF99:
+ 4487 0781 70717565 		.string	"pqueue"
+ 4487      756500
+ 4488              	.LASF51:
+ 4489 0788 63685F6F 		.string	"ch_os_instance"
+ 4489      735F696E 
+ 4489      7374616E 
+ 4489      636500
+ 4490              	.LASF49:
+ 4491 0797 6F735F69 		.string	"os_instance_t"
+ 4491      6E737461 
+ 4491      6E63655F 
+ 4491      7400
+ 4492              	.LASF109:
+ 4493 07a5 63685F6D 		.string	"ch_mutex"
+ 4493      75746578 
+GAS LISTING /tmp/ccFT8Er8.s 			page 89
+
+
+ 4493      00
+ 4494              	.LASF121:
+ 4495 07ae 6576656E 		.string	"event_listener_t"
+ 4495      745F6C69 
+ 4495      7374656E 
+ 4495      65725F74 
+ 4495      00
+ 4496              	.LASF54:
+ 4497 07bf 7265676C 		.string	"reglist"
+ 4497      69737400 
+ 4498              	.LASF77:
+ 4499 07c7 63685F70 		.string	"ch_priority_queue"
+ 4499      72696F72 
+ 4499      6974795F 
+ 4499      71756575 
+ 4499      6500
+ 4500              	.LASF23:
+ 4501 07d9 73797373 		.string	"syssts_t"
+ 4501      74735F74 
+ 4501      00
+ 4502              	.LASF148:
+ 4503 07e2 53445F52 		.string	"SD_READY"
+ 4503      45414459 
+ 4503      00
+ 4504              	.LASF30:
+ 4505 07eb 6576656E 		.string	"eventflags_t"
+ 4505      74666C61 
+ 4505      67735F74 
+ 4505      00
+ 4506              	.LASF111:
+ 4507 07f8 63757272 		.string	"current"
+ 4507      656E7400 
+ 4508              	.LASF145:
+ 4509 0800 6F757470 		.string	"output_queue_t"
+ 4509      75745F71 
+ 4509      75657565 
+ 4509      5F7400
+ 4510              	.LASF197:
+ 4511 080f 7072696E 		.string	"print_buffer_state"
+ 4511      745F6275 
+ 4511      66666572 
+ 4511      5F737461 
+ 4511      746500
+ 4512              	.LASF157:
+ 4513 0822 636F6D5F 		.string	"com_name"
+ 4513      6E616D65 
+ 4513      00
+ 4514              	.LASF118:
+ 4515 082b 6F735F69 		.string	"os_instance_config_t"
+ 4515      6E737461 
+ 4515      6E63655F 
+ 4515      636F6E66 
+ 4515      69675F74 
+ 4516              	.LASF138:
+ 4517 0840 715F746F 		.string	"q_top"
+ 4517      7000
+ 4518              	.LASF134:
+GAS LISTING /tmp/ccFT8Er8.s 			page 90
+
+
+ 4519 0846 696F5F71 		.string	"io_queue"
+ 4519      75657565 
+ 4519      00
+ 4520              	.LASF62:
+ 4521 084f 6D61736B 		.string	"mask"
+ 4521      00
+ 4522              	.LASF156:
+ 4523 0854 636F6D5F 		.string	"com_data"
+ 4523      64617461 
+ 4523      00
+ 4524              	.LASF36:
+ 4525 085d 7761656E 		.string	"waend"
+ 4525      6400
+ 4526              	.LASF141:
+ 4527 0863 715F6E6F 		.string	"q_notify"
+ 4527      74696679 
+ 4527      00
+ 4528              	.LASF52:
+ 4529 086c 726C6973 		.string	"rlist"
+ 4529      7400
+ 4530              	.LASF126:
+ 4531 0872 6576656E 		.string	"event_source"
+ 4531      745F736F 
+ 4531      75726365 
+ 4531      00
+ 4532              	.LASF20:
+ 4533 087f 75696E74 		.string	"uint8_t"
+ 4533      385F7400 
+ 4534              	.LASF173:
+ 4535 0887 6C617374 		.string	"last_task2_time"
+ 4535      5F746173 
+ 4535      6B325F74 
+ 4535      696D6500 
+ 4536              	.LASF38:
+ 4537 0897 666C6167 		.string	"flags"
+ 4537      7300
+ 4538              	.LASF175:
+ 4539 089d 73657269 		.string	"serial"
+ 4539      616C00
+ 4540              	.LASF102:
+ 4541 08a4 77746F62 		.string	"wtobjp"
+ 4541      6A7000
+ 4542              	.LASF200:
+ 4543 08ab 63685379 		.string	"chSysUnlock"
+ 4543      73556E6C 
+ 4543      6F636B00 
+ 4544              	.LASF129:
+ 4545 08b7 696E7374 		.string	"instance_offset"
+ 4545      616E6365 
+ 4545      5F6F6666 
+ 4545      73657400 
+ 4546              	.LASF98:
+ 4547 08c7 6C697374 		.string	"list"
+ 4547      00
+ 4548              	.LASF191:
+ 4549 08cc 706F7274 		.string	"port_lock"
+ 4549      5F6C6F63 
+GAS LISTING /tmp/ccFT8Er8.s 			page 91
+
+
+ 4549      6B00
+ 4550              	.LASF196:
+ 4551 08d6 6D61696E 		.string	"main"
+ 4551      00
+ 4552              	.LASF47:
+ 4553 08db 6D74786C 		.string	"mtxlist"
+ 4553      69737400 
+ 4554              	.LASF122:
+ 4555 08e3 6576656E 		.string	"event_listener"
+ 4555      745F6C69 
+ 4555      7374656E 
+ 4555      657200
+ 4556              	.LASF181:
+ 4557 08f2 63687072 		.string	"chprintf"
+ 4557      696E7466 
+ 4557      00
+ 4558              		.section	.debug_line_str,"MS",@progbits,1
+ 4559              	.LASF1:
+ 4560 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 4560      652F616C 
+ 4560      65782F43 
+ 4560      68696269 
+ 4560      4F532F64 
+ 4561              	.LASF0:
+ 4562 002f 6D61696E 		.string	"main.c"
+ 4562      2E6300
+ 4563              		.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+ 4564 0036 2F686F6D 		.section	.note.GNU-stack,"",@progbits
+ 4564      652F616C 
+ 4564      65782F43 
+ 4564      68696269 
+ 4564      4F532F64 
+GAS LISTING /tmp/ccFT8Er8.s 			page 92
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 main.c
+     /tmp/ccFT8Er8.s:21     .text.print_buffer_state:0000000000000000 print_buffer_state
+     /tmp/ccFT8Er8.s:795    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccFT8Er8.s:231    .text.startup.main:0000000000000000 main
+     /tmp/ccFT8Er8.s:806    .text.__x86.get_pc_thunk.di:0000000000000000 __x86.get_pc_thunk.di
+     /tmp/ccFT8Er8.s:789    .bss.buffer1:0000000000000000 buffer1
+     /tmp/ccFT8Er8.s:765    .bss.buffer2:0000000000000000 buffer2
+     /tmp/ccFT8Er8.s:723    .data.number_counter:0000000000000000 number_counter
+     /tmp/ccFT8Er8.s:759    .bss.buffer2_head:0000000000000000 buffer2_head
+     /tmp/ccFT8Er8.s:747    .bss.buffer2_count:0000000000000000 buffer2_count
+     /tmp/ccFT8Er8.s:735    .bss.last_task2_time:0000000000000000 last_task2_time
+     /tmp/ccFT8Er8.s:729    .bss.last_monitor_time:0000000000000000 last_monitor_time
+     /tmp/ccFT8Er8.s:771    .bss.buffer1_count:0000000000000000 buffer1_count
+     /tmp/ccFT8Er8.s:783    .bss.buffer1_head:0000000000000000 buffer1_head
+     /tmp/ccFT8Er8.s:777    .bss.buffer1_tail:0000000000000000 buffer1_tail
+     /tmp/ccFT8Er8.s:753    .bss.buffer2_tail:0000000000000000 buffer2_tail
+     /tmp/ccFT8Er8.s:741    .bss.last_task1_time:0000000000000000 last_task1_time
+     /tmp/ccFT8Er8.s:7      .rodata.print_buffer_state.str1.4:0000000000000000 .LC0
+     /tmp/ccFT8Er8.s:10     .rodata.print_buffer_state.str1.1:0000000000000000 .LC1
+     /tmp/ccFT8Er8.s:14     .rodata.print_buffer_state.str1.1:0000000000000011 .LC3
+     /tmp/ccFT8Er8.s:16     .rodata.print_buffer_state.str1.1:0000000000000016 .LC4
+     /tmp/ccFT8Er8.s:12     .rodata.print_buffer_state.str1.1:000000000000000b .LC2
+     /tmp/ccFT8Er8.s:186    .rodata.main.str1.4:0000000000000000 .LC5
+     /tmp/ccFT8Er8.s:189    .rodata.main.str1.4:000000000000002c .LC6
+     /tmp/ccFT8Er8.s:192    .rodata.main.str1.4:0000000000000068 .LC7
+     /tmp/ccFT8Er8.s:195    .rodata.main.str1.4:00000000000000a4 .LC8
+     /tmp/ccFT8Er8.s:198    .rodata.main.str1.4:00000000000000cc .LC9
+     /tmp/ccFT8Er8.s:201    .rodata.main.str1.4:00000000000000ec .LC10
+     /tmp/ccFT8Er8.s:204    .rodata.main.str1.4:000000000000011c .LC11
+     /tmp/ccFT8Er8.s:207    .rodata.main.str1.4:0000000000000144 .LC12
+     /tmp/ccFT8Er8.s:210    .rodata.main.str1.4:0000000000000178 .LC13
+     /tmp/ccFT8Er8.s:213    .rodata.main.str1.4:00000000000001ac .LC14
+     /tmp/ccFT8Er8.s:216    .rodata.main.str1.4:00000000000001dc .LC15
+     /tmp/ccFT8Er8.s:219    .rodata.main.str1.1:0000000000000000 .LC16
+     /tmp/ccFT8Er8.s:221    .rodata.main.str1.1:000000000000001a .LC17
+     /tmp/ccFT8Er8.s:223    .rodata.main.str1.1:0000000000000022 .LC18
+     /tmp/ccFT8Er8.s:225    .rodata.main.str1.1:000000000000002a .LC19
+
+UNDEFINED SYMBOLS
+_GLOBAL_OFFSET_TABLE_
+SD1
+chprintf
+halInit
+chSysInit
+sdStart
+ch0
+port_irq_sts
+chThdSleep
