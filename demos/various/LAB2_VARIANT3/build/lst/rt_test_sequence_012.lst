@@ -1,10 +1,10 @@
-GAS LISTING /tmp/cch1djci.s 			page 1
+GAS LISTING /tmp/ccUXrpWz.s 			page 1
 
 
    1              		.file	"rt_test_sequence_012.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../test/rt/source/test/rt_test_seq
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../test/rt/source/test/rt_test_seq
    5              		.section	.text.tmo,"ax",@progbits
    6              		.p2align 4
    7              		.type	tmo, @function
@@ -58,7 +58,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
   39      78203A20 
   39      00
   40              	.LC9:
-GAS LISTING /tmp/cch1djci.s 			page 2
+GAS LISTING /tmp/ccUXrpWz.s 			page 2
 
 
   41 0053 2D2D2D20 		.string	"--- CondV.: "
@@ -118,7 +118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
   79      0000
   80 001e 8D830000 		leal	.LC0@GOTOFF(%ebx), %eax
   80      0000
-GAS LISTING /tmp/cch1djci.s 			page 3
+GAS LISTING /tmp/ccUXrpWz.s 			page 3
 
 
   81              	.LBE365:
@@ -178,7 +178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  130              	.LBB373:
  131              		.loc 2 383 3 view .LVU21
  132 0045 59       		popl	%ecx
-GAS LISTING /tmp/cch1djci.s 			page 4
+GAS LISTING /tmp/ccUXrpWz.s 			page 4
 
 
  133              		.cfi_def_cfa_offset 60
@@ -238,7 +238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  181              		.cfi_def_cfa_offset 60
  182 0079 58       		popl	%eax
  183              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/cch1djci.s 			page 5
+GAS LISTING /tmp/ccUXrpWz.s 			page 5
 
 
  184 007a 6A50     		pushl	$80
@@ -298,7 +298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  233              	.LVL10:
  234              		.loc 2 371 3 is_stmt 0 view .LVU44
  235              	.LBE381:
-GAS LISTING /tmp/cch1djci.s 			page 6
+GAS LISTING /tmp/ccUXrpWz.s 			page 6
 
 
  236              	.LBE380:
@@ -358,7 +358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  287              		.cfi_def_cfa_offset 60
  288 00c8 8D830000 		leal	.LC7@GOTOFF(%ebx), %eax
  288      0000
-GAS LISTING /tmp/cch1djci.s 			page 7
+GAS LISTING /tmp/ccUXrpWz.s 			page 7
 
 
  289 00ce 5A       		popl	%edx
@@ -418,7 +418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  340              		.loc 1 979 3 view .LVU70
  341 00ef C7450005 		movl	$5, 0(%ebp)
  341      000000
-GAS LISTING /tmp/cch1djci.s 			page 8
+GAS LISTING /tmp/ccUXrpWz.s 			page 8
 
 
  342              		.loc 1 982 5 view .LVU71
@@ -478,7 +478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  393              		.cfi_def_cfa_offset 60
  394 0115 FF742418 		pushl	24(%esp)
  395              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/cch1djci.s 			page 9
+GAS LISTING /tmp/ccUXrpWz.s 			page 9
 
 
  396 0119 E8FCFFFF 		call	test_printf@PLT
@@ -538,7 +538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  445              		.loc 1 995 5 is_stmt 1 view .LVU94
  446              	.LBB402:
  447              	.LBI402:
-GAS LISTING /tmp/cch1djci.s 			page 10
+GAS LISTING /tmp/ccUXrpWz.s 			page 10
 
 
  448              		.loc 2 381 20 view .LVU95
@@ -598,7 +598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  498              		.cfi_def_cfa_offset 56
  499 0165 6A04     		pushl	$4
  500              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/cch1djci.s 			page 11
+GAS LISTING /tmp/ccUXrpWz.s 			page 11
 
 
  501 0167 56       		pushl	%esi
@@ -658,7 +658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  550              	.LBE411:
  551              	.LBE410:
  552              		.loc 1 1016 5 is_stmt 1 view .LVU120
-GAS LISTING /tmp/cch1djci.s 			page 12
+GAS LISTING /tmp/ccUXrpWz.s 			page 12
 
 
  553              	.LBB412:
@@ -718,7 +718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  603              	.LBB419:
  604              	.LBI416:
  605              		.loc 2 369 20 view .LVU134
-GAS LISTING /tmp/cch1djci.s 			page 13
+GAS LISTING /tmp/ccUXrpWz.s 			page 13
 
 
  606              	.LBB418:
@@ -778,7 +778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  657              	.LBE423:
  658              	.LBE422:
  659              		.loc 1 1031 3 is_stmt 1 view .LVU145
-GAS LISTING /tmp/cch1djci.s 			page 14
+GAS LISTING /tmp/ccUXrpWz.s 			page 14
 
 
  660              		.loc 1 1031 19 view .LVU146
@@ -838,7 +838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  708              		.cfi_offset 6, -16
  709 0005 53       		pushl	%ebx
  710              		.cfi_def_cfa_offset 20
-GAS LISTING /tmp/cch1djci.s 			page 15
+GAS LISTING /tmp/ccUXrpWz.s 			page 15
 
 
  711              		.cfi_offset 3, -20
@@ -898,7 +898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  755      FF
  756              	.LVL44:
  757              		.loc 1 887 7 discriminator 1 view .LVU167
-GAS LISTING /tmp/cch1djci.s 			page 16
+GAS LISTING /tmp/ccUXrpWz.s 			page 16
 
 
  758 0054 893424   		movl	%esi, (%esp)
@@ -958,7 +958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  805              	.LBB429:
  806              	.LBB428:
  807              		.loc 3 138 26 discriminator 1 view .LVU182
-GAS LISTING /tmp/cch1djci.s 			page 17
+GAS LISTING /tmp/ccUXrpWz.s 			page 17
 
 
  808 0090 8B401C   		movl	28(%eax), %eax
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  857      FF
  858              	.LVL55:
  859              		.loc 2 371 3 is_stmt 0 view .LVU197
-GAS LISTING /tmp/cch1djci.s 			page 18
+GAS LISTING /tmp/ccUXrpWz.s 			page 18
 
 
  860              	.LBE436:
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  909              		.cfi_def_cfa_offset 16
  910 00e7 5E       		popl	%esi
  911              		.cfi_restore 6
-GAS LISTING /tmp/cch1djci.s 			page 19
+GAS LISTING /tmp/ccUXrpWz.s 			page 19
 
 
  912              		.cfi_def_cfa_offset 12
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  962              	.LFB308:
  963              		.loc 1 119 37 is_stmt 1 view -0
  964              		.cfi_startproc
-GAS LISTING /tmp/cch1djci.s 			page 20
+GAS LISTING /tmp/ccUXrpWz.s 			page 20
 
 
  965              		.loc 1 121 3 view .LVU215
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1014              		.loc 1 123 5 is_stmt 1 view .LVU226
  1015 0028 83EC0C   		subl	$12, %esp
  1016              		.cfi_def_cfa_offset 28
-GAS LISTING /tmp/cch1djci.s 			page 21
+GAS LISTING /tmp/ccUXrpWz.s 			page 21
 
 
  1017 002b 56       		pushl	%esi
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1067              		.loc 1 803 3 view .LVU237
  1068              		.loc 1 798 43 is_stmt 0 view .LVU238
  1069 0000 55       		pushl	%ebp
-GAS LISTING /tmp/cch1djci.s 			page 22
+GAS LISTING /tmp/ccUXrpWz.s 			page 22
 
 
  1070              		.cfi_def_cfa_offset 8
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1116              		.loc 1 811 7 discriminator 1 view .LVU250
  1117 0040 83EC0C   		subl	$12, %esp
  1118              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/cch1djci.s 			page 23
+GAS LISTING /tmp/ccUXrpWz.s 			page 23
 
 
  1119              		.loc 1 819 8 is_stmt 0 discriminator 1 view .LVU251
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1164              	.LBB456:
  1165              	.LBI456:
  1166              		.loc 3 135 25 discriminator 1 view .LVU265
-GAS LISTING /tmp/cch1djci.s 			page 24
+GAS LISTING /tmp/ccUXrpWz.s 			page 24
 
 
  1167              	.LBB457:
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1219              	.LBI464:
  1220              		.loc 2 369 20 view .LVU282
  1221              	.LBB466:
-GAS LISTING /tmp/cch1djci.s 			page 25
+GAS LISTING /tmp/ccUXrpWz.s 			page 25
 
 
  1222              		.loc 2 371 3 view .LVU283
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1269 00de E8FCFFFF 		call	test_printf@PLT
  1269      FF
  1270              	.LVL82:
-GAS LISTING /tmp/cch1djci.s 			page 26
+GAS LISTING /tmp/ccUXrpWz.s 			page 26
 
 
  1271              		.loc 2 383 3 is_stmt 0 view .LVU291
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1321              		.loc 1 796 1 view .LVU300
  1322 001d 83C418   		addl	$24, %esp
  1323              		.cfi_def_cfa_offset 8
-GAS LISTING /tmp/cch1djci.s 			page 27
+GAS LISTING /tmp/ccUXrpWz.s 			page 27
 
 
  1324 0020 5B       		popl	%ebx
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1372              	.LFB319:
  1373              		.loc 1 725 43 is_stmt 1 view -0
  1374              		.cfi_startproc
-GAS LISTING /tmp/cch1djci.s 			page 28
+GAS LISTING /tmp/ccUXrpWz.s 			page 28
 
 
  1375              		.loc 1 726 3 view .LVU307
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1419              		.loc 1 738 5 view .LVU320
  1420 004b 8944240C 		movl	%eax, 12(%esp)
  1421 004f 8B830000 		movl	ch0@GOT(%ebx), %eax
-GAS LISTING /tmp/cch1djci.s 			page 29
+GAS LISTING /tmp/ccUXrpWz.s 			page 29
 
 
  1421      0000
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1471              		.cfi_def_cfa_offset 92
  1472 007a FF742428 		pushl	40(%esp)
  1473              		.cfi_def_cfa_offset 96
-GAS LISTING /tmp/cch1djci.s 			page 30
+GAS LISTING /tmp/ccUXrpWz.s 			page 30
 
 
  1474 007e E8FCFFFF 		call	chVTDoSetI@PLT
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1523              		.loc 1 746 7 is_stmt 1 discriminator 1 view .LVU347
  1524              	.LVL96:
  1525              		.loc 1 748 7 discriminator 1 view .LVU348
-GAS LISTING /tmp/cch1djci.s 			page 31
+GAS LISTING /tmp/ccUXrpWz.s 			page 31
 
 
  1526 00a2 E8FCFFFF 		call	_sim_check_for_interrupts@PLT
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1577              	.LBI492:
  1578              		.loc 2 369 20 view .LVU366
  1579              	.LBB494:
-GAS LISTING /tmp/cch1djci.s 			page 32
+GAS LISTING /tmp/ccUXrpWz.s 			page 32
 
 
  1580              		.loc 2 371 3 view .LVU367
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1629 00f1 8D830000 		leal	.LC16@GOTOFF(%ebx), %eax
  1629      0000
  1630 00f7 59       		popl	%ecx
-GAS LISTING /tmp/cch1djci.s 			page 33
+GAS LISTING /tmp/ccUXrpWz.s 			page 33
 
 
  1631              		.cfi_def_cfa_offset 76
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1681 0002 56       		pushl	%esi
  1682              		.cfi_def_cfa_offset 16
  1683              		.cfi_offset 6, -16
-GAS LISTING /tmp/cch1djci.s 			page 34
+GAS LISTING /tmp/ccUXrpWz.s 			page 34
 
 
  1684 0003 53       		pushl	%ebx
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1729              		.loc 1 674 35 view .LVU401
  1730 0047 83EC0C   		subl	$12, %esp
  1731              		.cfi_def_cfa_offset 76
-GAS LISTING /tmp/cch1djci.s 			page 35
+GAS LISTING /tmp/ccUXrpWz.s 			page 35
 
 
  1732 004a 8D6C2424 		leal	36(%esp), %ebp
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1782              		.cfi_def_cfa_offset 76
  1783 0082 8B4008   		movl	8(%eax), %eax
  1784 0085 55       		pushl	%ebp
-GAS LISTING /tmp/cch1djci.s 			page 36
+GAS LISTING /tmp/ccUXrpWz.s 			page 36
 
 
  1785              		.cfi_def_cfa_offset 80
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1836 00be E8FCFFFF 		call	chThdCreateStatic@PLT
  1836      FF
  1837              	.LVL108:
-GAS LISTING /tmp/cch1djci.s 			page 37
+GAS LISTING /tmp/ccUXrpWz.s 			page 37
 
 
  1838              		.loc 1 677 16 view .LVU425
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1890              		.loc 5 542 3 view .LVU440
  1891              	.LBB522:
  1892              	.LBI522:
-GAS LISTING /tmp/cch1djci.s 			page 38
+GAS LISTING /tmp/ccUXrpWz.s 			page 38
 
 
  1893              		.loc 5 527 25 view .LVU441
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1941      FF
  1942              	.LVL112:
  1943              		.loc 1 688 5 view .LVU457
-GAS LISTING /tmp/cch1djci.s 			page 39
+GAS LISTING /tmp/ccUXrpWz.s 			page 39
 
 
  1944 0138 E8FCFFFF 		call	test_wait_threads@PLT
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  1991              	.LBE527:
  1992              	.LBE526:
  1993              		.loc 1 697 5 is_stmt 1 view .LVU469
-GAS LISTING /tmp/cch1djci.s 			page 40
+GAS LISTING /tmp/ccUXrpWz.s 			page 40
 
 
  1994              	.LBB528:
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2043              	.LFE318:
  2044              		.size	rt_test_012_008_execute, .-rt_test_012_008_execute
  2045              		.section	.text.bmk_thread8,"ax",@progbits
-GAS LISTING /tmp/cch1djci.s 			page 41
+GAS LISTING /tmp/ccUXrpWz.s 			page 41
 
 
  2046              		.p2align 4
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2091              	.LBB530:
  2092              	.LBI530:
  2093              		.loc 5 597 20 discriminator 1 view .LVU488
-GAS LISTING /tmp/cch1djci.s 			page 42
+GAS LISTING /tmp/ccUXrpWz.s 			page 42
 
 
  2094              	.LBB531:
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2144              		.cfi_def_cfa_offset 16
  2145              		.cfi_offset 6, -16
  2146 0003 53       		pushl	%ebx
-GAS LISTING /tmp/cch1djci.s 			page 43
+GAS LISTING /tmp/ccUXrpWz.s 			page 43
 
 
  2147              		.cfi_def_cfa_offset 20
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2194              		.loc 5 542 37 view .LVU510
  2195 0037 8B470C   		movl	12(%edi), %eax
  2196              	.LBE541:
-GAS LISTING /tmp/cch1djci.s 			page 44
+GAS LISTING /tmp/ccUXrpWz.s 			page 44
 
 
  2197              	.LBE543:
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2248 0069 68404100 		pushl	$16704
  2248      00
  2249              		.cfi_def_cfa_offset 76
-GAS LISTING /tmp/cch1djci.s 			page 45
+GAS LISTING /tmp/ccUXrpWz.s 			page 45
 
 
  2250 006e FF7604   		pushl	4(%esi)
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2301 009e 83C414   		addl	$20, %esp
  2302              		.cfi_def_cfa_offset 60
  2303              		.loc 1 593 16 view .LVU536
-GAS LISTING /tmp/cch1djci.s 			page 46
+GAS LISTING /tmp/ccUXrpWz.s 			page 46
 
 
  2304 00a1 894208   		movl	%eax, 8(%edx)
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2356              	.LBI564:
  2357              		.loc 5 527 25 view .LVU551
  2358              	.LBB565:
-GAS LISTING /tmp/cch1djci.s 			page 47
+GAS LISTING /tmp/ccUXrpWz.s 			page 47
 
 
  2359              		.loc 5 529 3 view .LVU552
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2409              	.LVL130:
  2410              		.loc 1 606 5 view .LVU566
  2411              		.loc 1 606 13 is_stmt 0 view .LVU567
-GAS LISTING /tmp/cch1djci.s 			page 48
+GAS LISTING /tmp/ccUXrpWz.s 			page 48
 
 
  2412 00fe E8FCFFFF 		call	test_wait_tick@PLT
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2461              	.LBB575:
  2462              		.loc 3 138 3 discriminator 1 view .LVU582
  2463              		.loc 3 138 26 is_stmt 0 discriminator 1 view .LVU583
-GAS LISTING /tmp/cch1djci.s 			page 49
+GAS LISTING /tmp/ccUXrpWz.s 			page 49
 
 
  2464 0125 8B471C   		movl	28(%edi), %eax
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2514              	.LBE583:
  2515              	.LBB586:
  2516              	.LBB582:
-GAS LISTING /tmp/cch1djci.s 			page 50
+GAS LISTING /tmp/ccUXrpWz.s 			page 50
 
 
  2517              		.loc 8 126 3 view .LVU597
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2565              		.cfi_def_cfa_offset 64
  2566 017c E8FCFFFF 		call	test_printf@PLT
  2566      FF
-GAS LISTING /tmp/cch1djci.s 			page 51
+GAS LISTING /tmp/ccUXrpWz.s 			page 51
 
 
  2567              	.LVL142:
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2619 0199 E8FCFFFF 		call	test_printf@PLT
  2619      FF
  2620              	.LVL144:
-GAS LISTING /tmp/cch1djci.s 			page 52
+GAS LISTING /tmp/ccUXrpWz.s 			page 52
 
 
  2621              		.loc 2 359 3 view .LVU622
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2670      2F5300
  2671              		.section	.text.rt_test_012_006_execute,"ax",@progbits
  2672              		.p2align 4
-GAS LISTING /tmp/cch1djci.s 			page 53
+GAS LISTING /tmp/ccUXrpWz.s 			page 53
 
 
  2673              		.type	rt_test_012_006_execute, @function
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2724              	.LBE606:
  2725              	.LBE607:
  2726              		.loc 1 512 11 view .LVU643
-GAS LISTING /tmp/cch1djci.s 			page 54
+GAS LISTING /tmp/ccUXrpWz.s 			page 54
 
 
  2727 001d 8B4008   		movl	8(%eax), %eax
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2774              		.cfi_def_cfa_offset 76
  2775 006d FF742420 		pushl	32(%esp)
  2776              		.cfi_def_cfa_offset 80
-GAS LISTING /tmp/cch1djci.s 			page 55
+GAS LISTING /tmp/ccUXrpWz.s 			page 55
 
 
  2777 0071 E8FCFFFF 		call	chThdCreateStatic@PLT
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2827 0091 76C5     		jbe	.L41
  2828              		.loc 1 535 3 is_stmt 1 view .LVU672
  2829              		.loc 1 535 19 view .LVU673
-GAS LISTING /tmp/cch1djci.s 			page 56
+GAS LISTING /tmp/ccUXrpWz.s 			page 56
 
 
  2830              		.loc 1 538 3 view .LVU674
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2878              	.LBE620:
  2879              		.loc 1 542 5 is_stmt 1 view .LVU685
  2880              	.LBB622:
-GAS LISTING /tmp/cch1djci.s 			page 57
+GAS LISTING /tmp/ccUXrpWz.s 			page 57
 
 
  2881              	.LBI622:
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2932              		.cfi_startproc
  2933              		.loc 1 102 3 view .LVU695
  2934              		.loc 1 100 37 is_stmt 0 view .LVU696
-GAS LISTING /tmp/cch1djci.s 			page 58
+GAS LISTING /tmp/ccUXrpWz.s 			page 58
 
 
  2935 0000 53       		pushl	%ebx
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  2986              		.cfi_offset 7, -12
  2987 0002 56       		pushl	%esi
  2988              		.cfi_def_cfa_offset 16
-GAS LISTING /tmp/cch1djci.s 			page 59
+GAS LISTING /tmp/ccUXrpWz.s 			page 59
 
 
  2989              		.cfi_offset 6, -16
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3036              		.loc 1 465 37 view .LVU720
  3037 0043 8B00     		movl	(%eax), %eax
  3038 0045 89442404 		movl	%eax, 4(%esp)
-GAS LISTING /tmp/cch1djci.s 			page 60
+GAS LISTING /tmp/ccUXrpWz.s 			page 60
 
 
  3039 0049 8D830000 		leal	bmk_thread3@GOTOFF(%ebx), %eax
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3087              	.LVL178:
  3088              		.loc 3 138 26 discriminator 1 view .LVU733
  3089              	.LBE634:
-GAS LISTING /tmp/cch1djci.s 			page 61
+GAS LISTING /tmp/ccUXrpWz.s 			page 61
 
 
  3090              	.LBE633:
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3140 00ae E8FCFFFF 		call	test_printf@PLT
  3140      FF
  3141              	.LVL180:
-GAS LISTING /tmp/cch1djci.s 			page 62
+GAS LISTING /tmp/ccUXrpWz.s 			page 62
 
 
  3142              		.loc 2 371 3 is_stmt 0 view .LVU748
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3191 00d7 83C42C   		addl	$44, %esp
  3192              		.cfi_def_cfa_offset 20
  3193 00da 5B       		popl	%ebx
-GAS LISTING /tmp/cch1djci.s 			page 63
+GAS LISTING /tmp/ccUXrpWz.s 			page 63
 
 
  3194              		.cfi_restore 3
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3244 0022 C7070100 		movl	$1, (%edi)
  3244      0000
  3245              		.loc 1 377 5 is_stmt 1 view .LVU770
-GAS LISTING /tmp/cch1djci.s 			page 64
+GAS LISTING /tmp/ccUXrpWz.s 			page 64
 
 
  3246              	.LBB648:
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3296              	.LBE656:
  3297              		.loc 1 384 3 view .LVU782
  3298 0054 C7070200 		movl	$2, (%edi)
-GAS LISTING /tmp/cch1djci.s 			page 65
+GAS LISTING /tmp/ccUXrpWz.s 			page 65
 
 
  3298      0000
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3348              	.LBE660:
  3349              	.LBE661:
  3350              		.loc 6 410 35 is_stmt 1 discriminator 1 view .LVU802
-GAS LISTING /tmp/cch1djci.s 			page 66
+GAS LISTING /tmp/ccUXrpWz.s 			page 66
 
 
  3351              		.loc 6 411 21 discriminator 1 view .LVU803
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3401              	.LBB664:
  3402              		.loc 6 423 23 discriminator 1 view .LVU812
  3403              		.loc 6 424 34 discriminator 1 view .LVU813
-GAS LISTING /tmp/cch1djci.s 			page 67
+GAS LISTING /tmp/ccUXrpWz.s 			page 67
 
 
  3404              		.loc 6 430 3 discriminator 1 view .LVU814
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3455 00ca 76AC     		jbe	.L51
  3456              	.LBE673:
  3457              		.loc 1 404 3 is_stmt 1 view .LVU834
-GAS LISTING /tmp/cch1djci.s 			page 68
+GAS LISTING /tmp/ccUXrpWz.s 			page 68
 
 
  3458              		.loc 1 404 19 view .LVU835
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3509              		.loc 6 434 3 view .LVU856
  3510              	.LBB682:
  3511              	.LBI682:
-GAS LISTING /tmp/cch1djci.s 			page 69
+GAS LISTING /tmp/ccUXrpWz.s 			page 69
 
 
  3512              		.loc 7 370 20 view .LVU857
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3559              		.cfi_def_cfa_offset 60
  3560 011c 5E       		popl	%esi
  3561              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/cch1djci.s 			page 70
+GAS LISTING /tmp/ccUXrpWz.s 			page 70
 
 
  3562              	.LVL202:
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3612              	.LFE313:
  3613              		.size	rt_test_012_004_execute, .-rt_test_012_004_execute
  3614              		.section	.text.bmk_thread4,"ax",@progbits
-GAS LISTING /tmp/cch1djci.s 			page 71
+GAS LISTING /tmp/ccUXrpWz.s 			page 71
 
 
  3615              		.p2align 4
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3664      0000
  3665              	.LBE698:
  3666              	.LBE700:
-GAS LISTING /tmp/cch1djci.s 			page 72
+GAS LISTING /tmp/ccUXrpWz.s 			page 72
 
 
  3667              	.LBE702:
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3719              		.loc 6 423 23 view .LVU905
  3720              		.loc 6 424 34 view .LVU906
  3721              		.loc 6 430 3 view .LVU907
-GAS LISTING /tmp/cch1djci.s 			page 73
+GAS LISTING /tmp/ccUXrpWz.s 			page 73
 
 
  3722              		.loc 6 430 3 view .LVU908
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3775 0002 53       		pushl	%ebx
  3776              		.cfi_def_cfa_offset 16
  3777              		.cfi_offset 3, -16
-GAS LISTING /tmp/cch1djci.s 			page 74
+GAS LISTING /tmp/ccUXrpWz.s 			page 74
 
 
  3778 0003 E8FCFFFF 		call	__x86.get_pc_thunk.bx
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3827              	.LBB723:
  3828              	.LBI723:
  3829              		.loc 7 370 20 discriminator 1 view .LVU943
-GAS LISTING /tmp/cch1djci.s 			page 75
+GAS LISTING /tmp/ccUXrpWz.s 			page 75
 
 
  3830              	.LBB724:
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3882              		.cfi_def_cfa_offset 16
  3883 0039 85FF     		testl	%edi, %edi
  3884 003b 75DB     		jne	.L59
-GAS LISTING /tmp/cch1djci.s 			page 76
+GAS LISTING /tmp/ccUXrpWz.s 			page 76
 
 
  3885              		.loc 1 80 1 is_stmt 0 view .LVU959
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3936              		.loc 1 86 11 view .LVU969
  3937 001b 89C5     		movl	%eax, %ebp
  3938              	.LVL217:
-GAS LISTING /tmp/cch1djci.s 			page 77
+GAS LISTING /tmp/ccUXrpWz.s 			page 77
 
 
  3939              		.loc 1 87 3 is_stmt 1 view .LVU970
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  3988              	.LBB736:
  3989              		.loc 3 138 26 discriminator 1 view .LVU987
  3990 004a 8B401C   		movl	28(%eax), %eax
-GAS LISTING /tmp/cch1djci.s 			page 78
+GAS LISTING /tmp/ccUXrpWz.s 			page 78
 
 
  3991              	.LVL223:
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4043              	.LFE305:
  4044              		.size	msg_loop_test, .-msg_loop_test
  4045              		.section	.rodata.rt_test_012_003_execute.str1.1,"aMS",@progbits,1
-GAS LISTING /tmp/cch1djci.s 			page 79
+GAS LISTING /tmp/ccUXrpWz.s 			page 79
 
 
  4046              	.LC20:
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4092              	.LBB749:
  4093              	.LBI741:
  4094              		.loc 5 540 23 view .LVU1009
-GAS LISTING /tmp/cch1djci.s 			page 80
+GAS LISTING /tmp/ccUXrpWz.s 			page 80
 
 
  4095              	.LBB747:
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4144 0062 C7000200 		movl	$2, (%eax)
  4144      0000
  4145              		.loc 1 315 5 is_stmt 1 view .LVU1025
-GAS LISTING /tmp/cch1djci.s 			page 81
+GAS LISTING /tmp/ccUXrpWz.s 			page 81
 
 
  4146              	.LBB751:
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4198              		.loc 5 529 3 view .LVU1039
  4199              	.LBE760:
  4200              	.LBE759:
-GAS LISTING /tmp/cch1djci.s 			page 82
+GAS LISTING /tmp/ccUXrpWz.s 			page 82
 
 
  4201              	.LBE758:
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4253 00b5 8B450C   		movl	12(%ebp), %eax
  4254              	.LBE767:
  4255              	.LBE768:
-GAS LISTING /tmp/cch1djci.s 			page 83
+GAS LISTING /tmp/ccUXrpWz.s 			page 83
 
 
  4256              		.loc 1 317 18 view .LVU1052
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4307 00e7 50       		pushl	%eax
  4308              		.cfi_def_cfa_offset 72
  4309 00e8 68404100 		pushl	$16704
-GAS LISTING /tmp/cch1djci.s 			page 84
+GAS LISTING /tmp/ccUXrpWz.s 			page 84
 
 
  4309      00
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4357              		.loc 2 371 3 view .LVU1082
  4358 0122 50       		pushl	%eax
  4359              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/cch1djci.s 			page 85
+GAS LISTING /tmp/ccUXrpWz.s 			page 85
 
 
  4360              	.LBE778:
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4411 013a 59       		popl	%ecx
  4412              		.cfi_def_cfa_offset 60
  4413 013b 58       		popl	%eax
-GAS LISTING /tmp/cch1djci.s 			page 86
+GAS LISTING /tmp/ccUXrpWz.s 			page 86
 
 
  4414              		.cfi_def_cfa_offset 56
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4462              	.LBE794:
  4463              	.LBE793:
  4464              		.loc 1 340 3 is_stmt 1 view .LVU1103
-GAS LISTING /tmp/cch1djci.s 			page 87
+GAS LISTING /tmp/ccUXrpWz.s 			page 87
 
 
  4465              		.loc 1 340 19 view .LVU1104
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4515              	.LBB795:
  4516              	.LBB796:
  4517              		.loc 2 371 3 view .LVU1112
-GAS LISTING /tmp/cch1djci.s 			page 88
+GAS LISTING /tmp/ccUXrpWz.s 			page 88
 
 
  4518 001e 8DAB0000 		leal	.LC1@GOTOFF(%ebx), %ebp
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4567 004a E8FCFFFF 		call	chThdCreateStatic@PLT
  4567      FF
  4568              	.LVL243:
-GAS LISTING /tmp/cch1djci.s 			page 89
+GAS LISTING /tmp/ccUXrpWz.s 			page 89
 
 
  4569              		.loc 1 240 16 view .LVU1125
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4617 007c 8DBB0000 		leal	.LC2@GOTOFF(%ebx), %edi
  4617      0000
  4618              	.LBE811:
-GAS LISTING /tmp/cch1djci.s 			page 90
+GAS LISTING /tmp/ccUXrpWz.s 			page 90
 
 
  4619              	.LBE810:
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4670 009c 55       		pushl	%ebp
  4671              		.cfi_def_cfa_offset 48
  4672 009d E8FCFFFF 		call	test_printf@PLT
-GAS LISTING /tmp/cch1djci.s 			page 91
+GAS LISTING /tmp/ccUXrpWz.s 			page 91
 
 
  4672      FF
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4722              		.cfi_restore 3
  4723              		.cfi_def_cfa_offset 16
  4724 00c4 5E       		popl	%esi
-GAS LISTING /tmp/cch1djci.s 			page 92
+GAS LISTING /tmp/ccUXrpWz.s 			page 92
 
 
  4725              		.cfi_restore 6
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4774 0024 C7070100 		movl	$1, (%edi)
  4774      0000
  4775              		.loc 1 176 5 is_stmt 1 view .LVU1174
-GAS LISTING /tmp/cch1djci.s 			page 93
+GAS LISTING /tmp/ccUXrpWz.s 			page 93
 
 
  4776              	.LBB828:
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4825              		.cfi_def_cfa_offset 32
  4826              		.loc 1 182 3 view .LVU1187
  4827 0058 C7070200 		movl	$2, (%edi)
-GAS LISTING /tmp/cch1djci.s 			page 94
+GAS LISTING /tmp/ccUXrpWz.s 			page 94
 
 
  4827      0000
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4876              		.cfi_def_cfa_offset 48
  4877 0083 E8FCFFFF 		call	test_printf@PLT
  4877      FF
-GAS LISTING /tmp/cch1djci.s 			page 95
+GAS LISTING /tmp/ccUXrpWz.s 			page 95
 
 
  4878              	.LVL259:
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4929              		.loc 1 195 5 is_stmt 1 view .LVU1216
  4930              	.LBB847:
  4931              	.LBI847:
-GAS LISTING /tmp/cch1djci.s 			page 96
+GAS LISTING /tmp/ccUXrpWz.s 			page 96
 
 
  4932              		.loc 2 357 20 view .LVU1217
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  4982 00c6 5D       		popl	%ebp
  4983              		.cfi_restore 5
  4984              		.cfi_def_cfa_offset 4
-GAS LISTING /tmp/cch1djci.s 			page 97
+GAS LISTING /tmp/ccUXrpWz.s 			page 97
 
 
  4985 00c7 C3       		ret
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5029 002c 00000000 		.long	rt_test_012_012
  5030 0030 00000000 		.long	0
  5031              		.section	.rodata.str1.1
-GAS LISTING /tmp/cch1djci.s 			page 98
+GAS LISTING /tmp/ccUXrpWz.s 			page 98
 
 
  5032              	.LC22:
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5072      72732073 
  5072      65742F72 
  5073              		.section	.data.rel.ro.local.rt_test_012_009,"aw"
-GAS LISTING /tmp/cch1djci.s 			page 99
+GAS LISTING /tmp/ccUXrpWz.s 			page 99
 
 
  5074              		.align 4
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5116 0000 90000000 		.long	.LC28
  5117 0004 00000000 		.long	0
  5118 0008 00000000 		.long	0
-GAS LISTING /tmp/cch1djci.s 			page 100
+GAS LISTING /tmp/ccUXrpWz.s 			page 100
 
 
  5119 000c 00000000 		.long	rt_test_012_006_execute
@@ -5998,7 +5998,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5159      20706572 
  5159      666F726D 
  5159      616E6365 
-GAS LISTING /tmp/cch1djci.s 			page 101
+GAS LISTING /tmp/ccUXrpWz.s 			page 101
 
 
  5160              		.section	.data.rel.ro.local.rt_test_012_002,"aw"
@@ -6058,7 +6058,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5205              	.Letext0:
  5206              		.file 10 "/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h"
  5207              		.file 11 "/usr/include/bits/types.h"
-GAS LISTING /tmp/cch1djci.s 			page 102
+GAS LISTING /tmp/ccUXrpWz.s 			page 102
 
 
  5208              		.file 12 "/usr/include/bits/stdint-intn.h"
@@ -6118,7 +6118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5262 0051 86060000 		.long	.LASF5
  5263 0055 0F       		.uleb128 0xf
  5264 0056 10       		.byte	0x10
-GAS LISTING /tmp/cch1djci.s 			page 103
+GAS LISTING /tmp/ccUXrpWz.s 			page 103
 
 
  5265 0057 04       		.byte	0x4
@@ -6178,7 +6178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5319 00bd 08       		.uleb128 0x8
  5320 00be C2000000 		.long	0xc2
  5321 00c2 0F       		.uleb128 0xf
-GAS LISTING /tmp/cch1djci.s 			page 104
+GAS LISTING /tmp/ccUXrpWz.s 			page 104
 
 
  5322 00c3 01       		.byte	0x1
@@ -6238,7 +6238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5376 0132 3A       		.byte	0x3a
  5377 0133 1D       		.byte	0x1d
  5378 0134 DA000000 		.long	0xda
-GAS LISTING /tmp/cch1djci.s 			page 105
+GAS LISTING /tmp/ccUXrpWz.s 			page 105
 
 
  5379 0138 06       		.uleb128 0x6
@@ -6298,7 +6298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5433 01a1 21       		.byte	0x21
  5434 01a2 12050000 		.long	0x512
  5435 01a6 0C       		.byte	0xc
-GAS LISTING /tmp/cch1djci.s 			page 106
+GAS LISTING /tmp/ccUXrpWz.s 			page 106
 
 
  5436 01a7 04       		.uleb128 0x4
@@ -6358,7 +6358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5490 020a BC030000 		.long	0x3bc
  5491 020e 24       		.byte	0x24
  5492 020f 04       		.uleb128 0x4
-GAS LISTING /tmp/cch1djci.s 			page 107
+GAS LISTING /tmp/ccUXrpWz.s 			page 107
 
 
  5493 0210 B60B0000 		.long	.LASF41
@@ -6418,7 +6418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5547 027d 81020000 		.long	0x281
  5548 0281 2A       		.uleb128 0x2a
  5549 0282 83030000 		.long	.LASF50
-GAS LISTING /tmp/cch1djci.s 			page 108
+GAS LISTING /tmp/ccUXrpWz.s 			page 108
 
 
  5550 0286 E0       		.byte	0xe0
@@ -6478,7 +6478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5604 02fb C401     		.value	0x1c4
  5605 02fd 5B030000 		.long	0x35b
  5606 0301 DC       		.byte	0xdc
-GAS LISTING /tmp/cch1djci.s 			page 109
+GAS LISTING /tmp/ccUXrpWz.s 			page 109
 
 
  5607 0302 00       		.byte	0
@@ -6538,7 +6538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5661 0368 25000000 		.long	.LASF66
  5662 036c 04       		.byte	0x4
  5663 036d 6D       		.byte	0x6d
-GAS LISTING /tmp/cch1djci.s 			page 110
+GAS LISTING /tmp/ccUXrpWz.s 			page 110
 
 
  5664 036e 12       		.byte	0x12
@@ -6598,7 +6598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5718 03da 13       		.byte	0x13
  5719 03db 46       		.byte	0x46
  5720 03dc 1A       		.byte	0x1a
-GAS LISTING /tmp/cch1djci.s 			page 111
+GAS LISTING /tmp/ccUXrpWz.s 			page 111
 
 
  5721 03dd F0030000 		.long	0x3f0
@@ -6658,7 +6658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5775 0443 47040000 		.long	0x447
  5776 0447 0C       		.uleb128 0xc
  5777 0448 5F060000 		.long	.LASF79
-GAS LISTING /tmp/cch1djci.s 			page 112
+GAS LISTING /tmp/ccUXrpWz.s 			page 112
 
 
  5778 044c 0C       		.byte	0xc
@@ -6718,7 +6718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5832 04b0 89       		.byte	0x89
  5833 04b1 03       		.byte	0x3
  5834 04b2 86040000 		.long	0x486
-GAS LISTING /tmp/cch1djci.s 			page 113
+GAS LISTING /tmp/ccUXrpWz.s 			page 113
 
 
  5835 04b6 10       		.byte	0x10
@@ -6778,7 +6778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5889 0519 AA       		.byte	0xaa
  5890 051a 08       		.byte	0x8
  5891 051b 2C050000 		.long	0x52c
-GAS LISTING /tmp/cch1djci.s 			page 114
+GAS LISTING /tmp/ccUXrpWz.s 			page 114
 
 
  5892 051f 0E       		.uleb128 0xe
@@ -6838,7 +6838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  5946 0585 04       		.uleb128 0x4
  5947 0586 1E000000 		.long	.LASF89
  5948 058a 10       		.byte	0x10
-GAS LISTING /tmp/cch1djci.s 			page 115
+GAS LISTING /tmp/ccUXrpWz.s 			page 115
 
 
  5949 058b 5B       		.byte	0x5b
@@ -6898,7 +6898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6003 05f4 83       		.byte	0x83
  6004 05f5 03       		.byte	0x3
  6005 05f6 B9050000 		.long	0x5b9
-GAS LISTING /tmp/cch1djci.s 			page 116
+GAS LISTING /tmp/ccUXrpWz.s 			page 116
 
 
  6006 05fa 0C       		.uleb128 0xc
@@ -6958,7 +6958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6060 0666 B5       		.byte	0xb5
  6061 0667 BC030000 		.long	0x3bc
  6062 066b 2C       		.uleb128 0x2c
-GAS LISTING /tmp/cch1djci.s 			page 117
+GAS LISTING /tmp/ccUXrpWz.s 			page 117
 
 
  6063 066c 4A080000 		.long	.LASF101
@@ -7018,7 +7018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6117 06e7 3E040000 		.long	.LASF110
  6118 06eb 0C       		.byte	0xc
  6119 06ec 08       		.byte	0x8
-GAS LISTING /tmp/cch1djci.s 			page 118
+GAS LISTING /tmp/ccUXrpWz.s 			page 118
 
 
  6120 06ed 34       		.byte	0x34
@@ -7078,7 +7078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6174 0753 AA040000 		.long	0x4aa
  6175 0757 2A       		.uleb128 0x2a
  6176 0758 75030000 		.long	.LASF112
-GAS LISTING /tmp/cch1djci.s 			page 119
+GAS LISTING /tmp/ccUXrpWz.s 			page 119
 
 
  6177 075c 10       		.byte	0x10
@@ -7138,7 +7138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6231 07d2 22       		.byte	0x22
  6232 07d3 52070000 		.long	0x752
  6233 07d7 10       		.byte	0x10
-GAS LISTING /tmp/cch1djci.s 			page 120
+GAS LISTING /tmp/ccUXrpWz.s 			page 120
 
 
  6234 07d8 00       		.byte	0
@@ -7198,7 +7198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6288 0849 2D000000 		.long	0x2d
  6289 084d 00       		.byte	0
  6290 084e 04       		.uleb128 0x4
-GAS LISTING /tmp/cch1djci.s 			page 121
+GAS LISTING /tmp/ccUXrpWz.s 			page 121
 
 
  6291 084f BA000000 		.long	.LASF127
@@ -7258,7 +7258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6345 08c4 08       		.uleb128 0x8
  6346 08c5 AB080000 		.long	0x8ab
  6347 08c9 21       		.uleb128 0x21
-GAS LISTING /tmp/cch1djci.s 			page 122
+GAS LISTING /tmp/ccUXrpWz.s 			page 122
 
 
  6348 08ca 44010000 		.long	0x144
@@ -7318,7 +7318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6402 093f 02       		.byte	0x2
  6403 0940 82       		.byte	0x82
  6404 0941 AE090000 		.long	0x9ae
-GAS LISTING /tmp/cch1djci.s 			page 123
+GAS LISTING /tmp/ccUXrpWz.s 			page 123
 
 
  6405 0945 04       		.uleb128 0x4
@@ -7378,7 +7378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6459 09a8 BE090000 		.long	0x9be
  6460 09ac 24       		.byte	0x24
  6461 09ad 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 124
+GAS LISTING /tmp/ccUXrpWz.s 			page 124
 
 
  6462 09ae 17       		.uleb128 0x17
@@ -7438,7 +7438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6516 0a17 02       		.byte	0x2
  6517 0a18 AF       		.byte	0xaf
  6518 0a19 03       		.byte	0x3
-GAS LISTING /tmp/cch1djci.s 			page 125
+GAS LISTING /tmp/ccUXrpWz.s 			page 125
 
 
  6519 0a1a CF090000 		.long	0x9cf
@@ -7498,7 +7498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6573 0a8d 04       		.byte	0x4
  6574 0a8e 00       		.byte	0
  6575 0a8f 38       		.uleb128 0x38
-GAS LISTING /tmp/cch1djci.s 			page 126
+GAS LISTING /tmp/ccUXrpWz.s 			page 126
 
 
  6576 0a90 1C080000 		.long	.LASF148
@@ -7558,7 +7558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6630 0b06 1E0A0000 		.long	0xa1e
  6631 0b0a 05       		.uleb128 0x5
  6632 0b0b 03       		.byte	0x3
-GAS LISTING /tmp/cch1djci.s 			page 127
+GAS LISTING /tmp/ccUXrpWz.s 			page 127
 
 
  6633 0b0c 00000000 		.long	rt_test_012_003
@@ -7618,7 +7618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6687 0b92 05       		.uleb128 0x5
  6688 0b93 03       		.byte	0x3
  6689 0b94 00000000 		.long	rt_test_012_011
-GAS LISTING /tmp/cch1djci.s 			page 128
+GAS LISTING /tmp/ccUXrpWz.s 			page 128
 
 
  6690 0b98 12       		.uleb128 0x12
@@ -7678,7 +7678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6744 0c0d 1C0C0000 		.long	0xc1c
  6745 0c11 05       		.uleb128 0x5
  6746 0c12 2D060000 		.long	0x62d
-GAS LISTING /tmp/cch1djci.s 			page 129
+GAS LISTING /tmp/ccUXrpWz.s 			page 129
 
 
  6747 0c16 05       		.uleb128 0x5
@@ -7738,7 +7738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6801 0c91 05       		.uleb128 0x5
  6802 0c92 44010000 		.long	0x144
  6803 0c96 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 130
+GAS LISTING /tmp/ccUXrpWz.s 			page 130
 
 
  6804 0c97 08       		.uleb128 0x8
@@ -7798,7 +7798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6858 0d09 220D0000 		.long	0xd22
  6859 0d0d 05       		.uleb128 0x5
  6860 0d0e B4050000 		.long	0x5b4
-GAS LISTING /tmp/cch1djci.s 			page 131
+GAS LISTING /tmp/ccUXrpWz.s 			page 131
 
 
  6861 0d12 05       		.uleb128 0x5
@@ -7858,7 +7858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6915 0d87 00       		.byte	0
  6916 0d88 13       		.uleb128 0x13
  6917 0d89 55060000 		.long	.LASF185
-GAS LISTING /tmp/cch1djci.s 			page 132
+GAS LISTING /tmp/ccUXrpWz.s 			page 132
 
 
  6918 0d8d 14       		.byte	0x14
@@ -7918,7 +7918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  6972 0e0f 2A0E0000 		.long	0xe2a
  6973 0e13 02       		.uleb128 0x2
  6974 0e14 DF2C0000 		.long	0x2cdf
-GAS LISTING /tmp/cch1djci.s 			page 133
+GAS LISTING /tmp/ccUXrpWz.s 			page 133
 
 
  6975 0e18 1E000000 		.long	.LLST3
@@ -7978,7 +7978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7029 0eb1 82000000 		.long	.LVL7
  7030 0eb5 A50D0000 		.long	0xda5
  7031 0eb9 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 134
+GAS LISTING /tmp/ccUXrpWz.s 			page 134
 
 
  7032 0eba 03       		.uleb128 0x3
@@ -8038,7 +8038,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7086 0f53 02       		.byte	.LVU50
  7087 0f54 B1000000 		.long	.LBB384
  7088 0f58 0F000000 		.long	.LBE384-.LBB384
-GAS LISTING /tmp/cch1djci.s 			page 135
+GAS LISTING /tmp/ccUXrpWz.s 			page 135
 
 
  7089 0f5c C303     		.value	0x3c3
@@ -8098,7 +8098,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7143 0ff3 02       		.uleb128 0x2
  7144 0ff4 AB2C0000 		.long	0x2cab
  7145 0ff8 B0000000 		.long	.LLST13
-GAS LISTING /tmp/cch1djci.s 			page 136
+GAS LISTING /tmp/ccUXrpWz.s 			page 136
 
 
  7146 0ffc AE000000 		.long	.LVUS13
@@ -8158,7 +8158,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7200 1095 A50D0000 		.long	0xda5
  7201 1099 00       		.byte	0
  7202 109a 03       		.uleb128 0x3
-GAS LISTING /tmp/cch1djci.s 			page 137
+GAS LISTING /tmp/ccUXrpWz.s 			page 137
 
 
  7203 109b B92C0000 		.long	0x2cb9
@@ -8218,7 +8218,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7257 1134 54010000 		.long	.LBB404
  7258 1138 0F000000 		.long	.LBE404-.LBB404
  7259 113c EC03     		.value	0x3ec
-GAS LISTING /tmp/cch1djci.s 			page 138
+GAS LISTING /tmp/ccUXrpWz.s 			page 138
 
 
  7260 113e 05       		.byte	0x5
@@ -8278,7 +8278,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7314 11d4 C52C0000 		.long	0x2cc5
  7315 11d8 44010000 		.long	.LLST23
  7316 11dc 42010000 		.long	.LVUS23
-GAS LISTING /tmp/cch1djci.s 			page 139
+GAS LISTING /tmp/ccUXrpWz.s 			page 139
 
 
  7317 11e0 01       		.uleb128 0x1
@@ -8338,7 +8338,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7371 1276 03       		.uleb128 0x3
  7372 1277 D32C0000 		.long	0x2cd3
  7373 127b C1010000 		.long	.LBI420
-GAS LISTING /tmp/cch1djci.s 			page 140
+GAS LISTING /tmp/ccUXrpWz.s 			page 140
 
 
  7374 127f 02       		.byte	.LVU138
@@ -8398,7 +8398,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7428 1312 C0010000 		.long	.LVUS32
  7429 1316 0B       		.uleb128 0xb
  7430 1317 656E6400 		.string	"end"
-GAS LISTING /tmp/cch1djci.s 			page 141
+GAS LISTING /tmp/ccUXrpWz.s 			page 141
 
 
  7431 131b 6F03     		.value	0x36f
@@ -8458,7 +8458,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7485 13b3 880D0000 		.long	0xd88
  7486 13b7 01       		.uleb128 0x1
  7487 13b8 54000000 		.long	.LVL44
-GAS LISTING /tmp/cch1djci.s 			page 142
+GAS LISTING /tmp/ccUXrpWz.s 			page 142
 
 
  7488 13bc 770D0000 		.long	0xd77
@@ -8518,7 +8518,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7542 1454 23       		.uleb128 0x23
  7543 1455 9F2C0000 		.long	0x2c9f
  7544 1459 CE000000 		.long	.LBI440
-GAS LISTING /tmp/cch1djci.s 			page 143
+GAS LISTING /tmp/ccUXrpWz.s 			page 143
 
 
  7545 145d 01       		.byte	.LVU202
@@ -8578,7 +8578,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7599 14eb 67030000 		.long	0x367
  7600 14ef 8B020000 		.long	.LLST49
  7601 14f3 87020000 		.long	.LVUS49
-GAS LISTING /tmp/cch1djci.s 			page 144
+GAS LISTING /tmp/ccUXrpWz.s 			page 144
 
 
  7602 14f7 07       		.uleb128 0x7
@@ -8638,7 +8638,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7656 158e 5C000000 		.long	.LVL70
  7657 1592 490D0000 		.long	0xd49
  7658 1596 01       		.uleb128 0x1
-GAS LISTING /tmp/cch1djci.s 			page 145
+GAS LISTING /tmp/ccUXrpWz.s 			page 145
 
 
  7659 1597 64000000 		.long	.LVL71
@@ -8698,7 +8698,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7713 162f 15000000 		.long	.LBE470-.LBB470
  7714 1633 4003     		.value	0x340
  7715 1635 02       		.uleb128 0x2
-GAS LISTING /tmp/cch1djci.s 			page 146
+GAS LISTING /tmp/ccUXrpWz.s 			page 146
 
 
  7716 1636 AB2C0000 		.long	0x2cab
@@ -8758,7 +8758,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7770 16c0 F9170000 		.long	0x17f9
  7771 16c4 15       		.uleb128 0x15
  7772 16c5 BD090000 		.long	.LASF191
-GAS LISTING /tmp/cch1djci.s 			page 147
+GAS LISTING /tmp/ccUXrpWz.s 			page 147
 
 
  7773 16c9 DE02     		.value	0x2de
@@ -8818,7 +8818,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7827 1750 0B000000 		.long	.LBE487-.LBB487
  7828 1754 EE02     		.value	0x2ee
  7829 1756 0E       		.byte	0xe
-GAS LISTING /tmp/cch1djci.s 			page 148
+GAS LISTING /tmp/ccUXrpWz.s 			page 148
 
 
  7830 1757 C2170000 		.long	0x17c2
@@ -8878,7 +8878,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7884 17f9 07       		.uleb128 0x7
  7885 17fa B92C0000 		.long	0x2cb9
  7886 17fe C9000000 		.long	.LBI492
-GAS LISTING /tmp/cch1djci.s 			page 149
+GAS LISTING /tmp/ccUXrpWz.s 			page 149
 
 
  7887 1802 01       		.byte	.LVU366
@@ -8938,7 +8938,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7941 1893 6E00     		.string	"n"
  7942 1895 9A02     		.value	0x29a
  7943 1897 0C       		.byte	0xc
-GAS LISTING /tmp/cch1djci.s 			page 150
+GAS LISTING /tmp/ccUXrpWz.s 			page 150
 
 
  7944 1898 EB000000 		.long	0xeb
@@ -8998,7 +8998,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  7998 191e A6000000 		.long	.LBB514
  7999 1922 00000000 		.long	.LBE514-.LBB514
  8000 1926 05       		.byte	0x5
-GAS LISTING /tmp/cch1djci.s 			page 151
+GAS LISTING /tmp/ccUXrpWz.s 			page 151
 
 
  8001 1927 1E02     		.value	0x21e
@@ -9058,7 +9058,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8055 19b1 01       		.uleb128 0x1
  8056 19b2 5C010000 		.long	.LVL115
  8057 19b6 A50D0000 		.long	0xda5
-GAS LISTING /tmp/cch1djci.s 			page 152
+GAS LISTING /tmp/ccUXrpWz.s 			page 152
 
 
  8058 19ba 00       		.byte	0
@@ -9118,7 +9118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8112 1a52 33010000 		.long	.LVL111
  8113 1a56 B50C0000 		.long	0xcb5
  8114 1a5a 01       		.uleb128 0x1
-GAS LISTING /tmp/cch1djci.s 			page 153
+GAS LISTING /tmp/ccUXrpWz.s 			page 153
 
 
  8115 1a5b 38010000 		.long	.LVL112
@@ -9178,7 +9178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8169 1af1 4E2D0000 		.long	0x2d4e
  8170 1af5 6D040000 		.long	.LLST91
  8171 1af9 6B040000 		.long	.LVUS91
-GAS LISTING /tmp/cch1djci.s 			page 154
+GAS LISTING /tmp/ccUXrpWz.s 			page 154
 
 
  8172 1afd 01       		.uleb128 0x1
@@ -9238,7 +9238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8226 1b9a 07       		.uleb128 0x7
  8227 1b9b 702D0000 		.long	0x2d70
  8228 1b9f 34000000 		.long	.LBI534
-GAS LISTING /tmp/cch1djci.s 			page 155
+GAS LISTING /tmp/ccUXrpWz.s 			page 155
 
 
  8229 1ba3 01       		.byte	.LVU505
@@ -9298,7 +9298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8283 1c24 1F010000 		.long	.LLRL84
  8284 1c28 5202     		.value	0x252
  8285 1c2a 34       		.byte	0x34
-GAS LISTING /tmp/cch1djci.s 			page 156
+GAS LISTING /tmp/ccUXrpWz.s 			page 156
 
 
  8286 1c2b 461C0000 		.long	0x1c46
@@ -9358,7 +9358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8340 1cb9 7602     		.value	0x276
  8341 1cbb 05       		.byte	0x5
  8342 1cbc D71C0000 		.long	0x1cd7
-GAS LISTING /tmp/cch1djci.s 			page 157
+GAS LISTING /tmp/ccUXrpWz.s 			page 157
 
 
  8343 1cc0 02       		.uleb128 0x2
@@ -9418,7 +9418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8397 1d59 01       		.uleb128 0x1
  8398 1d5a 9E010000 		.long	.LVL144
  8399 1d5e A50D0000 		.long	0xda5
-GAS LISTING /tmp/cch1djci.s 			page 158
+GAS LISTING /tmp/ccUXrpWz.s 			page 158
 
 
  8400 1d62 00       		.byte	0
@@ -9478,7 +9478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8454 1df7 FE01     		.value	0x1fe
  8455 1df9 00000000 		.long	.LFB315
  8456 1dfd DF000000 		.long	.LFE315-.LFB315
-GAS LISTING /tmp/cch1djci.s 			page 159
+GAS LISTING /tmp/ccUXrpWz.s 			page 159
 
 
  8457 1e01 01       		.uleb128 0x1
@@ -9538,7 +9538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8511 1e8d 0E       		.byte	0xe
  8512 1e8e F61E0000 		.long	0x1ef6
  8513 1e92 02       		.uleb128 0x2
-GAS LISTING /tmp/cch1djci.s 			page 160
+GAS LISTING /tmp/ccUXrpWz.s 			page 160
 
 
  8514 1e93 A42D0000 		.long	0x2da4
@@ -9598,7 +9598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8568 1f30 0F000000 		.long	.LBE620-.LBB620
  8569 1f34 1D02     		.value	0x21d
  8570 1f36 05       		.byte	0x5
-GAS LISTING /tmp/cch1djci.s 			page 161
+GAS LISTING /tmp/ccUXrpWz.s 			page 161
 
 
  8571 1f37 521F0000 		.long	0x1f52
@@ -9658,7 +9658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8625 1fce 15       		.uleb128 0x15
  8626 1fcf 4C010000 		.long	.LASF77
  8627 1fd3 C501     		.value	0x1c5
-GAS LISTING /tmp/cch1djci.s 			page 162
+GAS LISTING /tmp/ccUXrpWz.s 			page 162
 
 
  8628 1fd5 0B       		.byte	0xb
@@ -9718,7 +9718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8682 206a 03       		.byte	.LVU730
  8683 206b 84000000 		.long	.LBB633
  8684 206f 03000000 		.long	.LBE633-.LBB633
-GAS LISTING /tmp/cch1djci.s 			page 163
+GAS LISTING /tmp/ccUXrpWz.s 			page 163
 
 
  8685 2073 3B       		.uleb128 0x3b
@@ -9778,7 +9778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8739 2108 9F2C0000 		.long	0x2c9f
  8740 210c C2000000 		.long	.LBI646
  8741 2110 02       		.byte	.LVU754
-GAS LISTING /tmp/cch1djci.s 			page 164
+GAS LISTING /tmp/ccUXrpWz.s 			page 164
 
 
  8742 2111 C2000000 		.long	.LBB646
@@ -9838,7 +9838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8796 21a6 0F       		.byte	0xf
  8797 21a7 67030000 		.long	0x367
  8798 21ab 03070000 		.long	.LLST146
-GAS LISTING /tmp/cch1djci.s 			page 165
+GAS LISTING /tmp/ccUXrpWz.s 			page 165
 
 
  8799 21af FF060000 		.long	.LVUS146
@@ -9898,7 +9898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8853 2239 A42D0000 		.long	0x2da4
  8854 223d 29070000 		.long	.LLST149
  8855 2241 27070000 		.long	.LVUS149
-GAS LISTING /tmp/cch1djci.s 			page 166
+GAS LISTING /tmp/ccUXrpWz.s 			page 166
 
 
  8856 2245 02       		.uleb128 0x2
@@ -9958,7 +9958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8910 22e4 7901     		.value	0x179
  8911 22e6 39       		.byte	0x39
  8912 22e7 FE220000 		.long	0x22fe
-GAS LISTING /tmp/cch1djci.s 			page 167
+GAS LISTING /tmp/ccUXrpWz.s 			page 167
 
 
  8913 22eb 0D       		.uleb128 0xd
@@ -10018,7 +10018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  8967 236f 02       		.uleb128 0x2
  8968 2370 C52C0000 		.long	0x2cc5
  8969 2374 6E070000 		.long	.LLST155
-GAS LISTING /tmp/cch1djci.s 			page 168
+GAS LISTING /tmp/ccUXrpWz.s 			page 168
 
 
  8970 2378 6C070000 		.long	.LVUS155
@@ -10078,7 +10078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9024 240b 19260000 		.long	0x2619
  9025 240f 0B       		.uleb128 0xb
  9026 2410 6E00     		.string	"n"
-GAS LISTING /tmp/cch1djci.s 			page 169
+GAS LISTING /tmp/ccUXrpWz.s 			page 169
 
 
  9027 2412 2D01     		.value	0x12d
@@ -10138,7 +10138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9081 249c 05       		.byte	0x5
  9082 249d 1E02     		.value	0x21e
  9083 249f 0A       		.byte	0xa
-GAS LISTING /tmp/cch1djci.s 			page 170
+GAS LISTING /tmp/ccUXrpWz.s 			page 170
 
 
  9084 24a0 00       		.byte	0
@@ -10198,7 +10198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9138 2526 D32C0000 		.long	0x2cd3
  9139 252a 2F010000 		.long	.LBI782
  9140 252e 02       		.byte	.LVU1087
-GAS LISTING /tmp/cch1djci.s 			page 171
+GAS LISTING /tmp/ccUXrpWz.s 			page 171
 
 
  9141 252f F6020000 		.long	.LLRL189
@@ -10258,7 +10258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9195 25c3 AB2C0000 		.long	0x2cab
  9196 25c7 DF070000 		.long	.LLST192
  9197 25cb DD070000 		.long	.LVUS192
-GAS LISTING /tmp/cch1djci.s 			page 172
+GAS LISTING /tmp/ccUXrpWz.s 			page 172
 
 
  9198 25cf 01       		.uleb128 0x1
@@ -10318,7 +10318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9252 2661 01       		.uleb128 0x1
  9253 2662 88000000 		.long	.LVL248
  9254 2666 A50D0000 		.long	0xda5
-GAS LISTING /tmp/cch1djci.s 			page 173
+GAS LISTING /tmp/ccUXrpWz.s 			page 173
 
 
  9255 266a 00       		.byte	0
@@ -10378,7 +10378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9309 26f4 A2000000 		.long	.LBI819
  9310 26f8 02       		.byte	.LVU1157
  9311 26f9 A2000000 		.long	.LBB819
-GAS LISTING /tmp/cch1djci.s 			page 174
+GAS LISTING /tmp/ccUXrpWz.s 			page 174
 
 
  9312 26fd 09000000 		.long	.LBE819-.LBB819
@@ -10438,7 +10438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9366 278a B92C0000 		.long	0x2cb9
  9367 278e 7B000000 		.long	.LBI823
  9368 2792 01       		.byte	.LVU1201
-GAS LISTING /tmp/cch1djci.s 			page 175
+GAS LISTING /tmp/ccUXrpWz.s 			page 175
 
 
  9369 2793 3E030000 		.long	.LLRL203
@@ -10498,7 +10498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9423 281b 01       		.byte	0x1
  9424 281c C2       		.byte	0xc2
  9425 281d 05       		.byte	0x5
-GAS LISTING /tmp/cch1djci.s 			page 176
+GAS LISTING /tmp/ccUXrpWz.s 			page 176
 
 
  9426 281e 39280000 		.long	0x2839
@@ -10558,7 +10558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9480 28ae 0F010000 		.long	.LASF205
  9481 28b2 7F       		.byte	0x7f
  9482 28b3 08       		.byte	0x8
-GAS LISTING /tmp/cch1djci.s 			page 177
+GAS LISTING /tmp/ccUXrpWz.s 			page 177
 
 
  9483 28b4 00000000 		.long	.LFB309
@@ -10618,7 +10618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9537 2937 41000000 		.long	.LFE308-.LFB308
  9538 293b 01       		.uleb128 0x1
  9539 293c 9C       		.byte	0x9c
-GAS LISTING /tmp/cch1djci.s 			page 178
+GAS LISTING /tmp/ccUXrpWz.s 			page 178
 
 
  9540 293d 7F290000 		.long	0x297f
@@ -10678,7 +10678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9594 29af AF080000 		.long	.LVUS157
  9595 29b3 3C       		.uleb128 0x3c
  9596 29b4 27040000 		.long	.LASF208
-GAS LISTING /tmp/cch1djci.s 			page 179
+GAS LISTING /tmp/ccUXrpWz.s 			page 179
 
 
  9597 29b8 6B       		.byte	0x6b
@@ -10738,7 +10738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9651 2a35 00       		.byte	0
  9652 2a36 19       		.uleb128 0x19
  9653 2a37 61070000 		.long	.LASF209
-GAS LISTING /tmp/cch1djci.s 			page 180
+GAS LISTING /tmp/ccUXrpWz.s 			page 180
 
 
  9654 2a3b 64       		.byte	0x64
@@ -10798,7 +10798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9708 2ab7 0C       		.byte	0xc
  9709 2ab8 EB000000 		.long	0xeb
  9710 2abc 25090000 		.long	.LLST172
-GAS LISTING /tmp/cch1djci.s 			page 181
+GAS LISTING /tmp/ccUXrpWz.s 			page 181
 
 
  9711 2ac0 1B090000 		.long	.LVUS172
@@ -10858,7 +10858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9765 2b56 6F0D0000 		.long	0xd6f
  9766 2b5a 01       		.uleb128 0x1
  9767 2b5b 61000000 		.long	.LVL224
-GAS LISTING /tmp/cch1djci.s 			page 182
+GAS LISTING /tmp/ccUXrpWz.s 			page 182
 
 
  9768 2b5f E00B0000 		.long	0xbe0
@@ -10918,7 +10918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9822 2be3 09       		.byte	0x9
  9823 2be4 62       		.byte	0x62
  9824 2be5 03       		.byte	0x3
-GAS LISTING /tmp/cch1djci.s 			page 183
+GAS LISTING /tmp/ccUXrpWz.s 			page 183
 
 
  9825 2be6 012C0000 		.long	0x2c01
@@ -10978,7 +10978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9879 2c66 060C0000 		.long	0xc06
  9880 2c6a 00       		.byte	0
  9881 2c6b 51       		.uleb128 0x51
-GAS LISTING /tmp/cch1djci.s 			page 184
+GAS LISTING /tmp/ccUXrpWz.s 			page 184
 
 
  9882 2c6c 746D6F00 		.string	"tmo"
@@ -11038,7 +11038,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9936 2cd9 6501     		.value	0x165
  9937 2cdb EB2C0000 		.long	0x2ceb
  9938 2cdf 3D       		.uleb128 0x3d
-GAS LISTING /tmp/cch1djci.s 			page 185
+GAS LISTING /tmp/ccUXrpWz.s 			page 185
 
 
  9939 2ce0 6E00     		.string	"n"
@@ -11098,7 +11098,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  9993 2d4f 737000   		.string	"sp"
  9994 2d52 08       		.byte	0x8
  9995 2d53 7C       		.byte	0x7c
-GAS LISTING /tmp/cch1djci.s 			page 186
+GAS LISTING /tmp/ccUXrpWz.s 			page 186
 
 
  9996 2d54 2C       		.byte	0x2c
@@ -11158,7 +11158,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10050 2dc4 A501     		.value	0x1a5
  10051 2dc6 D42D0000 		.long	0x2dd4
  10052 2dca 3E       		.uleb128 0x3e
-GAS LISTING /tmp/cch1djci.s 			page 187
+GAS LISTING /tmp/ccUXrpWz.s 			page 187
 
 
  10053 2dcb B1000000 		.long	.LASF225
@@ -11218,7 +11218,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10107 2e45 642E0000 		.long	0x2e64
  10108 2e49 1F       		.uleb128 0x1f
  10109 2e4a 85010000 		.long	.LASF92
-GAS LISTING /tmp/cch1djci.s 			page 188
+GAS LISTING /tmp/ccUXrpWz.s 			page 188
 
 
  10110 2e4e 04       		.byte	0x4
@@ -11278,7 +11278,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10164 0027 05       		.uleb128 0x5
  10165 0028 57       		.uleb128 0x57
  10166 0029 0B       		.uleb128 0xb
-GAS LISTING /tmp/cch1djci.s 			page 189
+GAS LISTING /tmp/ccUXrpWz.s 			page 189
 
 
  10167 002a 01       		.uleb128 0x1
@@ -11338,7 +11338,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10221 0061 58       		.uleb128 0x58
  10222 0062 21       		.uleb128 0x21
  10223 0063 01       		.sleb128 1
-GAS LISTING /tmp/cch1djci.s 			page 190
+GAS LISTING /tmp/ccUXrpWz.s 			page 190
 
 
  10224 0064 59       		.uleb128 0x59
@@ -11398,7 +11398,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10278 009b 0B       		.uleb128 0xb
  10279 009c 00       		.byte	0
  10280 009d 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 191
+GAS LISTING /tmp/ccUXrpWz.s 			page 191
 
 
  10281 009e 0B       		.uleb128 0xb
@@ -11458,7 +11458,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10335 00d6 00       		.byte	0
  10336 00d7 00       		.byte	0
  10337 00d8 0E       		.uleb128 0xe
-GAS LISTING /tmp/cch1djci.s 			page 192
+GAS LISTING /tmp/ccUXrpWz.s 			page 192
 
 
  10338 00d9 0D       		.uleb128 0xd
@@ -11518,7 +11518,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10392 010f 11       		.uleb128 0x11
  10393 0110 26       		.uleb128 0x26
  10394 0111 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 193
+GAS LISTING /tmp/ccUXrpWz.s 			page 193
 
 
  10395 0112 49       		.uleb128 0x49
@@ -11578,7 +11578,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10449 0149 55       		.uleb128 0x55
  10450 014a 17       		.uleb128 0x17
  10451 014b 58       		.uleb128 0x58
-GAS LISTING /tmp/cch1djci.s 			page 194
+GAS LISTING /tmp/ccUXrpWz.s 			page 194
 
 
  10452 014c 0B       		.uleb128 0xb
@@ -11638,7 +11638,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10506 0183 18       		.uleb128 0x18
  10507 0184 21       		.uleb128 0x21
  10508 0185 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 195
+GAS LISTING /tmp/ccUXrpWz.s 			page 195
 
 
  10509 0186 49       		.uleb128 0x49
@@ -11698,7 +11698,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10563 01bd 01       		.byte	0x1
  10564 01be 31       		.uleb128 0x31
  10565 01bf 13       		.uleb128 0x13
-GAS LISTING /tmp/cch1djci.s 			page 196
+GAS LISTING /tmp/ccUXrpWz.s 			page 196
 
 
  10566 01c0 52       		.uleb128 0x52
@@ -11758,7 +11758,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10620 01f9 3A       		.uleb128 0x3a
  10621 01fa 21       		.uleb128 0x21
  10622 01fb 01       		.sleb128 1
-GAS LISTING /tmp/cch1djci.s 			page 197
+GAS LISTING /tmp/ccUXrpWz.s 			page 197
 
 
  10623 01fc 3B       		.uleb128 0x3b
@@ -11818,7 +11818,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10677 0232 00       		.byte	0
  10678 0233 31       		.uleb128 0x31
  10679 0234 13       		.uleb128 0x13
-GAS LISTING /tmp/cch1djci.s 			page 198
+GAS LISTING /tmp/ccUXrpWz.s 			page 198
 
 
  10680 0235 52       		.uleb128 0x52
@@ -11878,7 +11878,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10734 026e 31       		.uleb128 0x31
  10735 026f 13       		.uleb128 0x13
  10736 0270 52       		.uleb128 0x52
-GAS LISTING /tmp/cch1djci.s 			page 199
+GAS LISTING /tmp/ccUXrpWz.s 			page 199
 
 
  10737 0271 01       		.uleb128 0x1
@@ -11938,7 +11938,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10791 02a8 00       		.byte	0
  10792 02a9 00       		.byte	0
  10793 02aa 29       		.uleb128 0x29
-GAS LISTING /tmp/cch1djci.s 			page 200
+GAS LISTING /tmp/ccUXrpWz.s 			page 200
 
 
  10794 02ab 35       		.uleb128 0x35
@@ -11998,7 +11998,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10848 02e1 0E       		.uleb128 0xe
  10849 02e2 3A       		.uleb128 0x3a
  10850 02e3 21       		.uleb128 0x21
-GAS LISTING /tmp/cch1djci.s 			page 201
+GAS LISTING /tmp/ccUXrpWz.s 			page 201
 
 
  10851 02e4 01       		.sleb128 1
@@ -12058,7 +12058,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10905 031a 13       		.uleb128 0x13
  10906 031b 00       		.byte	0
  10907 031c 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 202
+GAS LISTING /tmp/ccUXrpWz.s 			page 202
 
 
  10908 031d 30       		.uleb128 0x30
@@ -12118,7 +12118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  10962 0353 03       		.sleb128 3
  10963 0354 01       		.uleb128 0x1
  10964 0355 13       		.uleb128 0x13
-GAS LISTING /tmp/cch1djci.s 			page 203
+GAS LISTING /tmp/ccUXrpWz.s 			page 203
 
 
  10965 0356 00       		.byte	0
@@ -12178,7 +12178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11019 038c 21       		.sleb128 33
  11020 038d 49       		.uleb128 0x49
  11021 038e 13       		.uleb128 0x13
-GAS LISTING /tmp/cch1djci.s 			page 204
+GAS LISTING /tmp/ccUXrpWz.s 			page 204
 
 
  11022 038f 38       		.uleb128 0x38
@@ -12238,7 +12238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11076 03c5 19       		.uleb128 0x19
  11077 03c6 3C       		.uleb128 0x3c
  11078 03c7 19       		.uleb128 0x19
-GAS LISTING /tmp/cch1djci.s 			page 205
+GAS LISTING /tmp/ccUXrpWz.s 			page 205
 
 
  11079 03c8 00       		.byte	0
@@ -12298,7 +12298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11133 03fe B842     		.uleb128 0x2138
  11134 0400 0B       		.uleb128 0xb
  11135 0401 55       		.uleb128 0x55
-GAS LISTING /tmp/cch1djci.s 			page 206
+GAS LISTING /tmp/ccUXrpWz.s 			page 206
 
 
  11136 0402 17       		.uleb128 0x17
@@ -12358,7 +12358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11190 0439 34       		.uleb128 0x34
  11191 043a 19       		.uleb128 0x19
  11192 043b 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 207
+GAS LISTING /tmp/ccUXrpWz.s 			page 207
 
 
  11193 043c 00       		.byte	0
@@ -12418,7 +12418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11247 0472 42       		.uleb128 0x42
  11248 0473 0F       		.uleb128 0xf
  11249 0474 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 208
+GAS LISTING /tmp/ccUXrpWz.s 			page 208
 
 
  11250 0475 0B       		.uleb128 0xb
@@ -12478,7 +12478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11304 04ac 03       		.uleb128 0x3
  11305 04ad 08       		.uleb128 0x8
  11306 04ae 3A       		.uleb128 0x3a
-GAS LISTING /tmp/cch1djci.s 			page 209
+GAS LISTING /tmp/ccUXrpWz.s 			page 209
 
 
  11307 04af 0B       		.uleb128 0xb
@@ -12538,7 +12538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11361 04e5 02       		.uleb128 0x2
  11362 04e6 18       		.uleb128 0x18
  11363 04e7 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 210
+GAS LISTING /tmp/ccUXrpWz.s 			page 210
 
 
  11364 04e8 00       		.byte	0
@@ -12598,7 +12598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11418 051e 03       		.uleb128 0x3
  11419 051f 0E       		.uleb128 0xe
  11420 0520 3A       		.uleb128 0x3a
-GAS LISTING /tmp/cch1djci.s 			page 211
+GAS LISTING /tmp/ccUXrpWz.s 			page 211
 
 
  11421 0521 0B       		.uleb128 0xb
@@ -12658,7 +12658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11475 0559 03       		.uleb128 0x3
  11476 055a 08       		.uleb128 0x8
  11477 055b 3A       		.uleb128 0x3a
-GAS LISTING /tmp/cch1djci.s 			page 212
+GAS LISTING /tmp/ccUXrpWz.s 			page 212
 
 
  11478 055c 0B       		.uleb128 0xb
@@ -12718,7 +12718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11532 0592 03       		.uleb128 0x3
  11533 0593 0E       		.uleb128 0xe
  11534 0594 3A       		.uleb128 0x3a
-GAS LISTING /tmp/cch1djci.s 			page 213
+GAS LISTING /tmp/ccUXrpWz.s 			page 213
 
 
  11535 0595 0B       		.uleb128 0xb
@@ -12778,7 +12778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11589 05cb 6E       		.uleb128 0x6e
  11590 05cc 0E       		.uleb128 0xe
  11591 05cd 03       		.uleb128 0x3
-GAS LISTING /tmp/cch1djci.s 			page 214
+GAS LISTING /tmp/ccUXrpWz.s 			page 214
 
 
  11592 05ce 0E       		.uleb128 0xe
@@ -12838,7 +12838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11646 0040 0F       		.uleb128 .LVL6-.LVL5
  11647 0041 06       		.uleb128 0x6
  11648 0042 03       		.byte	0x3
-GAS LISTING /tmp/cch1djci.s 			page 215
+GAS LISTING /tmp/ccUXrpWz.s 			page 215
 
 
  11649 0043 1F000000 		.long	.LC5
@@ -12898,7 +12898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11703 0084 08       		.byte	0x8
  11704 0085 B1000000 		.long	.LVL11
  11705 0089 0F       		.uleb128 .LVL12-.LVL11
-GAS LISTING /tmp/cch1djci.s 			page 216
+GAS LISTING /tmp/ccUXrpWz.s 			page 216
 
 
  11706 008a 06       		.uleb128 0x6
@@ -12958,7 +12958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11760 00cf 00       		.uleb128 .LVU78
  11761              	.LLST15:
  11762 00d0 08       		.byte	0x8
-GAS LISTING /tmp/cch1djci.s 			page 217
+GAS LISTING /tmp/ccUXrpWz.s 			page 217
 
 
  11763 00d1 05010000 		.long	.LVL18
@@ -13018,7 +13018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11817 0116 01       		.uleb128 .LVU102
  11818 0117 00       		.uleb128 .LVU104
  11819              	.LLST20:
-GAS LISTING /tmp/cch1djci.s 			page 218
+GAS LISTING /tmp/ccUXrpWz.s 			page 218
 
 
  11820 0118 08       		.byte	0x8
@@ -13078,7 +13078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11874              	.LVUS25:
  11875 015e 02       		.uleb128 .LVU125
  11876 015f 00       		.uleb128 .LVU127
-GAS LISTING /tmp/cch1djci.s 			page 219
+GAS LISTING /tmp/ccUXrpWz.s 			page 219
 
 
  11877              	.LLST25:
@@ -13138,7 +13138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11931              	.LLST30:
  11932 01a3 06       		.byte	0x6
  11933 01a4 2A000000 		.long	.LVL37
-GAS LISTING /tmp/cch1djci.s 			page 220
+GAS LISTING /tmp/ccUXrpWz.s 			page 220
 
 
  11934 01a8 04       		.byte	0x4
@@ -13198,7 +13198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  11988 01e1 04       		.uleb128 0x4
  11989 01e2 70       		.byte	0x70
  11990 01e3 E807     		.sleb128 1000
-GAS LISTING /tmp/cch1djci.s 			page 221
+GAS LISTING /tmp/ccUXrpWz.s 			page 221
 
 
  11991 01e5 9F       		.byte	0x9f
@@ -13258,7 +13258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12045 0222 00       		.uleb128 .LVU183
  12046 0223 03       		.uleb128 .LVU186
  12047              	.LLST40:
-GAS LISTING /tmp/cch1djci.s 			page 222
+GAS LISTING /tmp/ccUXrpWz.s 			page 222
 
 
  12048 0224 08       		.byte	0x8
@@ -13318,7 +13318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12102 0266 1C       		.uleb128 .LVL67-.LVL62
  12103 0267 5A       		.uleb128 .LVL75-.LVL62
  12104 0268 03       		.uleb128 0x3
-GAS LISTING /tmp/cch1djci.s 			page 223
+GAS LISTING /tmp/ccUXrpWz.s 			page 223
 
 
  12105 0269 77       		.byte	0x77
@@ -13378,7 +13378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12159              	.LLST51:
  12160 02a4 08       		.byte	0x8
  12161 02a5 89000000 		.long	.LVL76
-GAS LISTING /tmp/cch1djci.s 			page 224
+GAS LISTING /tmp/ccUXrpWz.s 			page 224
 
 
  12162 02a9 0A       		.uleb128 .LVL77-.LVL76
@@ -13438,7 +13438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12216 02e6 13       		.uleb128 .LVL80-.LVL79
  12217 02e7 06       		.uleb128 0x6
  12218 02e8 03       		.byte	0x3
-GAS LISTING /tmp/cch1djci.s 			page 225
+GAS LISTING /tmp/ccUXrpWz.s 			page 225
 
 
  12219 02e9 00000000 		.long	.LC13
@@ -13498,7 +13498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12273 0329 06       		.uleb128 .LVL89-.LVL88
  12274 032a 01       		.uleb128 0x1
  12275 032b 50       		.byte	0x50
-GAS LISTING /tmp/cch1djci.s 			page 226
+GAS LISTING /tmp/ccUXrpWz.s 			page 226
 
 
  12276 032c 04       		.byte	0x4
@@ -13558,7 +13558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12330 036a 07       		.uleb128 .LVL98-.LVL97
  12331 036b 02       		.uleb128 0x2
  12332 036c 91       		.byte	0x91
-GAS LISTING /tmp/cch1djci.s 			page 227
+GAS LISTING /tmp/ccUXrpWz.s 			page 227
 
 
  12333 036d 54       		.sleb128 -44
@@ -13618,7 +13618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12387 03aa 00       		.uleb128 .LVU374
  12388 03ab 00       		.uleb128 .LVU374
  12389 03ac 00       		.uleb128 .LVU375
-GAS LISTING /tmp/cch1djci.s 			page 228
+GAS LISTING /tmp/ccUXrpWz.s 			page 228
 
 
  12390 03ad 00       		.uleb128 .LVU375
@@ -13678,7 +13678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12444 03e8 47010000 		.long	.LVL114
  12445 03ec 15       		.uleb128 .LVL115-.LVL114
  12446 03ed 06       		.uleb128 0x6
-GAS LISTING /tmp/cch1djci.s 			page 229
+GAS LISTING /tmp/ccUXrpWz.s 			page 229
 
 
  12447 03ee 03       		.byte	0x3
@@ -13738,7 +13738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12501 042d 76       		.byte	0x76
  12502 042e 7F       		.sleb128 -1
  12503 042f 9F       		.byte	0x9f
-GAS LISTING /tmp/cch1djci.s 			page 230
+GAS LISTING /tmp/ccUXrpWz.s 			page 230
 
 
  12504 0430 04       		.byte	0x4
@@ -13798,7 +13798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12558 046c 00       		.uleb128 .LVU575
  12559              	.LLST91:
  12560 046d 08       		.byte	0x8
-GAS LISTING /tmp/cch1djci.s 			page 231
+GAS LISTING /tmp/ccUXrpWz.s 			page 231
 
 
  12561 046e 07010000 		.long	.LVL132
@@ -13858,7 +13858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12615 04b0 00       		.uleb128 .LVL136-.LVL136
  12616 04b1 02       		.uleb128 0x2
  12617 04b2 91       		.byte	0x91
-GAS LISTING /tmp/cch1djci.s 			page 232
+GAS LISTING /tmp/ccUXrpWz.s 			page 232
 
 
  12618 04b3 58       		.sleb128 -40
@@ -13918,7 +13918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12672 04f4 01       		.uleb128 0x1
  12673 04f5 56       		.byte	0x56
  12674 04f6 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 233
+GAS LISTING /tmp/ccUXrpWz.s 			page 233
 
 
  12675              	.LVUS103:
@@ -13978,7 +13978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12729 0537 30       		.byte	0x30
  12730 0538 9F       		.byte	0x9f
  12731 0539 04       		.byte	0x4
-GAS LISTING /tmp/cch1djci.s 			page 234
+GAS LISTING /tmp/ccUXrpWz.s 			page 234
 
 
  12732 053a 1D       		.uleb128 .LVL153-.LVL149
@@ -14038,7 +14038,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12786 0575 57       		.byte	0x57
  12787 0576 00       		.byte	0
  12788              	.LVUS110:
-GAS LISTING /tmp/cch1djci.s 			page 235
+GAS LISTING /tmp/ccUXrpWz.s 			page 235
 
 
  12789 0577 01       		.uleb128 .LVU651
@@ -14098,7 +14098,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12843 05b7 9F       		.byte	0x9f
  12844 05b8 00       		.byte	0
  12845              	.LVUS118:
-GAS LISTING /tmp/cch1djci.s 			page 236
+GAS LISTING /tmp/ccUXrpWz.s 			page 236
 
 
  12846 05b9 00       		.uleb128 .LVU665
@@ -14158,7 +14158,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12900 05fa 01       		.uleb128 .LVU716
  12901 05fb 00       		.uleb128 .LVU721
  12902 05fc 00       		.uleb128 .LVU721
-GAS LISTING /tmp/cch1djci.s 			page 237
+GAS LISTING /tmp/ccUXrpWz.s 			page 237
 
 
  12903 05fd 00       		.uleb128 .LVU724
@@ -14218,7 +14218,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  12957 0637 00       		.uleb128 .LVU720
  12958 0638 00       		.uleb128 .LVU720
  12959 0639 00       		.uleb128 .LVU761
-GAS LISTING /tmp/cch1djci.s 			page 238
+GAS LISTING /tmp/ccUXrpWz.s 			page 238
 
 
  12960              	.LLST126:
@@ -14278,7 +14278,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13014 0677 84000000 		.long	.LVL177
  13015 067b 03       		.uleb128 .LVL178-.LVL177
  13016 067c 01       		.uleb128 0x1
-GAS LISTING /tmp/cch1djci.s 			page 239
+GAS LISTING /tmp/ccUXrpWz.s 			page 239
 
 
  13017 067d 57       		.byte	0x57
@@ -14338,7 +14338,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13071 06bc 56       		.byte	0x56
  13072 06bd 00       		.byte	0
  13073              	.LVUS140:
-GAS LISTING /tmp/cch1djci.s 			page 240
+GAS LISTING /tmp/ccUXrpWz.s 			page 240
 
 
  13074 06be 02       		.uleb128 .LVU754
@@ -14398,7 +14398,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13128 06fc 01       		.uleb128 0x1
  13129 06fd 57       		.byte	0x57
  13130 06fe 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 241
+GAS LISTING /tmp/ccUXrpWz.s 			page 241
 
 
  13131              	.LVUS146:
@@ -14458,7 +14458,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13185 073a 08       		.byte	0x8
  13186 073b B7000000 		.long	.LVL195
  13187 073f 07       		.uleb128 .LVL196-.LVL195
-GAS LISTING /tmp/cch1djci.s 			page 242
+GAS LISTING /tmp/ccUXrpWz.s 			page 242
 
 
  13188 0740 02       		.uleb128 0x2
@@ -14518,7 +14518,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13242 077d 00       		.uleb128 .LVU875
  13243              	.LLST156:
  13244 077e 08       		.byte	0x8
-GAS LISTING /tmp/cch1djci.s 			page 243
+GAS LISTING /tmp/ccUXrpWz.s 			page 243
 
 
  13245 077f 24010000 		.long	.LVL203
@@ -14578,7 +14578,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13299 07c1 04       		.byte	0x4
  13300 07c2 00       		.uleb128 .LVL237-.LVL237
  13301 07c3 06       		.uleb128 .LVL238-.LVL237
-GAS LISTING /tmp/cch1djci.s 			page 244
+GAS LISTING /tmp/ccUXrpWz.s 			page 244
 
 
  13302 07c4 01       		.uleb128 0x1
@@ -14638,7 +14638,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13356 0803 27       		.uleb128 .LVL249-.LVL245
  13357 0804 2B       		.uleb128 .LVL250-1-.LVL245
  13358 0805 02       		.uleb128 0x2
-GAS LISTING /tmp/cch1djci.s 			page 245
+GAS LISTING /tmp/ccUXrpWz.s 			page 245
 
 
  13359 0806 91       		.byte	0x91
@@ -14698,7 +14698,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13413 0846 06       		.uleb128 0x6
  13414 0847 03       		.byte	0x3
  13415 0848 00000000 		.long	.LC17
-GAS LISTING /tmp/cch1djci.s 			page 246
+GAS LISTING /tmp/ccUXrpWz.s 			page 246
 
 
  13416 084c 9F       		.byte	0x9f
@@ -14758,7 +14758,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13470 0888 04       		.byte	0x4
  13471 0889 06       		.uleb128 .LVL260-.LVL259
  13472 088a 0A       		.uleb128 .LVL261-1-.LVL259
-GAS LISTING /tmp/cch1djci.s 			page 247
+GAS LISTING /tmp/ccUXrpWz.s 			page 247
 
 
  13473 088b 02       		.uleb128 0x2
@@ -14818,7 +14818,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13527 08cb 1B       		.uleb128 .LVL208-.LVL206
  13528 08cc 01       		.uleb128 0x1
  13529 08cd 56       		.byte	0x56
-GAS LISTING /tmp/cch1djci.s 			page 248
+GAS LISTING /tmp/ccUXrpWz.s 			page 248
 
 
  13530 08ce 00       		.byte	0
@@ -14878,7 +14878,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13584              	.LLST171:
  13585 0905 06       		.byte	0x6
  13586 0906 1D000000 		.long	.LVL217
-GAS LISTING /tmp/cch1djci.s 			page 249
+GAS LISTING /tmp/ccUXrpWz.s 			page 249
 
 
  13587 090a 04       		.byte	0x4
@@ -14938,7 +14938,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13641 0943 6B       		.uleb128 .LFE305-.LVL215
  13642 0944 01       		.uleb128 0x1
  13643 0945 50       		.byte	0x50
-GAS LISTING /tmp/cch1djci.s 			page 250
+GAS LISTING /tmp/ccUXrpWz.s 			page 250
 
 
  13644 0946 00       		.byte	0
@@ -14998,7 +14998,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13698 0983 00       		.byte	0
  13699              	.LVUS163:
  13700 0984 01       		.uleb128 .LVU948
-GAS LISTING /tmp/cch1djci.s 			page 251
+GAS LISTING /tmp/ccUXrpWz.s 			page 251
 
 
  13701 0985 00       		.uleb128 .LVU958
@@ -15058,7 +15058,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13755 002c 20000000 		.long	.LFE322-.LFB322
  13756 0030 00000000 		.long	.LFB308
  13757 0034 41000000 		.long	.LFE308-.LFB308
-GAS LISTING /tmp/cch1djci.s 			page 252
+GAS LISTING /tmp/ccUXrpWz.s 			page 252
 
 
  13758 0038 00000000 		.long	.LFB321
@@ -15118,7 +15118,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13812              	.LLRL2:
  13813 0018 05       		.byte	0x5
  13814 0019 24000000 		.long	.LBB367
-GAS LISTING /tmp/cch1djci.s 			page 253
+GAS LISTING /tmp/ccUXrpWz.s 			page 253
 
 
  13815 001d 04       		.byte	0x4
@@ -15178,7 +15178,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13869 005e 0C       		.uleb128 .LBB437-.LBB434
  13870 005f 1F       		.uleb128 .LBE437-.LBB434
  13871 0060 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 254
+GAS LISTING /tmp/ccUXrpWz.s 			page 254
 
 
  13872              	.LLRL44:
@@ -15238,7 +15238,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13926 00a2 0A       		.uleb128 .LBE459-.LBB456
  13927 00a3 00       		.byte	0
  13928              	.LLRL57:
-GAS LISTING /tmp/cch1djci.s 			page 255
+GAS LISTING /tmp/ccUXrpWz.s 			page 255
 
 
  13929 00a4 05       		.byte	0x5
@@ -15298,7 +15298,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  13983 00e7 06       		.uleb128 .LBE502-.LBB502
  13984 00e8 04       		.byte	0x4
  13985 00e9 0D       		.uleb128 .LBB507-.LBB502
-GAS LISTING /tmp/cch1djci.s 			page 256
+GAS LISTING /tmp/ccUXrpWz.s 			page 256
 
 
  13986 00ea 10       		.uleb128 .LBE507-.LBB502
@@ -15358,7 +15358,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14040 012a 00       		.byte	0
  14041              	.LLRL85:
  14042 012b 05       		.byte	0x5
-GAS LISTING /tmp/cch1djci.s 			page 257
+GAS LISTING /tmp/ccUXrpWz.s 			page 257
 
 
  14043 012c C8000000 		.long	.LBB562
@@ -15418,7 +15418,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14097 016f 04       		.byte	0x4
  14098 0170 00       		.uleb128 .LBB592-.LBB592
  14099 0171 00       		.uleb128 .LBE592-.LBB592
-GAS LISTING /tmp/cch1djci.s 			page 258
+GAS LISTING /tmp/ccUXrpWz.s 			page 258
 
 
  14100 0172 04       		.byte	0x4
@@ -15478,7 +15478,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14154 01b2 09       		.uleb128 .LBB619-.LBB616
  14155 01b3 1C       		.uleb128 .LBE619-.LBB616
  14156 01b4 00       		.byte	0
-GAS LISTING /tmp/cch1djci.s 			page 259
+GAS LISTING /tmp/ccUXrpWz.s 			page 259
 
 
  14157              	.LLRL128:
@@ -15538,7 +15538,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14211 01f7 00       		.uleb128 .LBB648-.LBB648
  14212 01f8 00       		.uleb128 .LBE648-.LBB648
  14213 01f9 04       		.byte	0x4
-GAS LISTING /tmp/cch1djci.s 			page 260
+GAS LISTING /tmp/ccUXrpWz.s 			page 260
 
 
  14214 01fa 03       		.uleb128 .LBB655-.LBB648
@@ -15598,7 +15598,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14268 023a 1A       		.uleb128 .LBE704-.LBB690
  14269 023b 04       		.byte	0x4
  14270 023c 20       		.uleb128 .LBB706-.LBB690
-GAS LISTING /tmp/cch1djci.s 			page 261
+GAS LISTING /tmp/ccUXrpWz.s 			page 261
 
 
  14271 023d 23       		.uleb128 .LBE706-.LBB690
@@ -15658,7 +15658,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14325 027d 04       		.byte	0x4
  14326 027e 03       		.uleb128 .LBB728-.LBB721
  14327 027f 09       		.uleb128 .LBE728-.LBB721
-GAS LISTING /tmp/cch1djci.s 			page 262
+GAS LISTING /tmp/ccUXrpWz.s 			page 262
 
 
  14328 0280 00       		.byte	0
@@ -15718,7 +15718,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14382              	.LLRL184:
  14383 02c0 05       		.byte	0x5
  14384 02c1 8C000000 		.long	.LBB757
-GAS LISTING /tmp/cch1djci.s 			page 263
+GAS LISTING /tmp/ccUXrpWz.s 			page 263
 
 
  14385 02c5 04       		.byte	0x4
@@ -15778,7 +15778,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14439 0303 17       		.uleb128 .LBE788-.LBB782
  14440 0304 00       		.byte	0
  14441              	.LLRL194:
-GAS LISTING /tmp/cch1djci.s 			page 264
+GAS LISTING /tmp/ccUXrpWz.s 			page 264
 
 
  14442 0305 05       		.byte	0x5
@@ -15838,7 +15838,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14496 0346 04       		.byte	0x4
  14497 0347 4E       		.uleb128 .LBB836-.LBB823
  14498 0348 57       		.uleb128 .LBE836-.LBB823
-GAS LISTING /tmp/cch1djci.s 			page 265
+GAS LISTING /tmp/ccUXrpWz.s 			page 265
 
 
  14499 0349 04       		.byte	0x4
@@ -15898,7 +15898,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14553 0392 00000000 		.long	.LFB308
  14554 0396 41       		.uleb128 .LFE308-.LFB308
  14555 0397 07       		.byte	0x7
-GAS LISTING /tmp/cch1djci.s 			page 266
+GAS LISTING /tmp/ccUXrpWz.s 			page 266
 
 
  14556 0398 00000000 		.long	.LFB321
@@ -15958,7 +15958,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14610 0000 6A1B0000 		.section	.debug_str,"MS",@progbits,1
  14610      05000400 
  14610      C6000000 
-GAS LISTING /tmp/cch1djci.s 			page 267
+GAS LISTING /tmp/ccUXrpWz.s 			page 267
 
 
  14610      010101FB 
@@ -16018,7 +16018,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14638      64476574 
  14638      5072696F 
  14638      72697479 
-GAS LISTING /tmp/cch1djci.s 			page 268
+GAS LISTING /tmp/ccUXrpWz.s 			page 268
 
 
  14638      5800
@@ -16078,7 +16078,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14664      6573745F 
  14664      3031325F 
  14664      3031325F 
-GAS LISTING /tmp/cch1djci.s 			page 269
+GAS LISTING /tmp/ccUXrpWz.s 			page 269
 
 
  14664      65786563 
@@ -16138,7 +16138,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14692      6973706F 
  14692      73655F74 
  14692      00
-GAS LISTING /tmp/cch1djci.s 			page 270
+GAS LISTING /tmp/ccUXrpWz.s 			page 270
 
 
  14693              	.LASF25:
@@ -16198,7 +16198,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14718      6B5F7400 
  14719              	.LASF105:
  14720 027c 77747472 		.string	"wttrp"
-GAS LISTING /tmp/cch1djci.s 			page 271
+GAS LISTING /tmp/ccUXrpWz.s 			page 271
 
 
  14720      7000
@@ -16258,7 +16258,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14746 0317 706F7274 		.string	"port_irq_sts"
  14746      5F697271 
  14746      5F737473 
-GAS LISTING /tmp/cch1djci.s 			page 272
+GAS LISTING /tmp/ccUXrpWz.s 			page 272
 
 
  14746      00
@@ -16318,7 +16318,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14774      5F7400
  14775              	.LASF132:
  14776 03b9 676C6F62 		.string	"global_fail"
-GAS LISTING /tmp/cch1djci.s 			page 273
+GAS LISTING /tmp/ccUXrpWz.s 			page 273
 
 
  14776      616C5F66 
@@ -16378,7 +16378,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14802      68726561 
  14802      6400
  14803              	.LASF94:
-GAS LISTING /tmp/cch1djci.s 			page 274
+GAS LISTING /tmp/ccUXrpWz.s 			page 274
 
 
  14804 045a 76697274 		.string	"virtual_timers_list_t"
@@ -16438,7 +16438,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14828      69737400 
  14829              	.LASF4:
  14830 04f9 6C6F6E67 		.string	"long long int"
-GAS LISTING /tmp/cch1djci.s 			page 275
+GAS LISTING /tmp/ccUXrpWz.s 			page 275
 
 
  14830      206C6F6E 
@@ -16498,7 +16498,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14854      5F776169 
  14854      745F7469 
  14854      636B00
-GAS LISTING /tmp/cch1djci.s 			page 276
+GAS LISTING /tmp/ccUXrpWz.s 			page 276
 
 
  14855              	.LASF2:
@@ -16558,7 +16558,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14878      65637449 
  14878      6E697400 
  14879              	.LASF68:
-GAS LISTING /tmp/cch1djci.s 			page 277
+GAS LISTING /tmp/ccUXrpWz.s 			page 277
 
 
  14880 0649 74696D65 		.string	"time_conv_t"
@@ -16618,7 +16618,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14904      64457869 
  14904      7400
  14905              	.LASF86:
-GAS LISTING /tmp/cch1djci.s 			page 278
+GAS LISTING /tmp/ccUXrpWz.s 			page 278
 
 
  14906 06ee 63685F76 		.string	"ch_virtual_timer"
@@ -16678,7 +16678,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14930      745300
  14931              	.LASF38:
  14932 0798 72656673 		.string	"refs"
-GAS LISTING /tmp/cch1djci.s 			page 279
+GAS LISTING /tmp/ccUXrpWz.s 			page 279
 
 
  14932      00
@@ -16738,7 +16738,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14958      7265616D 
  14959              	.LASF51:
  14960 083c 726C6973 		.string	"rlist"
-GAS LISTING /tmp/cch1djci.s 			page 280
+GAS LISTING /tmp/ccUXrpWz.s 			page 280
 
 
  14960      7400
@@ -16798,7 +16798,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  14984      636F6E66 
  14984      69675F74 
  14985              	.LASF76:
-GAS LISTING /tmp/cch1djci.s 			page 281
+GAS LISTING /tmp/ccUXrpWz.s 			page 281
 
 
  14986 08ea 63685F70 		.string	"ch_priority_queue"
@@ -16858,7 +16858,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  15010 0985 72745F74 		.string	"rt_test_012_008"
  15010      6573745F 
  15010      3031325F 
-GAS LISTING /tmp/cch1djci.s 			page 282
+GAS LISTING /tmp/ccUXrpWz.s 			page 282
 
 
  15010      30303800 
@@ -16918,7 +16918,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  15038 0a2e 6D73675F 		.string	"msg_loop_test"
  15038      6C6F6F70 
  15038      5F746573 
-GAS LISTING /tmp/cch1djci.s 			page 283
+GAS LISTING /tmp/ccUXrpWz.s 			page 283
 
 
  15038      7400
@@ -16978,7 +16978,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  15062      65786563 
  15063              	.LASF14:
  15064 0b79 5F5F696E 		.string	"__int32_t"
-GAS LISTING /tmp/cch1djci.s 			page 284
+GAS LISTING /tmp/ccUXrpWz.s 			page 284
 
 
  15064      7433325F 
@@ -17020,7 +17020,7 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  15080      7400
  15081              		.section	.debug_line_str,"MS",@progbits,1
  15082              	.LASF1:
- 15083 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 15083 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  15083      652F616C 
  15083      65782F43 
  15083      68696269 
@@ -17038,79 +17038,79 @@ GAS LISTING /tmp/cch1djci.s 			page 1
  15088      65782F43 
  15088      68696269 
  15088      4F532F64 
-GAS LISTING /tmp/cch1djci.s 			page 285
+GAS LISTING /tmp/ccUXrpWz.s 			page 285
 
 
-GAS LISTING /tmp/cch1djci.s 			page 286
+GAS LISTING /tmp/ccUXrpWz.s 			page 286
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 rt_test_sequence_012.c
-     /tmp/cch1djci.s:8      .text.tmo:0000000000000000 tmo
-     /tmp/cch1djci.s:51     .text.rt_test_012_012_execute:0000000000000000 rt_test_012_012_execute
-     /tmp/cch1djci.s:5197   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/cch1djci.s:688    .text.rt_test_012_011_execute:0000000000000000 rt_test_012_011_execute
-     /tmp/cch1djci.s:5185   .bss.mtx1:0000000000000000 mtx1
-     /tmp/cch1djci.s:928    .text.rt_test_012_011_setup:0000000000000000 rt_test_012_011_setup
-     /tmp/cch1djci.s:960    .text.bmk_thread7:0000000000000000 bmk_thread7
-     /tmp/cch1djci.s:5191   .bss.sem1:0000000000000000 sem1
-     /tmp/cch1djci.s:1062   .text.rt_test_012_010_execute:0000000000000000 rt_test_012_010_execute
-     /tmp/cch1djci.s:1300   .text.rt_test_012_010_setup:0000000000000000 rt_test_012_010_setup
-     /tmp/cch1djci.s:1334   .text.rt_test_012_007_setup:0000000000000000 rt_test_012_007_setup
-     /tmp/cch1djci.s:1371   .text.rt_test_012_009_execute:0000000000000000 rt_test_012_009_execute
-     /tmp/cch1djci.s:4999   .bss.vt1.1:0000000000000000 vt1.1
-     /tmp/cch1djci.s:4993   .bss.vt2.0:0000000000000000 vt2.0
-     /tmp/cch1djci.s:1671   .text.rt_test_012_008_execute:0000000000000000 rt_test_012_008_execute
-     /tmp/cch1djci.s:2048   .text.bmk_thread8:0000000000000000 bmk_thread8
-     /tmp/cch1djci.s:2130   .text.rt_test_012_007_execute:0000000000000000 rt_test_012_007_execute
-     /tmp/cch1djci.s:2674   .text.rt_test_012_006_execute:0000000000000000 rt_test_012_006_execute
-     /tmp/cch1djci.s:2928   .text.bmk_thread3:0000000000000000 bmk_thread3
-     /tmp/cch1djci.s:2960   .text.rt_test_012_005_execute:0000000000000000 rt_test_012_005_execute
-     /tmp/cch1djci.s:3214   .text.rt_test_012_004_execute:0000000000000000 rt_test_012_004_execute
-     /tmp/cch1djci.s:3617   .text.bmk_thread4:0000000000000000 bmk_thread4
-     /tmp/cch1djci.s:3763   .text.bmk_thread1:0000000000000000 bmk_thread1
-     /tmp/cch1djci.s:3904   .text.msg_loop_test:0000000000000000 msg_loop_test
-     /tmp/cch1djci.s:4051   .text.rt_test_012_003_execute:0000000000000000 rt_test_012_003_execute
-     /tmp/cch1djci.s:4488   .text.rt_test_012_002_execute:0000000000000000 rt_test_012_002_execute
-     /tmp/cch1djci.s:4740   .text.rt_test_012_001_execute:0000000000000000 rt_test_012_001_execute
-     /tmp/cch1djci.s:5009   .data.rel.ro.local.rt_test_sequence_012:0000000000000000 rt_test_sequence_012
-     /tmp/cch1djci.s:5017   .data.rel.ro.local.rt_test_sequence_012_array:0000000000000000 rt_test_sequence_012_array
-     /tmp/cch1djci.s:5176   .data.rel.ro.local.rt_test_012_001:0000000000000000 rt_test_012_001
-     /tmp/cch1djci.s:5164   .data.rel.ro.local.rt_test_012_002:0000000000000000 rt_test_012_002
-     /tmp/cch1djci.s:5152   .data.rel.ro.local.rt_test_012_003:0000000000000000 rt_test_012_003
-     /tmp/cch1djci.s:5140   .data.rel.ro.local.rt_test_012_004:0000000000000000 rt_test_012_004
-     /tmp/cch1djci.s:5128   .data.rel.ro.local.rt_test_012_005:0000000000000000 rt_test_012_005
-     /tmp/cch1djci.s:5115   .data.rel.ro.local.rt_test_012_006:0000000000000000 rt_test_012_006
-     /tmp/cch1djci.s:5102   .data.rel.ro.local.rt_test_012_007:0000000000000000 rt_test_012_007
-     /tmp/cch1djci.s:5090   .data.rel.ro.local.rt_test_012_008:0000000000000000 rt_test_012_008
-     /tmp/cch1djci.s:5077   .data.rel.ro.local.rt_test_012_009:0000000000000000 rt_test_012_009
-     /tmp/cch1djci.s:5064   .data.rel.ro.local.rt_test_012_010:0000000000000000 rt_test_012_010
-     /tmp/cch1djci.s:5051   .data.rel.ro.local.rt_test_012_011:0000000000000000 rt_test_012_011
-     /tmp/cch1djci.s:5038   .data.rel.ro.local.rt_test_012_012:0000000000000000 rt_test_012_012
-     /tmp/cch1djci.s:24     .rodata.rt_test_012_012_execute.str1.1:000000000000000d .LC1
-     /tmp/cch1djci.s:22     .rodata.rt_test_012_012_execute.str1.1:0000000000000000 .LC0
-     /tmp/cch1djci.s:26     .rodata.rt_test_012_012_execute.str1.1:0000000000000010 .LC2
-     /tmp/cch1djci.s:28     .rodata.rt_test_012_012_execute.str1.1:0000000000000013 .LC3
-     /tmp/cch1djci.s:30     .rodata.rt_test_012_012_execute.str1.1:000000000000001a .LC4
-     /tmp/cch1djci.s:32     .rodata.rt_test_012_012_execute.str1.1:000000000000001f .LC5
-     /tmp/cch1djci.s:34     .rodata.rt_test_012_012_execute.str1.1:000000000000002c .LC6
-     /tmp/cch1djci.s:36     .rodata.rt_test_012_012_execute.str1.1:0000000000000039 .LC7
-     /tmp/cch1djci.s:38     .rodata.rt_test_012_012_execute.str1.1:0000000000000046 .LC8
-     /tmp/cch1djci.s:40     .rodata.rt_test_012_012_execute.str1.1:0000000000000053 .LC9
-     /tmp/cch1djci.s:42     .rodata.rt_test_012_012_execute.str1.1:0000000000000060 .LC10
-     /tmp/cch1djci.s:44     .rodata.rt_test_012_012_execute.str1.1:000000000000006d .LC11
-     /tmp/cch1djci.s:46     .rodata.rt_test_012_012_execute.str1.1:000000000000007a .LC12
-     /tmp/cch1djci.s:681    .rodata.rt_test_012_011_execute.str1.1:0000000000000000 .LC13
-GAS LISTING /tmp/cch1djci.s 			page 287
+     /tmp/ccUXrpWz.s:8      .text.tmo:0000000000000000 tmo
+     /tmp/ccUXrpWz.s:51     .text.rt_test_012_012_execute:0000000000000000 rt_test_012_012_execute
+     /tmp/ccUXrpWz.s:5197   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccUXrpWz.s:688    .text.rt_test_012_011_execute:0000000000000000 rt_test_012_011_execute
+     /tmp/ccUXrpWz.s:5185   .bss.mtx1:0000000000000000 mtx1
+     /tmp/ccUXrpWz.s:928    .text.rt_test_012_011_setup:0000000000000000 rt_test_012_011_setup
+     /tmp/ccUXrpWz.s:960    .text.bmk_thread7:0000000000000000 bmk_thread7
+     /tmp/ccUXrpWz.s:5191   .bss.sem1:0000000000000000 sem1
+     /tmp/ccUXrpWz.s:1062   .text.rt_test_012_010_execute:0000000000000000 rt_test_012_010_execute
+     /tmp/ccUXrpWz.s:1300   .text.rt_test_012_010_setup:0000000000000000 rt_test_012_010_setup
+     /tmp/ccUXrpWz.s:1334   .text.rt_test_012_007_setup:0000000000000000 rt_test_012_007_setup
+     /tmp/ccUXrpWz.s:1371   .text.rt_test_012_009_execute:0000000000000000 rt_test_012_009_execute
+     /tmp/ccUXrpWz.s:4999   .bss.vt1.1:0000000000000000 vt1.1
+     /tmp/ccUXrpWz.s:4993   .bss.vt2.0:0000000000000000 vt2.0
+     /tmp/ccUXrpWz.s:1671   .text.rt_test_012_008_execute:0000000000000000 rt_test_012_008_execute
+     /tmp/ccUXrpWz.s:2048   .text.bmk_thread8:0000000000000000 bmk_thread8
+     /tmp/ccUXrpWz.s:2130   .text.rt_test_012_007_execute:0000000000000000 rt_test_012_007_execute
+     /tmp/ccUXrpWz.s:2674   .text.rt_test_012_006_execute:0000000000000000 rt_test_012_006_execute
+     /tmp/ccUXrpWz.s:2928   .text.bmk_thread3:0000000000000000 bmk_thread3
+     /tmp/ccUXrpWz.s:2960   .text.rt_test_012_005_execute:0000000000000000 rt_test_012_005_execute
+     /tmp/ccUXrpWz.s:3214   .text.rt_test_012_004_execute:0000000000000000 rt_test_012_004_execute
+     /tmp/ccUXrpWz.s:3617   .text.bmk_thread4:0000000000000000 bmk_thread4
+     /tmp/ccUXrpWz.s:3763   .text.bmk_thread1:0000000000000000 bmk_thread1
+     /tmp/ccUXrpWz.s:3904   .text.msg_loop_test:0000000000000000 msg_loop_test
+     /tmp/ccUXrpWz.s:4051   .text.rt_test_012_003_execute:0000000000000000 rt_test_012_003_execute
+     /tmp/ccUXrpWz.s:4488   .text.rt_test_012_002_execute:0000000000000000 rt_test_012_002_execute
+     /tmp/ccUXrpWz.s:4740   .text.rt_test_012_001_execute:0000000000000000 rt_test_012_001_execute
+     /tmp/ccUXrpWz.s:5009   .data.rel.ro.local.rt_test_sequence_012:0000000000000000 rt_test_sequence_012
+     /tmp/ccUXrpWz.s:5017   .data.rel.ro.local.rt_test_sequence_012_array:0000000000000000 rt_test_sequence_012_array
+     /tmp/ccUXrpWz.s:5176   .data.rel.ro.local.rt_test_012_001:0000000000000000 rt_test_012_001
+     /tmp/ccUXrpWz.s:5164   .data.rel.ro.local.rt_test_012_002:0000000000000000 rt_test_012_002
+     /tmp/ccUXrpWz.s:5152   .data.rel.ro.local.rt_test_012_003:0000000000000000 rt_test_012_003
+     /tmp/ccUXrpWz.s:5140   .data.rel.ro.local.rt_test_012_004:0000000000000000 rt_test_012_004
+     /tmp/ccUXrpWz.s:5128   .data.rel.ro.local.rt_test_012_005:0000000000000000 rt_test_012_005
+     /tmp/ccUXrpWz.s:5115   .data.rel.ro.local.rt_test_012_006:0000000000000000 rt_test_012_006
+     /tmp/ccUXrpWz.s:5102   .data.rel.ro.local.rt_test_012_007:0000000000000000 rt_test_012_007
+     /tmp/ccUXrpWz.s:5090   .data.rel.ro.local.rt_test_012_008:0000000000000000 rt_test_012_008
+     /tmp/ccUXrpWz.s:5077   .data.rel.ro.local.rt_test_012_009:0000000000000000 rt_test_012_009
+     /tmp/ccUXrpWz.s:5064   .data.rel.ro.local.rt_test_012_010:0000000000000000 rt_test_012_010
+     /tmp/ccUXrpWz.s:5051   .data.rel.ro.local.rt_test_012_011:0000000000000000 rt_test_012_011
+     /tmp/ccUXrpWz.s:5038   .data.rel.ro.local.rt_test_012_012:0000000000000000 rt_test_012_012
+     /tmp/ccUXrpWz.s:24     .rodata.rt_test_012_012_execute.str1.1:000000000000000d .LC1
+     /tmp/ccUXrpWz.s:22     .rodata.rt_test_012_012_execute.str1.1:0000000000000000 .LC0
+     /tmp/ccUXrpWz.s:26     .rodata.rt_test_012_012_execute.str1.1:0000000000000010 .LC2
+     /tmp/ccUXrpWz.s:28     .rodata.rt_test_012_012_execute.str1.1:0000000000000013 .LC3
+     /tmp/ccUXrpWz.s:30     .rodata.rt_test_012_012_execute.str1.1:000000000000001a .LC4
+     /tmp/ccUXrpWz.s:32     .rodata.rt_test_012_012_execute.str1.1:000000000000001f .LC5
+     /tmp/ccUXrpWz.s:34     .rodata.rt_test_012_012_execute.str1.1:000000000000002c .LC6
+     /tmp/ccUXrpWz.s:36     .rodata.rt_test_012_012_execute.str1.1:0000000000000039 .LC7
+     /tmp/ccUXrpWz.s:38     .rodata.rt_test_012_012_execute.str1.1:0000000000000046 .LC8
+     /tmp/ccUXrpWz.s:40     .rodata.rt_test_012_012_execute.str1.1:0000000000000053 .LC9
+     /tmp/ccUXrpWz.s:42     .rodata.rt_test_012_012_execute.str1.1:0000000000000060 .LC10
+     /tmp/ccUXrpWz.s:44     .rodata.rt_test_012_012_execute.str1.1:000000000000006d .LC11
+     /tmp/ccUXrpWz.s:46     .rodata.rt_test_012_012_execute.str1.1:000000000000007a .LC12
+     /tmp/ccUXrpWz.s:681    .rodata.rt_test_012_011_execute.str1.1:0000000000000000 .LC13
+GAS LISTING /tmp/ccUXrpWz.s 			page 287
 
 
-     /tmp/cch1djci.s:683    .rodata.rt_test_012_011_execute.str1.1:000000000000000d .LC14
-     /tmp/cch1djci.s:1057   .rodata.rt_test_012_010_execute.str1.1:0000000000000000 .LC15
-     /tmp/cch1djci.s:1366   .rodata.rt_test_012_009_execute.str1.1:0000000000000000 .LC16
-     /tmp/cch1djci.s:1666   .rodata.rt_test_012_008_execute.str1.1:0000000000000000 .LC17
-     /tmp/cch1djci.s:2125   .rodata.rt_test_012_007_execute.str1.1:0000000000000000 .LC18
-     /tmp/cch1djci.s:2669   .rodata.rt_test_012_006_execute.str1.1:0000000000000000 .LC19
-     /tmp/cch1djci.s:4046   .rodata.rt_test_012_003_execute.str1.1:0000000000000000 .LC20
+     /tmp/ccUXrpWz.s:683    .rodata.rt_test_012_011_execute.str1.1:000000000000000d .LC14
+     /tmp/ccUXrpWz.s:1057   .rodata.rt_test_012_010_execute.str1.1:0000000000000000 .LC15
+     /tmp/ccUXrpWz.s:1366   .rodata.rt_test_012_009_execute.str1.1:0000000000000000 .LC16
+     /tmp/ccUXrpWz.s:1666   .rodata.rt_test_012_008_execute.str1.1:0000000000000000 .LC17
+     /tmp/ccUXrpWz.s:2125   .rodata.rt_test_012_007_execute.str1.1:0000000000000000 .LC18
+     /tmp/ccUXrpWz.s:2669   .rodata.rt_test_012_006_execute.str1.1:0000000000000000 .LC19
+     /tmp/ccUXrpWz.s:4046   .rodata.rt_test_012_003_execute.str1.1:0000000000000000 .LC20
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

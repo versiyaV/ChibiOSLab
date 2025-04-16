@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccsRzrOw.s 			page 1
+GAS LISTING /tmp/ccSctgz4.s 			page 1
 
 
    1              		.file	"hal_buffers.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/src/hal_buffers.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/src/hal_buffers.c"
    5              		.section	.text.ibqObjectInit,"ax",@progbits
    6              		.p2align 4
    7              		.globl	ibqObjectInit
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
   53 001e 56       		pushl	%esi
   54              		.cfi_def_cfa_offset 48
   55 001f E8FCFFFF 		call	chThdQueueObjectInit@PLT
-GAS LISTING /tmp/ccsRzrOw.s 			page 2
+GAS LISTING /tmp/ccSctgz4.s 			page 2
 
 
   55      FF
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  107              		.loc 1 91 3 view .LVU40
  108              		.loc 1 91 19 is_stmt 0 view .LVU41
  109 0068 C7462C00 		movl	$0, 44(%esi)
-GAS LISTING /tmp/ccsRzrOw.s 			page 3
+GAS LISTING /tmp/ccSctgz4.s 			page 3
 
 
  109      000000
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  160 001d C7402800 		movl	$0, 40(%eax)
  160      000000
  161              		.loc 1 112 19 view .LVU55
-GAS LISTING /tmp/ccsRzrOw.s 			page 4
+GAS LISTING /tmp/ccSctgz4.s 			page 4
 
 
  162 0024 895014   		movl	%edx, 20(%eax)
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  214              		.loc 1 137 3 is_stmt 1 view .LVU71
  215              		.loc 1 137 23 is_stmt 0 view .LVU72
  216 000c 83C004   		addl	$4, %eax
-GAS LISTING /tmp/ccsRzrOw.s 			page 5
+GAS LISTING /tmp/ccSctgz4.s 			page 5
 
 
  217              		.loc 1 138 1 view .LVU73
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  269              		.loc 1 159 7 is_stmt 0 view .LVU92
  270 001c 8B480C   		movl	12(%eax), %ecx
  271              		.loc 1 160 16 view .LVU93
-GAS LISTING /tmp/ccsRzrOw.s 			page 6
+GAS LISTING /tmp/ccSctgz4.s 			page 6
 
 
  272 001f 03501C   		addl	28(%eax), %edx
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  325              		.cfi_startproc
  326              		.loc 1 190 54 is_stmt 0 view .LVU108
  327 0000 55       		pushl	%ebp
-GAS LISTING /tmp/ccsRzrOw.s 			page 7
+GAS LISTING /tmp/ccSctgz4.s 			page 7
 
 
  328              		.cfi_def_cfa_offset 8
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  378              		.loc 3 411 21 view .LVU121
  379              	.LBE229:
  380              	.LBE230:
-GAS LISTING /tmp/ccsRzrOw.s 			page 8
+GAS LISTING /tmp/ccSctgz4.s 			page 8
 
 
  381              		.loc 1 194 3 view .LVU122
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  433              	.LBB236:
  434              	.LBI236:
  435              		.loc 1 220 9 view .LVU138
-GAS LISTING /tmp/ccsRzrOw.s 			page 9
+GAS LISTING /tmp/ccSctgz4.s 			page 9
 
 
  436              	.LBB237:
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  489              	.LBE240:
  490              		.loc 1 197 3 is_stmt 1 view .LVU165
  491              		.loc 1 198 1 is_stmt 0 view .LVU166
-GAS LISTING /tmp/ccsRzrOw.s 			page 10
+GAS LISTING /tmp/ccSctgz4.s 			page 10
 
 
  492 0064 83C40C   		addl	$12, %esp
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  544              	.LBB250:
  545              		.loc 3 423 23 view .LVU175
  546              		.loc 3 424 34 view .LVU176
-GAS LISTING /tmp/ccsRzrOw.s 			page 11
+GAS LISTING /tmp/ccSctgz4.s 			page 11
 
 
  547              		.loc 3 430 3 view .LVU177
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  601 0007 E8FCFFFF 		call	__x86.get_pc_thunk.bx
  601      FF
  602 000c 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
-GAS LISTING /tmp/ccsRzrOw.s 			page 12
+GAS LISTING /tmp/ccSctgz4.s 			page 12
 
 
  602      0000
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  654              		.loc 1 235 3 view .LVU205
  655              		.loc 1 235 3 view .LVU206
  656              		.loc 1 238 3 view .LVU207
-GAS LISTING /tmp/ccsRzrOw.s 			page 13
+GAS LISTING /tmp/ccSctgz4.s 			page 13
 
 
  657              		.loc 1 238 19 is_stmt 0 view .LVU208
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  709              		.section	.text.ibqReleaseEmptyBuffer,"ax",@progbits
  710              		.p2align 4
  711              		.globl	ibqReleaseEmptyBuffer
-GAS LISTING /tmp/ccsRzrOw.s 			page 14
+GAS LISTING /tmp/ccSctgz4.s 			page 14
 
 
  712              		.type	ibqReleaseEmptyBuffer, @function
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  763              	.LBE295:
  764              	.LBB298:
  765              	.LBB293:
-GAS LISTING /tmp/ccsRzrOw.s 			page 15
+GAS LISTING /tmp/ccSctgz4.s 			page 15
 
 
  766              	.LBB291:
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  818              	.LVL30:
  819              		.loc 1 284 5 is_stmt 0 view .LVU255
  820 0050 83C410   		addl	$16, %esp
-GAS LISTING /tmp/ccsRzrOw.s 			page 16
+GAS LISTING /tmp/ccSctgz4.s 			page 16
 
 
  821              		.cfi_def_cfa_offset 16
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  874              		.loc 1 270 3 view .LVU273
  875              		.loc 1 270 3 view .LVU274
  876              		.loc 1 270 3 view .LVU275
-GAS LISTING /tmp/ccsRzrOw.s 			page 17
+GAS LISTING /tmp/ccSctgz4.s 			page 17
 
 
  877              		.loc 1 273 3 view .LVU276
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  930              		.cfi_startproc
  931              		.loc 1 306 73 is_stmt 0 view .LVU295
  932 0000 55       		pushl	%ebp
-GAS LISTING /tmp/ccsRzrOw.s 			page 18
+GAS LISTING /tmp/ccSctgz4.s 			page 18
 
 
  933              		.cfi_def_cfa_offset 8
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  983              		.loc 3 411 21 view .LVU309
  984              	.LBE337:
  985              	.LBE338:
-GAS LISTING /tmp/ccsRzrOw.s 			page 19
+GAS LISTING /tmp/ccSctgz4.s 			page 19
 
 
  986              		.loc 1 312 3 view .LVU310
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1038              	.L42:
  1039              		.cfi_restore_state
  1040              	.LBB352:
-GAS LISTING /tmp/ccsRzrOw.s 			page 20
+GAS LISTING /tmp/ccSctgz4.s 			page 20
 
 
  1041              	.LBB353:
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1094 0073 8D5004   		leal	4(%eax), %edx
  1095              		.loc 1 238 13 view .LVU340
  1096 0076 895628   		movl	%edx, 40(%esi)
-GAS LISTING /tmp/ccsRzrOw.s 			page 21
+GAS LISTING /tmp/ccSctgz4.s 			page 21
 
 
  1097              		.loc 1 239 3 is_stmt 1 view .LVU341
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1150              		.loc 1 284 5 is_stmt 1 view .LVU365
  1151 00a9 83EC0C   		subl	$12, %esp
  1152              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccsRzrOw.s 			page 22
+GAS LISTING /tmp/ccSctgz4.s 			page 22
 
 
  1153 00ac 56       		pushl	%esi
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1206              	.LVL46:
  1207              		.p2align 4,,10
  1208 00c4 8D742600 		.p2align 3
-GAS LISTING /tmp/ccsRzrOw.s 			page 23
+GAS LISTING /tmp/ccSctgz4.s 			page 23
 
 
  1209              	.L57:
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1262              		.loc 1 316 14 is_stmt 0 view .LVU393
  1263 00d5 E963FFFF 		jmp	.L47
  1263      FF
-GAS LISTING /tmp/ccsRzrOw.s 			page 24
+GAS LISTING /tmp/ccSctgz4.s 			page 24
 
 
  1264              		.cfi_endproc
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1318 0006 E8FCFFFF 		call	__x86.get_pc_thunk.bx
  1318      FF
  1319 000b 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
-GAS LISTING /tmp/ccsRzrOw.s 			page 25
+GAS LISTING /tmp/ccSctgz4.s 			page 25
 
 
  1319      0000
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1370 004d 8B5010   		movl	16(%eax), %edx
  1371 0050 8957D0   		movl	%edx, -48(%edi)
  1372 0053 8B5014   		movl	20(%eax), %edx
-GAS LISTING /tmp/ccsRzrOw.s 			page 26
+GAS LISTING /tmp/ccSctgz4.s 			page 26
 
 
  1373 0056 8957D4   		movl	%edx, -44(%edi)
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1427              	.LBB429:
  1428              	.LBI429:
  1429              		.loc 4 370 20 view .LVU441
-GAS LISTING /tmp/ccsRzrOw.s 			page 27
+GAS LISTING /tmp/ccSctgz4.s 			page 27
 
 
  1430              	.LBB430:
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1481 00cb 29E9     		subl	%ebp, %ecx
  1482 00cd 39D1     		cmpl	%edx, %ecx
  1483 00cf 0F46D1   		cmovbe	%ecx, %edx
-GAS LISTING /tmp/ccsRzrOw.s 			page 28
+GAS LISTING /tmp/ccSctgz4.s 			page 28
 
 
  1484              	.LVL61:
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1536 0100 77A1     		ja	.L66
  1537              	.LVL67:
  1538              	.L79:
-GAS LISTING /tmp/ccsRzrOw.s 			page 29
+GAS LISTING /tmp/ccSctgz4.s 			page 29
 
 
  1539              		.loc 1 403 7 is_stmt 1 view .LVU479
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1591              	.LBB439:
  1592              		.loc 2 584 20 view .LVU502
  1593              		.loc 2 586 3 view .LVU503
-GAS LISTING /tmp/ccsRzrOw.s 			page 30
+GAS LISTING /tmp/ccSctgz4.s 			page 30
 
 
  1594              	.LBB434:
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1646              	.LBE442:
  1647              	.LBE441:
  1648              		.loc 1 375 9 is_stmt 1 view .LVU529
-GAS LISTING /tmp/ccsRzrOw.s 			page 31
+GAS LISTING /tmp/ccSctgz4.s 			page 31
 
 
  1649              	.LBE440:
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1702              		.loc 2 895 10 is_stmt 0 view .LVU539
  1703 0176 83EC08   		subl	$8, %esp
  1704              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/ccsRzrOw.s 			page 32
+GAS LISTING /tmp/ccSctgz4.s 			page 32
 
 
  1705 0179 56       		pushl	%esi
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1758              		.loc 1 241 3 is_stmt 0 view .LVU560
  1759              	.LBE453:
  1760              	.LBE451:
-GAS LISTING /tmp/ccsRzrOw.s 			page 33
+GAS LISTING /tmp/ccSctgz4.s 			page 33
 
 
  1761              	.LBE447:
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1812              	.LVL80:
  1813              	.LBB462:
  1814              	.LBI462:
-GAS LISTING /tmp/ccsRzrOw.s 			page 34
+GAS LISTING /tmp/ccSctgz4.s 			page 34
 
 
  1815              		.loc 2 864 20 is_stmt 1 view .LVU570
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1868              		.loc 1 445 19 view .LVU594
  1869 0058 8B442458 		movl	88(%esp), %eax
  1870              		.loc 1 442 19 view .LVU595
-GAS LISTING /tmp/ccsRzrOw.s 			page 35
+GAS LISTING /tmp/ccSctgz4.s 			page 35
 
 
  1871 005c C7462800 		movl	$0, 40(%esi)
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1922 0006 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
  1922      0000
  1923 000c 83EC10   		subl	$16, %esp
-GAS LISTING /tmp/ccsRzrOw.s 			page 36
+GAS LISTING /tmp/ccSctgz4.s 			page 36
 
 
  1924              		.cfi_def_cfa_offset 24
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  1975              	obqGetFullBufferI:
  1976              	.LVL85:
  1977              	.LFB323:
-GAS LISTING /tmp/ccsRzrOw.s 			page 37
+GAS LISTING /tmp/ccSctgz4.s 			page 37
 
 
  1978              		.loc 1 483 43 is_stmt 1 view -0
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2031              		.loc 1 508 3 view .LVU647
  2032              		.loc 1 508 3 view .LVU648
  2033              		.loc 1 511 3 view .LVU649
-GAS LISTING /tmp/ccsRzrOw.s 			page 38
+GAS LISTING /tmp/ccSctgz4.s 			page 38
 
 
  2034              		.loc 1 505 59 is_stmt 0 view .LVU650
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2085              		.cfi_restore 3
  2086              		.cfi_def_cfa_offset 4
  2087 003f C3       		ret
-GAS LISTING /tmp/ccsRzrOw.s 			page 39
+GAS LISTING /tmp/ccSctgz4.s 			page 39
 
 
  2088              		.cfi_endproc
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2140              	.LBB496:
  2141              	.LBB495:
  2142              	.LBB494:
-GAS LISTING /tmp/ccsRzrOw.s 			page 40
+GAS LISTING /tmp/ccSctgz4.s 			page 40
 
 
  2143              	.LBB493:
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2193              		.cfi_def_cfa_offset 32
  2194 0043 85C0     		testl	%eax, %eax
  2195 0045 7818     		js	.L98
-GAS LISTING /tmp/ccsRzrOw.s 			page 41
+GAS LISTING /tmp/ccSctgz4.s 			page 41
 
 
  2196              	.LVL95:
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2250              	.LBB509:
  2251              	.LBI509:
  2252              		.loc 4 370 20 view .LVU720
-GAS LISTING /tmp/ccsRzrOw.s 			page 42
+GAS LISTING /tmp/ccSctgz4.s 			page 42
 
 
  2253              	.LBB510:
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2304      FF
  2305              	.LVL100:
  2306              		.loc 1 579 14 view .LVU728
-GAS LISTING /tmp/ccsRzrOw.s 			page 43
+GAS LISTING /tmp/ccSctgz4.s 			page 43
 
 
  2307              	.LBE504:
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2361              		.cfi_def_cfa_offset 8
  2362              		.cfi_offset 7, -8
  2363 0001 56       		pushl	%esi
-GAS LISTING /tmp/ccsRzrOw.s 			page 44
+GAS LISTING /tmp/ccSctgz4.s 			page 44
 
 
  2364              		.cfi_def_cfa_offset 12
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2414              		.loc 1 582 8 view .LVU759
  2415              	.LBE533:
  2416              		.loc 1 577 10 is_stmt 1 view .LVU760
-GAS LISTING /tmp/ccsRzrOw.s 			page 45
+GAS LISTING /tmp/ccSctgz4.s 			page 45
 
 
  2417 0037 8B470C   		movl	12(%edi), %eax
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2469              	.LBE538:
  2470              		.loc 1 594 1 view .LVU776
  2471 005e 5E       		popl	%esi
-GAS LISTING /tmp/ccsRzrOw.s 			page 46
+GAS LISTING /tmp/ccSctgz4.s 			page 46
 
 
  2472              		.cfi_restore 6
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2524              	.LBB564:
  2525              	.LBB558:
  2526              	.LBB556:
-GAS LISTING /tmp/ccsRzrOw.s 			page 47
+GAS LISTING /tmp/ccSctgz4.s 			page 47
 
 
  2527              	.LBB554:
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2579 0034 89480C   		movl	%ecx, 12(%eax)
  2580              		.loc 1 632 3 is_stmt 1 view .LVU810
  2581              		.loc 1 633 3 view .LVU811
-GAS LISTING /tmp/ccsRzrOw.s 			page 48
+GAS LISTING /tmp/ccSctgz4.s 			page 48
 
 
  2582              		.loc 1 633 6 is_stmt 0 view .LVU812
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2635 0059 C7030000 		movl	$0, (%ebx)
  2635      0000
  2636              	.LBE572:
-GAS LISTING /tmp/ccsRzrOw.s 			page 49
+GAS LISTING /tmp/ccSctgz4.s 			page 49
 
 
  2637              	.LBE571:
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2691 001f 7206     		jb	.L116
  2692              		.loc 1 634 5 is_stmt 1 view .LVU859
  2693              		.loc 1 634 18 is_stmt 0 view .LVU860
-GAS LISTING /tmp/ccsRzrOw.s 			page 50
+GAS LISTING /tmp/ccSctgz4.s 			page 50
 
 
  2694 0021 8B5024   		movl	36(%eax), %edx
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2744 000f 83EC0C   		subl	$12, %esp
  2745              		.cfi_def_cfa_offset 32
  2746              		.loc 1 666 44 view .LVU871
-GAS LISTING /tmp/ccsRzrOw.s 			page 51
+GAS LISTING /tmp/ccSctgz4.s 			page 51
 
 
  2747 0012 8B7C2420 		movl	32(%esp), %edi
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2799 003a 3B472C   		cmpl	44(%edi), %eax
  2800 003d 7349     		jnb	.L136
  2801              	.L124:
-GAS LISTING /tmp/ccsRzrOw.s 			page 52
+GAS LISTING /tmp/ccSctgz4.s 			page 52
 
 
  2802              		.loc 1 690 3 is_stmt 1 view .LVU892
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2855 0056 83EC08   		subl	$8, %esp
  2856              		.cfi_def_cfa_offset 40
  2857 0059 FF742430 		pushl	48(%esp)
-GAS LISTING /tmp/ccsRzrOw.s 			page 53
+GAS LISTING /tmp/ccSctgz4.s 			page 53
 
 
  2858              		.cfi_def_cfa_offset 44
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2911 0082 8DB60000 		.p2align 3
  2911      0000
  2912              	.L136:
-GAS LISTING /tmp/ccsRzrOw.s 			page 54
+GAS LISTING /tmp/ccSctgz4.s 			page 54
 
 
  2913              		.loc 1 687 5 view .LVU922
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  2967 00aa C7472800 		movl	$0, 40(%edi)
  2967      000000
  2968              		.loc 1 641 3 is_stmt 1 view .LVU948
-GAS LISTING /tmp/ccsRzrOw.s 			page 55
+GAS LISTING /tmp/ccSctgz4.s 			page 55
 
 
  2969              		.loc 1 641 6 is_stmt 0 view .LVU949
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3020              		.loc 3 424 34 view .LVU963
  3021              		.loc 3 430 3 view .LVU964
  3022              		.loc 3 430 3 view .LVU965
-GAS LISTING /tmp/ccsRzrOw.s 			page 56
+GAS LISTING /tmp/ccSctgz4.s 			page 56
 
 
  3023              		.loc 3 430 3 view .LVU966
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3076              		.loc 1 715 57 is_stmt 0 view .LVU986
  3077 0000 55       		pushl	%ebp
  3078              		.cfi_def_cfa_offset 8
-GAS LISTING /tmp/ccsRzrOw.s 			page 57
+GAS LISTING /tmp/ccSctgz4.s 			page 57
 
 
  3079              		.cfi_offset 5, -8
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3128              		.loc 1 750 17 view .LVU998
  3129 0035 83C740   		addl	$64, %edi
  3130              	.LVL134:
-GAS LISTING /tmp/ccsRzrOw.s 			page 58
+GAS LISTING /tmp/ccSctgz4.s 			page 58
 
 
  3131              	.LBB686:
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3185              		.loc 1 767 5 is_stmt 1 view .LVU1009
  3186              	.LBB687:
  3187              	.LBI687:
-GAS LISTING /tmp/ccsRzrOw.s 			page 59
+GAS LISTING /tmp/ccSctgz4.s 			page 59
 
 
  3188              		.loc 2 584 20 view .LVU1010
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3240 00b9 85C0     		testl	%eax, %eax
  3241 00bb 0F849F00 		je	.L157
  3241      0000
-GAS LISTING /tmp/ccsRzrOw.s 			page 60
+GAS LISTING /tmp/ccSctgz4.s 			page 60
 
 
  3242              		.loc 1 740 24 view .LVU1031
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3294              		.loc 1 757 17 view .LVU1049
  3295 00f3 01D0     		addl	%edx, %eax
  3296              		.loc 1 756 17 view .LVU1050
-GAS LISTING /tmp/ccsRzrOw.s 			page 61
+GAS LISTING /tmp/ccSctgz4.s 			page 61
 
 
  3297 00f5 01D7     		addl	%edx, %edi
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3351              		.loc 1 632 16 view .LVU1075
  3352 0115 894610   		movl	%eax, 16(%esi)
  3353              	.LVL152:
-GAS LISTING /tmp/ccsRzrOw.s 			page 62
+GAS LISTING /tmp/ccSctgz4.s 			page 62
 
 
  3354              		.loc 1 631 17 view .LVU1076
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3406              	.LBE692:
  3407              	.LBE693:
  3408              	.LBE694:
-GAS LISTING /tmp/ccsRzrOw.s 			page 63
+GAS LISTING /tmp/ccSctgz4.s 			page 63
 
 
  3409              	.LBE695:
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3461 015c 5F       		popl	%edi
  3462              		.cfi_restore 7
  3463              		.cfi_def_cfa_offset 8
-GAS LISTING /tmp/ccsRzrOw.s 			page 64
+GAS LISTING /tmp/ccSctgz4.s 			page 64
 
 
  3464 015d 5D       		popl	%ebp
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3517 0183 85C0     		testl	%eax, %eax
  3518 0185 78C4     		js	.L141
  3519              	.LVL161:
-GAS LISTING /tmp/ccsRzrOw.s 			page 65
+GAS LISTING /tmp/ccSctgz4.s 			page 65
 
 
  3520              	.L139:
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3573              	.LFB331:
  3574              		.loc 1 788 49 view -0
  3575              		.cfi_startproc
-GAS LISTING /tmp/ccsRzrOw.s 			page 66
+GAS LISTING /tmp/ccSctgz4.s 			page 66
 
 
  3576              		.loc 1 790 23 view .LVU1151
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3629              	.LVL168:
  3630              		.loc 1 804 20 view .LVU1170
  3631 0032 03501C   		addl	28(%eax), %edx
-GAS LISTING /tmp/ccsRzrOw.s 			page 67
+GAS LISTING /tmp/ccSctgz4.s 			page 67
 
 
  3632              	.LVL169:
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3684              		.loc 3 407 20 view .LVU1189
  3685              		.loc 3 409 3 view .LVU1190
  3686              	.LBB738:
-GAS LISTING /tmp/ccsRzrOw.s 			page 68
+GAS LISTING /tmp/ccSctgz4.s 			page 68
 
 
  3687              	.LBI738:
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3737              		.loc 1 831 12 view .LVU1204
  3738 0028 83E804   		subl	$4, %eax
  3739              	.LVL173:
-GAS LISTING /tmp/ccsRzrOw.s 			page 69
+GAS LISTING /tmp/ccSctgz4.s 			page 69
 
 
  3740              		.loc 1 833 5 is_stmt 1 view .LVU1205
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3792              	.LBB749:
  3793              	.LBI749:
  3794              		.loc 1 621 6 view .LVU1224
-GAS LISTING /tmp/ccsRzrOw.s 			page 70
+GAS LISTING /tmp/ccSctgz4.s 			page 70
 
 
  3795              	.LBB750:
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3848              	.LBE749:
  3849              	.LBE766:
  3850              	.LBB767:
-GAS LISTING /tmp/ccsRzrOw.s 			page 71
+GAS LISTING /tmp/ccSctgz4.s 			page 71
 
 
  3851              	.LBB764:
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3904              		.size	obqFlush, .-obqFlush
  3905              		.section	.text.__x86.get_pc_thunk.ax,"axG",@progbits,__x86.get_pc_thunk.ax,comdat
  3906              		.globl	__x86.get_pc_thunk.ax
-GAS LISTING /tmp/ccsRzrOw.s 			page 72
+GAS LISTING /tmp/ccSctgz4.s 			page 72
 
 
  3907              		.hidden	__x86.get_pc_thunk.ax
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  3961 0012 2F000000 		.long	.LASF0
  3962 0016 00000000 		.long	.LASF1
  3963 001a 8D020000 		.long	.LLRL141
-GAS LISTING /tmp/ccsRzrOw.s 			page 73
+GAS LISTING /tmp/ccSctgz4.s 			page 73
 
 
  3964 001e 00000000 		.long	0
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4018 0084 06       		.byte	0x6
  4019 0085 3D030000 		.long	.LASF11
  4020 0089 05       		.uleb128 0x5
-GAS LISTING /tmp/ccsRzrOw.s 			page 74
+GAS LISTING /tmp/ccSctgz4.s 			page 74
 
 
  4021 008a B0020000 		.long	.LASF13
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4075 00f3 DF000000 		.long	0xdf
  4076 00f7 05       		.uleb128 0x5
  4077 00f8 5F050000 		.long	.LASF22
-GAS LISTING /tmp/ccsRzrOw.s 			page 75
+GAS LISTING /tmp/ccSctgz4.s 			page 75
 
 
  4078 00fc 0A       		.byte	0xa
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4132 0166 08       		.byte	0x8
  4133 0167 0D       		.byte	0xd
  4134 0168 97       		.byte	0x97
-GAS LISTING /tmp/ccsRzrOw.s 			page 76
+GAS LISTING /tmp/ccSctgz4.s 			page 76
 
 
  4135 0169 10       		.byte	0x10
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4189 01d2 0E       		.byte	0xe
  4190 01d3 5B       		.byte	0x5b
  4191 01d4 1A       		.byte	0x1a
-GAS LISTING /tmp/ccsRzrOw.s 			page 77
+GAS LISTING /tmp/ccSctgz4.s 			page 77
 
 
  4192 01d5 48010000 		.long	0x148
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4246 023d 30       		.byte	0x30
  4247 023e 09       		.uleb128 0x9
  4248 023f 36010000 		.long	.LASF43
-GAS LISTING /tmp/ccsRzrOw.s 			page 78
+GAS LISTING /tmp/ccSctgz4.s 			page 78
 
 
  4249 0243 0E       		.byte	0xe
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4303 02b7 F7000000 		.long	0xf7
  4304 02bb 00       		.byte	0
  4305 02bc 28       		.uleb128 0x28
-GAS LISTING /tmp/ccsRzrOw.s 			page 79
+GAS LISTING /tmp/ccSctgz4.s 			page 79
 
 
  4306 02bd 71000000 		.long	.LASF48
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4360 0347 5F000000 		.long	.LLST139
  4361 034b 5B000000 		.long	.LVUS139
  4362 034f 12       		.uleb128 0x12
-GAS LISTING /tmp/ccsRzrOw.s 			page 80
+GAS LISTING /tmp/ccSctgz4.s 			page 80
 
 
  4363 0350 72020000 		.long	.LLRL137
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4417 03cb 00       		.byte	0
  4418 03cc 0F       		.uleb128 0xf
  4419 03cd 79020000 		.long	0x279
-GAS LISTING /tmp/ccsRzrOw.s 			page 81
+GAS LISTING /tmp/ccSctgz4.s 			page 81
 
 
  4420 03d1 29       		.uleb128 0x29
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4474 045a 6E00     		.string	"n"
  4475 045c CB02     		.value	0x2cb
  4476 045e 1F       		.byte	0x1f
-GAS LISTING /tmp/ccsRzrOw.s 			page 82
+GAS LISTING /tmp/ccSctgz4.s 			page 82
 
 
  4477 045f 26000000 		.long	0x26
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4531 04ec 4A02     		.value	0x24a
  4532 04ee 03       		.byte	0x3
  4533 04ef 23       		.uleb128 0x23
-GAS LISTING /tmp/ccsRzrOw.s 			page 83
+GAS LISTING /tmp/ccSctgz4.s 			page 83
 
 
  4534 04f0 F4160000 		.long	0x16f4
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4588 0585 15000000 		.long	.LBE716-.LBB716
  4589 0589 01       		.byte	0x1
  4590 058a 3C02     		.value	0x23c
-GAS LISTING /tmp/ccsRzrOw.s 			page 84
+GAS LISTING /tmp/ccSctgz4.s 			page 84
 
 
  4591 058c 07       		.byte	0x7
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4645 0619 F4160000 		.long	0x16f4
  4646 061d A2000000 		.long	.LBI690
  4647 0621 0A       		.byte	.LVU1019
-GAS LISTING /tmp/ccsRzrOw.s 			page 85
+GAS LISTING /tmp/ccSctgz4.s 			page 85
 
 
  4648 0622 28020000 		.long	.LLRL118
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4702 06b2 EA010000 		.long	.LLRL110
  4703 06b6 01       		.byte	0x1
  4704 06b7 D002     		.value	0x2d0
-GAS LISTING /tmp/ccsRzrOw.s 			page 86
+GAS LISTING /tmp/ccSctgz4.s 			page 86
 
 
  4705 06b9 03       		.byte	0x3
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4759 072b 65050000 		.long	.LASF55
  4760 072f 9A02     		.value	0x29a
  4761 0731 23       		.byte	0x23
-GAS LISTING /tmp/ccsRzrOw.s 			page 87
+GAS LISTING /tmp/ccSctgz4.s 			page 87
 
 
  4762 0732 03010000 		.long	0x103
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4816 07b3 F4160000 		.long	0x16f4
  4817 07b7 D5000000 		.long	.LBI610
  4818 07bb 0C       		.byte	.LVU968
-GAS LISTING /tmp/ccsRzrOw.s 			page 88
+GAS LISTING /tmp/ccSctgz4.s 			page 88
 
 
  4819 07bc B1010000 		.long	.LLRL97
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4873 084d 07       		.byte	0x7
  4874 084e 01       		.uleb128 0x1
  4875 084f E4090000 		.long	0x9e4
-GAS LISTING /tmp/ccsRzrOw.s 			page 89
+GAS LISTING /tmp/ccSctgz4.s 			page 89
 
 
  4876 0853 70020000 		.long	.LLST103
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4930 08d8 37000000 		.long	0x37
  4931 08dc 12       		.byte	0x12
  4932 08dd 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 90
+GAS LISTING /tmp/ccSctgz4.s 			page 90
 
 
  4933 08de 0E       		.uleb128 0xe
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  4987 0959 96010000 		.long	.LLRL91
  4988 095d 6002     		.value	0x260
  4989 095f 03       		.byte	0x3
-GAS LISTING /tmp/ccsRzrOw.s 			page 91
+GAS LISTING /tmp/ccSctgz4.s 			page 91
 
 
  4990 0960 84090000 		.long	0x984
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5044 09e5 65050000 		.long	.LASF55
  5045 09e9 01       		.byte	0x1
  5046 09ea 3D02     		.value	0x23d
-GAS LISTING /tmp/ccsRzrOw.s 			page 92
+GAS LISTING /tmp/ccSctgz4.s 			page 92
 
 
  5047 09ec 2F       		.byte	0x2f
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5101 0a63 FA020000 		.long	.LLST72
  5102 0a67 F6020000 		.long	.LVUS72
  5103 0a6b 0A       		.uleb128 0xa
-GAS LISTING /tmp/ccsRzrOw.s 			page 93
+GAS LISTING /tmp/ccSctgz4.s 			page 93
 
 
  5104 0a6c B9160000 		.long	0x16b9
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5158 0b00 0A000000 		.long	.LBE500-.LBB500
  5159 0b04 01       		.byte	0x1
  5160 0b05 4502     		.value	0x245
-GAS LISTING /tmp/ccsRzrOw.s 			page 94
+GAS LISTING /tmp/ccSctgz4.s 			page 94
 
 
  5161 0b07 11       		.byte	0x11
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5215 0b8e 5F000000 		.long	.LBI509
  5216 0b92 0B       		.byte	.LVU720
  5217 0b93 6C010000 		.long	.LLRL83
-GAS LISTING /tmp/ccsRzrOw.s 			page 95
+GAS LISTING /tmp/ccSctgz4.s 			page 95
 
 
  5218 0b97 B201     		.value	0x1b2
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5272 0c16 050C0000 		.long	0xc05
  5273 0c1a 29       		.uleb128 0x29
  5274 0c1b 1A000000 		.long	.LASF65
-GAS LISTING /tmp/ccsRzrOw.s 			page 96
+GAS LISTING /tmp/ccSctgz4.s 			page 96
 
 
  5275 0c1f E201     		.value	0x1e2
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5329 0ca0 A7030000 		.long	.LVUS67
  5330 0ca4 01       		.uleb128 0x1
  5331 0ca5 2E160000 		.long	0x162e
-GAS LISTING /tmp/ccsRzrOw.s 			page 97
+GAS LISTING /tmp/ccSctgz4.s 			page 97
 
 
  5332 0ca9 B8030000 		.long	.LLST68
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5386 0d18 10       		.sleb128 16
  5387 0d19 03       		.uleb128 0x3
  5388 0d1a BA020000 		.long	.LASF69
-GAS LISTING /tmp/ccsRzrOw.s 			page 98
+GAS LISTING /tmp/ccSctgz4.s 			page 98
 
 
  5389 0d1e AD01     		.value	0x1ad
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5443 0d9a 90000000 		.long	.LASF71
  5444 0d9e 6201     		.value	0x162
  5445 0da0 2E       		.byte	0x2e
-GAS LISTING /tmp/ccsRzrOw.s 			page 99
+GAS LISTING /tmp/ccSctgz4.s 			page 99
 
 
  5446 0da1 2D100000 		.long	0x102d
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5500 0e23 B1160000 		.long	0x16b1
  5501 0e27 44010000 		.long	.LBI441
  5502 0e2b 02       		.byte	.LVU517
-GAS LISTING /tmp/ccsRzrOw.s 			page 100
+GAS LISTING /tmp/ccSctgz4.s 			page 100
 
 
  5503 0e2c 44010000 		.long	.LBB441
@@ -5998,7 +5998,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5557 0ebc 8C040000 		.long	.LVUS59
  5558 0ec0 01       		.uleb128 0x1
  5559 0ec1 7E160000 		.long	0x167e
-GAS LISTING /tmp/ccsRzrOw.s 			page 101
+GAS LISTING /tmp/ccSctgz4.s 			page 101
 
 
  5560 0ec5 99040000 		.long	.LLST60
@@ -6058,7 +6058,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5614 0f56 9701     		.value	0x197
  5615 0f58 05       		.byte	0x5
  5616 0f59 870F0000 		.long	0xf87
-GAS LISTING /tmp/ccsRzrOw.s 			page 102
+GAS LISTING /tmp/ccSctgz4.s 			page 102
 
 
  5617 0f5d 02       		.uleb128 0x2
@@ -6118,7 +6118,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5671 0fe8 DF110000 		.long	0x11df
  5672 0fec 16050000 		.long	.LLST55
  5673 0ff0 14050000 		.long	.LVUS55
-GAS LISTING /tmp/ccsRzrOw.s 			page 103
+GAS LISTING /tmp/ccSctgz4.s 			page 103
 
 
  5674 0ff4 00       		.byte	0
@@ -6178,7 +6178,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5728 106e 91       		.byte	0x91
  5729 106f 00       		.sleb128 0
  5730 1070 03       		.uleb128 0x3
-GAS LISTING /tmp/ccsRzrOw.s 			page 104
+GAS LISTING /tmp/ccSctgz4.s 			page 104
 
 
  5731 1071 65050000 		.long	.LASF55
@@ -6238,7 +6238,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5785 10f3 0B       		.uleb128 0xb
  5786 10f4 7E000000 		.long	.LLRL31
  5787 10f8 06       		.uleb128 0x6
-GAS LISTING /tmp/ccsRzrOw.s 			page 105
+GAS LISTING /tmp/ccSctgz4.s 			page 105
 
 
  5788 10f9 F4160000 		.long	0x16f4
@@ -6298,7 +6298,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5842 118e DC       		.byte	0xdc
  5843 118f 09       		.byte	0x9
  5844 1190 01       		.uleb128 0x1
-GAS LISTING /tmp/ccsRzrOw.s 			page 106
+GAS LISTING /tmp/ccSctgz4.s 			page 106
 
 
  5845 1191 D7120000 		.long	0x12d7
@@ -6358,7 +6358,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5899 1212 33       		.byte	0x33
  5900 1213 2D100000 		.long	0x102d
  5901 1217 02       		.uleb128 0x2
-GAS LISTING /tmp/ccsRzrOw.s 			page 107
+GAS LISTING /tmp/ccSctgz4.s 			page 107
 
 
  5902 1218 91       		.byte	0x91
@@ -6418,7 +6418,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  5956 1299 53000000 		.long	.LBB301
  5957 129d 06000000 		.long	.LBE301-.LBB301
  5958 12a1 02       		.byte	0x2
-GAS LISTING /tmp/ccsRzrOw.s 			page 108
+GAS LISTING /tmp/ccSctgz4.s 			page 108
 
 
  5959 12a2 4A02     		.value	0x24a
@@ -6478,7 +6478,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6013 1315 BD       		.byte	0xbd
  6014 1316 07       		.byte	0x7
  6015 1317 F7000000 		.long	0xf7
-GAS LISTING /tmp/ccsRzrOw.s 			page 109
+GAS LISTING /tmp/ccSctgz4.s 			page 109
 
 
  6016 131b 00000000 		.long	.LFB315
@@ -6538,7 +6538,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6070 1392 BA120000 		.long	0x12ba
  6071 1396 26000000 		.long	.LBI231
  6072 139a 03       		.byte	.LVU123
-GAS LISTING /tmp/ccsRzrOw.s 			page 110
+GAS LISTING /tmp/ccSctgz4.s 			page 110
 
 
  6073 139b 24000000 		.long	.LLRL9
@@ -6598,7 +6598,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6127 1434 15060000 		.long	.LVUS16
  6128 1438 01       		.uleb128 0x1
  6129 1439 CB120000 		.long	0x12cb
-GAS LISTING /tmp/ccsRzrOw.s 			page 111
+GAS LISTING /tmp/ccSctgz4.s 			page 111
 
 
  6130 143d 22060000 		.long	.LLST17
@@ -6658,7 +6658,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6184 14b1 91       		.byte	0x91
  6185 14b2 04       		.sleb128 4
  6186 14b3 0C       		.uleb128 0xc
-GAS LISTING /tmp/ccsRzrOw.s 			page 112
+GAS LISTING /tmp/ccSctgz4.s 			page 112
 
 
  6187 14b4 20030000 		.long	.LASF58
@@ -6718,7 +6718,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6241 153e 2D100000 		.long	0x102d
  6242 1542 02       		.uleb128 0x2
  6243 1543 91       		.byte	0x91
-GAS LISTING /tmp/ccsRzrOw.s 			page 113
+GAS LISTING /tmp/ccSctgz4.s 			page 113
 
 
  6244 1544 00       		.sleb128 0
@@ -6778,7 +6778,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6298 15bb 0D       		.uleb128 0xd
  6299 15bc 9D040000 		.long	.LASF51
  6300 15c0 4D       		.byte	0x4d
-GAS LISTING /tmp/ccsRzrOw.s 			page 114
+GAS LISTING /tmp/ccSctgz4.s 			page 114
 
 
  6301 15c1 1B       		.byte	0x1b
@@ -6838,7 +6838,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6355 162f 74717000 		.string	"tqp"
  6356 1633 9703     		.value	0x397
  6357 1635 3B       		.byte	0x3b
-GAS LISTING /tmp/ccsRzrOw.s 			page 115
+GAS LISTING /tmp/ccSctgz4.s 			page 115
 
 
  6358 1636 A1020000 		.long	0x2a1
@@ -6898,7 +6898,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6412 16b1 1E       		.uleb128 0x1e
  6413 16b2 82000000 		.long	.LASF85
  6414 16b6 02       		.byte	0x2
-GAS LISTING /tmp/ccsRzrOw.s 			page 116
+GAS LISTING /tmp/ccSctgz4.s 			page 116
 
 
  6415 16b7 4802     		.value	0x248
@@ -6958,7 +6958,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6469 1729 3F170000 		.long	0x173f
  6470 172d 1D       		.uleb128 0x1d
  6471 172e FE030000 		.long	.LASF93
-GAS LISTING /tmp/ccsRzrOw.s 			page 117
+GAS LISTING /tmp/ccSctgz4.s 			page 117
 
 
  6472 1732 05       		.byte	0x5
@@ -7018,7 +7018,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6526 17b9 00       		.byte	0
  6527 17ba 00       		.byte	0
  6528 17bb 10       		.uleb128 0x10
-GAS LISTING /tmp/ccsRzrOw.s 			page 118
+GAS LISTING /tmp/ccSctgz4.s 			page 118
 
 
  6529 17bc BA120000 		.long	0x12ba
@@ -7078,7 +7078,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6583 1849 04       		.uleb128 0x4
  6584 184a 6C160000 		.long	0x166c
  6585 184e 26000000 		.long	.LBI534
-GAS LISTING /tmp/ccsRzrOw.s 			page 119
+GAS LISTING /tmp/ccSctgz4.s 			page 119
 
 
  6586 1852 01       		.byte	.LVU753
@@ -7138,7 +7138,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6640 18de 00       		.byte	0
  6641 18df 4E       		.uleb128 0x4e
  6642 18e0 DA000000 		.long	.LASF96
-GAS LISTING /tmp/ccsRzrOw.s 			page 120
+GAS LISTING /tmp/ccSctgz4.s 			page 120
 
 
  6643 18e4 60000000 		.long	.LASF97
@@ -7198,7 +7198,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6697 0032 04       		.uleb128 0x4
  6698 0033 1D       		.uleb128 0x1d
  6699 0034 01       		.byte	0x1
-GAS LISTING /tmp/ccsRzrOw.s 			page 121
+GAS LISTING /tmp/ccSctgz4.s 			page 121
 
 
  6700 0035 31       		.uleb128 0x31
@@ -7258,7 +7258,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6754 006d 07       		.uleb128 0x7
  6755 006e 48       		.uleb128 0x48
  6756 006f 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 122
+GAS LISTING /tmp/ccSctgz4.s 			page 122
 
 
  6757 0070 7D       		.uleb128 0x7d
@@ -7318,7 +7318,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6811 00a7 00       		.byte	0
  6812 00a8 00       		.byte	0
  6813 00a9 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccsRzrOw.s 			page 123
+GAS LISTING /tmp/ccSctgz4.s 			page 123
 
 
  6814 00aa 0B       		.uleb128 0xb
@@ -7378,7 +7378,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6868 00e0 01       		.byte	0x1
  6869 00e1 31       		.uleb128 0x31
  6870 00e2 13       		.uleb128 0x13
-GAS LISTING /tmp/ccsRzrOw.s 			page 124
+GAS LISTING /tmp/ccSctgz4.s 			page 124
 
 
  6871 00e3 52       		.uleb128 0x52
@@ -7438,7 +7438,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6925 011b 01       		.uleb128 0x1
  6926 011c 13       		.uleb128 0x13
  6927 011d 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 125
+GAS LISTING /tmp/ccSctgz4.s 			page 125
 
 
  6928 011e 00       		.byte	0
@@ -7498,7 +7498,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  6982 0154 01       		.byte	0x1
  6983 0155 55       		.uleb128 0x55
  6984 0156 17       		.uleb128 0x17
-GAS LISTING /tmp/ccsRzrOw.s 			page 126
+GAS LISTING /tmp/ccSctgz4.s 			page 126
 
 
  6985 0157 01       		.uleb128 0x1
@@ -7558,7 +7558,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7039 018e 13       		.uleb128 0x13
  7040 018f 00       		.byte	0
  7041 0190 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 127
+GAS LISTING /tmp/ccSctgz4.s 			page 127
 
 
  7042 0191 1E       		.uleb128 0x1e
@@ -7618,7 +7618,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7096 01c8 03       		.uleb128 0x3
  7097 01c9 0E       		.uleb128 0xe
  7098 01ca 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccsRzrOw.s 			page 128
+GAS LISTING /tmp/ccSctgz4.s 			page 128
 
 
  7099 01cb 21       		.uleb128 0x21
@@ -7678,7 +7678,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7153 0203 0B       		.uleb128 0xb
  7154 0204 11       		.uleb128 0x11
  7155 0205 01       		.uleb128 0x1
-GAS LISTING /tmp/ccsRzrOw.s 			page 129
+GAS LISTING /tmp/ccSctgz4.s 			page 129
 
 
  7156 0206 12       		.uleb128 0x12
@@ -7738,7 +7738,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7210 023e 00       		.byte	0
  7211 023f 00       		.byte	0
  7212 0240 26       		.uleb128 0x26
-GAS LISTING /tmp/ccsRzrOw.s 			page 130
+GAS LISTING /tmp/ccSctgz4.s 			page 130
 
 
  7213 0241 13       		.uleb128 0x13
@@ -7798,7 +7798,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7267 0277 13       		.uleb128 0x13
  7268 0278 00       		.byte	0
  7269 0279 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 131
+GAS LISTING /tmp/ccSctgz4.s 			page 131
 
 
  7270 027a 29       		.uleb128 0x29
@@ -7858,7 +7858,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7324 02b0 19       		.uleb128 0x19
  7325 02b1 01       		.uleb128 0x1
  7326 02b2 13       		.uleb128 0x13
-GAS LISTING /tmp/ccsRzrOw.s 			page 132
+GAS LISTING /tmp/ccSctgz4.s 			page 132
 
 
  7327 02b3 00       		.byte	0
@@ -7918,7 +7918,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7381 02ea 49       		.uleb128 0x49
  7382 02eb 13       		.uleb128 0x13
  7383 02ec 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 133
+GAS LISTING /tmp/ccSctgz4.s 			page 133
 
 
  7384 02ed 00       		.byte	0
@@ -7978,7 +7978,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7438 0324 08       		.uleb128 0x8
  7439 0325 3A       		.uleb128 0x3a
  7440 0326 21       		.uleb128 0x21
-GAS LISTING /tmp/ccsRzrOw.s 			page 134
+GAS LISTING /tmp/ccSctgz4.s 			page 134
 
 
  7441 0327 01       		.sleb128 1
@@ -8038,7 +8038,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7495 035e 21       		.uleb128 0x21
  7496 035f 01       		.sleb128 1
  7497 0360 59       		.uleb128 0x59
-GAS LISTING /tmp/ccsRzrOw.s 			page 135
+GAS LISTING /tmp/ccSctgz4.s 			page 135
 
 
  7498 0361 05       		.uleb128 0x5
@@ -8098,7 +8098,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7552 0397 11       		.uleb128 0x11
  7553 0398 01       		.uleb128 0x1
  7554 0399 12       		.uleb128 0x12
-GAS LISTING /tmp/ccsRzrOw.s 			page 136
+GAS LISTING /tmp/ccSctgz4.s 			page 136
 
 
  7555 039a 06       		.uleb128 0x6
@@ -8158,7 +8158,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7609 03d0 18       		.uleb128 0x18
  7610 03d1 01       		.uleb128 0x1
  7611 03d2 13       		.uleb128 0x13
-GAS LISTING /tmp/ccsRzrOw.s 			page 137
+GAS LISTING /tmp/ccSctgz4.s 			page 137
 
 
  7612 03d3 00       		.byte	0
@@ -8218,7 +8218,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7666 0409 05       		.uleb128 0x5
  7667 040a 39       		.uleb128 0x39
  7668 040b 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccsRzrOw.s 			page 138
+GAS LISTING /tmp/ccSctgz4.s 			page 138
 
 
  7669 040c 49       		.uleb128 0x49
@@ -8278,7 +8278,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7723 0442 11       		.uleb128 0x11
  7724 0443 01       		.uleb128 0x1
  7725 0444 12       		.uleb128 0x12
-GAS LISTING /tmp/ccsRzrOw.s 			page 139
+GAS LISTING /tmp/ccSctgz4.s 			page 139
 
 
  7726 0445 06       		.uleb128 0x6
@@ -8338,7 +8338,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7780 047b 58       		.uleb128 0x58
  7781 047c 0B       		.uleb128 0xb
  7782 047d 59       		.uleb128 0x59
-GAS LISTING /tmp/ccsRzrOw.s 			page 140
+GAS LISTING /tmp/ccSctgz4.s 			page 140
 
 
  7783 047e 05       		.uleb128 0x5
@@ -8398,7 +8398,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7837 04b4 00       		.byte	0
  7838 04b5 48       		.uleb128 0x48
  7839 04b6 34       		.uleb128 0x34
-GAS LISTING /tmp/ccsRzrOw.s 			page 141
+GAS LISTING /tmp/ccSctgz4.s 			page 141
 
 
  7840 04b7 00       		.byte	0
@@ -8458,7 +8458,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7894 04ef 03       		.uleb128 0x3
  7895 04f0 0E       		.uleb128 0xe
  7896 04f1 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccsRzrOw.s 			page 142
+GAS LISTING /tmp/ccSctgz4.s 			page 142
 
 
  7897 04f2 0B       		.uleb128 0xb
@@ -8518,7 +8518,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  7951 0528 03       		.uleb128 0x3
  7952 0529 0E       		.uleb128 0xe
  7953 052a 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccsRzrOw.s 			page 143
+GAS LISTING /tmp/ccSctgz4.s 			page 143
 
 
  7954 052b 0B       		.uleb128 0xb
@@ -8578,7 +8578,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8008 0035 04       		.byte	0x4
  8009 0036 1D       		.uleb128 .LVL178-.LVL173
  8010 0037 23       		.uleb128 .LVL179-.LVL173
-GAS LISTING /tmp/ccsRzrOw.s 			page 144
+GAS LISTING /tmp/ccSctgz4.s 			page 144
 
 
  8011 0038 03       		.uleb128 0x3
@@ -8638,7 +8638,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8065              	.LVUS132:
  8066 0070 00       		.uleb128 0
  8067 0071 00       		.uleb128 .LVU1158
-GAS LISTING /tmp/ccsRzrOw.s 			page 145
+GAS LISTING /tmp/ccSctgz4.s 			page 145
 
 
  8068 0072 00       		.uleb128 .LVU1158
@@ -8698,7 +8698,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8122 00ab 0C       		.uleb128 .LVL169-.LVL166
  8123 00ac 02       		.uleb128 0x2
  8124 00ad 72       		.byte	0x72
-GAS LISTING /tmp/ccsRzrOw.s 			page 146
+GAS LISTING /tmp/ccSctgz4.s 			page 146
 
 
  8125 00ae 00       		.sleb128 0
@@ -8758,7 +8758,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8179 00ef 02       		.uleb128 0x2
  8180 00f0 91       		.byte	0x91
  8181 00f1 04       		.sleb128 4
-GAS LISTING /tmp/ccsRzrOw.s 			page 147
+GAS LISTING /tmp/ccSctgz4.s 			page 147
 
 
  8182 00f2 00       		.byte	0
@@ -8818,7 +8818,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8236 0131 A803     		.uleb128 .LFE330-.LVL130
  8237 0133 01       		.uleb128 0x1
  8238 0134 55       		.byte	0x55
-GAS LISTING /tmp/ccsRzrOw.s 			page 148
+GAS LISTING /tmp/ccSctgz4.s 			page 148
 
 
  8239 0135 00       		.byte	0
@@ -8878,7 +8878,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8293 0171 08       		.byte	0x8
  8294 0172 76010000 		.long	.LVL159
  8295 0176 0A       		.uleb128 .LVL160-.LVL159
-GAS LISTING /tmp/ccsRzrOw.s 			page 149
+GAS LISTING /tmp/ccSctgz4.s 			page 149
 
 
  8296 0177 01       		.uleb128 0x1
@@ -8938,7 +8938,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8350 01b2 04       		.byte	0x4
  8351 01b3 00       		.uleb128 .LVL131-.LVL131
  8352 01b4 0D       		.uleb128 .LVL134-.LVL131
-GAS LISTING /tmp/ccsRzrOw.s 			page 150
+GAS LISTING /tmp/ccSctgz4.s 			page 150
 
 
  8353 01b5 01       		.uleb128 0x1
@@ -8998,7 +8998,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8407              	.LLST121:
  8408 01ed 08       		.byte	0x8
  8409 01ee DA000000 		.long	.LVL143
-GAS LISTING /tmp/ccsRzrOw.s 			page 151
+GAS LISTING /tmp/ccSctgz4.s 			page 151
 
 
  8410 01f2 09       		.uleb128 .LVL144-.LVL143
@@ -9058,7 +9058,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8464 0229 00       		.byte	0
  8465              	.LVUS124:
  8466 022a 01       		.uleb128 .LVU1058
-GAS LISTING /tmp/ccsRzrOw.s 			page 152
+GAS LISTING /tmp/ccSctgz4.s 			page 152
 
 
  8467 022b 00       		.uleb128 .LVU1089
@@ -9118,7 +9118,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8521              	.LLST102:
  8522 0265 08       		.byte	0x8
  8523 0266 56000000 		.long	.LVL116
-GAS LISTING /tmp/ccsRzrOw.s 			page 153
+GAS LISTING /tmp/ccSctgz4.s 			page 153
 
 
  8524 026a 0D       		.uleb128 .LVL117-.LVL116
@@ -9178,7 +9178,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8578 02a3 01       		.uleb128 0x1
  8579 02a4 51       		.byte	0x51
  8580 02a5 04       		.byte	0x4
-GAS LISTING /tmp/ccsRzrOw.s 			page 154
+GAS LISTING /tmp/ccSctgz4.s 			page 154
 
 
  8581 02a6 14       		.uleb128 .LVL123-.LVL121
@@ -9238,7 +9238,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8635 02de 91       		.byte	0x91
  8636 02df 04       		.sleb128 4
  8637 02e0 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 155
+GAS LISTING /tmp/ccSctgz4.s 			page 155
 
 
  8638              	.LVUS93:
@@ -9298,7 +9298,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8692 031a 58       		.uleb128 .LVL100-.LVL92
  8693 031b 01       		.uleb128 0x1
  8694 031c 56       		.byte	0x56
-GAS LISTING /tmp/ccsRzrOw.s 			page 156
+GAS LISTING /tmp/ccSctgz4.s 			page 156
 
 
  8695 031d 00       		.byte	0
@@ -9358,7 +9358,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8749 0355 08       		.byte	0x8
  8750 0356 4E000000 		.long	.LVL96
  8751 035a 0F       		.uleb128 .LVL97-.LVL96
-GAS LISTING /tmp/ccsRzrOw.s 			page 157
+GAS LISTING /tmp/ccSctgz4.s 			page 157
 
 
  8752 035b 01       		.uleb128 0x1
@@ -9418,7 +9418,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8806 0395 04       		.byte	0x4
  8807 0396 00       		.uleb128 .LVL85-.LVL85
  8808 0397 18       		.uleb128 .LVL86-.LVL85
-GAS LISTING /tmp/ccsRzrOw.s 			page 158
+GAS LISTING /tmp/ccSctgz4.s 			page 158
 
 
  8809 0398 02       		.uleb128 0x2
@@ -9478,7 +9478,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8863 03d1 01       		.uleb128 0x1
  8864 03d2 56       		.byte	0x56
  8865 03d3 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 159
+GAS LISTING /tmp/ccSctgz4.s 			page 159
 
 
  8866              	.LVUS41:
@@ -9538,7 +9538,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8920 0414 00       		.uleb128 .LVU421
  8921 0415 01       		.uleb128 .LVU428
  8922 0416 01       		.uleb128 .LVU428
-GAS LISTING /tmp/ccsRzrOw.s 			page 160
+GAS LISTING /tmp/ccSctgz4.s 			page 160
 
 
  8923 0417 00       		.uleb128 .LVU445
@@ -9598,7 +9598,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  8977 0457 00       		.uleb128 .LVU458
  8978 0458 00       		.uleb128 .LVU466
  8979 0459 00       		.uleb128 .LVU466
-GAS LISTING /tmp/ccsRzrOw.s 			page 161
+GAS LISTING /tmp/ccSctgz4.s 			page 161
 
 
  8980 045a 00       		.uleb128 .LVU479
@@ -9658,7 +9658,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9034              	.LLST60:
  9035 0499 08       		.byte	0x8
  9036 049a 76010000 		.long	.LVL74
-GAS LISTING /tmp/ccsRzrOw.s 			page 162
+GAS LISTING /tmp/ccSctgz4.s 			page 162
 
 
  9037 049e 0A       		.uleb128 .LVL75-.LVL74
@@ -9718,7 +9718,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9091 04d6 06       		.byte	0x6
  9092 04d7 2B000000 		.long	.LVL50
  9093 04db 04       		.byte	0x4
-GAS LISTING /tmp/ccsRzrOw.s 			page 163
+GAS LISTING /tmp/ccSctgz4.s 			page 163
 
 
  9094 04dc 00       		.uleb128 .LVL50-.LVL50
@@ -9778,7 +9778,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9148 0514 01       		.uleb128 .LVU480
  9149 0515 00       		.uleb128 .LVU500
  9150              	.LLST55:
-GAS LISTING /tmp/ccsRzrOw.s 			page 164
+GAS LISTING /tmp/ccSctgz4.s 			page 164
 
 
  9151 0516 08       		.byte	0x8
@@ -9838,7 +9838,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9205 0555 FE       		.byte	0xfe
  9206 0556 9F       		.byte	0x9f
  9207 0557 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 165
+GAS LISTING /tmp/ccSctgz4.s 			page 165
 
 
  9208              	.LVUS34:
@@ -9898,7 +9898,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9262 0592 00       		.uleb128 .LVU376
  9263              	.LLST40:
  9264 0593 06       		.byte	0x6
-GAS LISTING /tmp/ccsRzrOw.s 			page 166
+GAS LISTING /tmp/ccSctgz4.s 			page 166
 
 
  9265 0594 80000000 		.long	.LVL43
@@ -9958,7 +9958,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9319 05ce 00       		.uleb128 .LVU167
  9320 05cf 00       		.uleb128 .LVU170
  9321              	.LLST10:
-GAS LISTING /tmp/ccsRzrOw.s 			page 167
+GAS LISTING /tmp/ccSctgz4.s 			page 167
 
 
  9322 05d0 06       		.byte	0x6
@@ -10018,7 +10018,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9376 060b 00       		.uleb128 .LVU133
  9377              	.LLST15:
  9378 060c 08       		.byte	0x8
-GAS LISTING /tmp/ccsRzrOw.s 			page 168
+GAS LISTING /tmp/ccSctgz4.s 			page 168
 
 
  9379 060d 36000000 		.long	.LVL14
@@ -10078,7 +10078,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9433 064a 00       		.sleb128 0
  9434 064b 00       		.byte	0
  9435              	.LVUS4:
-GAS LISTING /tmp/ccsRzrOw.s 			page 169
+GAS LISTING /tmp/ccSctgz4.s 			page 169
 
 
  9436 064c 00       		.uleb128 0
@@ -10138,7 +10138,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9490 0686 08       		.uleb128 .LVL5-.LVL4
  9491 0687 02       		.uleb128 0x2
  9492 0688 91       		.byte	0x91
-GAS LISTING /tmp/ccsRzrOw.s 			page 170
+GAS LISTING /tmp/ccSctgz4.s 			page 170
 
 
  9493 0689 00       		.sleb128 0
@@ -10198,7 +10198,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9547              	.LVUS24:
  9548 06c4 00       		.uleb128 .LVU203
  9549 06c5 01       		.uleb128 .LVU215
-GAS LISTING /tmp/ccsRzrOw.s 			page 171
+GAS LISTING /tmp/ccSctgz4.s 			page 171
 
 
  9550              	.LLST24:
@@ -10258,7 +10258,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9604 0701 00       		.byte	0
  9605              	.LVUS87:
  9606 0702 01       		.uleb128 .LVU753
-GAS LISTING /tmp/ccsRzrOw.s 			page 172
+GAS LISTING /tmp/ccSctgz4.s 			page 172
 
 
  9607 0703 00       		.uleb128 .LVU756
@@ -10318,7 +10318,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9661 073e 50       		.byte	0x50
  9662 073f 00       		.byte	0
  9663              	.Ldebug_loc3:
-GAS LISTING /tmp/ccsRzrOw.s 			page 173
+GAS LISTING /tmp/ccSctgz4.s 			page 173
 
 
  9664              		.section	.debug_aranges,"",@progbits
@@ -10378,7 +10378,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9718              		.section	.debug_rnglists,"",@progbits
  9719              	.Ldebug_ranges0:
  9720 0000 14030000 		.long	.Ldebug_ranges3-.Ldebug_ranges2
-GAS LISTING /tmp/ccsRzrOw.s 			page 174
+GAS LISTING /tmp/ccSctgz4.s 			page 174
 
 
  9721              	.Ldebug_ranges2:
@@ -10438,7 +10438,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9775 0047 04       		.byte	0x4
  9776 0048 20       		.uleb128 .LBB255-.LBB240
  9777 0049 20       		.uleb128 .LBE255-.LBB240
-GAS LISTING /tmp/ccsRzrOw.s 			page 175
+GAS LISTING /tmp/ccSctgz4.s 			page 175
 
 
  9778 004a 00       		.byte	0
@@ -10498,7 +10498,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9832 008a 9801     		.uleb128 .LBB371-.LBB339
  9833 008c 9801     		.uleb128 .LBE371-.LBB339
  9834 008e 00       		.byte	0
-GAS LISTING /tmp/ccsRzrOw.s 			page 176
+GAS LISTING /tmp/ccSctgz4.s 			page 176
 
 
  9835              	.LLRL32:
@@ -10558,7 +10558,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9889 00d5 00       		.uleb128 .LBE412-.LBB412
  9890 00d6 04       		.byte	0x4
  9891 00d7 AD01     		.uleb128 .LBB417-.LBB412
-GAS LISTING /tmp/ccsRzrOw.s 			page 177
+GAS LISTING /tmp/ccSctgz4.s 			page 177
 
 
  9892 00d9 B701     		.uleb128 .LBE417-.LBB412
@@ -10618,7 +10618,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  9946 0120 00       		.byte	0
  9947              	.LLRL61:
  9948 0121 05       		.byte	0x5
-GAS LISTING /tmp/ccsRzrOw.s 			page 178
+GAS LISTING /tmp/ccSctgz4.s 			page 178
 
 
  9949 0122 8E010000 		.long	.LBB451
@@ -10678,7 +10678,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10003 0165 04       		.byte	0x4
  10004 0166 00       		.uleb128 .LBB499-.LBB499
  10005 0167 17       		.uleb128 .LBE499-.LBB499
-GAS LISTING /tmp/ccsRzrOw.s 			page 179
+GAS LISTING /tmp/ccSctgz4.s 			page 179
 
 
  10006 0168 04       		.byte	0x4
@@ -10738,7 +10738,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10060 01a5 05       		.byte	0x5
  10061 01a6 1A000000 		.long	.LBB599
  10062 01aa 04       		.byte	0x4
-GAS LISTING /tmp/ccsRzrOw.s 			page 180
+GAS LISTING /tmp/ccSctgz4.s 			page 180
 
 
  10063 01ab 00       		.uleb128 .LBB599-.LBB599
@@ -10798,7 +10798,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10117 01f1 00       		.uleb128 .LBE671-.LBB671
  10118 01f2 04       		.byte	0x4
  10119 01f3 26       		.uleb128 .LBB681-.LBB671
-GAS LISTING /tmp/ccsRzrOw.s 			page 181
+GAS LISTING /tmp/ccSctgz4.s 			page 181
 
 
  10120 01f4 30       		.uleb128 .LBE681-.LBB671
@@ -10858,7 +10858,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10174 023e 04       		.byte	0x4
  10175 023f 03       		.uleb128 .LBB702-.LBB698
  10176 0240 06       		.uleb128 .LBE702-.LBB698
-GAS LISTING /tmp/ccsRzrOw.s 			page 182
+GAS LISTING /tmp/ccSctgz4.s 			page 182
 
 
  10177 0241 04       		.byte	0x4
@@ -10918,7 +10918,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10231 0283 04       		.byte	0x4
  10232 0284 00       		.uleb128 .LBB753-.LBB753
  10233 0285 06       		.uleb128 .LBE753-.LBB753
-GAS LISTING /tmp/ccsRzrOw.s 			page 183
+GAS LISTING /tmp/ccSctgz4.s 			page 183
 
 
  10234 0286 04       		.byte	0x4
@@ -10978,7 +10978,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10288 02ec 00000000 		.long	.LFB326
  10289 02f0 61       		.uleb128 .LFE326-.LFB326
  10290 02f1 07       		.byte	0x7
-GAS LISTING /tmp/ccsRzrOw.s 			page 184
+GAS LISTING /tmp/ccSctgz4.s 			page 184
 
 
  10291 02f2 00000000 		.long	.LFB327
@@ -11038,7 +11038,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10324      7400
  10325              	.LASF12:
  10326 0059 73697A65 		.string	"size_t"
-GAS LISTING /tmp/ccsRzrOw.s 			page 185
+GAS LISTING /tmp/ccSctgz4.s 			page 185
 
 
  10326      5F7400
@@ -11098,7 +11098,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10349              	.LASF33:
  10350 0101 696F5F62 		.string	"io_buffers_queue"
  10350      75666665 
-GAS LISTING /tmp/ccsRzrOw.s 			page 186
+GAS LISTING /tmp/ccSctgz4.s 			page 186
 
 
  10350      72735F71 
@@ -11158,7 +11158,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10374 0243 6F627147 		.string	"obqGetEmptyBufferTimeoutS"
  10374      6574456D 
  10374      70747942 
-GAS LISTING /tmp/ccsRzrOw.s 			page 187
+GAS LISTING /tmp/ccSctgz4.s 			page 187
 
 
  10374      75666665 
@@ -11218,7 +11218,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10397              	.LASF86:
  10398 0306 6F73616C 		.string	"osalSysLock"
  10398      5379734C 
-GAS LISTING /tmp/ccsRzrOw.s 			page 188
+GAS LISTING /tmp/ccSctgz4.s 			page 188
 
 
  10398      6F636B00 
@@ -11278,7 +11278,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10422      6F737446 
  10422      756C6C42 
  10422      75666665 
-GAS LISTING /tmp/ccsRzrOw.s 			page 189
+GAS LISTING /tmp/ccSctgz4.s 			page 189
 
 
  10422      725300
@@ -11338,7 +11338,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10450      00
  10451              	.LASF3:
  10452 043f 73686F72 		.string	"short unsigned int"
-GAS LISTING /tmp/ccsRzrOw.s 			page 190
+GAS LISTING /tmp/ccSctgz4.s 			page 190
 
 
  10452      7420756E 
@@ -11398,7 +11398,7 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10476 04de 6F627152 		.string	"obqReleaseEmptyBufferI"
  10476      656C6561 
  10476      7365456D 
-GAS LISTING /tmp/ccsRzrOw.s 			page 191
+GAS LISTING /tmp/ccSctgz4.s 			page 191
 
 
  10476      70747942 
@@ -11458,12 +11458,12 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10504      756C6C42 
  10504      75666665 
  10504      7200
-GAS LISTING /tmp/ccsRzrOw.s 			page 192
+GAS LISTING /tmp/ccSctgz4.s 			page 192
 
 
  10505              		.section	.debug_line_str,"MS",@progbits,1
  10506              	.LASF1:
- 10507 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 10507 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  10507      652F616C 
  10507      65782F43 
  10507      68696269 
@@ -11480,36 +11480,36 @@ GAS LISTING /tmp/ccsRzrOw.s 			page 1
  10511      65782F43 
  10511      68696269 
  10511      4F532F64 
-GAS LISTING /tmp/ccsRzrOw.s 			page 193
+GAS LISTING /tmp/ccSctgz4.s 			page 193
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_buffers.c
-     /tmp/ccsRzrOw.s:9      .text.ibqObjectInit:0000000000000000 ibqObjectInit
-     /tmp/ccsRzrOw.s:3931   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccsRzrOw.s:137    .text.ibqResetI:0000000000000000 ibqResetI
-     /tmp/ccsRzrOw.s:200    .text.ibqGetEmptyBufferI:0000000000000000 ibqGetEmptyBufferI
-     /tmp/ccsRzrOw.s:239    .text.ibqPostFullBufferI:0000000000000000 ibqPostFullBufferI
-     /tmp/ccsRzrOw.s:321    .text.ibqGetFullBufferTimeout:0000000000000000 ibqGetFullBufferTimeout
-     /tmp/ccsRzrOw.s:582    .text.ibqGetFullBufferTimeoutS:0000000000000000 ibqGetFullBufferTimeoutS
-     /tmp/ccsRzrOw.s:713    .text.ibqReleaseEmptyBuffer:0000000000000000 ibqReleaseEmptyBuffer
-     /tmp/ccsRzrOw.s:3920   .text.__x86.get_pc_thunk.dx:0000000000000000 __x86.get_pc_thunk.dx
-     /tmp/ccsRzrOw.s:868    .text.ibqReleaseEmptyBufferS:0000000000000000 ibqReleaseEmptyBufferS
-     /tmp/ccsRzrOw.s:926    .text.ibqGetTimeout:0000000000000000 ibqGetTimeout
-     /tmp/ccsRzrOw.s:1271   .text.ibqReadTimeout:0000000000000000 ibqReadTimeout
-     /tmp/ccsRzrOw.s:1784   .text.obqObjectInit:0000000000000000 obqObjectInit
-     /tmp/ccsRzrOw.s:1910   .text.obqResetI:0000000000000000 obqResetI
-     /tmp/ccsRzrOw.s:1975   .text.obqGetFullBufferI:0000000000000000 obqGetFullBufferI
-     /tmp/ccsRzrOw.s:2024   .text.obqReleaseEmptyBufferI:0000000000000000 obqReleaseEmptyBufferI
-     /tmp/ccsRzrOw.s:2095   .text.obqGetEmptyBufferTimeout:0000000000000000 obqGetEmptyBufferTimeout
-     /tmp/ccsRzrOw.s:2354   .text.obqGetEmptyBufferTimeoutS:0000000000000000 obqGetEmptyBufferTimeoutS
-     /tmp/ccsRzrOw.s:2485   .text.obqPostFullBuffer:0000000000000000 obqPostFullBuffer
-     /tmp/ccsRzrOw.s:2655   .text.obqPostFullBufferS:0000000000000000 obqPostFullBufferS
-     /tmp/ccsRzrOw.s:2724   .text.obqPutTimeout:0000000000000000 obqPutTimeout
-     /tmp/ccsRzrOw.s:3045   .text.obqWriteTimeout:0000000000000000 obqWriteTimeout
-     /tmp/ccsRzrOw.s:3571   .text.obqTryFlushI:0000000000000000 obqTryFlushI
-     /tmp/ccsRzrOw.s:3672   .text.obqFlush:0000000000000000 obqFlush
-     /tmp/ccsRzrOw.s:3909   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccSctgz4.s:9      .text.ibqObjectInit:0000000000000000 ibqObjectInit
+     /tmp/ccSctgz4.s:3931   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccSctgz4.s:137    .text.ibqResetI:0000000000000000 ibqResetI
+     /tmp/ccSctgz4.s:200    .text.ibqGetEmptyBufferI:0000000000000000 ibqGetEmptyBufferI
+     /tmp/ccSctgz4.s:239    .text.ibqPostFullBufferI:0000000000000000 ibqPostFullBufferI
+     /tmp/ccSctgz4.s:321    .text.ibqGetFullBufferTimeout:0000000000000000 ibqGetFullBufferTimeout
+     /tmp/ccSctgz4.s:582    .text.ibqGetFullBufferTimeoutS:0000000000000000 ibqGetFullBufferTimeoutS
+     /tmp/ccSctgz4.s:713    .text.ibqReleaseEmptyBuffer:0000000000000000 ibqReleaseEmptyBuffer
+     /tmp/ccSctgz4.s:3920   .text.__x86.get_pc_thunk.dx:0000000000000000 __x86.get_pc_thunk.dx
+     /tmp/ccSctgz4.s:868    .text.ibqReleaseEmptyBufferS:0000000000000000 ibqReleaseEmptyBufferS
+     /tmp/ccSctgz4.s:926    .text.ibqGetTimeout:0000000000000000 ibqGetTimeout
+     /tmp/ccSctgz4.s:1271   .text.ibqReadTimeout:0000000000000000 ibqReadTimeout
+     /tmp/ccSctgz4.s:1784   .text.obqObjectInit:0000000000000000 obqObjectInit
+     /tmp/ccSctgz4.s:1910   .text.obqResetI:0000000000000000 obqResetI
+     /tmp/ccSctgz4.s:1975   .text.obqGetFullBufferI:0000000000000000 obqGetFullBufferI
+     /tmp/ccSctgz4.s:2024   .text.obqReleaseEmptyBufferI:0000000000000000 obqReleaseEmptyBufferI
+     /tmp/ccSctgz4.s:2095   .text.obqGetEmptyBufferTimeout:0000000000000000 obqGetEmptyBufferTimeout
+     /tmp/ccSctgz4.s:2354   .text.obqGetEmptyBufferTimeoutS:0000000000000000 obqGetEmptyBufferTimeoutS
+     /tmp/ccSctgz4.s:2485   .text.obqPostFullBuffer:0000000000000000 obqPostFullBuffer
+     /tmp/ccSctgz4.s:2655   .text.obqPostFullBufferS:0000000000000000 obqPostFullBufferS
+     /tmp/ccSctgz4.s:2724   .text.obqPutTimeout:0000000000000000 obqPutTimeout
+     /tmp/ccSctgz4.s:3045   .text.obqWriteTimeout:0000000000000000 obqWriteTimeout
+     /tmp/ccSctgz4.s:3571   .text.obqTryFlushI:0000000000000000 obqTryFlushI
+     /tmp/ccSctgz4.s:3672   .text.obqFlush:0000000000000000 obqFlush
+     /tmp/ccSctgz4.s:3909   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

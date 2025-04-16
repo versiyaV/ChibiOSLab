@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccNkMWK6.s 			page 1
+GAS LISTING /tmp/ccMaCjry.s 			page 1
 
 
    1              		.file	"chsys.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/rt/src/chsys.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/rt/src/chsys.c"
    5              		.section	.text.chSysWaitSystemState,"ax",@progbits
    6              		.p2align 4
    7              		.globl	chSysWaitSystemState
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
   52 0002 BE040000 		movl	$4, %esi
   52      00
   53              	.LBE21:
-GAS LISTING /tmp/ccNkMWK6.s 			page 2
+GAS LISTING /tmp/ccMaCjry.s 			page 2
 
 
   54              	.LBE20:
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
   99 0045 E8FCFFFF 		call	chTMObjectInit@PLT
   99      FF
  100              	.LVL3:
-GAS LISTING /tmp/ccNkMWK6.s 			page 3
+GAS LISTING /tmp/ccMaCjry.s 			page 3
 
 
  101              		.loc 2 129 3 view .LVU28
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  150 007a E8FCFFFF 		call	__factory_init@PLT
  150      FF
  151              	.LVL11:
-GAS LISTING /tmp/ccNkMWK6.s 			page 4
+GAS LISTING /tmp/ccMaCjry.s 			page 4
 
 
  152              	.LBE27:
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  200 00a8 C7000000 		movl	$0, (%eax)
  200      0000
  201              	.LBE32:
-GAS LISTING /tmp/ccNkMWK6.s 			page 5
+GAS LISTING /tmp/ccMaCjry.s 			page 5
 
 
  202              	.LBE33:
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  250              	.LBB39:
  251              	.LBB38:
  252              		.loc 4 400 16 view .LVU68
-GAS LISTING /tmp/ccNkMWK6.s 			page 6
+GAS LISTING /tmp/ccMaCjry.s 			page 6
 
 
  253 0014 8B900000 		movl	port_irq_sts@GOT(%eax), %edx
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  301              		.globl	chSysIntegrityCheckI
  302              		.type	chSysIntegrityCheckI, @function
  303              	chSysIntegrityCheckI:
-GAS LISTING /tmp/ccNkMWK6.s 			page 7
+GAS LISTING /tmp/ccMaCjry.s 			page 7
 
 
  304              	.LVL16:
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  349              		.p2align 3
  350              	.L17:
  351              		.loc 1 280 7 is_stmt 1 view .LVU106
-GAS LISTING /tmp/ccNkMWK6.s 			page 8
+GAS LISTING /tmp/ccMaCjry.s 			page 8
 
 
  352              		.loc 1 281 11 is_stmt 0 view .LVU107
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  401              		.loc 1 303 5 view .LVU127
  402              		.loc 1 303 9 is_stmt 0 view .LVU128
  403 0077 8B931000 		movl	16+ch0@GOTOFF(%ebx), %edx
-GAS LISTING /tmp/ccNkMWK6.s 			page 9
+GAS LISTING /tmp/ccMaCjry.s 			page 9
 
 
  403      0000
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  453              	.LBB42:
  454              		.loc 1 293 14 is_stmt 0 view .LVU148
  455 00b2 BA010000 		movl	$1, %edx
-GAS LISTING /tmp/ccNkMWK6.s 			page 10
+GAS LISTING /tmp/ccMaCjry.s 			page 10
 
 
  455      00
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  507 00e1 8B932C00 		movl	44+ch0@GOTOFF(%ebx), %edx
  507      0000
  508              	.LVL43:
-GAS LISTING /tmp/ccNkMWK6.s 			page 11
+GAS LISTING /tmp/ccMaCjry.s 			page 11
 
 
  509              		.loc 1 340 5 is_stmt 1 view .LVU170
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  560      FF
  561              	.LVL48:
  562              		.p2align 4,,10
-GAS LISTING /tmp/ccNkMWK6.s 			page 12
+GAS LISTING /tmp/ccMaCjry.s 			page 12
 
 
  563 0115 8D7600   		.p2align 3
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  612              		.cfi_restore 3
  613              		.cfi_def_cfa_offset 4
  614 0018 C3       		ret
-GAS LISTING /tmp/ccNkMWK6.s 			page 13
+GAS LISTING /tmp/ccMaCjry.s 			page 13
 
 
  615              		.cfi_endproc
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  667      0000
  668              		.loc 1 485 19 view .LVU209
  669 0012 E8FCFFFF 		call	port_rt_get_counter_value@PLT
-GAS LISTING /tmp/ccNkMWK6.s 			page 14
+GAS LISTING /tmp/ccMaCjry.s 			page 14
 
 
  669      FF
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  721 0004 00000000 		.long	__main_thread_stack_base__
  722 0008 00000000 		.long	__main_thread_stack_end__
  723 000c 00000000 		.long	ch_c0_idle_thread_wa
-GAS LISTING /tmp/ccNkMWK6.s 			page 15
+GAS LISTING /tmp/ccMaCjry.s 			page 15
 
 
  724 0010 30410000 		.long	ch_c0_idle_thread_wa+16688
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  768              	.Letext0:
  769              		.file 6 "/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h"
  770              		.file 7 "/usr/include/bits/types.h"
-GAS LISTING /tmp/ccNkMWK6.s 			page 16
+GAS LISTING /tmp/ccMaCjry.s 			page 16
 
 
  771              		.file 8 "/usr/include/bits/stdint-intn.h"
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  825 004f 0C       		.byte	0xc
  826 0050 04       		.byte	0x4
  827 0051 9B040000 		.long	.LASF5
-GAS LISTING /tmp/ccNkMWK6.s 			page 17
+GAS LISTING /tmp/ccMaCjry.s 			page 17
 
 
  828 0055 05       		.uleb128 0x5
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  882 00b8 05       		.uleb128 0x5
  883 00b9 01       		.byte	0x1
  884 00ba 06       		.byte	0x6
-GAS LISTING /tmp/ccNkMWK6.s 			page 18
+GAS LISTING /tmp/ccMaCjry.s 			page 18
 
 
  885 00bb 3B030000 		.long	.LASF18
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  939 012a 76030000 		.long	.LASF27
  940 012e 0A       		.byte	0xa
  941 012f 39       		.byte	0x39
-GAS LISTING /tmp/ccNkMWK6.s 			page 19
+GAS LISTING /tmp/ccMaCjry.s 			page 19
 
 
  942 0130 1D       		.byte	0x1d
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  996 019c A9       		.byte	0xa9
  997 019d 08       		.byte	0x8
  998 019e 8A020000 		.long	0x28a
-GAS LISTING /tmp/ccNkMWK6.s 			page 20
+GAS LISTING /tmp/ccMaCjry.s 			page 20
 
 
  999 01a2 07       		.uleb128 0x7
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1053 0205 35010000 		.long	0x135
  1054 0209 1E       		.byte	0x1e
  1055 020a 02       		.uleb128 0x2
-GAS LISTING /tmp/ccNkMWK6.s 			page 21
+GAS LISTING /tmp/ccMaCjry.s 			page 21
 
 
  1056 020b 2E060000 		.long	.LASF42
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1110 0277 81070000 		.long	0x781
  1111 027b 48       		.byte	0x48
  1112 027c 03       		.uleb128 0x3
-GAS LISTING /tmp/ccNkMWK6.s 			page 22
+GAS LISTING /tmp/ccMaCjry.s 			page 22
 
 
  1113 027d AF000000 		.long	.LASF50
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1167 02f1 03       		.uleb128 0x3
  1168 02f2 90040000 		.long	.LASF60
  1169 02f6 BA01     		.value	0x1ba
-GAS LISTING /tmp/ccNkMWK6.s 			page 23
+GAS LISTING /tmp/ccMaCjry.s 			page 23
 
 
  1170 02f8 21       		.byte	0x21
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1224 0360 6B030000 		.long	0x36b
  1225 0364 00       		.byte	0
  1226 0365 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 24
+GAS LISTING /tmp/ccMaCjry.s 			page 24
 
 
  1227 0366 04       		.uleb128 0x4
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1281 03d2 A8060000 		.long	.LASF75
  1282 03d6 08       		.byte	0x8
  1283 03d7 10       		.byte	0x10
-GAS LISTING /tmp/ccNkMWK6.s 			page 25
+GAS LISTING /tmp/ccMaCjry.s 			page 25
 
 
  1284 03d8 45       		.byte	0x45
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1338 043e 00       		.byte	0
  1339 043f 04       		.uleb128 0x4
  1340 0440 FE030000 		.long	0x3fe
-GAS LISTING /tmp/ccNkMWK6.s 			page 26
+GAS LISTING /tmp/ccMaCjry.s 			page 26
 
 
  1341 0444 01       		.uleb128 0x1
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1395 04a8 39000000 		.long	0x39
  1396 04ac 0F       		.byte	0xf
  1397 04ad 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 27
+GAS LISTING /tmp/ccMaCjry.s 			page 27
 
 
  1398 04ae 2B       		.uleb128 0x2b
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1452 0514 10       		.byte	0x10
  1453 0515 00       		.byte	0
  1454 0516 06       		.uleb128 0x6
-GAS LISTING /tmp/ccNkMWK6.s 			page 28
+GAS LISTING /tmp/ccMaCjry.s 			page 28
 
 
  1455 0517 2C010000 		.long	.LASF85
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1509 057a 19       		.byte	0x19
  1510 057b F9000000 		.long	0xf9
  1511 057f 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 29
+GAS LISTING /tmp/ccMaCjry.s 			page 29
 
 
  1512 0580 02       		.uleb128 0x2
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1566 05e4 03       		.byte	0x3
  1567 05e5 00       		.byte	0
  1568 05e6 01       		.uleb128 0x1
-GAS LISTING /tmp/ccNkMWK6.s 			page 30
+GAS LISTING /tmp/ccMaCjry.s 			page 30
 
 
  1569 05e7 F7070000 		.long	.LASF98
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1623 064d 00       		.byte	0
  1624 064e 01       		.uleb128 0x1
  1625 064f 01040000 		.long	.LASF106
-GAS LISTING /tmp/ccNkMWK6.s 			page 31
+GAS LISTING /tmp/ccMaCjry.s 			page 31
 
 
  1626 0653 0C       		.byte	0xc
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1680 06c1 4D010000 		.long	0x14d
  1681 06c5 09       		.uleb128 0x9
  1682 06c6 1D080000 		.long	.LASF112
-GAS LISTING /tmp/ccNkMWK6.s 			page 32
+GAS LISTING /tmp/ccMaCjry.s 			page 32
 
 
  1683 06ca 1001     		.value	0x110
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1737 0740 19       		.byte	0x19
  1738 0741 65010000 		.long	0x165
  1739 0745 08       		.byte	0x8
-GAS LISTING /tmp/ccNkMWK6.s 			page 33
+GAS LISTING /tmp/ccMaCjry.s 			page 33
 
 
  1740 0746 00       		.byte	0
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1794 07b2 66060000 		.long	0x666
  1795 07b6 0C       		.byte	0xc
  1796 07b7 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 34
+GAS LISTING /tmp/ccMaCjry.s 			page 34
 
 
  1797 07b8 18       		.uleb128 0x18
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1851 0830 5B080000 		.long	0x85b
  1852 0834 03       		.uleb128 0x3
  1853 0835 14070000 		.long	.LASF39
-GAS LISTING /tmp/ccNkMWK6.s 			page 35
+GAS LISTING /tmp/ccMaCjry.s 			page 35
 
 
  1854 0839 E001     		.value	0x1e0
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1908 08af 76080000 		.long	0x876
  1909 08b3 2D       		.byte	0x2d
  1910 08b4 0D       		.byte	0xd
-GAS LISTING /tmp/ccNkMWK6.s 			page 36
+GAS LISTING /tmp/ccMaCjry.s 			page 36
 
 
  1911 08b5 05       		.uleb128 0x5
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  1965 0923 B1040000 		.long	.LASF140
  1966 0927 14       		.byte	0x14
  1967 0928 6401     		.value	0x164
-GAS LISTING /tmp/ccNkMWK6.s 			page 37
+GAS LISTING /tmp/ccMaCjry.s 			page 37
 
 
  1968 092a 08       		.byte	0x8
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2022 099a 01       		.uleb128 0x1
  2023 099b 9C       		.byte	0x9c
  2024 099c 2E0A0000 		.long	0xa2e
-GAS LISTING /tmp/ccNkMWK6.s 			page 38
+GAS LISTING /tmp/ccMaCjry.s 			page 38
 
 
  2025 09a0 36       		.uleb128 0x36
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2079 0a2e 39       		.uleb128 0x39
  2080 0a2f EB030000 		.long	.LASF166
  2081 0a33 01       		.byte	0x1
-GAS LISTING /tmp/ccNkMWK6.s 			page 39
+GAS LISTING /tmp/ccMaCjry.s 			page 39
 
 
  2082 0a34 D301     		.value	0x1d3
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2136 0ab7 0B01     		.value	0x10b
  2137 0ab9 12       		.byte	0x12
  2138 0aba 86070000 		.long	0x786
-GAS LISTING /tmp/ccNkMWK6.s 			page 40
+GAS LISTING /tmp/ccMaCjry.s 			page 40
 
 
  2139 0abe 06       		.uleb128 0x6
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2193 0b4a 01       		.byte	0x1
  2194 0b4b EA       		.byte	0xea
  2195 0b4c 0B       		.byte	0xb
-GAS LISTING /tmp/ccNkMWK6.s 			page 41
+GAS LISTING /tmp/ccMaCjry.s 			page 41
 
 
  2196 0b4d 66060000 		.long	0x666
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2250 0bca 00000000 		.long	.LFB204
  2251 0bce C7000000 		.long	.LFE204-.LFB204
  2252 0bd2 01       		.uleb128 0x1
-GAS LISTING /tmp/ccNkMWK6.s 			page 42
+GAS LISTING /tmp/ccMaCjry.s 			page 42
 
 
  2253 0bd3 9C       		.byte	0x9c
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2307 0c5e 32090000 		.long	0x932
  2308 0c62 08       		.uleb128 0x8
  2309 0c63 7A000000 		.long	.LVL10
-GAS LISTING /tmp/ccNkMWK6.s 			page 43
+GAS LISTING /tmp/ccMaCjry.s 			page 43
 
 
  2310 0c67 2B090000 		.long	0x92b
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2364 0ce4 05       		.byte	0x5
  2365 0ce5 A501     		.value	0x1a5
  2366 0ce7 14       		.byte	0x14
-GAS LISTING /tmp/ccNkMWK6.s 			page 44
+GAS LISTING /tmp/ccMaCjry.s 			page 44
 
 
  2367 0ce8 03       		.byte	0x3
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2421 0d5c 9C       		.byte	0x9c
  2422 0d5d 7A0D0000 		.long	0xd7a
  2423 0d61 1D       		.uleb128 0x1d
-GAS LISTING /tmp/ccNkMWK6.s 			page 45
+GAS LISTING /tmp/ccMaCjry.s 			page 45
 
 
  2424 0d62 400A0000 		.long	0xa40
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2478 0021 0D       		.uleb128 0xd
  2479 0022 00       		.byte	0
  2480 0023 03       		.uleb128 0x3
-GAS LISTING /tmp/ccNkMWK6.s 			page 46
+GAS LISTING /tmp/ccMaCjry.s 			page 46
 
 
  2481 0024 0E       		.uleb128 0xe
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2535 005a 00       		.byte	0
  2536 005b 03       		.uleb128 0x3
  2537 005c 08       		.uleb128 0x8
-GAS LISTING /tmp/ccNkMWK6.s 			page 47
+GAS LISTING /tmp/ccMaCjry.s 			page 47
 
 
  2538 005d 3A       		.uleb128 0x3a
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2592 0093 39       		.uleb128 0x39
  2593 0094 0B       		.uleb128 0xb
  2594 0095 49       		.uleb128 0x49
-GAS LISTING /tmp/ccNkMWK6.s 			page 48
+GAS LISTING /tmp/ccMaCjry.s 			page 48
 
 
  2595 0096 13       		.uleb128 0x13
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2649 00cd 0E       		.uleb128 0xe
  2650 00ce 1C       		.uleb128 0x1c
  2651 00cf 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccNkMWK6.s 			page 49
+GAS LISTING /tmp/ccMaCjry.s 			page 49
 
 
  2652 00d0 00       		.byte	0
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2706 0107 49       		.uleb128 0x49
  2707 0108 13       		.uleb128 0x13
  2708 0109 38       		.uleb128 0x38
-GAS LISTING /tmp/ccNkMWK6.s 			page 50
+GAS LISTING /tmp/ccMaCjry.s 			page 50
 
 
  2709 010a 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2763 0140 00       		.byte	0
  2764 0141 18       		.uleb128 0x18
  2765 0142 16       		.uleb128 0x16
-GAS LISTING /tmp/ccNkMWK6.s 			page 51
+GAS LISTING /tmp/ccMaCjry.s 			page 51
 
 
  2766 0143 00       		.byte	0
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2820 0179 3F       		.uleb128 0x3f
  2821 017a 19       		.uleb128 0x19
  2822 017b 03       		.uleb128 0x3
-GAS LISTING /tmp/ccNkMWK6.s 			page 52
+GAS LISTING /tmp/ccMaCjry.s 			page 52
 
 
  2823 017c 0E       		.uleb128 0xe
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2877 01b2 03       		.uleb128 0x3
  2878 01b3 0E       		.uleb128 0xe
  2879 01b4 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccNkMWK6.s 			page 53
+GAS LISTING /tmp/ccMaCjry.s 			page 53
 
 
  2880 01b5 21       		.uleb128 0x21
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2934 01eb D303     		.sleb128 467
  2935 01ed 39       		.uleb128 0x39
  2936 01ee 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccNkMWK6.s 			page 54
+GAS LISTING /tmp/ccMaCjry.s 			page 54
 
 
  2937 01ef 49       		.uleb128 0x49
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  2991 0226 39       		.uleb128 0x39
  2992 0227 0B       		.uleb128 0xb
  2993 0228 49       		.uleb128 0x49
-GAS LISTING /tmp/ccNkMWK6.s 			page 55
+GAS LISTING /tmp/ccMaCjry.s 			page 55
 
 
  2994 0229 13       		.uleb128 0x13
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3048 0260 25       		.uleb128 0x25
  3049 0261 0E       		.uleb128 0xe
  3050 0262 13       		.uleb128 0x13
-GAS LISTING /tmp/ccNkMWK6.s 			page 56
+GAS LISTING /tmp/ccMaCjry.s 			page 56
 
 
  3051 0263 0B       		.uleb128 0xb
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3105 029a 0B       		.uleb128 0xb
  3106 029b 49       		.uleb128 0x49
  3107 029c 13       		.uleb128 0x13
-GAS LISTING /tmp/ccNkMWK6.s 			page 57
+GAS LISTING /tmp/ccMaCjry.s 			page 57
 
 
  3108 029d 3A       		.uleb128 0x3a
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3162 02d3 3A       		.uleb128 0x3a
  3163 02d4 0B       		.uleb128 0xb
  3164 02d5 3B       		.uleb128 0x3b
-GAS LISTING /tmp/ccNkMWK6.s 			page 58
+GAS LISTING /tmp/ccMaCjry.s 			page 58
 
 
  3165 02d6 05       		.uleb128 0x5
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3219 030e 19       		.uleb128 0x19
  3220 030f 03       		.uleb128 0x3
  3221 0310 0E       		.uleb128 0xe
-GAS LISTING /tmp/ccNkMWK6.s 			page 59
+GAS LISTING /tmp/ccMaCjry.s 			page 59
 
 
  3222 0311 3A       		.uleb128 0x3a
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3276 0347 0E       		.uleb128 0xe
  3277 0348 3A       		.uleb128 0x3a
  3278 0349 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccNkMWK6.s 			page 60
+GAS LISTING /tmp/ccMaCjry.s 			page 60
 
 
  3279 034a 3B       		.uleb128 0x3b
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3333 0382 01       		.uleb128 0x1
  3334 0383 13       		.uleb128 0x13
  3335 0384 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 61
+GAS LISTING /tmp/ccMaCjry.s 			page 61
 
 
  3336 0385 00       		.byte	0
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3390 03bb 39       		.uleb128 0x39
  3391 03bc 0B       		.uleb128 0xb
  3392 03bd 49       		.uleb128 0x49
-GAS LISTING /tmp/ccNkMWK6.s 			page 62
+GAS LISTING /tmp/ccMaCjry.s 			page 62
 
 
  3393 03be 13       		.uleb128 0x13
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3447 03f5 40       		.uleb128 0x40
  3448 03f6 18       		.uleb128 0x18
  3449 03f7 7A       		.uleb128 0x7a
-GAS LISTING /tmp/ccNkMWK6.s 			page 63
+GAS LISTING /tmp/ccMaCjry.s 			page 63
 
 
  3450 03f8 19       		.uleb128 0x19
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3504 0431 01       		.uleb128 0x1
  3505 0432 12       		.uleb128 0x12
  3506 0433 06       		.uleb128 0x6
-GAS LISTING /tmp/ccNkMWK6.s 			page 64
+GAS LISTING /tmp/ccMaCjry.s 			page 64
 
 
  3507 0434 58       		.uleb128 0x58
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3561 046b 0B       		.uleb128 0xb
  3562 046c 3B       		.uleb128 0x3b
  3563 046d 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccNkMWK6.s 			page 65
+GAS LISTING /tmp/ccMaCjry.s 			page 65
 
 
  3564 046e 39       		.uleb128 0x39
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3618 04a4 00       		.byte	0
  3619 04a5 00       		.byte	0
  3620              		.section	.debug_loclists,"",@progbits
-GAS LISTING /tmp/ccNkMWK6.s 			page 66
+GAS LISTING /tmp/ccMaCjry.s 			page 66
 
 
  3621 0000 E5010000 		.long	.Ldebug_loc3-.Ldebug_loc2
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3675 003d 22       		.byte	0x22
  3676 003e 9F       		.byte	0x9f
  3677 003f 00       		.byte	0
-GAS LISTING /tmp/ccNkMWK6.s 			page 67
+GAS LISTING /tmp/ccMaCjry.s 			page 67
 
 
  3678              	.LVUS17:
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3732 007d 56       		.byte	0x56
  3733 007e 00       		.byte	0
  3734              	.LVUS8:
-GAS LISTING /tmp/ccNkMWK6.s 			page 68
+GAS LISTING /tmp/ccMaCjry.s 			page 68
 
 
  3735 007f 02       		.uleb128 .LVU99
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3789 00bc 01       		.uleb128 0x1
  3790 00bd 50       		.byte	0x50
  3791 00be 04       		.byte	0x4
-GAS LISTING /tmp/ccNkMWK6.s 			page 69
+GAS LISTING /tmp/ccMaCjry.s 			page 69
 
 
  3792 00bf CD01     		.uleb128 .LVL43-.LVL17
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3846 00fe 03       		.byte	0x3
  3847 00ff 04000000 		.long	ch0+4
  3848 0103 04       		.byte	0x4
-GAS LISTING /tmp/ccNkMWK6.s 			page 70
+GAS LISTING /tmp/ccMaCjry.s 			page 70
 
 
  3849 0104 31       		.uleb128 .LVL23-.LVL18
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3903 0142 14000000 		.long	ch0+20
  3904 0146 04       		.byte	0x4
  3905 0147 28       		.uleb128 .LVL33-.LVL28
-GAS LISTING /tmp/ccNkMWK6.s 			page 71
+GAS LISTING /tmp/ccMaCjry.s 			page 71
 
 
  3906 0148 2E       		.uleb128 .LVL34-.LVL28
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  3960 0187 03       		.byte	0x3
  3961 0188 28000000 		.long	ch0+40
  3962 018c 9F       		.byte	0x9f
-GAS LISTING /tmp/ccNkMWK6.s 			page 72
+GAS LISTING /tmp/ccMaCjry.s 			page 72
 
 
  3963 018d 00       		.byte	0
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4017              	.LLST3:
  4018 01cc 06       		.byte	0x6
  4019 01cd 4A000000 		.long	.LVL3
-GAS LISTING /tmp/ccNkMWK6.s 			page 73
+GAS LISTING /tmp/ccMaCjry.s 			page 73
 
 
  4020 01d1 04       		.byte	0x4
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4074              	.Ldebug_ranges2:
  4075 0004 0500     		.value	0x5
  4076 0006 04       		.byte	0x4
-GAS LISTING /tmp/ccNkMWK6.s 			page 74
+GAS LISTING /tmp/ccMaCjry.s 			page 74
 
 
  4077 0007 00       		.byte	0
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4131 004e 04       		.byte	0x4
  4132 004f 40       		.uleb128 .LBB43-.LBB41
  4133 0050 44       		.uleb128 .LBE43-.LBB41
-GAS LISTING /tmp/ccNkMWK6.s 			page 75
+GAS LISTING /tmp/ccMaCjry.s 			page 75
 
 
  4134 0051 04       		.byte	0x4
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4177 0025 746D5F63 		.string	"tm_calibration_t"
  4177      616C6962 
  4177      72617469 
-GAS LISTING /tmp/ccNkMWK6.s 			page 76
+GAS LISTING /tmp/ccMaCjry.s 			page 76
 
 
  4177      6F6E5F74 
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4201      6D656E74 
  4202              	.LASF48:
  4203 00ce 6570656E 		.string	"epending"
-GAS LISTING /tmp/ccNkMWK6.s 			page 77
+GAS LISTING /tmp/ccMaCjry.s 			page 77
 
 
  4203      64696E67 
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4231      7300
  4232              	.LASF120:
  4233 0159 63685F6D 		.string	"ch_mutex"
-GAS LISTING /tmp/ccNkMWK6.s 			page 78
+GAS LISTING /tmp/ccMaCjry.s 			page 78
 
 
  4233      75746578 
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4259      69675F74 
  4260              	.LASF17:
  4261 01f0 6C6F6E67 		.string	"long long unsigned int"
-GAS LISTING /tmp/ccNkMWK6.s 			page 79
+GAS LISTING /tmp/ccMaCjry.s 			page 79
 
 
  4261      206C6F6E 
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4288              	.LASF139:
  4289 0291 63685654 		.string	"chVTDoTickI"
  4289      446F5469 
-GAS LISTING /tmp/ccNkMWK6.s 			page 80
+GAS LISTING /tmp/ccMaCjry.s 			page 80
 
 
  4289      636B4900 
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4315      6E697400 
  4316              	.LASF79:
  4317 0336 7072696F 		.string	"prio"
-GAS LISTING /tmp/ccNkMWK6.s 			page 81
+GAS LISTING /tmp/ccMaCjry.s 			page 81
 
 
  4317      00
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4345      656D5F64 
  4345      65627567 
  4345      5F7400
-GAS LISTING /tmp/ccNkMWK6.s 			page 82
+GAS LISTING /tmp/ccMaCjry.s 			page 82
 
 
  4346              	.LASF4:
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4369      635F6D73 
  4369      6700
  4370              	.LASF127:
-GAS LISTING /tmp/ccNkMWK6.s 			page 83
+GAS LISTING /tmp/ccMaCjry.s 			page 83
 
 
  4371 0472 69646C65 		.string	"idlestack_base"
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4397      6D00
  4398              	.LASF163:
  4399 050d 474E5520 		.string	"GNU C17 11.4.0 -m32 -mtune=generic -march=i686 -ggdb -O2 -ffunction-sections -fdata-secti
-GAS LISTING /tmp/ccNkMWK6.s 			page 84
+GAS LISTING /tmp/ccMaCjry.s 			page 84
 
 
  4399      43313720 
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4425      69676E65 
  4425      6420696E 
  4425      7400
-GAS LISTING /tmp/ccNkMWK6.s 			page 85
+GAS LISTING /tmp/ccMaCjry.s 			page 85
 
 
  4426              	.LASF123:
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4452              	.LASF46:
  4453 06eb 77616974 		.string	"waiting"
  4453      696E6700 
-GAS LISTING /tmp/ccNkMWK6.s 			page 86
+GAS LISTING /tmp/ccMaCjry.s 			page 86
 
 
  4454              	.LASF103:
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4480              	.LASF146:
  4481 078c 6368496E 		.string	"chInstanceObjectInit"
  4481      7374616E 
-GAS LISTING /tmp/ccNkMWK6.s 			page 87
+GAS LISTING /tmp/ccMaCjry.s 			page 87
 
 
  4481      63654F62 
@@ -5211,14 +5211,14 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4501      7400
  4502              		.section	.debug_line_str,"MS",@progbits,1
  4503              	.LASF1:
- 4504 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 4504 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  4504      652F616C 
  4504      65782F43 
  4504      68696269 
  4504      4F532F64 
  4505              	.LASF0:
  4506 002f 2E2E2F2E 		.string	"../../../os/rt/src/chsys.c"
-GAS LISTING /tmp/ccNkMWK6.s 			page 88
+GAS LISTING /tmp/ccMaCjry.s 			page 88
 
 
  4506      2E2F2E2E 
@@ -5232,25 +5232,25 @@ GAS LISTING /tmp/ccNkMWK6.s 			page 1
  4509      65782F43 
  4509      68696269 
  4509      4F532F64 
-GAS LISTING /tmp/ccNkMWK6.s 			page 89
+GAS LISTING /tmp/ccMaCjry.s 			page 89
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chsys.c
-     /tmp/ccNkMWK6.s:9      .text.chSysWaitSystemState:0000000000000000 chSysWaitSystemState
-     /tmp/ccNkMWK6.s:749    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/ccNkMWK6.s:743    .bss.ch_system:0000000000000000 ch_system
-     /tmp/ccNkMWK6.s:38     .text.chSysInit:0000000000000000 chSysInit
-     /tmp/ccNkMWK6.s:760    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccNkMWK6.s:719    .data.rel.ro.ch_core0_cfg:0000000000000000 ch_core0_cfg
-     /tmp/ccNkMWK6.s:736    .bss.ch0:0000000000000000 ch0
-     /tmp/ccNkMWK6.s:233    .text.chSysHalt:0000000000000000 chSysHalt
-     /tmp/ccNkMWK6.s:280    .text.chSysGetIdleThreadX:0000000000000000 chSysGetIdleThreadX
-     /tmp/ccNkMWK6.s:303    .text.chSysIntegrityCheckI:0000000000000000 chSysIntegrityCheckI
-     /tmp/ccNkMWK6.s:589    .text.chSysTimerHandlerI:0000000000000000 chSysTimerHandlerI
-     /tmp/ccNkMWK6.s:622    .text.chSysIsCounterWithinX:0000000000000000 chSysIsCounterWithinX
-     /tmp/ccNkMWK6.s:648    .text.chSysPolledDelayX:0000000000000000 chSysPolledDelayX
-     /tmp/ccNkMWK6.s:729    .bss.ch_c0_idle_thread_wa:0000000000000000 ch_c0_idle_thread_wa
+     /tmp/ccMaCjry.s:9      .text.chSysWaitSystemState:0000000000000000 chSysWaitSystemState
+     /tmp/ccMaCjry.s:749    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccMaCjry.s:743    .bss.ch_system:0000000000000000 ch_system
+     /tmp/ccMaCjry.s:38     .text.chSysInit:0000000000000000 chSysInit
+     /tmp/ccMaCjry.s:760    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccMaCjry.s:719    .data.rel.ro.ch_core0_cfg:0000000000000000 ch_core0_cfg
+     /tmp/ccMaCjry.s:736    .bss.ch0:0000000000000000 ch0
+     /tmp/ccMaCjry.s:233    .text.chSysHalt:0000000000000000 chSysHalt
+     /tmp/ccMaCjry.s:280    .text.chSysGetIdleThreadX:0000000000000000 chSysGetIdleThreadX
+     /tmp/ccMaCjry.s:303    .text.chSysIntegrityCheckI:0000000000000000 chSysIntegrityCheckI
+     /tmp/ccMaCjry.s:589    .text.chSysTimerHandlerI:0000000000000000 chSysTimerHandlerI
+     /tmp/ccMaCjry.s:622    .text.chSysIsCounterWithinX:0000000000000000 chSysIsCounterWithinX
+     /tmp/ccMaCjry.s:648    .text.chSysPolledDelayX:0000000000000000 chSysPolledDelayX
+     /tmp/ccMaCjry.s:729    .bss.ch_c0_idle_thread_wa:0000000000000000 ch_c0_idle_thread_wa
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccOxbJCT.s 			page 1
+GAS LISTING /tmp/cc18u812.s 			page 1
 
 
    1              		.file	"osal.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/osal/rt-nil/osal.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/osal/rt-nil/osal.c"
    5              	.Letext0:
    6              		.section	.debug_info,"",@progbits
    7              	.Ldebug_info0:
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccOxbJCT.s 			page 1
   55 005d 01       		.uleb128 0x1
   56 005e 01       		.byte	0x1
   57 005f 06       		.byte	0x6
-GAS LISTING /tmp/ccOxbJCT.s 			page 2
+GAS LISTING /tmp/cc18u812.s 			page 2
 
 
   58 0060 2D000000 		.long	.LASF10
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccOxbJCT.s 			page 1
  112 0022 08       		.uleb128 0x8
  113 0023 00       		.byte	0
  114 0024 00       		.byte	0
-GAS LISTING /tmp/ccOxbJCT.s 			page 3
+GAS LISTING /tmp/cc18u812.s 			page 3
 
 
  115 0025 00       		.byte	0
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccOxbJCT.s 			page 1
  144      206C6F6E 
  144      6720756E 
  144      7369676E 
-GAS LISTING /tmp/ccOxbJCT.s 			page 4
+GAS LISTING /tmp/cc18u812.s 			page 4
 
 
  144      65642069 
@@ -209,7 +209,7 @@ GAS LISTING /tmp/ccOxbJCT.s 			page 1
  156      7400
  157              		.section	.debug_line_str,"MS",@progbits,1
  158              	.LASF1:
- 159 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 159 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  159      652F616C 
  159      65782F43 
  159      68696269 
@@ -226,7 +226,7 @@ GAS LISTING /tmp/ccOxbJCT.s 			page 1
  163      65782F43 
  163      68696269 
  163      4F532F64 
-GAS LISTING /tmp/ccOxbJCT.s 			page 5
+GAS LISTING /tmp/cc18u812.s 			page 5
 
 
 DEFINED SYMBOLS

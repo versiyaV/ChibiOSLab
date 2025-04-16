@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccr0LxUX.s 			page 1
+GAS LISTING /tmp/ccoUeo1F.s 			page 1
 
 
    1              		.file	"chmemchecks.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/oslib/src/chmemchecks.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/oslib/src/chmemchecks.c"
    5              		.section	.text.chMemIsStringWithinX,"ax",@progbits
    6              		.p2align 4
    7              		.globl	chMemIsStringWithinX
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
   55 0028 83C001   		addl	$1, %eax
   56              	.LVL3:
   57              		.loc 1 115 8 view .LVU16
-GAS LISTING /tmp/ccr0LxUX.s 			page 2
+GAS LISTING /tmp/ccoUeo1F.s 			page 2
 
 
   58 002b 83C201   		addl	$1, %edx
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  111              		.loc 1 141 48 is_stmt 1 view -0
  112              		.cfi_startproc
  113              		.loc 1 142 3 view .LVU27
-GAS LISTING /tmp/ccr0LxUX.s 			page 3
+GAS LISTING /tmp/ccoUeo1F.s 			page 3
 
 
  114              		.loc 1 141 48 is_stmt 0 view .LVU28
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  168              		.loc 1 158 1 view .LVU47
  169 0034 89D0     		movl	%edx, %eax
  170              	.LVL17:
-GAS LISTING /tmp/ccr0LxUX.s 			page 4
+GAS LISTING /tmp/ccoUeo1F.s 			page 4
 
 
  171              		.loc 1 158 1 view .LVU48
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  224              		.loc 1 180 3 is_stmt 1 view .LVU55
  225              	.LVL22:
  226              		.loc 1 182 3 view .LVU56
-GAS LISTING /tmp/ccr0LxUX.s 			page 5
+GAS LISTING /tmp/ccoUeo1F.s 			page 5
 
 
  227              		.loc 1 182 3 view .LVU57
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  280              		.loc 2 125 18 view .LVU81
  281 0036 8D4402FF 		leal	-1(%edx,%eax), %eax
  282              	.LVL26:
-GAS LISTING /tmp/ccr0LxUX.s 			page 6
+GAS LISTING /tmp/ccoUeo1F.s 			page 6
 
 
  283              		.loc 2 131 53 view .LVU82
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  337 0001 57       		pushl	%edi
  338              		.cfi_def_cfa_offset 12
  339              		.cfi_offset 7, -12
-GAS LISTING /tmp/ccr0LxUX.s 			page 7
+GAS LISTING /tmp/ccoUeo1F.s 			page 7
 
 
  340 0002 E8FCFFFF 		call	__x86.get_pc_thunk.di
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  391              		.loc 1 185 13 is_stmt 0 view .LVU103
  392 0030 8BAF0000 		movl	__ch_mem_writable_areas@GOTOFF(%edi), %ebp
  392      0000
-GAS LISTING /tmp/ccr0LxUX.s 			page 8
+GAS LISTING /tmp/ccoUeo1F.s 			page 8
 
 
  393              		.loc 1 185 20 view .LVU104
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  446              		.loc 2 131 3 view .LVU125
  447              		.loc 2 125 50 is_stmt 0 view .LVU126
  448 0063 8B4204   		movl	4(%edx), %eax
-GAS LISTING /tmp/ccr0LxUX.s 			page 9
+GAS LISTING /tmp/ccoUeo1F.s 			page 9
 
 
  449              		.loc 2 125 18 view .LVU127
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  503 0000 55       		pushl	%ebp
  504              		.cfi_def_cfa_offset 8
  505              		.cfi_offset 5, -8
-GAS LISTING /tmp/ccr0LxUX.s 			page 10
+GAS LISTING /tmp/ccoUeo1F.s 			page 10
 
 
  506 0001 57       		pushl	%edi
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  557              	.LBB26:
  558              	.LBB27:
  559              		.loc 1 185 20 is_stmt 1 view .LVU148
-GAS LISTING /tmp/ccr0LxUX.s 			page 11
+GAS LISTING /tmp/ccoUeo1F.s 			page 11
 
 
  560              		.loc 1 185 13 is_stmt 0 view .LVU149
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  612              		.loc 2 129 3 view .LVU168
  613              		.loc 2 129 3 view .LVU169
  614              		.loc 2 129 3 view .LVU170
-GAS LISTING /tmp/ccr0LxUX.s 			page 12
+GAS LISTING /tmp/ccoUeo1F.s 			page 12
 
 
  615              		.loc 2 131 3 view .LVU171
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  669              		.loc 1 276 47 is_stmt 1 view -0
  670              		.cfi_startproc
  671              		.loc 1 279 3 view .LVU183
-GAS LISTING /tmp/ccr0LxUX.s 			page 13
+GAS LISTING /tmp/ccoUeo1F.s 			page 13
 
 
  672              		.loc 1 284 3 view .LVU184
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  721              		.loc 2 129 3 view .LVU204
  722              		.loc 2 129 3 view .LVU205
  723              		.loc 2 131 3 view .LVU206
-GAS LISTING /tmp/ccr0LxUX.s 			page 14
+GAS LISTING /tmp/ccoUeo1F.s 			page 14
 
 
  724              		.loc 2 125 50 is_stmt 0 view .LVU207
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  778              		.align 4
  779              		.type	__ch_mem_executable_areas, @object
  780              		.size	__ch_mem_executable_areas, 16
-GAS LISTING /tmp/ccr0LxUX.s 			page 15
+GAS LISTING /tmp/ccoUeo1F.s 			page 15
 
 
  781              	__ch_mem_executable_areas:
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  835 0000 F1060000 		.long	0x6f1
  836 0004 0500     		.value	0x5
  837 0006 01       		.byte	0x1
-GAS LISTING /tmp/ccr0LxUX.s 			page 16
+GAS LISTING /tmp/ccoUeo1F.s 			page 16
 
 
  838 0007 04       		.byte	0x4
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  892 0073 06       		.byte	0x6
  893 0074 72020000 		.long	.LASF10
  894 0078 08       		.uleb128 0x8
-GAS LISTING /tmp/ccr0LxUX.s 			page 17
+GAS LISTING /tmp/ccoUeo1F.s 			page 17
 
 
  895 0079 08000000 		.long	.LASF12
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  949 00e2 04       		.byte	0x4
  950 00e3 00       		.byte	0
  951 00e4 08       		.uleb128 0x8
-GAS LISTING /tmp/ccr0LxUX.s 			page 18
+GAS LISTING /tmp/ccoUeo1F.s 			page 18
 
 
  952 00e5 70010000 		.long	.LASF20
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1006 0163 03       		.byte	0x3
  1007 0164 00000000 		.long	__ch_mem_executable_areas
  1008 0168 20       		.uleb128 0x20
-GAS LISTING /tmp/ccr0LxUX.s 			page 19
+GAS LISTING /tmp/ccoUeo1F.s 			page 19
 
 
  1009 0169 8B010000 		.long	.LASF24
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1063 01f7 EB050000 		.long	0x5eb
  1064 01fb 9F000000 		.long	.LLST45
  1065 01ff 9D000000 		.long	.LVUS45
-GAS LISTING /tmp/ccr0LxUX.s 			page 20
+GAS LISTING /tmp/ccoUeo1F.s 			page 20
 
 
  1066 0203 02       		.uleb128 0x2
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1120 028b 02       		.uleb128 0x2
  1121 028c 91       		.byte	0x91
  1122 028d 04       		.sleb128 4
-GAS LISTING /tmp/ccr0LxUX.s 			page 21
+GAS LISTING /tmp/ccoUeo1F.s 			page 21
 
 
  1123 028e 0D       		.uleb128 0xd
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1177 0322 62010000 		.long	.LVUS36
  1178 0326 01       		.uleb128 0x1
  1179 0327 0B060000 		.long	0x60b
-GAS LISTING /tmp/ccr0LxUX.s 			page 22
+GAS LISTING /tmp/ccoUeo1F.s 			page 22
 
 
  1180 032b 91010000 		.long	.LLST37
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1234 039b 29000000 		.long	.LASF28
  1235 039f 54030000 		.long	0x354
  1236 03a3 26       		.uleb128 0x26
-GAS LISTING /tmp/ccr0LxUX.s 			page 23
+GAS LISTING /tmp/ccoUeo1F.s 			page 23
 
 
  1237 03a4 41040000 		.long	0x441
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1291 0440 00       		.byte	0
  1292 0441 27       		.uleb128 0x27
  1293 0442 37000000 		.long	.LASF35
-GAS LISTING /tmp/ccr0LxUX.s 			page 24
+GAS LISTING /tmp/ccoUeo1F.s 			page 24
 
 
  1294 0446 01       		.byte	0x1
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1348 04b9 32050000 		.long	0x532
  1349 04bd 0C       		.uleb128 0xc
  1350 04be 6D617000 		.string	"map"
-GAS LISTING /tmp/ccr0LxUX.s 			page 25
+GAS LISTING /tmp/ccoUeo1F.s 			page 25
 
 
  1351 04c2 8B       		.byte	0x8b
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1405 0546 47000000 		.long	.LFE203-.LFB203
  1406 054a 01       		.uleb128 0x1
  1407 054b 9C       		.byte	0x9c
-GAS LISTING /tmp/ccr0LxUX.s 			page 26
+GAS LISTING /tmp/ccoUeo1F.s 			page 26
 
 
  1408 054c C4050000 		.long	0x5c4
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1462 05cc BB000000 		.long	0xbb
  1463 05d0 03       		.byte	0x3
  1464 05d1 2B060000 		.long	0x62b
-GAS LISTING /tmp/ccr0LxUX.s 			page 27
+GAS LISTING /tmp/ccoUeo1F.s 			page 27
 
 
  1465 05d5 15       		.uleb128 0x15
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1519 064e 52000000 		.long	.LFE205-.LFB205
  1520 0652 01       		.uleb128 0x1
  1521 0653 9C       		.byte	0x9c
-GAS LISTING /tmp/ccr0LxUX.s 			page 28
+GAS LISTING /tmp/ccoUeo1F.s 			page 28
 
 
  1522 0654 02       		.uleb128 0x2
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1576 06f3 00       		.byte	0
  1577 06f4 00       		.byte	0
  1578              		.section	.debug_abbrev,"",@progbits
-GAS LISTING /tmp/ccr0LxUX.s 			page 29
+GAS LISTING /tmp/ccoUeo1F.s 			page 29
 
 
  1579              	.Ldebug_abbrev0:
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1633 0037 31       		.uleb128 0x31
  1634 0038 13       		.uleb128 0x13
  1635 0039 00       		.byte	0
-GAS LISTING /tmp/ccr0LxUX.s 			page 30
+GAS LISTING /tmp/ccoUeo1F.s 			page 30
 
 
  1636 003a 00       		.byte	0
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1690 0070 0B       		.uleb128 0xb
  1691 0071 27       		.uleb128 0x27
  1692 0072 19       		.uleb128 0x19
-GAS LISTING /tmp/ccr0LxUX.s 			page 31
+GAS LISTING /tmp/ccoUeo1F.s 			page 31
 
 
  1693 0073 49       		.uleb128 0x49
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1747 00a9 0E       		.uleb128 0xe
  1748 00aa 49       		.uleb128 0x49
  1749 00ab 13       		.uleb128 0x13
-GAS LISTING /tmp/ccr0LxUX.s 			page 32
+GAS LISTING /tmp/ccoUeo1F.s 			page 32
 
 
  1750 00ac 34       		.uleb128 0x34
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1804 00e4 39       		.uleb128 0x39
  1805 00e5 21       		.uleb128 0x21
  1806 00e6 1C       		.sleb128 28
-GAS LISTING /tmp/ccr0LxUX.s 			page 33
+GAS LISTING /tmp/ccoUeo1F.s 			page 33
 
 
  1807 00e7 49       		.uleb128 0x49
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1861 011f 3A       		.uleb128 0x3a
  1862 0120 0B       		.uleb128 0xb
  1863 0121 3B       		.uleb128 0x3b
-GAS LISTING /tmp/ccr0LxUX.s 			page 34
+GAS LISTING /tmp/ccoUeo1F.s 			page 34
 
 
  1864 0122 0B       		.uleb128 0xb
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1918 0158 0B       		.uleb128 0xb
  1919 0159 00       		.byte	0
  1920 015a 00       		.byte	0
-GAS LISTING /tmp/ccr0LxUX.s 			page 35
+GAS LISTING /tmp/ccoUeo1F.s 			page 35
 
 
  1921 015b 18       		.uleb128 0x18
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  1975 0192 1F       		.uleb128 0x1f
  1976 0193 55       		.uleb128 0x55
  1977 0194 17       		.uleb128 0x17
-GAS LISTING /tmp/ccr0LxUX.s 			page 36
+GAS LISTING /tmp/ccoUeo1F.s 			page 36
 
 
  1978 0195 11       		.uleb128 0x11
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2032 01cb 05       		.uleb128 0x5
  2033 01cc 39       		.uleb128 0x39
  2034 01cd 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccr0LxUX.s 			page 37
+GAS LISTING /tmp/ccoUeo1F.s 			page 37
 
 
  2035 01ce 27       		.uleb128 0x27
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2089 0206 23       		.uleb128 0x23
  2090 0207 1D       		.uleb128 0x1d
  2091 0208 01       		.byte	0x1
-GAS LISTING /tmp/ccr0LxUX.s 			page 38
+GAS LISTING /tmp/ccoUeo1F.s 			page 38
 
 
  2092 0209 31       		.uleb128 0x31
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2146 0240 0B       		.uleb128 0xb
  2147 0241 00       		.byte	0
  2148 0242 00       		.byte	0
-GAS LISTING /tmp/ccr0LxUX.s 			page 39
+GAS LISTING /tmp/ccoUeo1F.s 			page 39
 
 
  2149 0243 27       		.uleb128 0x27
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2203 0279 18       		.uleb128 0x18
  2204 027a 7A       		.uleb128 0x7a
  2205 027b 19       		.uleb128 0x19
-GAS LISTING /tmp/ccr0LxUX.s 			page 40
+GAS LISTING /tmp/ccoUeo1F.s 			page 40
 
 
  2206 027c 00       		.byte	0
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2260 002f 01       		.uleb128 0x1
  2261 0030 53       		.byte	0x53
  2262 0031 04       		.byte	0x4
-GAS LISTING /tmp/ccr0LxUX.s 			page 41
+GAS LISTING /tmp/ccoUeo1F.s 			page 41
 
 
  2263 0032 4D       		.uleb128 .LVL60-.LVL48
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2317 0069 00       		.uleb128 .LVU216
  2318              	.LLST43:
  2319 006a 08       		.byte	0x8
-GAS LISTING /tmp/ccr0LxUX.s 			page 42
+GAS LISTING /tmp/ccoUeo1F.s 			page 42
 
 
  2320 006b 00000000 		.long	.LVL48
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2374 00b0 15       		.uleb128 .LVL56-.LVL52
  2375 00b1 01       		.uleb128 0x1
  2376 00b2 53       		.byte	0x53
-GAS LISTING /tmp/ccr0LxUX.s 			page 43
+GAS LISTING /tmp/ccoUeo1F.s 			page 43
 
 
  2377 00b3 00       		.byte	0
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2431 00ec 00       		.sleb128 0
  2432 00ed 71       		.byte	0x71
  2433 00ee 04       		.sleb128 4
-GAS LISTING /tmp/ccr0LxUX.s 			page 44
+GAS LISTING /tmp/ccoUeo1F.s 			page 44
 
 
  2434 00ef 06       		.byte	0x6
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2488 0128 06       		.uleb128 0x6
  2489 0129 03       		.byte	0x3
  2490 012a 00000000 		.long	__ch_mem_readable_areas
-GAS LISTING /tmp/ccr0LxUX.s 			page 45
+GAS LISTING /tmp/ccoUeo1F.s 			page 45
 
 
  2491 012e 9F       		.byte	0x9f
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2545 0167 00       		.uleb128 .LVU181
  2546              	.LLST36:
  2547 0168 06       		.byte	0x6
-GAS LISTING /tmp/ccr0LxUX.s 			page 46
+GAS LISTING /tmp/ccoUeo1F.s 			page 46
 
 
  2548 0169 63000000 		.long	.LVL44
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2602 01a2 00       		.uleb128 0
  2603              	.LLST38:
  2604 01a3 08       		.byte	0x8
-GAS LISTING /tmp/ccr0LxUX.s 			page 47
+GAS LISTING /tmp/ccoUeo1F.s 			page 47
 
 
  2605 01a4 63000000 		.long	.LVL44
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2659 01e3 00       		.byte	0
  2660              	.LVUS25:
  2661 01e4 01       		.uleb128 .LVU117
-GAS LISTING /tmp/ccr0LxUX.s 			page 48
+GAS LISTING /tmp/ccoUeo1F.s 			page 48
 
 
  2662 01e5 00       		.uleb128 0
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2716 021f 06       		.byte	0x6
  2717 0220 22       		.byte	0x22
  2718 0221 31       		.byte	0x31
-GAS LISTING /tmp/ccr0LxUX.s 			page 49
+GAS LISTING /tmp/ccoUeo1F.s 			page 49
 
 
  2719 0222 1C       		.byte	0x1c
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2773 025b 04       		.byte	0x4
  2774 025c 00       		.uleb128 .LVL11-.LVL11
  2775 025d 1D       		.uleb128 .LVL13-.LVL11
-GAS LISTING /tmp/ccr0LxUX.s 			page 50
+GAS LISTING /tmp/ccoUeo1F.s 			page 50
 
 
  2776 025e 02       		.uleb128 0x2
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2830 0296 04       		.byte	0x4
  2831 0297 00       		.uleb128 .LVL12-.LVL12
  2832 0298 0B       		.uleb128 .LVL13-.LVL12
-GAS LISTING /tmp/ccr0LxUX.s 			page 51
+GAS LISTING /tmp/ccoUeo1F.s 			page 51
 
 
  2833 0299 01       		.uleb128 0x1
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2887 02cf 00       		.uleb128 .LVU38
  2888 02d0 00       		.uleb128 .LVU46
  2889 02d1 00       		.uleb128 .LVU49
-GAS LISTING /tmp/ccr0LxUX.s 			page 52
+GAS LISTING /tmp/ccoUeo1F.s 			page 52
 
 
  2890 02d2 00       		.uleb128 .LVU50
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  2944 030b 46       		.uleb128 .LVL10-.LVL0
  2945 030c 01       		.uleb128 0x1
  2946 030d 50       		.byte	0x50
-GAS LISTING /tmp/ccr0LxUX.s 			page 53
+GAS LISTING /tmp/ccoUeo1F.s 			page 53
 
 
  2947 030e 00       		.byte	0
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3001 0347 04       		.byte	0x4
  3002 0348 00       		.uleb128 .LVL1-.LVL1
  3003 0349 0B       		.uleb128 .LVL2-.LVL1
-GAS LISTING /tmp/ccr0LxUX.s 			page 54
+GAS LISTING /tmp/ccoUeo1F.s 			page 54
 
 
  3004 034a 0C       		.uleb128 0xc
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3058 0380 00       		.sleb128 0
  3059 0381 06       		.byte	0x6
  3060 0382 23       		.byte	0x23
-GAS LISTING /tmp/ccr0LxUX.s 			page 55
+GAS LISTING /tmp/ccoUeo1F.s 			page 55
 
 
  3061 0383 04       		.uleb128 0x4
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3115 03ba 00       		.uleb128 0
  3116              	.LLST11:
  3117 03bb 06       		.byte	0x6
-GAS LISTING /tmp/ccr0LxUX.s 			page 56
+GAS LISTING /tmp/ccoUeo1F.s 			page 56
 
 
  3118 03bc 00000000 		.long	.LVL21
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3172 03f7 00       		.byte	0
  3173              	.LVUS15:
  3174 03f8 01       		.uleb128 .LVU71
-GAS LISTING /tmp/ccr0LxUX.s 			page 57
+GAS LISTING /tmp/ccoUeo1F.s 			page 57
 
 
  3175 03f9 00       		.uleb128 .LVU86
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3229 0434 01       		.uleb128 0x1
  3230 0435 50       		.byte	0x50
  3231 0436 04       		.byte	0x4
-GAS LISTING /tmp/ccr0LxUX.s 			page 58
+GAS LISTING /tmp/ccoUeo1F.s 			page 58
 
 
  3232 0437 0C       		.uleb128 .LVL27-.LVL25
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3286 0006 00000000 		.long	.Ldebug_info0
  3287 000a 04       		.byte	0x4
  3288 000b 00       		.byte	0
-GAS LISTING /tmp/ccr0LxUX.s 			page 59
+GAS LISTING /tmp/ccoUeo1F.s 			page 59
 
 
  3289 000c 0000     		.value	0
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3343 0030 0A       		.uleb128 .LBB32-.LBB28
  3344 0031 1D       		.uleb128 .LBE32-.LBB28
  3345 0032 04       		.byte	0x4
-GAS LISTING /tmp/ccr0LxUX.s 			page 60
+GAS LISTING /tmp/ccoUeo1F.s 			page 60
 
 
  3346 0033 28       		.uleb128 .LBB33-.LBB28
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3390      3800
  3391              	.LASF26:
  3392 0023 616C6967 		.string	"align"
-GAS LISTING /tmp/ccr0LxUX.s 			page 61
+GAS LISTING /tmp/ccoUeo1F.s 			page 61
 
 
  3392      6E00
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3414      72795F61 
  3414      7265615F 
  3414      7400
-GAS LISTING /tmp/ccr0LxUX.s 			page 62
+GAS LISTING /tmp/ccoUeo1F.s 			page 62
 
 
  3415              	.LASF2:
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3438 022c 6D656D5F 		.string	"mem_base"
  3438      62617365 
  3438      00
-GAS LISTING /tmp/ccr0LxUX.s 			page 63
+GAS LISTING /tmp/ccoUeo1F.s 			page 63
 
 
  3439              	.LASF9:
@@ -3756,7 +3756,7 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3452      72726179 
  3453              		.section	.debug_line_str,"MS",@progbits,1
  3454              	.LASF1:
- 3455 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 3455 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  3455      652F616C 
  3455      65782F43 
  3455      68696269 
@@ -3773,22 +3773,22 @@ GAS LISTING /tmp/ccr0LxUX.s 			page 1
  3459      65782F43 
  3459      68696269 
  3459      4F532F64 
-GAS LISTING /tmp/ccr0LxUX.s 			page 64
+GAS LISTING /tmp/ccoUeo1F.s 			page 64
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chmemchecks.c
-     /tmp/ccr0LxUX.s:9      .text.chMemIsStringWithinX:0000000000000000 chMemIsStringWithinX
-     /tmp/ccr0LxUX.s:108    .text.chMemIsPointersArrayWithinX:0000000000000000 chMemIsPointersArrayWithinX
-     /tmp/ccr0LxUX.s:206    .text.chMemIsSpaceContainedX:0000000000000000 chMemIsSpaceContainedX
-     /tmp/ccr0LxUX.s:328    .text.chMemIsSpaceWritableX:0000000000000000 chMemIsSpaceWritableX
-     /tmp/ccr0LxUX.s:821    .text.__x86.get_pc_thunk.di:0000000000000000 __x86.get_pc_thunk.di
-     /tmp/ccr0LxUX.s:801    .rodata.__ch_mem_writable_areas:0000000000000000 __ch_mem_writable_areas
-     /tmp/ccr0LxUX.s:497    .text.chMemIsSpaceReadableX:0000000000000000 chMemIsSpaceReadableX
-     /tmp/ccr0LxUX.s:791    .rodata.__ch_mem_readable_areas:0000000000000000 __ch_mem_readable_areas
-     /tmp/ccr0LxUX.s:666    .text.chMemIsAddressExecutableX:0000000000000000 chMemIsAddressExecutableX
-     /tmp/ccr0LxUX.s:810    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/ccr0LxUX.s:781    .rodata.__ch_mem_executable_areas:0000000000000000 __ch_mem_executable_areas
+     /tmp/ccoUeo1F.s:9      .text.chMemIsStringWithinX:0000000000000000 chMemIsStringWithinX
+     /tmp/ccoUeo1F.s:108    .text.chMemIsPointersArrayWithinX:0000000000000000 chMemIsPointersArrayWithinX
+     /tmp/ccoUeo1F.s:206    .text.chMemIsSpaceContainedX:0000000000000000 chMemIsSpaceContainedX
+     /tmp/ccoUeo1F.s:328    .text.chMemIsSpaceWritableX:0000000000000000 chMemIsSpaceWritableX
+     /tmp/ccoUeo1F.s:821    .text.__x86.get_pc_thunk.di:0000000000000000 __x86.get_pc_thunk.di
+     /tmp/ccoUeo1F.s:801    .rodata.__ch_mem_writable_areas:0000000000000000 __ch_mem_writable_areas
+     /tmp/ccoUeo1F.s:497    .text.chMemIsSpaceReadableX:0000000000000000 chMemIsSpaceReadableX
+     /tmp/ccoUeo1F.s:791    .rodata.__ch_mem_readable_areas:0000000000000000 __ch_mem_readable_areas
+     /tmp/ccoUeo1F.s:666    .text.chMemIsAddressExecutableX:0000000000000000 chMemIsAddressExecutableX
+     /tmp/ccoUeo1F.s:810    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccoUeo1F.s:781    .rodata.__ch_mem_executable_areas:0000000000000000 __ch_mem_executable_areas
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

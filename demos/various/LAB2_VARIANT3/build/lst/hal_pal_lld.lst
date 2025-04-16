@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccsNJg3Y.s 			page 1
+GAS LISTING /tmp/ccQzJi4p.s 			page 1
 
 
    1              		.file	"hal_pal_lld.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/ports/simulator/hal_pal_
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/ports/simulator/hal_pal_
    5              		.section	.text._pal_lld_setgroupmode,"ax",@progbits
    6              		.p2align 4
    7              		.globl	_pal_lld_setgroupmode
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
   54              		.loc 1 82 15 view .LVU14
   55 0036 214208   		andl	%eax, 8(%edx)
   56              		.loc 1 83 5 is_stmt 1 view .LVU15
-GAS LISTING /tmp/ccsNJg3Y.s 			page 2
+GAS LISTING /tmp/ccQzJi4p.s 			page 2
 
 
   57 0039 C3       		ret
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  107 003b 01       		.uleb128 0x1
  108 003c 08       		.byte	0x8
  109 003d 05       		.byte	0x5
-GAS LISTING /tmp/ccsNJg3Y.s 			page 3
+GAS LISTING /tmp/ccQzJi4p.s 			page 3
 
 
  110 003e 7C010000 		.long	.LASF4
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  164 00a1 0C       		.byte	0xc
  165 00a2 04       		.byte	0x4
  166 00a3 2E       		.byte	0x2e
-GAS LISTING /tmp/ccsNJg3Y.s 			page 4
+GAS LISTING /tmp/ccQzJi4p.s 			page 4
 
 
  167 00a4 09       		.byte	0x9
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  221 0113 CD000000 		.long	0xcd
  222 0117 05       		.uleb128 0x5
  223 0118 03010000 		.long	0x103
-GAS LISTING /tmp/ccsNJg3Y.s 			page 5
+GAS LISTING /tmp/ccQzJi4p.s 			page 5
 
 
  224 011c 24       		.byte	0x24
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  278 0008 0E       		.uleb128 0xe
  279 0009 00       		.byte	0
  280 000a 00       		.byte	0
-GAS LISTING /tmp/ccsNJg3Y.s 			page 6
+GAS LISTING /tmp/ccQzJi4p.s 			page 6
 
 
  281 000b 02       		.uleb128 0x2
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  335 0041 00       		.byte	0
  336 0042 05       		.uleb128 0x5
  337 0043 34       		.uleb128 0x34
-GAS LISTING /tmp/ccsNJg3Y.s 			page 7
+GAS LISTING /tmp/ccQzJi4p.s 			page 7
 
 
  338 0044 00       		.byte	0
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  392 007b 08       		.uleb128 0x8
  393 007c 24       		.uleb128 0x24
  394 007d 00       		.byte	0
-GAS LISTING /tmp/ccsNJg3Y.s 			page 8
+GAS LISTING /tmp/ccQzJi4p.s 			page 8
 
 
  395 007e 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  449 00b4 03       		.uleb128 0x3
  450 00b5 0E       		.uleb128 0xe
  451 00b6 3A       		.uleb128 0x3a
-GAS LISTING /tmp/ccsNJg3Y.s 			page 9
+GAS LISTING /tmp/ccQzJi4p.s 			page 9
 
 
  452 00b7 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  506 0018 02       		.uleb128 0x2
  507 0019 91       		.byte	0x91
  508 001a 00       		.sleb128 0
-GAS LISTING /tmp/ccsNJg3Y.s 			page 10
+GAS LISTING /tmp/ccQzJi4p.s 			page 10
 
 
  509 001b 04       		.byte	0x4
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  563 0008 00000000 		.long	0
  564              	.LLRL2:
  565 000c 07       		.byte	0x7
-GAS LISTING /tmp/ccsNJg3Y.s 			page 11
+GAS LISTING /tmp/ccQzJi4p.s 			page 11
 
 
  566 000d 00000000 		.long	.LFB299
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  592      6800
  593              	.LASF21:
  594 0118 696F706F 		.string	"ioportid_t"
-GAS LISTING /tmp/ccsNJg3Y.s 			page 12
+GAS LISTING /tmp/ccQzJi4p.s 			page 12
 
 
  594      72746964 
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  619              	.LASF5:
  620 01b3 6C6F6E67 		.string	"long double"
  620      20646F75 
-GAS LISTING /tmp/ccsNJg3Y.s 			page 13
+GAS LISTING /tmp/ccQzJi4p.s 			page 13
 
 
  620      626C6500 
@@ -737,7 +737,7 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  626      00
  627              		.section	.debug_line_str,"MS",@progbits,1
  628              	.LASF1:
- 629 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 629 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  629      652F616C 
  629      65782F43 
  629      68696269 
@@ -754,13 +754,13 @@ GAS LISTING /tmp/ccsNJg3Y.s 			page 1
  633      65782F43 
  633      68696269 
  633      4F532F64 
-GAS LISTING /tmp/ccsNJg3Y.s 			page 14
+GAS LISTING /tmp/ccQzJi4p.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_pal_lld.c
-     /tmp/ccsNJg3Y.s:9      .text._pal_lld_setgroupmode:0000000000000000 _pal_lld_setgroupmode
-     /tmp/ccsNJg3Y.s:66     .bss.vio_port_2:0000000000000000 vio_port_2
-     /tmp/ccsNJg3Y.s:73     .bss.vio_port_1:0000000000000000 vio_port_1
+     /tmp/ccQzJi4p.s:9      .text._pal_lld_setgroupmode:0000000000000000 _pal_lld_setgroupmode
+     /tmp/ccQzJi4p.s:66     .bss.vio_port_2:0000000000000000 vio_port_2
+     /tmp/ccQzJi4p.s:73     .bss.vio_port_1:0000000000000000 vio_port_1
 
 NO UNDEFINED SYMBOLS

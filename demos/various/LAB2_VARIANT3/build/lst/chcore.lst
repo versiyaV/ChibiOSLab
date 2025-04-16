@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccKVpjSo.s 			page 1
+GAS LISTING /tmp/ccvE4B75.s 			page 1
 
 
    1              		.file	"chcore.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/common/ports/SIMIA32/chcore.
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/common/ports/SIMIA32/chcore.
    5              		.section	.text.__dummy,"ax",@progbits
    6              		.p2align 4
    7              		.type	__dummy, @function
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
   55              		.loc 2 430 3 view .LVU10
   56              		.loc 2 430 3 view .LVU11
   57              		.loc 2 430 3 view .LVU12
-GAS LISTING /tmp/ccKVpjSo.s 			page 2
+GAS LISTING /tmp/ccvE4B75.s 			page 2
 
 
   58              		.loc 2 434 3 view .LVU13
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  106              	.LFE204:
  107              		.size	_port_thread_start, .-_port_thread_start
  108              		.section	.text.port_rt_get_counter_value,"ax",@progbits
-GAS LISTING /tmp/ccKVpjSo.s 			page 3
+GAS LISTING /tmp/ccvE4B75.s 			page 3
 
 
  109              		.p2align 4
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  156      FF
  157              	.LVL5:
  158              		.cfi_endproc
-GAS LISTING /tmp/ccKVpjSo.s 			page 4
+GAS LISTING /tmp/ccvE4B75.s 			page 4
 
 
  159              	.LFE205:
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  213 0016 00000000 		.long	.LASF1
  214 001a 18000000 		.long	.LLRL1
  215 001e 00000000 		.long	0
-GAS LISTING /tmp/ccKVpjSo.s 			page 5
+GAS LISTING /tmp/ccvE4B75.s 			page 5
 
 
  216 0022 00000000 		.long	.Ldebug_line0
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  270 0088 30       		.byte	0x30
  271 0089 2E       		.byte	0x2e
  272 008a 8E000000 		.long	0x8e
-GAS LISTING /tmp/ccKVpjSo.s 			page 6
+GAS LISTING /tmp/ccvE4B75.s 			page 6
 
 
  273 008e 06       		.uleb128 0x6
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  327 00f1 04       		.byte	0x4
  328 00f2 72030000 		.long	.LASF20
  329 00f6 06       		.uleb128 0x6
-GAS LISTING /tmp/ccKVpjSo.s 			page 7
+GAS LISTING /tmp/ccvE4B75.s 			page 7
 
 
  330 00f7 10       		.byte	0x10
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  384 0163 C0040000 		.long	.LASF30
  385 0167 08       		.byte	0x8
  386 0168 3A       		.byte	0x3a
-GAS LISTING /tmp/ccKVpjSo.s 			page 8
+GAS LISTING /tmp/ccvE4B75.s 			page 8
 
 
  387 0169 1D       		.byte	0x1d
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  441 01d5 0A       		.byte	0xa
  442 01d6 BE       		.byte	0xbe
  443 01d7 21       		.byte	0x21
-GAS LISTING /tmp/ccKVpjSo.s 			page 9
+GAS LISTING /tmp/ccvE4B75.s 			page 9
 
 
  444 01d8 38050000 		.long	0x538
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  498 023e E2       		.byte	0xe2
  499 023f 21       		.byte	0x21
  500 0240 E6030000 		.long	0x3e6
-GAS LISTING /tmp/ccKVpjSo.s 			page 10
+GAS LISTING /tmp/ccvE4B75.s 			page 10
 
 
  501 0244 24       		.byte	0x24
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  555 02b1 8A       		.byte	0x8a
  556 02b2 1F       		.byte	0x1f
  557 02b3 B7020000 		.long	0x2b7
-GAS LISTING /tmp/ccKVpjSo.s 			page 11
+GAS LISTING /tmp/ccvE4B75.s 			page 11
 
 
  558 02b7 0D       		.uleb128 0xd
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  612 032c 11       		.uleb128 0x11
  613 032d 64626700 		.string	"dbg"
  614 0331 C401     		.value	0x1c4
-GAS LISTING /tmp/ccKVpjSo.s 			page 12
+GAS LISTING /tmp/ccvE4B75.s 			page 12
 
 
  615 0333 91030000 		.long	0x391
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  669 0399 6C030000 		.long	0x36c
  670 039d 01       		.uleb128 0x1
  671 039e 35000000 		.long	.LASF71
-GAS LISTING /tmp/ccKVpjSo.s 			page 13
+GAS LISTING /tmp/ccvE4B75.s 			page 13
 
 
  672 03a2 0D       		.byte	0xd
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  726 040b 00       		.byte	0
  727 040c 02       		.uleb128 0x2
  728 040d 05010000 		.long	.LASF78
-GAS LISTING /tmp/ccKVpjSo.s 			page 14
+GAS LISTING /tmp/ccvE4B75.s 			page 14
 
 
  729 0411 0E       		.byte	0xe
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  783 0477 0E       		.byte	0xe
  784 0478 64       		.byte	0x64
  785 0479 08       		.byte	0x8
-GAS LISTING /tmp/ccKVpjSo.s 			page 15
+GAS LISTING /tmp/ccvE4B75.s 			page 15
 
 
  786 047a A6040000 		.long	0x4a6
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  840 04de A0050000 		.long	.LASF85
  841 04e2 03       		.byte	0x3
  842 04e3 8E       		.byte	0x8e
-GAS LISTING /tmp/ccKVpjSo.s 			page 16
+GAS LISTING /tmp/ccvE4B75.s 			page 16
 
 
  843 04e4 0F       		.byte	0xf
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  897 0549 03       		.byte	0x3
  898 054a AB       		.byte	0xab
  899 054b 17       		.byte	0x17
-GAS LISTING /tmp/ccKVpjSo.s 			page 17
+GAS LISTING /tmp/ccvE4B75.s 			page 17
 
 
  900 054c 52050000 		.long	0x552
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  954 05b7 05       		.uleb128 0x5
  955 05b8 1B000000 		.long	.LASF96
  956 05bc 08       		.byte	0x8
-GAS LISTING /tmp/ccKVpjSo.s 			page 18
+GAS LISTING /tmp/ccvE4B75.s 			page 18
 
 
  957 05bd 0A       		.byte	0xa
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1011 0629 8B010000 		.long	.LASF102
  1012 062d B9       		.byte	0xb9
  1013 062e 1F040000 		.long	0x41f
-GAS LISTING /tmp/ccKVpjSo.s 			page 19
+GAS LISTING /tmp/ccvE4B75.s 			page 19
 
 
  1014 0632 00       		.byte	0
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1068 06aa 34       		.byte	0x34
  1069 06ab 10       		.byte	0x10
  1070 06ac CB060000 		.long	0x6cb
-GAS LISTING /tmp/ccKVpjSo.s 			page 20
+GAS LISTING /tmp/ccvE4B75.s 			page 20
 
 
  1071 06b0 02       		.uleb128 0x2
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1125 0719 10       		.byte	0x10
  1126 071a 6C01     		.value	0x16c
  1127 071c 10       		.byte	0x10
-GAS LISTING /tmp/ccKVpjSo.s 			page 21
+GAS LISTING /tmp/ccvE4B75.s 			page 21
 
 
  1128 071d 3C070000 		.long	0x73c
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1182 0795 00       		.byte	0
  1183 0796 15       		.uleb128 0x15
  1184 0797 5F010000 		.long	.LASF121
-GAS LISTING /tmp/ccKVpjSo.s 			page 22
+GAS LISTING /tmp/ccvE4B75.s 			page 22
 
 
  1185 079b 9201     		.value	0x192
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1239 080f 8D000000 		.long	.LASF123
  1240 0813 01       		.byte	0x1
  1241 0814 81       		.byte	0x81
-GAS LISTING /tmp/ccKVpjSo.s 			page 23
+GAS LISTING /tmp/ccvE4B75.s 			page 23
 
 
  1242 0815 09       		.byte	0x9
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1296 0886 01       		.byte	0x1
  1297 0887 75       		.byte	0x75
  1298 0888 03       		.byte	0x3
-GAS LISTING /tmp/ccKVpjSo.s 			page 24
+GAS LISTING /tmp/ccvE4B75.s 			page 24
 
 
  1299 0889 A6080000 		.long	0x8a6
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1353 08fc 02       		.byte	0x2
  1354 08fd A501     		.value	0x1a5
  1355 08ff 14       		.byte	0x14
-GAS LISTING /tmp/ccKVpjSo.s 			page 25
+GAS LISTING /tmp/ccvE4B75.s 			page 25
 
 
  1356 0900 03       		.byte	0x3
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1410 001b 13       		.uleb128 0x13
  1411 001c 38       		.uleb128 0x38
  1412 001d 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccKVpjSo.s 			page 26
+GAS LISTING /tmp/ccvE4B75.s 			page 26
 
 
  1413 001e 00       		.byte	0
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1467 0054 03       		.uleb128 0x3
  1468 0055 0E       		.uleb128 0xe
  1469 0056 00       		.byte	0
-GAS LISTING /tmp/ccKVpjSo.s 			page 27
+GAS LISTING /tmp/ccvE4B75.s 			page 27
 
 
  1470 0057 00       		.byte	0
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1524 008d 13       		.uleb128 0x13
  1525 008e 02       		.uleb128 0x2
  1526 008f 18       		.uleb128 0x18
-GAS LISTING /tmp/ccKVpjSo.s 			page 28
+GAS LISTING /tmp/ccvE4B75.s 			page 28
 
 
  1527 0090 00       		.byte	0
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1581 00c6 7D       		.uleb128 0x7d
  1582 00c7 01       		.uleb128 0x1
  1583 00c8 7F       		.uleb128 0x7f
-GAS LISTING /tmp/ccKVpjSo.s 			page 29
+GAS LISTING /tmp/ccvE4B75.s 			page 29
 
 
  1584 00c9 13       		.uleb128 0x13
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1638 00ff 03       		.sleb128 3
  1639 0100 3B       		.uleb128 0x3b
  1640 0101 05       		.uleb128 0x5
-GAS LISTING /tmp/ccKVpjSo.s 			page 30
+GAS LISTING /tmp/ccvE4B75.s 			page 30
 
 
  1641 0102 39       		.uleb128 0x39
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1695 0138 55       		.uleb128 0x55
  1696 0139 17       		.uleb128 0x17
  1697 013a 11       		.uleb128 0x11
-GAS LISTING /tmp/ccKVpjSo.s 			page 31
+GAS LISTING /tmp/ccvE4B75.s 			page 31
 
 
  1698 013b 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1752 0172 00       		.byte	0
  1753 0173 1C       		.uleb128 0x1c
  1754 0174 15       		.uleb128 0x15
-GAS LISTING /tmp/ccKVpjSo.s 			page 32
+GAS LISTING /tmp/ccvE4B75.s 			page 32
 
 
  1755 0175 01       		.byte	0x1
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1809 01ab 3C       		.uleb128 0x3c
  1810 01ac 19       		.uleb128 0x19
  1811 01ad 01       		.uleb128 0x1
-GAS LISTING /tmp/ccKVpjSo.s 			page 33
+GAS LISTING /tmp/ccvE4B75.s 			page 33
 
 
  1812 01ae 13       		.uleb128 0x13
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1866 01e4 34       		.uleb128 0x34
  1867 01e5 00       		.byte	0
  1868 01e6 03       		.uleb128 0x3
-GAS LISTING /tmp/ccKVpjSo.s 			page 34
+GAS LISTING /tmp/ccvE4B75.s 			page 34
 
 
  1869 01e7 08       		.uleb128 0x8
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1923 021f 0B       		.uleb128 0xb
  1924 0220 59       		.uleb128 0x59
  1925 0221 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccKVpjSo.s 			page 35
+GAS LISTING /tmp/ccvE4B75.s 			page 35
 
 
  1926 0222 57       		.uleb128 0x57
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  1980 0259 27       		.uleb128 0x27
  1981 025a 19       		.uleb128 0x19
  1982 025b 11       		.uleb128 0x11
-GAS LISTING /tmp/ccKVpjSo.s 			page 36
+GAS LISTING /tmp/ccvE4B75.s 			page 36
 
 
  1983 025c 01       		.uleb128 0x1
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2037 0292 20       		.uleb128 0x20
  2038 0293 0B       		.uleb128 0xb
  2039 0294 00       		.byte	0
-GAS LISTING /tmp/ccKVpjSo.s 			page 37
+GAS LISTING /tmp/ccvE4B75.s 			page 37
 
 
  2040 0295 00       		.byte	0
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2094 001f 00000000 		.long	.LFB204
  2095 0023 32       		.uleb128 .LFE204-.LFB204
  2096 0024 07       		.byte	0x7
-GAS LISTING /tmp/ccKVpjSo.s 			page 38
+GAS LISTING /tmp/ccvE4B75.s 			page 38
 
 
  2097 0025 00000000 		.long	.LFB205
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2127      3800
  2128              	.LASF27:
  2129 006d 73797373 		.string	"syssts_t"
-GAS LISTING /tmp/ccKVpjSo.s 			page 39
+GAS LISTING /tmp/ccvE4B75.s 			page 39
 
 
  2129      74735F74 
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2156              	.LASF78:
  2157 0105 70726576 		.string	"prev"
  2157      00
-GAS LISTING /tmp/ccKVpjSo.s 			page 40
+GAS LISTING /tmp/ccvE4B75.s 			page 40
 
 
  2158              	.LASF68:
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2184              	.LASF130:
  2185 01a2 63685379 		.string	"chSysUnlock"
  2185      73556E6C 
-GAS LISTING /tmp/ccKVpjSo.s 			page 41
+GAS LISTING /tmp/ccvE4B75.s 			page 41
 
 
  2185      6F636B00 
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2213      5F666C61 
  2214              	.LASF12:
  2215 0244 5F5F7569 		.string	"__uint64_t"
-GAS LISTING /tmp/ccKVpjSo.s 			page 42
+GAS LISTING /tmp/ccvE4B75.s 			page 42
 
 
  2215      6E743634 
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2242              	.LASF11:
  2243 02d8 6C6F6E67 		.string	"long long int"
  2243      206C6F6E 
-GAS LISTING /tmp/ccKVpjSo.s 			page 43
+GAS LISTING /tmp/ccvE4B75.s 			page 43
 
 
  2243      6720696E 
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2269      616400
  2270              	.LASF20:
  2271 0372 6C6F6E67 		.string	"long double"
-GAS LISTING /tmp/ccKVpjSo.s 			page 44
+GAS LISTING /tmp/ccvE4B75.s 			page 44
 
 
  2271      20646F75 
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2299 04aa 5F5F7569 		.string	"__uint8_t"
  2299      6E74385F 
  2299      7400
-GAS LISTING /tmp/ccKVpjSo.s 			page 45
+GAS LISTING /tmp/ccvE4B75.s 			page 45
 
 
  2300              	.LASF45:
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2327      7200
  2328              	.LASF10:
  2329 0541 5F5F7569 		.string	"__uint32_t"
-GAS LISTING /tmp/ccKVpjSo.s 			page 46
+GAS LISTING /tmp/ccvE4B75.s 			page 46
 
 
  2329      6E743332 
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2356              	.LASF114:
  2357 05da 63757272 		.string	"current"
  2357      656E7400 
-GAS LISTING /tmp/ccKVpjSo.s 			page 47
+GAS LISTING /tmp/ccvE4B75.s 			page 47
 
 
  2358              	.LASF131:
@@ -2785,7 +2785,7 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2367      7400
  2368              		.section	.debug_line_str,"MS",@progbits,1
  2369              	.LASF1:
- 2370 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 2370 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  2370      652F616C 
  2370      65782F43 
  2370      68696269 
@@ -2803,18 +2803,18 @@ GAS LISTING /tmp/ccKVpjSo.s 			page 1
  2375      65782F43 
  2375      68696269 
  2375      4F532F64 
-GAS LISTING /tmp/ccKVpjSo.s 			page 48
+GAS LISTING /tmp/ccvE4B75.s 			page 48
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chcore.c
-     /tmp/ccKVpjSo.s:8      .text.__dummy:0000000000000000 __dummy
-     /tmp/ccKVpjSo.s:20     .text.__dummy:0000000000000000 port_switch
-     /tmp/ccKVpjSo.s:42     .text._port_thread_start:0000000000000000 _port_thread_start
-     /tmp/ccKVpjSo.s:178    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccKVpjSo.s:166    .bss.port_irq_sts:0000000000000000 port_irq_sts
-     /tmp/ccKVpjSo.s:112    .text.port_rt_get_counter_value:0000000000000000 port_rt_get_counter_value
-     /tmp/ccKVpjSo.s:172    .bss.port_isr_context_flag:0000000000000000 port_isr_context_flag
+     /tmp/ccvE4B75.s:8      .text.__dummy:0000000000000000 __dummy
+     /tmp/ccvE4B75.s:20     .text.__dummy:0000000000000000 port_switch
+     /tmp/ccvE4B75.s:42     .text._port_thread_start:0000000000000000 _port_thread_start
+     /tmp/ccvE4B75.s:178    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccvE4B75.s:166    .bss.port_irq_sts:0000000000000000 port_irq_sts
+     /tmp/ccvE4B75.s:112    .text.port_rt_get_counter_value:0000000000000000 port_rt_get_counter_value
+     /tmp/ccvE4B75.s:172    .bss.port_isr_context_flag:0000000000000000 port_isr_context_flag
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

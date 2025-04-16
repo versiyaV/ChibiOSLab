@@ -1,10 +1,10 @@
-GAS LISTING /tmp/cca35Yhx.s 			page 1
+GAS LISTING /tmp/ccXPrjdw.s 			page 1
 
 
    1              		.file	"chschd.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/rt/src/chschd.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/rt/src/chschd.c"
    5              		.section	.text.__sch_wakeup,"ax",@progbits
    6              		.p2align 4
    7              		.type	__sch_wakeup, @function
@@ -58,7 +58,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
   51              		.loc 2 455 30 view .LVU13
   52              	.LBE63:
   53              		.loc 1 194 3 view .LVU14
-GAS LISTING /tmp/cca35Yhx.s 			page 2
+GAS LISTING /tmp/ccXPrjdw.s 			page 2
 
 
   54 001f 7720     		ja	.L2
@@ -118,7 +118,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  107 003a 8B02     		movl	(%edx), %eax
  108              		.loc 5 380 17 view .LVU27
  109 003c 8901     		movl	%eax, (%ecx)
-GAS LISTING /tmp/cca35Yhx.s 			page 3
+GAS LISTING /tmp/ccXPrjdw.s 			page 3
 
 
  110              		.loc 5 381 3 is_stmt 1 view .LVU28
@@ -178,7 +178,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  162 005a 394808   		cmpl	%ecx, 8(%eax)
  163 005d 73F9     		jnb	.L8
  164              		.loc 5 442 3 view .LVU50
-GAS LISTING /tmp/cca35Yhx.s 			page 4
+GAS LISTING /tmp/ccXPrjdw.s 			page 4
 
 
  165              		.loc 5 443 22 is_stmt 0 view .LVU51
@@ -238,7 +238,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  218              		.loc 1 201 18 view .LVU71
  219 007b C7000000 		movl	$0, (%eax)
  219      0000
-GAS LISTING /tmp/cca35Yhx.s 			page 5
+GAS LISTING /tmp/ccXPrjdw.s 			page 5
 
 
  220              		.loc 1 202 5 is_stmt 1 view .LVU72
@@ -298,7 +298,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  274              	.LVL12:
  275              		.loc 5 439 12 is_stmt 1 view .LVU94
  276 0012 395008   		cmpl	%edx, 8(%eax)
-GAS LISTING /tmp/cca35Yhx.s 			page 6
+GAS LISTING /tmp/ccXPrjdw.s 			page 6
 
 
  277 0015 73F9     		jnb	.L13
@@ -358,7 +358,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  329              		.loc 1 307 13 view .LVU112
  330 0014 8B830000 		movl	ch0@GOT(%ebx), %eax
  330      0000
-GAS LISTING /tmp/cca35Yhx.s 			page 7
+GAS LISTING /tmp/ccXPrjdw.s 			page 7
 
 
  331 001a 8B500C   		movl	12(%eax), %edx
@@ -418,7 +418,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  384 0035 83C404   		addl	$4, %esp
  385              		.cfi_def_cfa_offset 12
  386 0038 5B       		popl	%ebx
-GAS LISTING /tmp/cca35Yhx.s 			page 8
+GAS LISTING /tmp/ccXPrjdw.s 			page 8
 
 
  387              		.cfi_restore 3
@@ -478,7 +478,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  437 0030 83F8FF   		cmpl	$-1, %eax
  438 0033 746B     		je	.L18
  439              	.LBB106:
-GAS LISTING /tmp/cca35Yhx.s 			page 9
+GAS LISTING /tmp/ccXPrjdw.s 			page 9
 
 
  440              		.loc 1 366 5 view .LVU156
@@ -538,7 +538,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  492              		.loc 5 415 3 view .LVU179
  493              		.loc 5 415 22 is_stmt 0 view .LVU180
  494 0058 8B11     		movl	(%ecx), %edx
-GAS LISTING /tmp/cca35Yhx.s 			page 10
+GAS LISTING /tmp/ccXPrjdw.s 			page 10
 
 
  495              		.loc 5 416 19 view .LVU181
@@ -598,7 +598,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  548              		.loc 1 369 7 is_stmt 1 view .LVU207
  549 0078 83EC0C   		subl	$12, %esp
  550              		.cfi_def_cfa_offset 92
-GAS LISTING /tmp/cca35Yhx.s 			page 11
+GAS LISTING /tmp/ccXPrjdw.s 			page 11
 
 
  551 007b 55       		pushl	%ebp
@@ -658,7 +658,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  603              		.loc 1 313 3 view .LVU222
  604              		.loc 1 313 3 view .LVU223
  605              		.loc 1 313 3 view .LVU224
-GAS LISTING /tmp/cca35Yhx.s 			page 12
+GAS LISTING /tmp/ccXPrjdw.s 			page 12
 
 
  606              		.loc 1 316 3 view .LVU225
@@ -718,7 +718,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  660              		.loc 1 335 3 view .LVU250
  661 00b5 E8FCFFFF 		call	port_switch@PLT
  661      FF
-GAS LISTING /tmp/cca35Yhx.s 			page 13
+GAS LISTING /tmp/ccXPrjdw.s 			page 13
 
 
  662              	.LVL35:
@@ -778,7 +778,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  712 0020 8B5908   		movl	8(%ecx), %ebx
  713              		.loc 1 408 17 view .LVU263
  714 0023 894134   		movl	%eax, 52(%ecx)
-GAS LISTING /tmp/cca35Yhx.s 			page 14
+GAS LISTING /tmp/ccXPrjdw.s 			page 14
 
 
  715              		.loc 1 398 13 view .LVU264
@@ -838,7 +838,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  767              		.loc 5 443 17 is_stmt 0 view .LVU292
  768 004c 895104   		movl	%edx, 4(%ecx)
  769              		.loc 5 444 3 is_stmt 1 view .LVU293
-GAS LISTING /tmp/cca35Yhx.s 			page 15
+GAS LISTING /tmp/ccXPrjdw.s 			page 15
 
 
  770              		.loc 5 444 17 is_stmt 0 view .LVU294
@@ -898,7 +898,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  824              	.LBB141:
  825              	.LBI141:
  826              		.loc 5 462 36 is_stmt 1 view .LVU312
-GAS LISTING /tmp/cca35Yhx.s 			page 16
+GAS LISTING /tmp/ccXPrjdw.s 			page 16
 
 
  827 0067 8DB42600 		.p2align 4,,10
@@ -958,7 +958,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  879              	.LBE150:
  880              		.loc 1 435 5 is_stmt 1 view .LVU330
  881              		.loc 1 436 7 view .LVU331
-GAS LISTING /tmp/cca35Yhx.s 			page 17
+GAS LISTING /tmp/ccXPrjdw.s 			page 17
 
 
  882              		.loc 1 436 31 view .LVU332
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  933              		.loc 1 488 16 is_stmt 0 view .LVU350
  934 000a 8B800000 		movl	ch0@GOT(%eax), %eax
  934      0000
-GAS LISTING /tmp/cca35Yhx.s 			page 18
+GAS LISTING /tmp/ccXPrjdw.s 			page 18
 
 
  935              	.LVL53:
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  986              	.LBI157:
  987              		.loc 5 412 36 view .LVU364
  988              	.LBB159:
-GAS LISTING /tmp/cca35Yhx.s 			page 19
+GAS LISTING /tmp/ccXPrjdw.s 			page 19
 
 
  989              		.loc 5 413 3 view .LVU365
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1043              		.loc 1 113 3 view .LVU389
  1044              		.loc 1 113 10 is_stmt 0 view .LVU390
  1045 0030 8B4110   		movl	16(%ecx), %eax
-GAS LISTING /tmp/cca35Yhx.s 			page 20
+GAS LISTING /tmp/ccXPrjdw.s 			page 20
 
 
  1046              	.LVL59:
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1099 0050 E8FCFFFF 		call	port_switch@PLT
  1099      FF
  1100              	.LVL62:
-GAS LISTING /tmp/cca35Yhx.s 			page 21
+GAS LISTING /tmp/ccXPrjdw.s 			page 21
 
 
  1101              		.loc 1 555 24 view .LVU413
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1151              	.LFE212:
  1152              		.size	chSchRescheduleS, .-chSchRescheduleS
  1153              		.section	.text.chSchPreemption,"ax",@progbits
-GAS LISTING /tmp/cca35Yhx.s 			page 22
+GAS LISTING /tmp/ccXPrjdw.s 			page 22
 
 
  1154              		.p2align 4
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1201 0014 8B480C   		movl	12(%eax), %ecx
  1202              	.LVL67:
  1203              		.loc 1 605 21 is_stmt 1 view .LVU431
-GAS LISTING /tmp/cca35Yhx.s 			page 23
+GAS LISTING /tmp/ccXPrjdw.s 			page 23
 
 
  1204              		.loc 1 609 3 view .LVU432
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1258              	.LBB189:
  1259              		.loc 5 415 19 view .LVU449
  1260 0035 8938     		movl	%edi, (%eax)
-GAS LISTING /tmp/cca35Yhx.s 			page 24
+GAS LISTING /tmp/ccXPrjdw.s 			page 24
 
 
  1261              		.loc 5 416 3 is_stmt 1 view .LVU450
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1315              	.LBE193:
  1316              	.LBE192:
  1317              	.LBE196:
-GAS LISTING /tmp/cca35Yhx.s 			page 25
+GAS LISTING /tmp/ccXPrjdw.s 			page 25
 
 
  1318              	.LBE199:
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1371              		.cfi_startproc
  1372              		.loc 1 627 3 view .LVU495
  1373              	.LVL77:
-GAS LISTING /tmp/cca35Yhx.s 			page 26
+GAS LISTING /tmp/ccXPrjdw.s 			page 26
 
 
  1374              		.loc 1 628 3 view .LVU496
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1425              		.loc 1 634 3 view .LVU515
  1426              	.LBB221:
  1427              	.LBB218:
-GAS LISTING /tmp/cca35Yhx.s 			page 27
+GAS LISTING /tmp/ccXPrjdw.s 			page 27
 
 
  1428              	.LBB214:
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1482              		.loc 5 474 3 is_stmt 1 view .LVU542
  1483              		.loc 5 474 17 is_stmt 0 view .LVU543
  1484 0041 894804   		movl	%ecx, 4(%eax)
-GAS LISTING /tmp/cca35Yhx.s 			page 28
+GAS LISTING /tmp/ccXPrjdw.s 			page 28
 
 
  1485              		.loc 5 476 3 is_stmt 1 view .LVU544
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1539              		.file 7 "/usr/include/bits/types.h"
  1540              		.file 8 "/usr/include/bits/stdint-intn.h"
  1541              		.file 9 "/usr/include/bits/stdint-uintn.h"
-GAS LISTING /tmp/cca35Yhx.s 			page 29
+GAS LISTING /tmp/ccXPrjdw.s 			page 29
 
 
  1542              		.file 10 "../../../os/common/ports/SIMIA32/compilers/GCC/chtypes.h"
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1596 005e 09       		.uleb128 0x9
  1597 005f 04       		.byte	0x4
  1598 0060 07       		.byte	0x7
-GAS LISTING /tmp/cca35Yhx.s 			page 30
+GAS LISTING /tmp/ccXPrjdw.s 			page 30
 
 
  1599 0061 38060000 		.long	.LASF9
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1653 00ca 18       		.byte	0x18
  1654 00cb 13       		.byte	0x13
  1655 00cc 6C000000 		.long	0x6c
-GAS LISTING /tmp/cca35Yhx.s 			page 31
+GAS LISTING /tmp/ccXPrjdw.s 			page 31
 
 
  1656 00d0 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1710 013c 1D       		.byte	0x1d
  1711 013d D0000000 		.long	0xd0
  1712 0141 01       		.uleb128 0x1
-GAS LISTING /tmp/cca35Yhx.s 			page 32
+GAS LISTING /tmp/ccXPrjdw.s 			page 32
 
 
  1713 0142 6F020000 		.long	.LASF29
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1767 01ab 0C       		.byte	0xc
  1768 01ac CD       		.byte	0xcd
  1769 01ad 21       		.byte	0x21
-GAS LISTING /tmp/cca35Yhx.s 			page 33
+GAS LISTING /tmp/ccXPrjdw.s 			page 33
 
 
  1770 01ae 2C070000 		.long	0x72c
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1824 0213 50060000 		.long	0x650
  1825 0217 34       		.byte	0x34
  1826 0218 04       		.uleb128 0x4
-GAS LISTING /tmp/cca35Yhx.s 			page 34
+GAS LISTING /tmp/ccXPrjdw.s 			page 34
 
 
  1827 0219 CD060000 		.long	.LASF42
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1881 028d 04       		.uleb128 0x4
  1882 028e 32070000 		.long	.LASF52
  1883 0292 A601     		.value	0x1a6
-GAS LISTING /tmp/cca35Yhx.s 			page 35
+GAS LISTING /tmp/ccXPrjdw.s 			page 35
 
 
  1884 0294 21       		.byte	0x21
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1938 0306 0D       		.byte	0xd
  1939 0307 48       		.byte	0x48
  1940 0308 21       		.byte	0x21
-GAS LISTING /tmp/cca35Yhx.s 			page 36
+GAS LISTING /tmp/ccXPrjdw.s 			page 36
 
 
  1941 0309 E8020000 		.long	0x2e8
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  1995 0375 07       		.uleb128 0x7
  1996 0376 0F010000 		.long	.LASF68
  1997 037a 04       		.byte	0x4
-GAS LISTING /tmp/cca35Yhx.s 			page 37
+GAS LISTING /tmp/ccXPrjdw.s 			page 37
 
 
  1998 037b 05       		.byte	0x5
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2052 03e1 55       		.byte	0x55
  2053 03e2 08       		.byte	0x8
  2054 03e3 0F040000 		.long	0x40f
-GAS LISTING /tmp/cca35Yhx.s 			page 38
+GAS LISTING /tmp/ccXPrjdw.s 			page 38
 
 
  2055 03e7 02       		.uleb128 0x2
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2109 044d 67       		.byte	0x67
  2110 044e 19       		.byte	0x19
  2111 044f 5D030000 		.long	0x35d
-GAS LISTING /tmp/cca35Yhx.s 			page 39
+GAS LISTING /tmp/ccXPrjdw.s 			page 39
 
 
  2112 0453 08       		.byte	0x8
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2166 04b7 03       		.byte	0x3
  2167 04b8 9F       		.byte	0x9f
  2168 04b9 0B       		.byte	0xb
-GAS LISTING /tmp/cca35Yhx.s 			page 40
+GAS LISTING /tmp/ccXPrjdw.s 			page 40
 
 
  2169 04ba 8C040000 		.long	0x48c
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2223 0520 3C       		.byte	0x3c
  2224 0521 21       		.byte	0x21
  2225 0522 2B050000 		.long	0x52b
-GAS LISTING /tmp/cca35Yhx.s 			page 41
+GAS LISTING /tmp/ccXPrjdw.s 			page 41
 
 
  2226 0526 0D       		.uleb128 0xd
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2280 058f 1A050000 		.long	0x51a
  2281 0593 07       		.uleb128 0x7
  2282 0594 A6020000 		.long	.LASF89
-GAS LISTING /tmp/cca35Yhx.s 			page 42
+GAS LISTING /tmp/ccXPrjdw.s 			page 42
 
 
  2283 0598 18       		.byte	0x18
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2337 05fb 01       		.uleb128 0x1
  2338 05fc 8C030000 		.long	.LASF96
  2339 0600 0C       		.byte	0xc
-GAS LISTING /tmp/cca35Yhx.s 			page 43
+GAS LISTING /tmp/ccXPrjdw.s 			page 43
 
 
  2340 0601 92       		.byte	0x92
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2394 0673 D3000000 		.long	.LASF102
  2395 0677 1701     		.value	0x117
  2396 0679 22       		.byte	0x22
-GAS LISTING /tmp/cca35Yhx.s 			page 44
+GAS LISTING /tmp/ccXPrjdw.s 			page 44
 
 
  2397 067a AA000000 		.long	0xaa
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2451 06ee 30010000 		.long	.LASF109
  2452 06f2 10       		.byte	0x10
  2453 06f3 10       		.byte	0x10
-GAS LISTING /tmp/cca35Yhx.s 			page 45
+GAS LISTING /tmp/ccXPrjdw.s 			page 45
 
 
  2454 06f4 39       		.byte	0x39
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2508 0764 22       		.uleb128 0x22
  2509 0765 D1050000 		.long	.LASF113
  2510 0769 14       		.byte	0x14
-GAS LISTING /tmp/cca35Yhx.s 			page 46
+GAS LISTING /tmp/ccXPrjdw.s 			page 46
 
 
  2511 076a 7B01     		.value	0x17b
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2565 07e1 01       		.uleb128 0x1
  2566 07e2 AC060000 		.long	.LASF121
  2567 07e6 10       		.byte	0x10
-GAS LISTING /tmp/cca35Yhx.s 			page 47
+GAS LISTING /tmp/ccXPrjdw.s 			page 47
 
 
  2568 07e7 34       		.byte	0x34
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2622 0865 7402     		.value	0x274
  2623 0867 0D       		.byte	0xd
  2624 0868 07060000 		.long	0x607
-GAS LISTING /tmp/cca35Yhx.s 			page 48
+GAS LISTING /tmp/ccXPrjdw.s 			page 48
 
 
  2625 086c 0E000000 		.long	.LLST58
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2679 08ff 43000000 		.long	.LVUS66
  2680 0903 00       		.byte	0
  2681 0904 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 49
+GAS LISTING /tmp/ccXPrjdw.s 			page 49
 
 
  2682 0905 00       		.byte	0
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2736 098f 4A120000 		.long	0x124a
  2737 0993 83000000 		.long	.LLST52
  2738 0997 81000000 		.long	.LVUS52
-GAS LISTING /tmp/cca35Yhx.s 			page 50
+GAS LISTING /tmp/ccXPrjdw.s 			page 50
 
 
  2739 099b 00       		.byte	0
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2793 0a14 3802     		.value	0x238
  2794 0a16 12       		.byte	0x12
  2795 0a17 27070000 		.long	0x727
-GAS LISTING /tmp/cca35Yhx.s 			page 51
+GAS LISTING /tmp/ccXPrjdw.s 			page 51
 
 
  2796 0a1b 06       		.uleb128 0x6
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2850 0a9b B80A0000 		.long	0xab8
  2851 0a9f 14       		.uleb128 0x14
  2852 0aa0 3D120000 		.long	0x123d
-GAS LISTING /tmp/cca35Yhx.s 			page 52
+GAS LISTING /tmp/ccXPrjdw.s 			page 52
 
 
  2853 0aa4 0C       		.uleb128 0xc
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2907 0b24 06050000 		.long	0x506
  2908 0b28 00000000 		.long	.LFB213
  2909 0b2c 1F000000 		.long	.LFE213-.LFB213
-GAS LISTING /tmp/cca35Yhx.s 			page 53
+GAS LISTING /tmp/ccXPrjdw.s 			page 53
 
 
  2910 0b30 01       		.uleb128 0x1
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  2964 0ba9 25       		.uleb128 0x25
  2965 0baa 6E747000 		.string	"ntp"
  2966 0bae 8C01     		.value	0x18c
-GAS LISTING /tmp/cca35Yhx.s 			page 54
+GAS LISTING /tmp/ccXPrjdw.s 			page 54
 
 
  2967 0bb0 1D       		.byte	0x1d
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3021 0c35 46010000 		.long	.LVUS31
  3022 0c39 03       		.uleb128 0x3
  3023 0c3a 13120000 		.long	0x1213
-GAS LISTING /tmp/cca35Yhx.s 			page 55
+GAS LISTING /tmp/ccXPrjdw.s 			page 55
 
 
  3024 0c3e 53010000 		.long	.LLST32
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3078 0cb4 B3000000 		.long	0xb3
  3079 0cb8 C30C0000 		.long	0xcc3
  3080 0cbc 12       		.uleb128 0x12
-GAS LISTING /tmp/cca35Yhx.s 			page 56
+GAS LISTING /tmp/ccXPrjdw.s 			page 56
 
 
  3081 0cbd 2D000000 		.long	0x2d
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3135 0d39 21000000 		.long	.LBE107-.LBB107
  3136 0d3d 6F01     		.value	0x16f
  3137 0d3f 05       		.byte	0x5
-GAS LISTING /tmp/cca35Yhx.s 			page 57
+GAS LISTING /tmp/ccXPrjdw.s 			page 57
 
 
  3138 0d40 A80D0000 		.long	0xda8
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3192 0dd8 1B       		.uleb128 0x1b
  3193 0dd9 81000000 		.long	.LVL27
  3194 0ddd F2070000 		.long	0x7f2
-GAS LISTING /tmp/cca35Yhx.s 			page 58
+GAS LISTING /tmp/ccXPrjdw.s 			page 58
 
 
  3195 0de1 00       		.byte	0
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3249 0e67 C1000000 		.long	.LVL37
  3250 0e6b 0A130000 		.long	0x130a
  3251 0e6f 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 59
+GAS LISTING /tmp/ccXPrjdw.s 			page 59
 
 
  3252 0e70 2C       		.uleb128 0x2c
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3306 0eee 21       		.byte	0x21
  3307 0eef 07060000 		.long	0x607
  3308 0ef3 02       		.uleb128 0x2
-GAS LISTING /tmp/cca35Yhx.s 			page 60
+GAS LISTING /tmp/ccXPrjdw.s 			page 60
 
 
  3309 0ef4 91       		.byte	0x91
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3363 0f79 76747000 		.string	"vtp"
  3364 0f7d 01       		.byte	0x1
  3365 0f7e BC       		.byte	0xbc
-GAS LISTING /tmp/cca35Yhx.s 			page 61
+GAS LISTING /tmp/ccXPrjdw.s 			page 61
 
 
  3366 0f7f 2B       		.byte	0x2b
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3420 0ffe 37000000 		.long	.LBI66
  3421 1002 02       		.byte	.LVU23
  3422 1003 37000000 		.long	.LBB66
-GAS LISTING /tmp/cca35Yhx.s 			page 62
+GAS LISTING /tmp/ccXPrjdw.s 			page 62
 
 
  3423 1007 0A000000 		.long	.LBE66-.LBB66
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3477 1094 C6       		.byte	0xc6
  3478 1095 05       		.byte	0x5
  3479 1096 49       		.uleb128 0x49
-GAS LISTING /tmp/cca35Yhx.s 			page 63
+GAS LISTING /tmp/ccXPrjdw.s 			page 63
 
 
  3480 1097 C8110000 		.long	0x11c8
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3534 1107 0C030000 		.long	.LASF137
  3535 110b 64       		.byte	0x64
  3536 110c 07060000 		.long	0x607
-GAS LISTING /tmp/cca35Yhx.s 			page 64
+GAS LISTING /tmp/ccXPrjdw.s 			page 64
 
 
  3537 1110 29110000 		.long	0x1129
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3591 1188 AF       		.byte	0xaf
  3592 1189 32       		.byte	0x32
  3593 118a 8F110000 		.long	0x118f
-GAS LISTING /tmp/cca35Yhx.s 			page 65
+GAS LISTING /tmp/ccXPrjdw.s 			page 65
 
 
  3594 118e 00       		.byte	0
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3648 1201 00       		.byte	0
  3649 1202 1C       		.uleb128 0x1c
  3650 1203 9C070000 		.long	.LASF147
-GAS LISTING /tmp/cca35Yhx.s 			page 66
+GAS LISTING /tmp/ccXPrjdw.s 			page 66
 
 
  3651 1207 05       		.byte	0x5
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3705 1278 00000000 		.long	.LFB209
  3706 127c 3B000000 		.long	.LFE209-.LFB209
  3707 1280 01       		.uleb128 0x1
-GAS LISTING /tmp/cca35Yhx.s 			page 67
+GAS LISTING /tmp/ccXPrjdw.s 			page 67
 
 
  3708 1281 9C       		.byte	0x9c
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3762 130f 4C000000 		.long	.LASF155
  3763 1313 00       		.byte	0
  3764              		.section	.debug_abbrev,"",@progbits
-GAS LISTING /tmp/cca35Yhx.s 			page 68
+GAS LISTING /tmp/ccXPrjdw.s 			page 68
 
 
  3765              	.Ldebug_abbrev0:
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3819 0036 39       		.uleb128 0x39
  3820 0037 0B       		.uleb128 0xb
  3821 0038 49       		.uleb128 0x49
-GAS LISTING /tmp/cca35Yhx.s 			page 69
+GAS LISTING /tmp/ccXPrjdw.s 			page 69
 
 
  3822 0039 13       		.uleb128 0x13
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3876 006f B742     		.uleb128 0x2137
  3877 0071 17       		.uleb128 0x17
  3878 0072 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 70
+GAS LISTING /tmp/ccXPrjdw.s 			page 70
 
 
  3879 0073 00       		.byte	0
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3933 00a9 0E       		.uleb128 0xe
  3934 00aa 3A       		.uleb128 0x3a
  3935 00ab 21       		.uleb128 0x21
-GAS LISTING /tmp/cca35Yhx.s 			page 71
+GAS LISTING /tmp/ccXPrjdw.s 			page 71
 
 
  3936 00ac 0C       		.sleb128 12
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  3990 00e3 21       		.uleb128 0x21
  3991 00e4 00       		.byte	0
  3992 00e5 49       		.uleb128 0x49
-GAS LISTING /tmp/cca35Yhx.s 			page 72
+GAS LISTING /tmp/ccXPrjdw.s 			page 72
 
 
  3993 00e6 13       		.uleb128 0x13
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4047 011e 00       		.byte	0
  4048 011f 16       		.uleb128 0x16
  4049 0120 34       		.uleb128 0x34
-GAS LISTING /tmp/cca35Yhx.s 			page 73
+GAS LISTING /tmp/ccXPrjdw.s 			page 73
 
 
  4050 0121 00       		.byte	0
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4104 0158 58       		.uleb128 0x58
  4105 0159 21       		.uleb128 0x21
  4106 015a 01       		.sleb128 1
-GAS LISTING /tmp/cca35Yhx.s 			page 74
+GAS LISTING /tmp/ccXPrjdw.s 			page 74
 
 
  4107 015b 59       		.uleb128 0x59
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4161 0191 19       		.uleb128 0x19
  4162 0192 49       		.uleb128 0x49
  4163 0193 13       		.uleb128 0x13
-GAS LISTING /tmp/cca35Yhx.s 			page 75
+GAS LISTING /tmp/ccXPrjdw.s 			page 75
 
 
  4164 0194 11       		.uleb128 0x11
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4218 01cb 14       		.sleb128 20
  4219 01cc 27       		.uleb128 0x27
  4220 01cd 19       		.uleb128 0x19
-GAS LISTING /tmp/cca35Yhx.s 			page 76
+GAS LISTING /tmp/ccXPrjdw.s 			page 76
 
 
  4221 01ce 20       		.uleb128 0x20
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4275 0204 3A       		.uleb128 0x3a
  4276 0205 21       		.uleb128 0x21
  4277 0206 01       		.sleb128 1
-GAS LISTING /tmp/cca35Yhx.s 			page 77
+GAS LISTING /tmp/ccXPrjdw.s 			page 77
 
 
  4278 0207 3B       		.uleb128 0x3b
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4332 023d 00       		.byte	0
  4333 023e 03       		.uleb128 0x3
  4334 023f 08       		.uleb128 0x8
-GAS LISTING /tmp/cca35Yhx.s 			page 78
+GAS LISTING /tmp/ccXPrjdw.s 			page 78
 
 
  4335 0240 3A       		.uleb128 0x3a
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4389 0276 08       		.sleb128 8
  4390 0277 27       		.uleb128 0x27
  4391 0278 19       		.uleb128 0x19
-GAS LISTING /tmp/cca35Yhx.s 			page 79
+GAS LISTING /tmp/ccXPrjdw.s 			page 79
 
 
  4392 0279 3C       		.uleb128 0x3c
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4446 02b0 00       		.byte	0
  4447 02b1 03       		.uleb128 0x3
  4448 02b2 0E       		.uleb128 0xe
-GAS LISTING /tmp/cca35Yhx.s 			page 80
+GAS LISTING /tmp/ccXPrjdw.s 			page 80
 
 
  4449 02b3 3A       		.uleb128 0x3a
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4503 02eb 13       		.uleb128 0x13
  4504 02ec 00       		.byte	0
  4505 02ed 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 81
+GAS LISTING /tmp/ccXPrjdw.s 			page 81
 
 
  4506 02ee 30       		.uleb128 0x30
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4560 0324 11       		.uleb128 0x11
  4561 0325 01       		.uleb128 0x1
  4562 0326 10       		.uleb128 0x10
-GAS LISTING /tmp/cca35Yhx.s 			page 82
+GAS LISTING /tmp/ccXPrjdw.s 			page 82
 
 
  4563 0327 17       		.uleb128 0x17
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4617 035e 34       		.uleb128 0x34
  4618 035f 00       		.byte	0
  4619 0360 03       		.uleb128 0x3
-GAS LISTING /tmp/cca35Yhx.s 			page 83
+GAS LISTING /tmp/ccXPrjdw.s 			page 83
 
 
  4620 0361 0E       		.uleb128 0xe
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4674 0397 39       		.uleb128 0x39
  4675 0398 0B       		.uleb128 0xb
  4676 0399 49       		.uleb128 0x49
-GAS LISTING /tmp/cca35Yhx.s 			page 84
+GAS LISTING /tmp/ccXPrjdw.s 			page 84
 
 
  4677 039a 13       		.uleb128 0x13
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4731 03d1 3A       		.uleb128 0x3a
  4732 03d2 0B       		.uleb128 0xb
  4733 03d3 3B       		.uleb128 0x3b
-GAS LISTING /tmp/cca35Yhx.s 			page 85
+GAS LISTING /tmp/ccXPrjdw.s 			page 85
 
 
  4734 03d4 05       		.uleb128 0x5
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4788 040b 02       		.uleb128 0x2
  4789 040c 18       		.uleb128 0x18
  4790 040d 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 86
+GAS LISTING /tmp/ccXPrjdw.s 			page 86
 
 
  4791 040e 00       		.byte	0
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4845 0444 02       		.uleb128 0x2
  4846 0445 18       		.uleb128 0x18
  4847 0446 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 87
+GAS LISTING /tmp/ccXPrjdw.s 			page 87
 
 
  4848 0447 00       		.byte	0
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4902 0480 57       		.uleb128 0x57
  4903 0481 0B       		.uleb128 0xb
  4904 0482 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 88
+GAS LISTING /tmp/ccXPrjdw.s 			page 88
 
 
  4905 0483 00       		.byte	0
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  4959 04ba 00       		.byte	0
  4960 04bb 00       		.byte	0
  4961 04bc 4A       		.uleb128 0x4a
-GAS LISTING /tmp/cca35Yhx.s 			page 89
+GAS LISTING /tmp/ccXPrjdw.s 			page 89
 
 
  4962 04bd 2E       		.uleb128 0x2e
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5016 0006 04       		.byte	0x4
  5017 0007 00       		.byte	0
  5018 0008 00000000 		.long	0
-GAS LISTING /tmp/cca35Yhx.s 			page 90
+GAS LISTING /tmp/ccXPrjdw.s 			page 90
 
 
  5019              	.Ldebug_loc0:
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5073              	.LLST66:
  5074 0045 08       		.byte	0x8
  5075 0046 2E000000 		.long	.LVL81
-GAS LISTING /tmp/cca35Yhx.s 			page 91
+GAS LISTING /tmp/ccXPrjdw.s 			page 91
 
 
  5076 004a 16       		.uleb128 .LVL83-.LVL81
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5130 0082 02       		.uleb128 .LVU452
  5131              	.LLST52:
  5132 0083 08       		.byte	0x8
-GAS LISTING /tmp/cca35Yhx.s 			page 92
+GAS LISTING /tmp/ccXPrjdw.s 			page 92
 
 
  5133 0084 28000000 		.long	.LVL68
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5187              	.LVUS40:
  5188 00c1 02       		.uleb128 .LVU374
  5189 00c2 00       		.uleb128 .LVU415
-GAS LISTING /tmp/cca35Yhx.s 			page 93
+GAS LISTING /tmp/ccXPrjdw.s 			page 93
 
 
  5190              	.LLST40:
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5244 00fd 10000000 		.long	.LVL53
  5245 0101 04       		.byte	0x4
  5246 0102 00       		.uleb128 .LVL53-.LVL53
-GAS LISTING /tmp/cca35Yhx.s 			page 94
+GAS LISTING /tmp/ccXPrjdw.s 			page 94
 
 
  5247 0103 05       		.uleb128 .LVL54-.LVL53
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5301 013a 00       		.byte	0
  5302              	.LVUS30:
  5303 013b 01       		.uleb128 .LVU274
-GAS LISTING /tmp/cca35Yhx.s 			page 95
+GAS LISTING /tmp/ccXPrjdw.s 			page 95
 
 
  5304 013c 00       		.uleb128 .LVU302
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5358 0179 21       		.uleb128 .LVL49-.LVL47
  5359 017a 01       		.uleb128 0x1
  5360 017b 50       		.byte	0x50
-GAS LISTING /tmp/cca35Yhx.s 			page 96
+GAS LISTING /tmp/ccXPrjdw.s 			page 96
 
 
  5361 017c 00       		.byte	0
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5415              	.LLST22:
  5416 01b7 08       		.byte	0x8
  5417 01b8 58000000 		.long	.LVL24
-GAS LISTING /tmp/cca35Yhx.s 			page 97
+GAS LISTING /tmp/ccXPrjdw.s 			page 97
 
 
  5418 01bc 0B       		.uleb128 .LVL25-.LVL24
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5472              	.LVUS28:
  5473 01f6 03       		.uleb128 .LVU231
  5474 01f7 02       		.uleb128 .LVU240
-GAS LISTING /tmp/cca35Yhx.s 			page 98
+GAS LISTING /tmp/ccXPrjdw.s 			page 98
 
 
  5475              	.LLST28:
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5529 0234 37       		.uleb128 .LVL3-.LVL0
  5530 0235 8301     		.uleb128 .LFE207-.LVL0
  5531 0237 01       		.uleb128 0x1
-GAS LISTING /tmp/cca35Yhx.s 			page 99
+GAS LISTING /tmp/ccXPrjdw.s 			page 99
 
 
  5532 0238 52       		.byte	0x52
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5586 0271 01       		.uleb128 .LVU60
  5587              	.LLST8:
  5588 0272 08       		.byte	0x8
-GAS LISTING /tmp/cca35Yhx.s 			page 100
+GAS LISTING /tmp/ccXPrjdw.s 			page 100
 
 
  5589 0273 52000000 		.long	.LVL6
@@ -5998,7 +5998,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5643 0010 00000000 		.long	.LFB207
  5644 0014 83000000 		.long	.LFE207-.LFB207
  5645 0018 00000000 		.long	.LFB208
-GAS LISTING /tmp/cca35Yhx.s 			page 101
+GAS LISTING /tmp/ccXPrjdw.s 			page 101
 
 
  5646 001c 27000000 		.long	.LFE208-.LFB208
@@ -6058,7 +6058,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5700 002d 0E       		.uleb128 .LBB73-.LBB70
  5701 002e 28       		.uleb128 .LBE73-.LBB70
  5702 002f 00       		.byte	0
-GAS LISTING /tmp/cca35Yhx.s 			page 102
+GAS LISTING /tmp/ccXPrjdw.s 			page 102
 
 
  5703              	.LLRL11:
@@ -6118,7 +6118,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5757 006d 67000000 		.long	.LBB141
  5758 0071 04       		.byte	0x4
  5759 0072 00       		.uleb128 .LBB141-.LBB141
-GAS LISTING /tmp/cca35Yhx.s 			page 103
+GAS LISTING /tmp/ccXPrjdw.s 			page 103
 
 
  5760 0073 15       		.uleb128 .LBE141-.LBB141
@@ -6178,7 +6178,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5814 00b1 00       		.uleb128 .LBB187-.LBB187
  5815 00b2 05       		.uleb128 .LBE187-.LBB187
  5816 00b3 04       		.byte	0x4
-GAS LISTING /tmp/cca35Yhx.s 			page 104
+GAS LISTING /tmp/ccXPrjdw.s 			page 104
 
 
  5817 00b4 0D       		.uleb128 .LBB198-.LBB187
@@ -6238,7 +6238,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5871 00f1 25000000 		.long	.LBB214
  5872 00f5 04       		.byte	0x4
  5873 00f6 00       		.uleb128 .LBB214-.LBB214
-GAS LISTING /tmp/cca35Yhx.s 			page 105
+GAS LISTING /tmp/ccXPrjdw.s 			page 105
 
 
  5874 00f7 03       		.uleb128 .LBE214-.LBB214
@@ -6298,7 +6298,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5918      61736500 
  5919              	.LASF106:
  5920 0021 77746D74 		.string	"wtmtxp"
-GAS LISTING /tmp/cca35Yhx.s 			page 106
+GAS LISTING /tmp/ccXPrjdw.s 			page 106
 
 
  5920      787000
@@ -6358,7 +6358,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5947              	.LASF53:
  5948 00b2 636F7265 		.string	"core_id"
  5948      5F696400 
-GAS LISTING /tmp/cca35Yhx.s 			page 107
+GAS LISTING /tmp/ccXPrjdw.s 			page 107
 
 
  5949              	.LASF91:
@@ -6418,7 +6418,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  5976      00
  5977              	.LASF143:
  5978 014a 63685379 		.string	"chSysLockFromISR"
-GAS LISTING /tmp/cca35Yhx.s 			page 108
+GAS LISTING /tmp/ccXPrjdw.s 			page 108
 
 
  5978      734C6F63 
@@ -6478,7 +6478,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6001              	.LASF108:
  6002 01eb 63685F73 		.string	"ch_semaphore"
  6002      656D6170 
-GAS LISTING /tmp/cca35Yhx.s 			page 109
+GAS LISTING /tmp/ccXPrjdw.s 			page 109
 
 
  6002      686F7265 
@@ -6538,7 +6538,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6026 0292 73656D61 		.string	"semaphore_t"
  6026      70686F72 
  6026      655F7400 
-GAS LISTING /tmp/cca35Yhx.s 			page 110
+GAS LISTING /tmp/ccXPrjdw.s 			page 110
 
 
  6027              	.LASF45:
@@ -6598,7 +6598,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6052      5F7400
  6053              	.LASF129:
  6054 0338 63685363 		.string	"chSchRescheduleS"
-GAS LISTING /tmp/cca35Yhx.s 			page 111
+GAS LISTING /tmp/ccXPrjdw.s 			page 111
 
 
  6054      68526573 
@@ -6658,7 +6658,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6080      68726561 
  6080      6400
  6081              	.LASF64:
-GAS LISTING /tmp/cca35Yhx.s 			page 112
+GAS LISTING /tmp/ccXPrjdw.s 			page 112
 
 
  6082 03d1 73797374 		.string	"system_debug_t"
@@ -6718,7 +6718,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6106 0463 69646C65 		.string	"idlestack_base"
  6106      73746163 
  6106      6B5F6261 
-GAS LISTING /tmp/cca35Yhx.s 			page 113
+GAS LISTING /tmp/ccXPrjdw.s 			page 113
 
 
  6106      736500
@@ -6778,7 +6778,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6132      6D333220 
  6133              	.LASF152:
  6134 05b0 63685363 		.string	"chSchPreemption"
-GAS LISTING /tmp/cca35Yhx.s 			page 114
+GAS LISTING /tmp/ccXPrjdw.s 			page 114
 
 
  6134      68507265 
@@ -6838,7 +6838,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6160 064a 72656164 		.string	"ready_list_t"
  6160      795F6C69 
  6160      73745F74 
-GAS LISTING /tmp/cca35Yhx.s 			page 115
+GAS LISTING /tmp/ccXPrjdw.s 			page 115
 
 
  6160      00
@@ -6898,7 +6898,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6187              	.LASF133:
  6188 06eb 74696D65 		.string	"timeout"
  6188      6F757400 
-GAS LISTING /tmp/cca35Yhx.s 			page 116
+GAS LISTING /tmp/ccXPrjdw.s 			page 116
 
 
  6189              	.LASF130:
@@ -6958,7 +6958,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6216      62656869 
  6216      6E6400
  6217              	.LASF101:
-GAS LISTING /tmp/cca35Yhx.s 			page 117
+GAS LISTING /tmp/ccXPrjdw.s 			page 117
 
 
  6218 0789 65786974 		.string	"exitcode"
@@ -6976,7 +6976,7 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6222      5F626568 
  6223              		.section	.debug_line_str,"MS",@progbits,1
  6224              	.LASF1:
- 6225 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 6225 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  6225      652F616C 
  6225      65782F43 
  6225      68696269 
@@ -6994,31 +6994,31 @@ GAS LISTING /tmp/cca35Yhx.s 			page 1
  6230      65782F43 
  6230      68696269 
  6230      4F532F64 
-GAS LISTING /tmp/cca35Yhx.s 			page 118
+GAS LISTING /tmp/ccXPrjdw.s 			page 118
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chschd.c
-     /tmp/cca35Yhx.s:8      .text.__sch_wakeup:0000000000000000 __sch_wakeup
-     /tmp/cca35Yhx.s:1508   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/cca35Yhx.s:229    .text.chSchReadyI:0000000000000000 chSchReadyI
-     /tmp/cca35Yhx.s:309    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
-     /tmp/cca35Yhx.s:1519   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/cca35Yhx.s:400    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
-     /tmp/cca35Yhx.s:681    .text.chSchWakeupS:0000000000000000 chSchWakeupS
-     /tmp/cca35Yhx.s:1530   .text.__x86.get_pc_thunk.si:0000000000000000 __x86.get_pc_thunk.si
-     /tmp/cca35Yhx.s:921    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
-     /tmp/cca35Yhx.s:954    .text.chSchDoPreemption:0000000000000000 chSchDoPreemption
-     /tmp/cca35Yhx.s:954    .text.chSchDoPreemption:0000000000000000 __sch_reschedule_ahead
-     /tmp/cca35Yhx.s:1122   .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
-     /tmp/cca35Yhx.s:1157   .text.chSchPreemption:0000000000000000 chSchPreemption
-     /tmp/cca35Yhx.s:1180   .text.chSchDoYieldS:0000000000000000 chSchDoYieldS
-     /tmp/cca35Yhx.s:1368   .text.chSchSelectFirst:0000000000000000 chSchSelectFirst
-     /tmp/cca35Yhx.s:115    .text.__sch_wakeup:0000000000000041 .L2
-     /tmp/cca35Yhx.s:193    .text.__sch_wakeup:000000000000006c .L7
-     /tmp/cca35Yhx.s:213    .text.__sch_wakeup:0000000000000078 .L6
-     /tmp/cca35Yhx.s:93     .text.__sch_wakeup:0000000000000037 .L3
-     /tmp/cca35Yhx.s:78     .text.__sch_wakeup:0000000000000030 .L5
+     /tmp/ccXPrjdw.s:8      .text.__sch_wakeup:0000000000000000 __sch_wakeup
+     /tmp/ccXPrjdw.s:1508   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccXPrjdw.s:229    .text.chSchReadyI:0000000000000000 chSchReadyI
+     /tmp/ccXPrjdw.s:309    .text.chSchGoSleepS:0000000000000000 chSchGoSleepS
+     /tmp/ccXPrjdw.s:1519   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccXPrjdw.s:400    .text.chSchGoSleepTimeoutS:0000000000000000 chSchGoSleepTimeoutS
+     /tmp/ccXPrjdw.s:681    .text.chSchWakeupS:0000000000000000 chSchWakeupS
+     /tmp/ccXPrjdw.s:1530   .text.__x86.get_pc_thunk.si:0000000000000000 __x86.get_pc_thunk.si
+     /tmp/ccXPrjdw.s:921    .text.chSchIsPreemptionRequired:0000000000000000 chSchIsPreemptionRequired
+     /tmp/ccXPrjdw.s:954    .text.chSchDoPreemption:0000000000000000 chSchDoPreemption
+     /tmp/ccXPrjdw.s:954    .text.chSchDoPreemption:0000000000000000 __sch_reschedule_ahead
+     /tmp/ccXPrjdw.s:1122   .text.chSchRescheduleS:0000000000000000 chSchRescheduleS
+     /tmp/ccXPrjdw.s:1157   .text.chSchPreemption:0000000000000000 chSchPreemption
+     /tmp/ccXPrjdw.s:1180   .text.chSchDoYieldS:0000000000000000 chSchDoYieldS
+     /tmp/ccXPrjdw.s:1368   .text.chSchSelectFirst:0000000000000000 chSchSelectFirst
+     /tmp/ccXPrjdw.s:115    .text.__sch_wakeup:0000000000000041 .L2
+     /tmp/ccXPrjdw.s:193    .text.__sch_wakeup:000000000000006c .L7
+     /tmp/ccXPrjdw.s:213    .text.__sch_wakeup:0000000000000078 .L6
+     /tmp/ccXPrjdw.s:93     .text.__sch_wakeup:0000000000000037 .L3
+     /tmp/ccXPrjdw.s:78     .text.__sch_wakeup:0000000000000030 .L5
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

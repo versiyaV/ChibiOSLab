@@ -1,10 +1,10 @@
-GAS LISTING /tmp/cc9Dc9JH.s 			page 1
+GAS LISTING /tmp/ccznF67q.s 			page 1
 
 
    1              		.file	"oop_base_object.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/common/oop/src/oop_base_obje
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/common/oop/src/oop_base_obje
    5              		.section	.text.__bo_objinit_impl,"ax",@progbits
    6              		.p2align 4
    7              		.globl	__bo_objinit_impl
@@ -58,7 +58,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
   55 000c 06       		.uleb128 0x6
   56 000d 35000000 		.long	.LASF19
   57 0011 1D       		.byte	0x1d
-GAS LISTING /tmp/cc9Dc9JH.s 			page 2
+GAS LISTING /tmp/ccznF67q.s 			page 2
 
 
   58 0012 2F000000 		.long	.LASF0
@@ -118,7 +118,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  112 007b 04       		.byte	0x4
  113 007c 01       		.uleb128 0x1
  114 007d 01       		.byte	0x1
-GAS LISTING /tmp/cc9Dc9JH.s 			page 3
+GAS LISTING /tmp/ccznF67q.s 			page 3
 
 
  115 007e 06       		.byte	0x6
@@ -178,7 +178,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  169 00f0 01       		.uleb128 0x1
  170 00f1 9C       		.byte	0x9c
  171 00f2 16010000 		.long	0x116
-GAS LISTING /tmp/cc9Dc9JH.s 			page 4
+GAS LISTING /tmp/ccznF67q.s 			page 4
 
 
  172 00f6 03       		.uleb128 0x3
@@ -238,7 +238,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  226 0169 00       		.byte	0
  227              		.section	.debug_abbrev,"",@progbits
  228              	.Ldebug_abbrev0:
-GAS LISTING /tmp/cc9Dc9JH.s 			page 5
+GAS LISTING /tmp/ccznF67q.s 			page 5
 
 
  229 0000 01       		.uleb128 0x1
@@ -298,7 +298,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  283 0036 08       		.sleb128 8
  284 0037 01       		.uleb128 0x1
  285 0038 13       		.uleb128 0x13
-GAS LISTING /tmp/cc9Dc9JH.s 			page 6
+GAS LISTING /tmp/ccznF67q.s 			page 6
 
 
  286 0039 00       		.byte	0
@@ -358,7 +358,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  340 0070 0F       		.uleb128 0xf
  341 0071 00       		.byte	0
  342 0072 0B       		.uleb128 0xb
-GAS LISTING /tmp/cc9Dc9JH.s 			page 7
+GAS LISTING /tmp/ccznF67q.s 			page 7
 
 
  343 0073 0B       		.uleb128 0xb
@@ -418,7 +418,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  397 00a9 03       		.uleb128 0x3
  398 00aa 0E       		.uleb128 0xe
  399 00ab 3A       		.uleb128 0x3a
-GAS LISTING /tmp/cc9Dc9JH.s 			page 8
+GAS LISTING /tmp/ccznF67q.s 			page 8
 
 
  400 00ac 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  454 00e2 3B       		.uleb128 0x3b
  455 00e3 0B       		.uleb128 0xb
  456 00e4 39       		.uleb128 0x39
-GAS LISTING /tmp/cc9Dc9JH.s 			page 9
+GAS LISTING /tmp/ccznF67q.s 			page 9
 
 
  457 00e5 0B       		.uleb128 0xb
@@ -538,7 +538,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  511              		.section	.debug_aranges,"",@progbits
  512 0000 24000000 		.long	0x24
  513 0004 0200     		.value	0x2
-GAS LISTING /tmp/cc9Dc9JH.s 			page 10
+GAS LISTING /tmp/ccznF67q.s 			page 10
 
 
  514 0006 00000000 		.long	.Ldebug_info0
@@ -598,7 +598,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  553              	.LASF19:
  554 0035 474E5520 		.string	"GNU C17 11.4.0 -m32 -mtune=generic -march=i686 -ggdb -O2 -ffunction-sections -fdata-secti
  554      43313720 
-GAS LISTING /tmp/cc9Dc9JH.s 			page 11
+GAS LISTING /tmp/ccznF67q.s 			page 11
 
 
  554      31312E34 
@@ -658,7 +658,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  578      706F7365 
  578      5F696D70 
  578      6C00
-GAS LISTING /tmp/cc9Dc9JH.s 			page 12
+GAS LISTING /tmp/ccznF67q.s 			page 12
 
 
  579              	.LASF5:
@@ -681,7 +681,7 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  586      68617200 
  587              		.section	.debug_line_str,"MS",@progbits,1
  588              	.LASF1:
- 589 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 589 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  589      652F616C 
  589      65782F43 
  589      68696269 
@@ -698,12 +698,12 @@ GAS LISTING /tmp/cc9Dc9JH.s 			page 1
  593      65782F43 
  593      68696269 
  593      4F532F64 
-GAS LISTING /tmp/cc9Dc9JH.s 			page 13
+GAS LISTING /tmp/ccznF67q.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 oop_base_object.c
-     /tmp/cc9Dc9JH.s:9      .text.__bo_objinit_impl:0000000000000000 __bo_objinit_impl
-     /tmp/cc9Dc9JH.s:33     .text.__bo_dispose_impl:0000000000000000 __bo_dispose_impl
+     /tmp/ccznF67q.s:9      .text.__bo_objinit_impl:0000000000000000 __bo_objinit_impl
+     /tmp/ccznF67q.s:33     .text.__bo_dispose_impl:0000000000000000 __bo_dispose_impl
 
 NO UNDEFINED SYMBOLS

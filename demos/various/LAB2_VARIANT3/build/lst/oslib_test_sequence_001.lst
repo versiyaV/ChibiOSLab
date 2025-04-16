@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccjJx1PT.s 			page 1
+GAS LISTING /tmp/cct1yQ7k.s 			page 1
 
 
    1              		.file	"oslib_test_sequence_001.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../test/oslib/source/test/oslib_te
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../test/oslib/source/test/oslib_te
    5              		.section	.rodata.oslib_test_001_003_execute.str1.4,"aMS",@progbits,1
    6              		.align 4
    7              	.LC0:
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
   33      43485F43 
   33      46475F55 
   33      53455F4D 
-GAS LISTING /tmp/ccjJx1PT.s 			page 2
+GAS LISTING /tmp/cct1yQ7k.s 			page 2
 
 
   33      454D504F 
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
   57      46475F46 
   57      4143544F 
   57      52595F47 
-GAS LISTING /tmp/ccjJx1PT.s 			page 3
+GAS LISTING /tmp/cct1yQ7k.s 			page 3
 
 
   58 0265 000000   		.align 4
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
   94 000f 83EC24   		subl	$36, %esp
   95              		.cfi_def_cfa_offset 56
   96              		.loc 1 163 3 view .LVU3
-GAS LISTING /tmp/ccjJx1PT.s 			page 4
+GAS LISTING /tmp/cct1yQ7k.s 			page 4
 
 
   97 0012 8B830000 		movl	chtest@GOT(%ebx), %eax
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  144      FF
  145              	.LVL2:
  146              		.loc 2 359 3 is_stmt 0 view .LVU14
-GAS LISTING /tmp/ccjJx1PT.s 			page 5
+GAS LISTING /tmp/cct1yQ7k.s 			page 5
 
 
  147              	.LBE179:
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  196              		.loc 2 359 3 view .LVU25
  197 0069 59       		popl	%ecx
  198              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccjJx1PT.s 			page 6
+GAS LISTING /tmp/cct1yQ7k.s 			page 6
 
 
  199 006a 58       		popl	%eax
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  249              		.loc 1 172 5 is_stmt 1 view .LVU35
  250              	.LBB192:
  251              	.LBI192:
-GAS LISTING /tmp/ccjJx1PT.s 			page 7
+GAS LISTING /tmp/cct1yQ7k.s 			page 7
 
 
  252              		.loc 2 357 20 view .LVU36
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  302      FF
  303              	.LVL10:
  304              		.loc 2 371 3 is_stmt 0 view .LVU46
-GAS LISTING /tmp/ccjJx1PT.s 			page 8
+GAS LISTING /tmp/cct1yQ7k.s 			page 8
 
 
  305              	.LBE197:
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  355      0000
  356 00d4 50       		pushl	%eax
  357              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccjJx1PT.s 			page 9
+GAS LISTING /tmp/cct1yQ7k.s 			page 9
 
 
  358 00d5 55       		pushl	%ebp
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  409 00f1 58       		popl	%eax
  410              		.cfi_def_cfa_offset 60
  411 00f2 8D830000 		leal	.LC9@GOTOFF(%ebx), %eax
-GAS LISTING /tmp/ccjJx1PT.s 			page 10
+GAS LISTING /tmp/cct1yQ7k.s 			page 10
 
 
  411      0000
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  462              	.LBB214:
  463              	.LBI214:
  464              		.loc 2 369 20 view .LVU80
-GAS LISTING /tmp/ccjJx1PT.s 			page 11
+GAS LISTING /tmp/cct1yQ7k.s 			page 11
 
 
  465              	.LBB215:
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  515              	.LVL21:
  516              		.loc 2 383 3 is_stmt 0 view .LVU90
  517              	.LBE219:
-GAS LISTING /tmp/ccjJx1PT.s 			page 12
+GAS LISTING /tmp/cct1yQ7k.s 			page 12
 
 
  518              	.LBE218:
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  569              		.cfi_def_cfa_offset 60
  570 0157 FF742418 		pushl	24(%esp)
  571              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/ccjJx1PT.s 			page 13
+GAS LISTING /tmp/cct1yQ7k.s 			page 13
 
 
  572 015b E8FCFFFF 		call	test_printf@PLT
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  622 0179 59       		popl	%ecx
  623              		.cfi_def_cfa_offset 60
  624 017a 58       		popl	%eax
-GAS LISTING /tmp/ccjJx1PT.s 			page 14
+GAS LISTING /tmp/cct1yQ7k.s 			page 14
 
 
  625              		.cfi_def_cfa_offset 56
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  675              	.LBB236:
  676              	.LBI236:
  677              		.loc 2 381 20 view .LVU124
-GAS LISTING /tmp/ccjJx1PT.s 			page 15
+GAS LISTING /tmp/cct1yQ7k.s 			page 15
 
 
  678              	.LBB237:
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  728              	.LVL32:
  729              		.loc 2 359 3 is_stmt 0 view .LVU134
  730              	.LBE241:
-GAS LISTING /tmp/ccjJx1PT.s 			page 16
+GAS LISTING /tmp/cct1yQ7k.s 			page 16
 
 
  731              	.LBE240:
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  782              		.cfi_def_cfa_offset 60
  783 01e2 57       		pushl	%edi
  784              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/ccjJx1PT.s 			page 17
+GAS LISTING /tmp/cct1yQ7k.s 			page 17
 
 
  785 01e3 E8FCFFFF 		call	test_printf@PLT
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  835 0203 58       		popl	%eax
  836              		.cfi_def_cfa_offset 60
  837 0204 5A       		popl	%edx
-GAS LISTING /tmp/ccjJx1PT.s 			page 18
+GAS LISTING /tmp/cct1yQ7k.s 			page 18
 
 
  838              		.cfi_def_cfa_offset 56
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  888              	.LBB258:
  889              	.LBI258:
  890              		.loc 2 357 20 view .LVU168
-GAS LISTING /tmp/ccjJx1PT.s 			page 19
+GAS LISTING /tmp/cct1yQ7k.s 			page 19
 
 
  891              	.LBB259:
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  941              	.LVL43:
  942              		.loc 2 371 3 is_stmt 0 view .LVU178
  943              	.LBE263:
-GAS LISTING /tmp/ccjJx1PT.s 			page 20
+GAS LISTING /tmp/cct1yQ7k.s 			page 20
 
 
  944              	.LBE262:
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  995              		.cfi_def_cfa_offset 60
  996 026c 55       		pushl	%ebp
  997              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/ccjJx1PT.s 			page 21
+GAS LISTING /tmp/cct1yQ7k.s 			page 21
 
 
  998 026d E8FCFFFF 		call	test_printf@PLT
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1049 0289 58       		popl	%eax
  1050              		.cfi_def_cfa_offset 56
  1051 028a 8D830000 		leal	.LC20@GOTOFF(%ebx), %eax
-GAS LISTING /tmp/ccjJx1PT.s 			page 22
+GAS LISTING /tmp/cct1yQ7k.s 			page 22
 
 
  1051      0000
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1102              		.loc 2 369 20 view .LVU212
  1103              	.LBB281:
  1104              		.loc 2 371 3 view .LVU213
-GAS LISTING /tmp/ccjJx1PT.s 			page 23
+GAS LISTING /tmp/cct1yQ7k.s 			page 23
 
 
  1105 02ad 58       		popl	%eax
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1155              	.LBE285:
  1156              	.LBE284:
  1157              		.loc 1 220 3 is_stmt 1 view .LVU223
-GAS LISTING /tmp/ccjJx1PT.s 			page 24
+GAS LISTING /tmp/cct1yQ7k.s 			page 24
 
 
  1158              		.loc 1 220 19 view .LVU224
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1195 00b5 000000   		.align 4
  1196              	.LC27:
  1197 00b8 2D2D2D20 		.string	"--- Minor Number:                       "
-GAS LISTING /tmp/ccjJx1PT.s 			page 25
+GAS LISTING /tmp/cct1yQ7k.s 			page 25
 
 
  1197      4D696E6F 
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1239              	.LBE289:
  1240              		.loc 1 121 3 view .LVU232
  1241 0024 C7000100 		movl	$1, (%eax)
-GAS LISTING /tmp/ccjJx1PT.s 			page 26
+GAS LISTING /tmp/cct1yQ7k.s 			page 26
 
 
  1241      0000
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1290 004e 6A00     		pushl	$0
  1291              		.cfi_def_cfa_offset 60
  1292 0050 55       		pushl	%ebp
-GAS LISTING /tmp/ccjJx1PT.s 			page 27
+GAS LISTING /tmp/cct1yQ7k.s 			page 27
 
 
  1293              		.cfi_def_cfa_offset 64
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1342              	.LBI300:
  1343              		.loc 2 381 20 view .LVU254
  1344              	.LBB301:
-GAS LISTING /tmp/ccjJx1PT.s 			page 28
+GAS LISTING /tmp/cct1yQ7k.s 			page 28
 
 
  1345              		.loc 2 383 3 view .LVU255
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1394      FF
  1395              	.LVL63:
  1396              		.loc 2 359 3 is_stmt 0 view .LVU264
-GAS LISTING /tmp/ccjJx1PT.s 			page 29
+GAS LISTING /tmp/cct1yQ7k.s 			page 29
 
 
  1397              	.LBE305:
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1448 00bd 6A04     		pushl	$4
  1449              		.cfi_def_cfa_offset 60
  1450 00bf 55       		pushl	%ebp
-GAS LISTING /tmp/ccjJx1PT.s 			page 30
+GAS LISTING /tmp/cct1yQ7k.s 			page 30
 
 
  1451              		.cfi_def_cfa_offset 64
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1501              		.loc 2 359 3 view .LVU287
  1502 00e0 58       		popl	%eax
  1503              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccjJx1PT.s 			page 31
+GAS LISTING /tmp/cct1yQ7k.s 			page 31
 
 
  1504 00e1 5A       		popl	%edx
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1556              		.align 4
  1557              	.LC29:
  1558 0000 2D2D2D20 		.string	"--- Architecture:                       "
-GAS LISTING /tmp/ccjJx1PT.s 			page 32
+GAS LISTING /tmp/cct1yQ7k.s 			page 32
 
 
  1558      41726368 
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1586 00b0 2D2D2D20 		.string	"--- Natural alignment:                  "
  1586      4E617475 
  1586      72616C20 
-GAS LISTING /tmp/ccjJx1PT.s 			page 33
+GAS LISTING /tmp/cct1yQ7k.s 			page 33
 
 
  1586      616C6967 
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1627              	.LBB324:
  1628              		.loc 2 383 3 view .LVU301
  1629 001e 8DB30000 		leal	.LC4@GOTOFF(%ebx), %esi
-GAS LISTING /tmp/ccjJx1PT.s 			page 34
+GAS LISTING /tmp/cct1yQ7k.s 			page 34
 
 
  1629      0000
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1677      0000
  1678 004c 59       		popl	%ecx
  1679              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccjJx1PT.s 			page 35
+GAS LISTING /tmp/cct1yQ7k.s 			page 35
 
 
  1680 004d 5D       		popl	%ebp
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1729              	.LBE333:
  1730              	.LBE332:
  1731              		.loc 1 75 5 is_stmt 1 view .LVU323
-GAS LISTING /tmp/ccjJx1PT.s 			page 36
+GAS LISTING /tmp/cct1yQ7k.s 			page 36
 
 
  1732              	.LBB334:
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1781              		.cfi_def_cfa_offset 56
  1782 0099 50       		pushl	%eax
  1783              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccjJx1PT.s 			page 37
+GAS LISTING /tmp/cct1yQ7k.s 			page 37
 
 
  1784 009a 56       		pushl	%esi
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1833              	.LBB344:
  1834              	.LBI344:
  1835              		.loc 2 381 20 view .LVU344
-GAS LISTING /tmp/ccjJx1PT.s 			page 38
+GAS LISTING /tmp/cct1yQ7k.s 			page 38
 
 
  1836              	.LBB345:
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1886              		.cfi_def_cfa_offset 64
  1887 00ea 8954241C 		movl	%edx, 28(%esp)
  1888 00ee E8FCFFFF 		call	test_printf@PLT
-GAS LISTING /tmp/ccjJx1PT.s 			page 39
+GAS LISTING /tmp/cct1yQ7k.s 			page 39
 
 
  1888      FF
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1939              		.cfi_def_cfa_offset 60
  1940 010c 5A       		popl	%edx
  1941              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/ccjJx1PT.s 			page 40
+GAS LISTING /tmp/cct1yQ7k.s 			page 40
 
 
  1942 010d 6A10     		pushl	$16
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  1994              	.LC40:
  1995 0000 496E666F 		.string	"Information"
  1995      726D6174 
-GAS LISTING /tmp/ccjJx1PT.s 			page 41
+GAS LISTING /tmp/cct1yQ7k.s 			page 41
 
 
  1995      696F6E00 
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2040              		.section	.data.rel.ro.local.oslib_test_001_001,"aw"
  2041              		.align 4
  2042              		.type	oslib_test_001_001, @object
-GAS LISTING /tmp/ccjJx1PT.s 			page 42
+GAS LISTING /tmp/cct1yQ7k.s 			page 42
 
 
  2043              		.size	oslib_test_001_001, 16
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2097 003c 80020000 		.long	.LASF2
  2098 0040 07       		.uleb128 0x7
  2099 0041 04       		.byte	0x4
-GAS LISTING /tmp/ccjJx1PT.s 			page 43
+GAS LISTING /tmp/cct1yQ7k.s 			page 43
 
 
  2100 0042 05       		.byte	0x5
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2154 00a5 07       		.byte	0x7
  2155 00a6 BA000000 		.long	.LASF16
  2156 00aa 17       		.uleb128 0x17
-GAS LISTING /tmp/ccjJx1PT.s 			page 44
+GAS LISTING /tmp/cct1yQ7k.s 			page 44
 
 
  2157 00ab 04       		.byte	0x4
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2211 0117 03       		.byte	0x3
  2212 0118 2D000000 		.long	0x2d
  2213 011c 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 45
+GAS LISTING /tmp/cct1yQ7k.s 			page 45
 
 
  2214 011d 04       		.uleb128 0x4
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2268 0192 78010000 		.long	0x178
  2269 0196 0B       		.uleb128 0xb
  2270 0197 E6000000 		.long	0xe6
-GAS LISTING /tmp/ccjJx1PT.s 			page 46
+GAS LISTING /tmp/cct1yQ7k.s 			page 46
 
 
  2271 019b AA010000 		.long	0x1aa
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2325 020d 7A020000 		.long	0x27a
  2326 0211 04       		.uleb128 0x4
  2327 0212 C3010000 		.long	.LASF28
-GAS LISTING /tmp/ccjJx1PT.s 			page 47
+GAS LISTING /tmp/cct1yQ7k.s 			page 47
 
 
  2328 0216 02       		.byte	0x2
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2382 0279 00       		.byte	0
  2383 027a 11       		.uleb128 0x11
  2384 027b B1000000 		.long	0xb1
-GAS LISTING /tmp/ccjJx1PT.s 			page 48
+GAS LISTING /tmp/cct1yQ7k.s 			page 48
 
 
  2385 027f 8A020000 		.long	0x28a
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2439 02e5 03       		.byte	0x3
  2440 02e6 9B020000 		.long	0x29b
  2441 02ea 09       		.uleb128 0x9
-GAS LISTING /tmp/ccjJx1PT.s 			page 49
+GAS LISTING /tmp/cct1yQ7k.s 			page 49
 
 
  2442 02eb DE020000 		.long	0x2de
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2496 035b 0E       		.uleb128 0xe
  2497 035c B7020000 		.long	.LASF47
  2498 0360 8E       		.byte	0x8e
-GAS LISTING /tmp/ccjJx1PT.s 			page 50
+GAS LISTING /tmp/cct1yQ7k.s 			page 50
 
 
  2499 0361 EA020000 		.long	0x2ea
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2553 03d7 9C       		.byte	0x9c
  2554 03d8 850D0000 		.long	0xd85
  2555 03dc 0A       		.uleb128 0xa
-GAS LISTING /tmp/ccjJx1PT.s 			page 51
+GAS LISTING /tmp/cct1yQ7k.s 			page 51
 
 
  2556 03dd 6F130000 		.long	0x136f
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2610 0476 7A130000 		.long	0x137a
  2611 047a 3A000000 		.long	.LLST5
  2612 047e 38000000 		.long	.LVUS5
-GAS LISTING /tmp/ccjJx1PT.s 			page 52
+GAS LISTING /tmp/cct1yQ7k.s 			page 52
 
 
  2613 0482 02       		.uleb128 0x2
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2667 051b 8E000000 		.long	.LBI192
  2668 051f 02       		.byte	.LVU36
  2669 0520 8E000000 		.long	.LBB192
-GAS LISTING /tmp/ccjJx1PT.s 			page 53
+GAS LISTING /tmp/cct1yQ7k.s 			page 53
 
 
  2670 0524 0A000000 		.long	.LBE192-.LBB192
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2724 05c0 A0000000 		.long	.LVUS12
  2725 05c4 02       		.uleb128 0x2
  2726 05c5 C0000000 		.long	.LVL11
-GAS LISTING /tmp/ccjJx1PT.s 			page 54
+GAS LISTING /tmp/cct1yQ7k.s 			page 54
 
 
  2727 05c9 B0030000 		.long	0x3b0
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2781 0662 E5000000 		.long	.LBB206
  2782 0666 0C000000 		.long	.LBE206-.LBB206
  2783 066a B3       		.byte	0xb3
-GAS LISTING /tmp/ccjJx1PT.s 			page 55
+GAS LISTING /tmp/cct1yQ7k.s 			page 55
 
 
  2784 066b 86060000 		.long	0x686
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2838 0707 16010000 		.long	.LVL18
  2839 070b B0030000 		.long	0x3b0
  2840 070f 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 56
+GAS LISTING /tmp/cct1yQ7k.s 			page 56
 
 
  2841 0710 03       		.uleb128 0x3
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2895 07ac BA       		.byte	0xba
  2896 07ad C8070000 		.long	0x7c8
  2897 07b1 01       		.uleb128 0x1
-GAS LISTING /tmp/ccjJx1PT.s 			page 57
+GAS LISTING /tmp/cct1yQ7k.s 			page 57
 
 
  2898 07b2 7A130000 		.long	0x137a
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  2952 0851 00       		.byte	0
  2953 0852 03       		.uleb128 0x3
  2954 0853 87130000 		.long	0x1387
-GAS LISTING /tmp/ccjJx1PT.s 			page 58
+GAS LISTING /tmp/cct1yQ7k.s 			page 58
 
 
  2955 0857 6F010000 		.long	.LBI228
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3009 08f3 01       		.uleb128 0x1
  3010 08f4 91130000 		.long	0x1391
  3011 08f8 AC010000 		.long	.LLST30
-GAS LISTING /tmp/ccjJx1PT.s 			page 59
+GAS LISTING /tmp/cct1yQ7k.s 			page 59
 
 
  3012 08fc AA010000 		.long	.LVUS30
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3066 0995 57130000 		.long	0x1357
  3067 0999 C3010000 		.long	.LBI242
  3068 099d 02       		.byte	.LVU136
-GAS LISTING /tmp/ccjJx1PT.s 			page 60
+GAS LISTING /tmp/cct1yQ7k.s 			page 60
 
 
  3069 099e C3010000 		.long	.LBB242
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3123 0a3a 10020000 		.long	.LLST37
  3124 0a3e 0E020000 		.long	.LVUS37
  3125 0a42 02       		.uleb128 0x2
-GAS LISTING /tmp/ccjJx1PT.s 			page 61
+GAS LISTING /tmp/cct1yQ7k.s 			page 61
 
 
  3126 0a43 F4010000 		.long	.LVL36
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3180 0adf 02       		.byte	.LVU164
  3181 0ae0 19020000 		.long	.LBB256
  3182 0ae4 0F000000 		.long	.LBE256-.LBB256
-GAS LISTING /tmp/ccjJx1PT.s 			page 62
+GAS LISTING /tmp/cct1yQ7k.s 			page 62
 
 
  3183 0ae8 CC       		.byte	0xcc
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3237 0b84 02       		.uleb128 0x2
  3238 0b85 4D020000 		.long	.LVL43
  3239 0b89 B0030000 		.long	0x3b0
-GAS LISTING /tmp/ccjJx1PT.s 			page 63
+GAS LISTING /tmp/cct1yQ7k.s 			page 63
 
 
  3240 0b8d 00       		.byte	0
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3294 0c26 0A000000 		.long	.LBE270-.LBB270
  3295 0c2a D3       		.byte	0xd3
  3296 0c2b 460C0000 		.long	0xc46
-GAS LISTING /tmp/ccjJx1PT.s 			page 64
+GAS LISTING /tmp/cct1yQ7k.s 			page 64
 
 
  3297 0c2f 01       		.uleb128 0x1
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3351 0ccb B0030000 		.long	0x3b0
  3352 0ccf 00       		.byte	0
  3353 0cd0 03       		.uleb128 0x3
-GAS LISTING /tmp/ccjJx1PT.s 			page 65
+GAS LISTING /tmp/cct1yQ7k.s 			page 65
 
 
  3354 0cd1 57130000 		.long	0x1357
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3408 0d6d 01       		.uleb128 0x1
  3409 0d6e 62130000 		.long	0x1362
  3410 0d72 18030000 		.long	.LLST55
-GAS LISTING /tmp/ccjJx1PT.s 			page 66
+GAS LISTING /tmp/cct1yQ7k.s 			page 66
 
 
  3411 0d76 16030000 		.long	.LVUS55
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3465 0e09 48030000 		.long	.LLST60
  3466 0e0d 46030000 		.long	.LVUS60
  3467 0e11 02       		.uleb128 0x2
-GAS LISTING /tmp/ccjJx1PT.s 			page 67
+GAS LISTING /tmp/cct1yQ7k.s 			page 67
 
 
  3468 0e12 56000000 		.long	.LVL58
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3522 0eae 02       		.byte	.LVU258
  3523 0eaf 87000000 		.long	.LBB302
  3524 0eb3 0F000000 		.long	.LBE302-.LBB302
-GAS LISTING /tmp/ccjJx1PT.s 			page 68
+GAS LISTING /tmp/cct1yQ7k.s 			page 68
 
 
  3525 0eb7 81       		.byte	0x81
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3579 0f53 02       		.uleb128 0x2
  3580 0f54 BB000000 		.long	.LVL65
  3581 0f58 B0030000 		.long	0x3b0
-GAS LISTING /tmp/ccjJx1PT.s 			page 69
+GAS LISTING /tmp/cct1yQ7k.s 			page 69
 
 
  3582 0f5c 00       		.byte	0
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3636 0ff5 0A000000 		.long	.LBE316-.LBB316
  3637 0ff9 88       		.byte	0x88
  3638 0ffa 15100000 		.long	0x1015
-GAS LISTING /tmp/ccjJx1PT.s 			page 70
+GAS LISTING /tmp/cct1yQ7k.s 			page 70
 
 
  3639 0ffe 01       		.uleb128 0x1
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3693 1091 01       		.uleb128 0x1
  3694 1092 62130000 		.long	0x1362
  3695 1096 18040000 		.long	.LLST76
-GAS LISTING /tmp/ccjJx1PT.s 			page 71
+GAS LISTING /tmp/cct1yQ7k.s 			page 71
 
 
  3696 109a 16040000 		.long	.LVUS76
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3750 1133 57130000 		.long	0x1357
  3751 1137 73000000 		.long	.LBI334
  3752 113b 02       		.byte	.LVU324
-GAS LISTING /tmp/ccjJx1PT.s 			page 72
+GAS LISTING /tmp/cct1yQ7k.s 			page 72
 
 
  3753 113c 73000000 		.long	.LBB334
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3807 11d8 88040000 		.long	.LLST83
  3808 11dc 86040000 		.long	.LVUS83
  3809 11e0 02       		.uleb128 0x2
-GAS LISTING /tmp/ccjJx1PT.s 			page 73
+GAS LISTING /tmp/cct1yQ7k.s 			page 73
 
 
  3810 11e1 AF000000 		.long	.LVL80
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3864 127d 02       		.byte	.LVU352
  3865 127e E1000000 		.long	.LBB348
  3866 1282 12000000 		.long	.LBE348-.LBB348
-GAS LISTING /tmp/ccjJx1PT.s 			page 74
+GAS LISTING /tmp/cct1yQ7k.s 			page 74
 
 
  3867 1286 58       		.byte	0x58
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3921 1322 02       		.uleb128 0x2
  3922 1323 19010000 		.long	.LVL87
  3923 1327 B0030000 		.long	0x3b0
-GAS LISTING /tmp/ccjJx1PT.s 			page 75
+GAS LISTING /tmp/cct1yQ7k.s 			page 75
 
 
  3924 132b 00       		.byte	0
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  3978 0001 05       		.uleb128 0x5
  3979 0002 00       		.byte	0
  3980 0003 31       		.uleb128 0x31
-GAS LISTING /tmp/ccjJx1PT.s 			page 76
+GAS LISTING /tmp/cct1yQ7k.s 			page 76
 
 
  3981 0004 13       		.uleb128 0x13
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4035 003c 38       		.uleb128 0x38
  4036 003d 0B       		.uleb128 0xb
  4037 003e 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 77
+GAS LISTING /tmp/cct1yQ7k.s 			page 77
 
 
  4038 003f 00       		.byte	0
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4092 0075 31       		.uleb128 0x31
  4093 0076 13       		.uleb128 0x13
  4094 0077 52       		.uleb128 0x52
-GAS LISTING /tmp/ccjJx1PT.s 			page 78
+GAS LISTING /tmp/cct1yQ7k.s 			page 78
 
 
  4095 0078 01       		.uleb128 0x1
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4149 00af 39       		.uleb128 0x39
  4150 00b0 0B       		.uleb128 0xb
  4151 00b1 49       		.uleb128 0x49
-GAS LISTING /tmp/ccjJx1PT.s 			page 79
+GAS LISTING /tmp/cct1yQ7k.s 			page 79
 
 
  4152 00b2 13       		.uleb128 0x13
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4206 00e8 31       		.uleb128 0x31
  4207 00e9 13       		.uleb128 0x13
  4208 00ea 52       		.uleb128 0x52
-GAS LISTING /tmp/ccjJx1PT.s 			page 80
+GAS LISTING /tmp/cct1yQ7k.s 			page 80
 
 
  4209 00eb 01       		.uleb128 0x1
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4263 0122 13       		.uleb128 0x13
  4264 0123 00       		.byte	0
  4265 0124 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 81
+GAS LISTING /tmp/cct1yQ7k.s 			page 81
 
 
  4266 0125 14       		.uleb128 0x14
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4320 015b 13       		.uleb128 0x13
  4321 015c 01       		.byte	0x1
  4322 015d 03       		.uleb128 0x3
-GAS LISTING /tmp/ccjJx1PT.s 			page 82
+GAS LISTING /tmp/cct1yQ7k.s 			page 82
 
 
  4323 015e 0E       		.uleb128 0xe
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4377 0194 3C       		.uleb128 0x3c
  4378 0195 19       		.uleb128 0x19
  4379 0196 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 83
+GAS LISTING /tmp/cct1yQ7k.s 			page 83
 
 
  4380 0197 00       		.byte	0
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4434 01cd 01       		.uleb128 0x1
  4435 01ce 13       		.uleb128 0x13
  4436 01cf 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 84
+GAS LISTING /tmp/cct1yQ7k.s 			page 84
 
 
  4437 01d0 00       		.byte	0
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4491 0014 06       		.uleb128 0x6
  4492 0015 03       		.byte	0x3
  4493 0016 00000000 		.long	.LC0
-GAS LISTING /tmp/ccjJx1PT.s 			page 85
+GAS LISTING /tmp/cct1yQ7k.s 			page 85
 
 
  4494 001a 9F       		.byte	0x9f
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4548 005b 0C       		.uleb128 .LVL6-.LVL5
  4549 005c 06       		.uleb128 0x6
  4550 005d 03       		.byte	0x3
-GAS LISTING /tmp/ccjJx1PT.s 			page 86
+GAS LISTING /tmp/cct1yQ7k.s 			page 86
 
 
  4551 005e 06000000 		.long	.LC3
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4605 00a2 08       		.byte	0x8
  4606 00a3 B3000000 		.long	.LVL10
  4607 00a7 0D       		.uleb128 .LVL11-.LVL10
-GAS LISTING /tmp/ccjJx1PT.s 			page 87
+GAS LISTING /tmp/cct1yQ7k.s 			page 87
 
 
  4608 00a8 04       		.uleb128 0x4
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4662 00ea 02       		.uleb128 .LVU68
  4663 00eb 00       		.uleb128 .LVU70
  4664              	.LLST17:
-GAS LISTING /tmp/ccjJx1PT.s 			page 88
+GAS LISTING /tmp/cct1yQ7k.s 			page 88
 
 
  4665 00ec 08       		.byte	0x8
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4719              	.LVUS22:
  4720 0132 02       		.uleb128 .LVU88
  4721 0133 00       		.uleb128 .LVU90
-GAS LISTING /tmp/ccjJx1PT.s 			page 89
+GAS LISTING /tmp/cct1yQ7k.s 			page 89
 
 
  4722              	.LLST22:
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4776 017c 9F       		.byte	0x9f
  4777 017d 00       		.byte	0
  4778              	.LVUS27:
-GAS LISTING /tmp/ccjJx1PT.s 			page 90
+GAS LISTING /tmp/cct1yQ7k.s 			page 90
 
 
  4779 017e 02       		.uleb128 .LVU108
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4833 01c0 06000000 		.long	.LC3
  4834 01c4 9F       		.byte	0x9f
  4835 01c5 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 91
+GAS LISTING /tmp/cct1yQ7k.s 			page 91
 
 
  4836              	.LVUS32:
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4890 020a 02       		.uleb128 0x2
  4891 020b 38       		.byte	0x38
  4892 020c 9F       		.byte	0x9f
-GAS LISTING /tmp/ccjJx1PT.s 			page 92
+GAS LISTING /tmp/cct1yQ7k.s 			page 92
 
 
  4893 020d 00       		.byte	0
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  4947 0251 0F       		.uleb128 .LVL40-.LVL39
  4948 0252 06       		.uleb128 0x6
  4949 0253 03       		.byte	0x3
-GAS LISTING /tmp/ccjJx1PT.s 			page 93
+GAS LISTING /tmp/cct1yQ7k.s 			page 93
 
 
  4950 0254 3C020000 		.long	.LC17
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5004 0295 57020000 		.long	.LVL44
  5005 0299 0C       		.uleb128 .LVL45-.LVL44
  5006 029a 06       		.uleb128 0x6
-GAS LISTING /tmp/ccjJx1PT.s 			page 94
+GAS LISTING /tmp/cct1yQ7k.s 			page 94
 
 
  5007 029b 03       		.byte	0x3
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5061              	.LLST51:
  5062 02e0 08       		.byte	0x8
  5063 02e1 97020000 		.long	.LVL49
-GAS LISTING /tmp/ccjJx1PT.s 			page 95
+GAS LISTING /tmp/cct1yQ7k.s 			page 95
 
 
  5064 02e5 0A       		.uleb128 .LVL50-.LVL49
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5118 0327 00       		.uleb128 .LVU236
  5119              	.LLST57:
  5120 0328 08       		.byte	0x8
-GAS LISTING /tmp/ccjJx1PT.s 			page 96
+GAS LISTING /tmp/cct1yQ7k.s 			page 96
 
 
  5121 0329 2A000000 		.long	.LVL55
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5175              	.LVUS63:
  5176 0372 02       		.uleb128 .LVU254
  5177 0373 00       		.uleb128 .LVU256
-GAS LISTING /tmp/ccjJx1PT.s 			page 97
+GAS LISTING /tmp/cct1yQ7k.s 			page 97
 
 
  5178              	.LLST63:
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5232 03bc 9F       		.byte	0x9f
  5233 03bd 00       		.byte	0
  5234              	.LVUS68:
-GAS LISTING /tmp/ccjJx1PT.s 			page 98
+GAS LISTING /tmp/cct1yQ7k.s 			page 98
 
 
  5235 03be 02       		.uleb128 .LVU274
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5289 0400 06000000 		.long	.LC3
  5290 0404 9F       		.byte	0x9f
  5291 0405 00       		.byte	0
-GAS LISTING /tmp/ccjJx1PT.s 			page 99
+GAS LISTING /tmp/cct1yQ7k.s 			page 99
 
 
  5292              	.LVUS74:
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5346 044d 0F       		.uleb128 .LVL76-.LVL75
  5347 044e 06       		.uleb128 0x6
  5348 044f 03       		.byte	0x3
-GAS LISTING /tmp/ccjJx1PT.s 			page 100
+GAS LISTING /tmp/cct1yQ7k.s 			page 100
 
 
  5349 0450 58000000 		.long	.LC33
@@ -5998,7 +5998,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5403              	.LLST84:
  5404 0498 08       		.byte	0x8
  5405 0499 AF000000 		.long	.LVL80
-GAS LISTING /tmp/ccjJx1PT.s 			page 101
+GAS LISTING /tmp/cct1yQ7k.s 			page 101
 
 
  5406 049d 14       		.uleb128 .LVL81-.LVL80
@@ -6058,7 +6058,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5460 04df 00       		.uleb128 .LVU362
  5461              	.LLST89:
  5462 04e0 08       		.byte	0x8
-GAS LISTING /tmp/ccjJx1PT.s 			page 102
+GAS LISTING /tmp/cct1yQ7k.s 			page 102
 
 
  5463 04e1 FC000000 		.long	.LVL85
@@ -6118,7 +6118,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5517 0008 00000000 		.long	0
  5518              	.LLRL0:
  5519 000c 05       		.byte	0x5
-GAS LISTING /tmp/ccjJx1PT.s 			page 103
+GAS LISTING /tmp/cct1yQ7k.s 			page 103
 
 
  5520 000d 18000000 		.long	.LBB174
@@ -6178,7 +6178,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5574 0050 04       		.byte	0x4
  5575 0051 19       		.uleb128 .LBB327-.LBB323
  5576 0052 28       		.uleb128 .LBE327-.LBB323
-GAS LISTING /tmp/ccjJx1PT.s 			page 104
+GAS LISTING /tmp/cct1yQ7k.s 			page 104
 
 
  5577 0053 00       		.byte	0
@@ -6238,7 +6238,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5609              	.LASF14:
  5610 0064 5F5F696E 		.string	"__int32_t"
  5610      7433325F 
-GAS LISTING /tmp/ccjJx1PT.s 			page 105
+GAS LISTING /tmp/cct1yQ7k.s 			page 105
 
 
  5610      7400
@@ -6298,7 +6298,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5632      6578745F 
  5632      7400
  5633              	.LASF28:
-GAS LISTING /tmp/ccjJx1PT.s 			page 106
+GAS LISTING /tmp/cct1yQ7k.s 			page 106
 
 
  5634 01c3 63757272 		.string	"current_step"
@@ -6358,7 +6358,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5658      625F7465 
  5658      73745F30 
  5658      30315F30 
-GAS LISTING /tmp/ccjJx1PT.s 			page 107
+GAS LISTING /tmp/cct1yQ7k.s 			page 107
 
 
  5658      30335F65 
@@ -6418,7 +6418,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5686 030b 746F6B70 		.string	"tokp"
  5686      00
  5687              	.LASF13:
-GAS LISTING /tmp/ccjJx1PT.s 			page 108
+GAS LISTING /tmp/cct1yQ7k.s 			page 108
 
 
  5688 0310 73686F72 		.string	"short int"
@@ -6470,7 +6470,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5708      5F7400
  5709              		.section	.debug_line_str,"MS",@progbits,1
  5710              	.LASF1:
- 5711 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 5711 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  5711      652F616C 
  5711      65782F43 
  5711      68696269 
@@ -6478,7 +6478,7 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5712              	.LASF0:
  5713 002f 2E2E2F2E 		.string	"../../../test/oslib/source/test/oslib_test_sequence_001.c"
  5713      2E2F2E2E 
-GAS LISTING /tmp/ccjJx1PT.s 			page 109
+GAS LISTING /tmp/cct1yQ7k.s 			page 109
 
 
  5713      2F746573 
@@ -6490,60 +6490,60 @@ GAS LISTING /tmp/ccjJx1PT.s 			page 1
  5715      65782F43 
  5715      68696269 
  5715      4F532F64 
-GAS LISTING /tmp/ccjJx1PT.s 			page 110
+GAS LISTING /tmp/cct1yQ7k.s 			page 110
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 oslib_test_sequence_001.c
-     /tmp/ccjJx1PT.s:73     .text.oslib_test_001_003_execute:0000000000000000 oslib_test_001_003_execute
-     /tmp/ccjJx1PT.s:2053   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccjJx1PT.s:1204   .text.oslib_test_001_002_execute:0000000000000000 oslib_test_001_002_execute
-     /tmp/ccjJx1PT.s:1596   .text.oslib_test_001_001_execute:0000000000000000 oslib_test_001_001_execute
-     /tmp/ccjJx1PT.s:2000   .data.rel.ro.local.oslib_test_sequence_001:0000000000000000 oslib_test_sequence_001
-     /tmp/ccjJx1PT.s:2008   .data.rel.ro.local.oslib_test_sequence_001_array:0000000000000000 oslib_test_sequence_001_array
-     /tmp/ccjJx1PT.s:2044   .data.rel.ro.local.oslib_test_001_001:0000000000000000 oslib_test_001_001
-     /tmp/ccjJx1PT.s:2032   .data.rel.ro.local.oslib_test_001_002:0000000000000000 oslib_test_001_002
-     /tmp/ccjJx1PT.s:2020   .data.rel.ro.local.oslib_test_001_003:0000000000000000 oslib_test_001_003
-     /tmp/ccjJx1PT.s:10     .rodata.oslib_test_001_003_execute.str1.1:0000000000000000 .LC1
-     /tmp/ccjJx1PT.s:12     .rodata.oslib_test_001_003_execute.str1.1:0000000000000003 .LC2
-     /tmp/ccjJx1PT.s:7      .rodata.oslib_test_001_003_execute.str1.4:0000000000000000 .LC0
-     /tmp/ccjJx1PT.s:14     .rodata.oslib_test_001_003_execute.str1.1:0000000000000006 .LC3
-     /tmp/ccjJx1PT.s:16     .rodata.oslib_test_001_003_execute.str1.1:0000000000000007 .LC4
-     /tmp/ccjJx1PT.s:20     .rodata.oslib_test_001_003_execute.str1.4:000000000000002c .LC5
-     /tmp/ccjJx1PT.s:23     .rodata.oslib_test_001_003_execute.str1.4:0000000000000058 .LC6
-     /tmp/ccjJx1PT.s:26     .rodata.oslib_test_001_003_execute.str1.4:0000000000000084 .LC7
-     /tmp/ccjJx1PT.s:29     .rodata.oslib_test_001_003_execute.str1.4:00000000000000b0 .LC8
-     /tmp/ccjJx1PT.s:32     .rodata.oslib_test_001_003_execute.str1.4:00000000000000dc .LC9
-     /tmp/ccjJx1PT.s:35     .rodata.oslib_test_001_003_execute.str1.4:0000000000000108 .LC10
-     /tmp/ccjJx1PT.s:38     .rodata.oslib_test_001_003_execute.str1.4:0000000000000134 .LC11
-     /tmp/ccjJx1PT.s:41     .rodata.oslib_test_001_003_execute.str1.4:0000000000000160 .LC12
-     /tmp/ccjJx1PT.s:44     .rodata.oslib_test_001_003_execute.str1.4:000000000000018c .LC13
-     /tmp/ccjJx1PT.s:47     .rodata.oslib_test_001_003_execute.str1.4:00000000000001b8 .LC14
-     /tmp/ccjJx1PT.s:50     .rodata.oslib_test_001_003_execute.str1.4:00000000000001e4 .LC15
-     /tmp/ccjJx1PT.s:53     .rodata.oslib_test_001_003_execute.str1.4:0000000000000210 .LC16
-     /tmp/ccjJx1PT.s:56     .rodata.oslib_test_001_003_execute.str1.4:000000000000023c .LC17
-     /tmp/ccjJx1PT.s:59     .rodata.oslib_test_001_003_execute.str1.4:0000000000000268 .LC18
-     /tmp/ccjJx1PT.s:62     .rodata.oslib_test_001_003_execute.str1.4:0000000000000294 .LC19
-     /tmp/ccjJx1PT.s:65     .rodata.oslib_test_001_003_execute.str1.4:00000000000002c0 .LC20
-     /tmp/ccjJx1PT.s:68     .rodata.oslib_test_001_003_execute.str1.4:00000000000002ec .LC21
-     /tmp/ccjJx1PT.s:1180   .rodata.oslib_test_001_002_execute.str1.4:0000000000000000 .LC22
-     /tmp/ccjJx1PT.s:1183   .rodata.oslib_test_001_002_execute.str1.4:0000000000000034 .LC23
-     /tmp/ccjJx1PT.s:1186   .rodata.oslib_test_001_002_execute.str1.4:0000000000000060 .LC24
-     /tmp/ccjJx1PT.s:1189   .rodata.oslib_test_001_002_execute.str1.1:0000000000000000 .LC25
-     /tmp/ccjJx1PT.s:1193   .rodata.oslib_test_001_002_execute.str1.4:000000000000008c .LC26
-     /tmp/ccjJx1PT.s:1196   .rodata.oslib_test_001_002_execute.str1.4:00000000000000b8 .LC27
-     /tmp/ccjJx1PT.s:1199   .rodata.oslib_test_001_002_execute.str1.4:00000000000000e4 .LC28
-     /tmp/ccjJx1PT.s:1557   .rodata.oslib_test_001_001_execute.str1.4:0000000000000000 .LC29
-     /tmp/ccjJx1PT.s:1560   .rodata.oslib_test_001_001_execute.str1.1:0000000000000000 .LC30
-     /tmp/ccjJx1PT.s:1564   .rodata.oslib_test_001_001_execute.str1.4:000000000000002c .LC31
-     /tmp/ccjJx1PT.s:1567   .rodata.oslib_test_001_001_execute.str1.1:000000000000000a .LC32
-     /tmp/ccjJx1PT.s:1571   .rodata.oslib_test_001_001_execute.str1.4:0000000000000058 .LC33
-     /tmp/ccjJx1PT.s:1574   .rodata.oslib_test_001_001_execute.str1.1:000000000000001d .LC34
-     /tmp/ccjJx1PT.s:1578   .rodata.oslib_test_001_001_execute.str1.4:0000000000000084 .LC35
-     /tmp/ccjJx1PT.s:1581   .rodata.oslib_test_001_001_execute.str1.1:0000000000000028 .LC36
-     /tmp/ccjJx1PT.s:1585   .rodata.oslib_test_001_001_execute.str1.4:00000000000000b0 .LC37
-     /tmp/ccjJx1PT.s:1588   .rodata.oslib_test_001_001_execute.str1.4:00000000000000dc .LC38
-     /tmp/ccjJx1PT.s:1591   .rodata.oslib_test_001_001_execute.str1.4:0000000000000108 .LC39
+     /tmp/cct1yQ7k.s:73     .text.oslib_test_001_003_execute:0000000000000000 oslib_test_001_003_execute
+     /tmp/cct1yQ7k.s:2053   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/cct1yQ7k.s:1204   .text.oslib_test_001_002_execute:0000000000000000 oslib_test_001_002_execute
+     /tmp/cct1yQ7k.s:1596   .text.oslib_test_001_001_execute:0000000000000000 oslib_test_001_001_execute
+     /tmp/cct1yQ7k.s:2000   .data.rel.ro.local.oslib_test_sequence_001:0000000000000000 oslib_test_sequence_001
+     /tmp/cct1yQ7k.s:2008   .data.rel.ro.local.oslib_test_sequence_001_array:0000000000000000 oslib_test_sequence_001_array
+     /tmp/cct1yQ7k.s:2044   .data.rel.ro.local.oslib_test_001_001:0000000000000000 oslib_test_001_001
+     /tmp/cct1yQ7k.s:2032   .data.rel.ro.local.oslib_test_001_002:0000000000000000 oslib_test_001_002
+     /tmp/cct1yQ7k.s:2020   .data.rel.ro.local.oslib_test_001_003:0000000000000000 oslib_test_001_003
+     /tmp/cct1yQ7k.s:10     .rodata.oslib_test_001_003_execute.str1.1:0000000000000000 .LC1
+     /tmp/cct1yQ7k.s:12     .rodata.oslib_test_001_003_execute.str1.1:0000000000000003 .LC2
+     /tmp/cct1yQ7k.s:7      .rodata.oslib_test_001_003_execute.str1.4:0000000000000000 .LC0
+     /tmp/cct1yQ7k.s:14     .rodata.oslib_test_001_003_execute.str1.1:0000000000000006 .LC3
+     /tmp/cct1yQ7k.s:16     .rodata.oslib_test_001_003_execute.str1.1:0000000000000007 .LC4
+     /tmp/cct1yQ7k.s:20     .rodata.oslib_test_001_003_execute.str1.4:000000000000002c .LC5
+     /tmp/cct1yQ7k.s:23     .rodata.oslib_test_001_003_execute.str1.4:0000000000000058 .LC6
+     /tmp/cct1yQ7k.s:26     .rodata.oslib_test_001_003_execute.str1.4:0000000000000084 .LC7
+     /tmp/cct1yQ7k.s:29     .rodata.oslib_test_001_003_execute.str1.4:00000000000000b0 .LC8
+     /tmp/cct1yQ7k.s:32     .rodata.oslib_test_001_003_execute.str1.4:00000000000000dc .LC9
+     /tmp/cct1yQ7k.s:35     .rodata.oslib_test_001_003_execute.str1.4:0000000000000108 .LC10
+     /tmp/cct1yQ7k.s:38     .rodata.oslib_test_001_003_execute.str1.4:0000000000000134 .LC11
+     /tmp/cct1yQ7k.s:41     .rodata.oslib_test_001_003_execute.str1.4:0000000000000160 .LC12
+     /tmp/cct1yQ7k.s:44     .rodata.oslib_test_001_003_execute.str1.4:000000000000018c .LC13
+     /tmp/cct1yQ7k.s:47     .rodata.oslib_test_001_003_execute.str1.4:00000000000001b8 .LC14
+     /tmp/cct1yQ7k.s:50     .rodata.oslib_test_001_003_execute.str1.4:00000000000001e4 .LC15
+     /tmp/cct1yQ7k.s:53     .rodata.oslib_test_001_003_execute.str1.4:0000000000000210 .LC16
+     /tmp/cct1yQ7k.s:56     .rodata.oslib_test_001_003_execute.str1.4:000000000000023c .LC17
+     /tmp/cct1yQ7k.s:59     .rodata.oslib_test_001_003_execute.str1.4:0000000000000268 .LC18
+     /tmp/cct1yQ7k.s:62     .rodata.oslib_test_001_003_execute.str1.4:0000000000000294 .LC19
+     /tmp/cct1yQ7k.s:65     .rodata.oslib_test_001_003_execute.str1.4:00000000000002c0 .LC20
+     /tmp/cct1yQ7k.s:68     .rodata.oslib_test_001_003_execute.str1.4:00000000000002ec .LC21
+     /tmp/cct1yQ7k.s:1180   .rodata.oslib_test_001_002_execute.str1.4:0000000000000000 .LC22
+     /tmp/cct1yQ7k.s:1183   .rodata.oslib_test_001_002_execute.str1.4:0000000000000034 .LC23
+     /tmp/cct1yQ7k.s:1186   .rodata.oslib_test_001_002_execute.str1.4:0000000000000060 .LC24
+     /tmp/cct1yQ7k.s:1189   .rodata.oslib_test_001_002_execute.str1.1:0000000000000000 .LC25
+     /tmp/cct1yQ7k.s:1193   .rodata.oslib_test_001_002_execute.str1.4:000000000000008c .LC26
+     /tmp/cct1yQ7k.s:1196   .rodata.oslib_test_001_002_execute.str1.4:00000000000000b8 .LC27
+     /tmp/cct1yQ7k.s:1199   .rodata.oslib_test_001_002_execute.str1.4:00000000000000e4 .LC28
+     /tmp/cct1yQ7k.s:1557   .rodata.oslib_test_001_001_execute.str1.4:0000000000000000 .LC29
+     /tmp/cct1yQ7k.s:1560   .rodata.oslib_test_001_001_execute.str1.1:0000000000000000 .LC30
+     /tmp/cct1yQ7k.s:1564   .rodata.oslib_test_001_001_execute.str1.4:000000000000002c .LC31
+     /tmp/cct1yQ7k.s:1567   .rodata.oslib_test_001_001_execute.str1.1:000000000000000a .LC32
+     /tmp/cct1yQ7k.s:1571   .rodata.oslib_test_001_001_execute.str1.4:0000000000000058 .LC33
+     /tmp/cct1yQ7k.s:1574   .rodata.oslib_test_001_001_execute.str1.1:000000000000001d .LC34
+     /tmp/cct1yQ7k.s:1578   .rodata.oslib_test_001_001_execute.str1.4:0000000000000084 .LC35
+     /tmp/cct1yQ7k.s:1581   .rodata.oslib_test_001_001_execute.str1.1:0000000000000028 .LC36
+     /tmp/cct1yQ7k.s:1585   .rodata.oslib_test_001_001_execute.str1.4:00000000000000b0 .LC37
+     /tmp/cct1yQ7k.s:1588   .rodata.oslib_test_001_001_execute.str1.4:00000000000000dc .LC38
+     /tmp/cct1yQ7k.s:1591   .rodata.oslib_test_001_001_execute.str1.4:0000000000000108 .LC39
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

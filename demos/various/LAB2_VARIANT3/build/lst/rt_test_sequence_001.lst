@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccLrD78V.s 			page 1
+GAS LISTING /tmp/ccp43NYq.s 			page 1
 
 
    1              		.file	"rt_test_sequence_001.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../test/rt/source/test/rt_test_seq
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../test/rt/source/test/rt_test_seq
    5              		.section	.rodata.rt_test_001_003_execute.str1.4,"aMS",@progbits,1
    6              		.align 4
    7              	.LC0:
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
   33      43485F43 
   33      46475F54 
   33      494D455F 
-GAS LISTING /tmp/ccLrD78V.s 			page 2
+GAS LISTING /tmp/ccp43NYq.s 			page 2
 
 
   33      54595045 
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
   57      46475F55 
   57      53455F57 
   57      41495445 
-GAS LISTING /tmp/ccLrD78V.s 			page 3
+GAS LISTING /tmp/ccp43NYq.s 			page 3
 
 
   58 0265 000000   		.align 4
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
   81      53455F45 
   81      56454E54 
   82 03c5 000000   		.align 4
-GAS LISTING /tmp/ccLrD78V.s 			page 4
+GAS LISTING /tmp/ccp43NYq.s 			page 4
 
 
   83              	.LC26:
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  105      5F4D4153 
  106 0525 000000   		.align 4
  107              	.LC34:
-GAS LISTING /tmp/ccLrD78V.s 			page 5
+GAS LISTING /tmp/ccp43NYq.s 			page 5
 
 
  108 0528 2D2D2D20 		.string	"--- CH_DBG_TRACE_BUFFER_SIZE:           "
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  144              		.loc 1 163 3 view .LVU3
  145 0012 8B830000 		movl	chtest@GOT(%ebx), %eax
  145      0000
-GAS LISTING /tmp/ccLrD78V.s 			page 6
+GAS LISTING /tmp/ccp43NYq.s 			page 6
 
 
  146              	.LBB270:
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  194              		.loc 2 359 3 is_stmt 0 view .LVU14
  195              	.LBE275:
  196              	.LBE277:
-GAS LISTING /tmp/ccLrD78V.s 			page 7
+GAS LISTING /tmp/ccp43NYq.s 			page 7
 
 
  197              		.loc 1 167 5 is_stmt 1 view .LVU15
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  246              		.cfi_def_cfa_offset 60
  247 006a 58       		popl	%eax
  248              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/ccLrD78V.s 			page 8
+GAS LISTING /tmp/ccp43NYq.s 			page 8
 
 
  249 006b 6A00     		pushl	$0
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  299              	.LBI288:
  300              		.loc 2 357 20 view .LVU36
  301              	.LBB289:
-GAS LISTING /tmp/ccLrD78V.s 			page 9
+GAS LISTING /tmp/ccp43NYq.s 			page 9
 
 
  302              		.loc 2 359 3 view .LVU37
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  352              		.loc 2 371 3 is_stmt 0 view .LVU46
  353              	.LBE293:
  354              	.LBE292:
-GAS LISTING /tmp/ccLrD78V.s 			page 10
+GAS LISTING /tmp/ccp43NYq.s 			page 10
 
 
  355              		.loc 1 175 5 is_stmt 1 view .LVU47
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  405              		.cfi_def_cfa_offset 60
  406 00d5 55       		pushl	%ebp
  407              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/ccLrD78V.s 			page 11
+GAS LISTING /tmp/ccp43NYq.s 			page 11
 
 
  408 00d6 E8FCFFFF 		call	test_printf@PLT
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  459 00f2 8D830000 		leal	.LC9@GOTOFF(%ebx), %eax
  459      0000
  460 00f8 5A       		popl	%edx
-GAS LISTING /tmp/ccLrD78V.s 			page 12
+GAS LISTING /tmp/ccp43NYq.s 			page 12
 
 
  461              		.cfi_def_cfa_offset 56
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  512              		.loc 2 369 20 view .LVU80
  513              	.LBB311:
  514              		.loc 2 371 3 view .LVU81
-GAS LISTING /tmp/ccLrD78V.s 			page 13
+GAS LISTING /tmp/ccp43NYq.s 			page 13
 
 
  515 0116 59       		popl	%ecx
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  565              	.LBE315:
  566              	.LBE314:
  567              		.loc 1 186 5 is_stmt 1 view .LVU91
-GAS LISTING /tmp/ccLrD78V.s 			page 14
+GAS LISTING /tmp/ccp43NYq.s 			page 14
 
 
  568              	.LBB316:
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  619              		.cfi_def_cfa_offset 64
  620 015b E8FCFFFF 		call	test_printf@PLT
  620      FF
-GAS LISTING /tmp/ccLrD78V.s 			page 15
+GAS LISTING /tmp/ccp43NYq.s 			page 15
 
 
  621              	.LVL24:
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  672 017a 58       		popl	%eax
  673              		.cfi_def_cfa_offset 56
  674 017b 56       		pushl	%esi
-GAS LISTING /tmp/ccLrD78V.s 			page 16
+GAS LISTING /tmp/ccp43NYq.s 			page 16
 
 
  675              		.cfi_def_cfa_offset 60
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  725              		.loc 2 381 20 view .LVU124
  726              	.LBB333:
  727              		.loc 2 383 3 view .LVU125
-GAS LISTING /tmp/ccLrD78V.s 			page 17
+GAS LISTING /tmp/ccp43NYq.s 			page 17
 
 
  728 019e 58       		popl	%eax
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  778              	.LBE337:
  779              	.LBE336:
  780              		.loc 1 197 5 is_stmt 1 view .LVU135
-GAS LISTING /tmp/ccLrD78V.s 			page 18
+GAS LISTING /tmp/ccp43NYq.s 			page 18
 
 
  781              	.LBB338:
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  832              		.cfi_def_cfa_offset 64
  833 01e3 E8FCFFFF 		call	test_printf@PLT
  833      FF
-GAS LISTING /tmp/ccLrD78V.s 			page 19
+GAS LISTING /tmp/ccp43NYq.s 			page 19
 
 
  834              	.LVL35:
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  885 0204 5A       		popl	%edx
  886              		.cfi_def_cfa_offset 56
  887 0205 6A01     		pushl	$1
-GAS LISTING /tmp/ccLrD78V.s 			page 20
+GAS LISTING /tmp/ccp43NYq.s 			page 20
 
 
  888              		.cfi_def_cfa_offset 60
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  938              		.loc 2 357 20 view .LVU168
  939              	.LBB355:
  940              		.loc 2 359 3 view .LVU169
-GAS LISTING /tmp/ccLrD78V.s 			page 21
+GAS LISTING /tmp/ccp43NYq.s 			page 21
 
 
  941 0228 59       		popl	%ecx
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  991              	.LBE359:
  992              	.LBE358:
  993              		.loc 1 208 5 is_stmt 1 view .LVU179
-GAS LISTING /tmp/ccLrD78V.s 			page 22
+GAS LISTING /tmp/ccp43NYq.s 			page 22
 
 
  994              	.LBB360:
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1045              		.cfi_def_cfa_offset 64
  1046 026d E8FCFFFF 		call	test_printf@PLT
  1046      FF
-GAS LISTING /tmp/ccLrD78V.s 			page 23
+GAS LISTING /tmp/ccp43NYq.s 			page 23
 
 
  1047              	.LVL46:
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1099 028a 8D830000 		leal	.LC20@GOTOFF(%ebx), %eax
  1099      0000
  1100 0290 50       		pushl	%eax
-GAS LISTING /tmp/ccLrD78V.s 			page 24
+GAS LISTING /tmp/ccp43NYq.s 			page 24
 
 
  1101              		.cfi_def_cfa_offset 60
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1152              		.loc 2 371 3 view .LVU213
  1153 02ad 58       		popl	%eax
  1154              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccLrD78V.s 			page 25
+GAS LISTING /tmp/ccp43NYq.s 			page 25
 
 
  1155 02ae 8D830000 		leal	.LC21@GOTOFF(%ebx), %eax
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1205              		.loc 1 219 5 is_stmt 1 view .LVU223
  1206              	.LBB382:
  1207              	.LBI382:
-GAS LISTING /tmp/ccLrD78V.s 			page 26
+GAS LISTING /tmp/ccp43NYq.s 			page 26
 
 
  1208              		.loc 2 369 20 view .LVU224
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1258      FF
  1259              	.LVL57:
  1260              		.loc 2 383 3 is_stmt 0 view .LVU234
-GAS LISTING /tmp/ccLrD78V.s 			page 27
+GAS LISTING /tmp/ccp43NYq.s 			page 27
 
 
  1261              	.LBE387:
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1312 0312 56       		pushl	%esi
  1313              		.cfi_def_cfa_offset 60
  1314 0313 FF742418 		pushl	24(%esp)
-GAS LISTING /tmp/ccLrD78V.s 			page 28
+GAS LISTING /tmp/ccp43NYq.s 			page 28
 
 
  1315              		.cfi_def_cfa_offset 64
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1365              		.loc 2 383 3 view .LVU257
  1366 0335 59       		popl	%ecx
  1367              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccLrD78V.s 			page 29
+GAS LISTING /tmp/ccp43NYq.s 			page 29
 
 
  1368 0336 58       		popl	%eax
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1418              		.loc 1 230 5 is_stmt 1 view .LVU267
  1419              	.LBB404:
  1420              	.LBI404:
-GAS LISTING /tmp/ccLrD78V.s 			page 30
+GAS LISTING /tmp/ccp43NYq.s 			page 30
 
 
  1421              		.loc 2 381 20 view .LVU268
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1471      FF
  1472              	.LVL68:
  1473              		.loc 2 359 3 is_stmt 0 view .LVU278
-GAS LISTING /tmp/ccLrD78V.s 			page 31
+GAS LISTING /tmp/ccp43NYq.s 			page 31
 
 
  1474              	.LBE409:
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1525 039c 6A00     		pushl	$0
  1526              		.cfi_def_cfa_offset 60
  1527 039e 57       		pushl	%edi
-GAS LISTING /tmp/ccLrD78V.s 			page 32
+GAS LISTING /tmp/ccp43NYq.s 			page 32
 
 
  1528              		.cfi_def_cfa_offset 64
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1578              		.loc 2 359 3 view .LVU301
  1579 03bf 58       		popl	%eax
  1580              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccLrD78V.s 			page 33
+GAS LISTING /tmp/ccp43NYq.s 			page 33
 
 
  1581 03c0 5A       		popl	%edx
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1631              		.loc 1 241 5 is_stmt 1 view .LVU311
  1632              	.LBB426:
  1633              	.LBI426:
-GAS LISTING /tmp/ccLrD78V.s 			page 34
+GAS LISTING /tmp/ccp43NYq.s 			page 34
 
 
  1634              		.loc 2 357 20 view .LVU312
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1684      FF
  1685              	.LVL79:
  1686              		.loc 2 371 3 is_stmt 0 view .LVU322
-GAS LISTING /tmp/ccLrD78V.s 			page 35
+GAS LISTING /tmp/ccp43NYq.s 			page 35
 
 
  1687              	.LBE431:
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1738 0427 50       		pushl	%eax
  1739              		.cfi_def_cfa_offset 60
  1740 0428 55       		pushl	%ebp
-GAS LISTING /tmp/ccLrD78V.s 			page 36
+GAS LISTING /tmp/ccp43NYq.s 			page 36
 
 
  1741              		.cfi_def_cfa_offset 64
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1792              		.cfi_def_cfa_offset 60
  1793 0445 58       		popl	%eax
  1794              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/ccLrD78V.s 			page 37
+GAS LISTING /tmp/ccp43NYq.s 			page 37
 
 
  1795 0446 8D830000 		leal	.LC32@GOTOFF(%ebx), %eax
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1845              	.LBI448:
  1846              		.loc 2 369 20 view .LVU356
  1847              	.LBB449:
-GAS LISTING /tmp/ccLrD78V.s 			page 38
+GAS LISTING /tmp/ccp43NYq.s 			page 38
 
 
  1848              		.loc 2 371 3 view .LVU357
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1897              	.LVL90:
  1898              		.loc 2 383 3 is_stmt 0 view .LVU366
  1899              	.LBE453:
-GAS LISTING /tmp/ccLrD78V.s 			page 39
+GAS LISTING /tmp/ccp43NYq.s 			page 39
 
 
  1900              	.LBE452:
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  1950 04af 56       		pushl	%esi
  1951              		.cfi_def_cfa_offset 60
  1952 04b0 FF742418 		pushl	24(%esp)
-GAS LISTING /tmp/ccLrD78V.s 			page 40
+GAS LISTING /tmp/ccp43NYq.s 			page 40
 
 
  1953              		.cfi_def_cfa_offset 64
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2003              		.loc 2 383 3 view .LVU389
  2004 04d2 58       		popl	%eax
  2005              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccLrD78V.s 			page 41
+GAS LISTING /tmp/ccp43NYq.s 			page 41
 
 
  2006 04d3 5A       		popl	%edx
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2056              		.loc 1 263 5 is_stmt 1 view .LVU399
  2057              	.LBB470:
  2058              	.LBI470:
-GAS LISTING /tmp/ccLrD78V.s 			page 42
+GAS LISTING /tmp/ccp43NYq.s 			page 42
 
 
  2059              		.loc 2 381 20 view .LVU400
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2109      FF
  2110              	.LVL101:
  2111              		.loc 2 359 3 is_stmt 0 view .LVU410
-GAS LISTING /tmp/ccLrD78V.s 			page 43
+GAS LISTING /tmp/ccp43NYq.s 			page 43
 
 
  2112              	.LBE475:
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2160      53746162 
  2160      6C652046 
  2160      6C61673A 
-GAS LISTING /tmp/ccLrD78V.s 			page 44
+GAS LISTING /tmp/ccp43NYq.s 			page 44
 
 
  2160      20202020 
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2197              		.cfi_offset 3, -20
  2198 0004 E8FCFFFF 		call	__x86.get_pc_thunk.bx
  2198      FF
-GAS LISTING /tmp/ccLrD78V.s 			page 45
+GAS LISTING /tmp/ccp43NYq.s 			page 45
 
 
  2199 0009 81C30200 		addl	$_GLOBAL_OFFSET_TABLE_, %ebx
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2245              		.cfi_def_cfa_offset 56
  2246 003f 50       		pushl	%eax
  2247              		.cfi_def_cfa_offset 60
-GAS LISTING /tmp/ccLrD78V.s 			page 46
+GAS LISTING /tmp/ccp43NYq.s 			page 46
 
 
  2248 0040 57       		pushl	%edi
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2297              	.LBB490:
  2298              	.LBI490:
  2299              		.loc 2 369 20 view .LVU442
-GAS LISTING /tmp/ccLrD78V.s 			page 47
+GAS LISTING /tmp/ccp43NYq.s 			page 47
 
 
  2300              	.LBB491:
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2349 0090 57       		pushl	%edi
  2350              		.cfi_def_cfa_offset 64
  2351 0091 E8FCFFFF 		call	test_printf@PLT
-GAS LISTING /tmp/ccLrD78V.s 			page 48
+GAS LISTING /tmp/ccp43NYq.s 			page 48
 
 
  2351      FF
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2402      0000
  2403 00b3 5A       		popl	%edx
  2404              		.cfi_def_cfa_offset 56
-GAS LISTING /tmp/ccLrD78V.s 			page 49
+GAS LISTING /tmp/ccp43NYq.s 			page 49
 
 
  2405 00b4 50       		pushl	%eax
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2456              	.LBB507:
  2457              		.loc 2 371 3 view .LVU475
  2458 00d1 59       		popl	%ecx
-GAS LISTING /tmp/ccLrD78V.s 			page 50
+GAS LISTING /tmp/ccp43NYq.s 			page 50
 
 
  2459              		.cfi_def_cfa_offset 60
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2509              	.LBE510:
  2510              		.loc 1 139 3 is_stmt 1 view .LVU485
  2511              		.loc 1 139 19 view .LVU486
-GAS LISTING /tmp/ccLrD78V.s 			page 51
+GAS LISTING /tmp/ccp43NYq.s 			page 51
 
 
  2512              		.loc 1 140 1 is_stmt 0 view .LVU487
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2548      20202020 
  2549              		.section	.rodata.rt_test_001_001_execute.str1.1
  2550              	.LC50:
-GAS LISTING /tmp/ccLrD78V.s 			page 52
+GAS LISTING /tmp/ccp43NYq.s 			page 52
 
 
  2551 001d 47434320 		.string	"GCC 11.4.0"
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2584 0002 56       		pushl	%esi
  2585              		.cfi_def_cfa_offset 16
  2586              		.cfi_offset 6, -16
-GAS LISTING /tmp/ccLrD78V.s 			page 53
+GAS LISTING /tmp/ccp43NYq.s 			page 53
 
 
  2587 0003 53       		pushl	%ebx
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2633 0037 58       		popl	%eax
  2634              		.cfi_def_cfa_offset 60
  2635 0038 8D830000 		leal	.LC46@GOTOFF(%ebx), %eax
-GAS LISTING /tmp/ccLrD78V.s 			page 54
+GAS LISTING /tmp/ccp43NYq.s 			page 54
 
 
  2635      0000
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2684              		.loc 2 383 3 is_stmt 0 view .LVU510
  2685              	.LBE523:
  2686              	.LBE522:
-GAS LISTING /tmp/ccLrD78V.s 			page 55
+GAS LISTING /tmp/ccp43NYq.s 			page 55
 
 
  2687              		.loc 1 74 5 is_stmt 1 view .LVU511
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2736 0089 5D       		popl	%ebp
  2737              		.cfi_def_cfa_offset 56
  2738 008a 50       		pushl	%eax
-GAS LISTING /tmp/ccLrD78V.s 			page 56
+GAS LISTING /tmp/ccp43NYq.s 			page 56
 
 
  2739              		.cfi_def_cfa_offset 60
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2788              	.LBB534:
  2789              	.LBI534:
  2790              		.loc 2 357 20 view .LVU532
-GAS LISTING /tmp/ccLrD78V.s 			page 57
+GAS LISTING /tmp/ccp43NYq.s 			page 57
 
 
  2791              	.LBB535:
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2840              		.cfi_def_cfa_offset 60
  2841 00db 57       		pushl	%edi
  2842              		.cfi_def_cfa_offset 64
-GAS LISTING /tmp/ccLrD78V.s 			page 58
+GAS LISTING /tmp/ccp43NYq.s 			page 58
 
 
  2843 00dc E8FCFFFF 		call	test_printf@PLT
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2894 00fc 59       		popl	%ecx
  2895              		.cfi_def_cfa_offset 60
  2896 00fd 58       		popl	%eax
-GAS LISTING /tmp/ccLrD78V.s 			page 59
+GAS LISTING /tmp/ccp43NYq.s 			page 59
 
 
  2897              		.cfi_def_cfa_offset 56
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2947              		.loc 1 97 3 is_stmt 1 view .LVU563
  2948              		.loc 1 97 19 view .LVU564
  2949              		.loc 1 98 1 is_stmt 0 view .LVU565
-GAS LISTING /tmp/ccLrD78V.s 			page 60
+GAS LISTING /tmp/ccp43NYq.s 			page 60
 
 
  2950 0122 83C42C   		addl	$44, %esp
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  2999 0008 00000000 		.long	0
  3000 000c 00000000 		.long	rt_test_001_003_execute
  3001              		.section	.rodata.str1.1
-GAS LISTING /tmp/ccLrD78V.s 			page 61
+GAS LISTING /tmp/ccp43NYq.s 			page 61
 
 
  3002              	.LC58:
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3052 000c 16       		.uleb128 0x16
  3053 000d 6B000000 		.long	.LASF56
  3054 0011 1D       		.byte	0x1d
-GAS LISTING /tmp/ccLrD78V.s 			page 62
+GAS LISTING /tmp/ccp43NYq.s 			page 62
 
 
  3055 0012 00000000 		.long	.LASF0
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3109 007e 26       		.byte	0x26
  3110 007f 17       		.byte	0x17
  3111 0080 5C000000 		.long	0x5c
-GAS LISTING /tmp/ccLrD78V.s 			page 63
+GAS LISTING /tmp/ccp43NYq.s 			page 63
 
 
  3112 0084 07       		.uleb128 0x7
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3166 00ed 1D       		.byte	0x1d
  3167 00ee BD000000 		.long	0xbd
  3168 00f2 05       		.uleb128 0x5
-GAS LISTING /tmp/ccLrD78V.s 			page 64
+GAS LISTING /tmp/ccp43NYq.s 			page 64
 
 
  3169 00f3 B8000000 		.long	0xb8
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3223 015f AA000000 		.long	0xaa
  3224 0163 08       		.uleb128 0x8
  3225 0164 6E010000 		.long	0x16e
-GAS LISTING /tmp/ccLrD78V.s 			page 65
+GAS LISTING /tmp/ccp43NYq.s 			page 65
 
 
  3226 0168 08       		.uleb128 0x8
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3280 01e3 5E       		.byte	0x5e
  3281 01e4 03       		.byte	0x3
  3282 01e5 C3010000 		.long	0x1c3
-GAS LISTING /tmp/ccLrD78V.s 			page 66
+GAS LISTING /tmp/ccp43NYq.s 			page 66
 
 
  3283 01e9 06       		.uleb128 0x6
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3337 0252 04       		.uleb128 0x4
  3338 0253 65020000 		.long	.LASF33
  3339 0257 02       		.byte	0x2
-GAS LISTING /tmp/ccLrD78V.s 			page 67
+GAS LISTING /tmp/ccp43NYq.s 			page 67
 
 
  3340 0258 9A       		.byte	0x9a
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3394 02be B2010000 		.long	.LASF39
  3395 02c2 02       		.byte	0x2
  3396 02c3 AD       		.byte	0xad
-GAS LISTING /tmp/ccLrD78V.s 			page 68
+GAS LISTING /tmp/ccp43NYq.s 			page 68
 
 
  3397 02c4 0A       		.byte	0xa
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3451 032d 0A       		.uleb128 0xa
  3452 032e 21030000 		.long	0x321
  3453 0332 1B       		.uleb128 0x1b
-GAS LISTING /tmp/ccLrD78V.s 			page 69
+GAS LISTING /tmp/ccp43NYq.s 			page 69
 
 
  3454 0333 4E020000 		.long	.LASF44
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3508 03ab 01       		.byte	0x1
  3509 03ac 2701     		.value	0x127
  3510 03ae 16       		.byte	0x16
-GAS LISTING /tmp/ccLrD78V.s 			page 70
+GAS LISTING /tmp/ccp43NYq.s 			page 70
 
 
  3511 03af 05       		.uleb128 0x5
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3565 043c 41000000 		.long	.LBI278
  3566 0440 0200     		.value	.LVU16
  3567 0442 41000000 		.long	.LBB278
-GAS LISTING /tmp/ccLrD78V.s 			page 71
+GAS LISTING /tmp/ccp43NYq.s 			page 71
 
 
  3568 0446 19000000 		.long	.LBE278-.LBB278
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3622 04e5 54000000 		.long	.LVUS7
  3623 04e9 02       		.uleb128 0x2
  3624 04ea 7F000000 		.long	.LVL6
-GAS LISTING /tmp/ccLrD78V.s 			page 72
+GAS LISTING /tmp/ccp43NYq.s 			page 72
 
 
  3625 04ee B5030000 		.long	0x3b5
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3679 058b A4000000 		.long	.LBB292
  3680 058f 0F000000 		.long	.LBE292-.LBB292
  3681 0593 AE       		.byte	0xae
-GAS LISTING /tmp/ccLrD78V.s 			page 73
+GAS LISTING /tmp/ccp43NYq.s 			page 73
 
 
  3682 0594 AF050000 		.long	0x5af
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3736 0633 DB000000 		.long	.LVL13
  3737 0637 B5030000 		.long	0x3b5
  3738 063b 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 74
+GAS LISTING /tmp/ccp43NYq.s 			page 74
 
 
  3739 063c 03       		.uleb128 0x3
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3793 06dc B5       		.byte	0xb5
  3794 06dd F8060000 		.long	0x6f8
  3795 06e1 01       		.uleb128 0x1
-GAS LISTING /tmp/ccLrD78V.s 			page 75
+GAS LISTING /tmp/ccp43NYq.s 			page 75
 
 
  3796 06e2 C91C0000 		.long	0x1cc9
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3850 0784 00       		.byte	0
  3851 0785 03       		.uleb128 0x3
  3852 0786 8F1C0000 		.long	0x1c8f
-GAS LISTING /tmp/ccLrD78V.s 			page 76
+GAS LISTING /tmp/ccp43NYq.s 			page 76
 
 
  3853 078a 2F010000 		.long	.LBI314
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3907 082a 01       		.uleb128 0x1
  3908 082b 9A1C0000 		.long	0x1c9a
  3909 082f 63010000 		.long	.LLST25
-GAS LISTING /tmp/ccLrD78V.s 			page 77
+GAS LISTING /tmp/ccp43NYq.s 			page 77
 
 
  3910 0833 61010000 		.long	.LVUS25
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  3964 08cf A71C0000 		.long	0x1ca7
  3965 08d3 85010000 		.long	.LBI328
  3966 08d7 0200     		.value	.LVU116
-GAS LISTING /tmp/ccLrD78V.s 			page 78
+GAS LISTING /tmp/ccp43NYq.s 			page 78
 
 
  3967 08d9 85010000 		.long	.LBB328
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4021 0978 CB010000 		.long	.LLST32
  4022 097c C9010000 		.long	.LVUS32
  4023 0980 02       		.uleb128 0x2
-GAS LISTING /tmp/ccLrD78V.s 			page 79
+GAS LISTING /tmp/ccp43NYq.s 			page 79
 
 
  4024 0981 B9010000 		.long	.LVL31
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4078 0a20 0200     		.value	.LVU144
  4079 0a22 DE010000 		.long	.LBB342
  4080 0a26 0A000000 		.long	.LBE342-.LBB342
-GAS LISTING /tmp/ccLrD78V.s 			page 80
+GAS LISTING /tmp/ccp43NYq.s 			page 80
 
 
  4081 0a2a C7       		.byte	0xc7
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4135 0ac9 02       		.uleb128 0x2
  4136 0aca 0D020000 		.long	.LVL38
  4137 0ace B5030000 		.long	0x3b5
-GAS LISTING /tmp/ccLrD78V.s 			page 81
+GAS LISTING /tmp/ccp43NYq.s 			page 81
 
 
  4138 0ad2 00       		.byte	0
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4192 0b6f 0C000000 		.long	.LBE356-.LBB356
  4193 0b73 CE       		.byte	0xce
  4194 0b74 8F0B0000 		.long	0xb8f
-GAS LISTING /tmp/ccLrD78V.s 			page 82
+GAS LISTING /tmp/ccp43NYq.s 			page 82
 
 
  4195 0b78 01       		.uleb128 0x1
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4249 0c17 B5030000 		.long	0x3b5
  4250 0c1b 00       		.byte	0
  4251 0c1c 03       		.uleb128 0x3
-GAS LISTING /tmp/ccLrD78V.s 			page 83
+GAS LISTING /tmp/ccp43NYq.s 			page 83
 
 
  4252 0c1d A71C0000 		.long	0x1ca7
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4306 0cbd D80C0000 		.long	0xcd8
  4307 0cc1 01       		.uleb128 0x1
  4308 0cc2 B21C0000 		.long	0x1cb2
-GAS LISTING /tmp/ccLrD78V.s 			page 84
+GAS LISTING /tmp/ccp43NYq.s 			page 84
 
 
  4309 0cc6 D3020000 		.long	.LLST50
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4363 0d65 03       		.uleb128 0x3
  4364 0d66 BF1C0000 		.long	0x1cbf
  4365 0d6a BC020000 		.long	.LBI378
-GAS LISTING /tmp/ccLrD78V.s 			page 85
+GAS LISTING /tmp/ccp43NYq.s 			page 85
 
 
  4366 0d6e 0200     		.value	.LVU216
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4420 0e0b C91C0000 		.long	0x1cc9
  4421 0e0f 3B030000 		.long	.LLST57
  4422 0e13 39030000 		.long	.LVUS57
-GAS LISTING /tmp/ccLrD78V.s 			page 86
+GAS LISTING /tmp/ccp43NYq.s 			page 86
 
 
  4423 0e17 02       		.uleb128 0x2
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4477 0eb3 10030000 		.long	.LBI392
  4478 0eb7 0200     		.value	.LVU244
  4479 0eb9 10030000 		.long	.LBB392
-GAS LISTING /tmp/ccLrD78V.s 			page 87
+GAS LISTING /tmp/ccp43NYq.s 			page 87
 
 
  4480 0ebd 0C000000 		.long	.LBE392-.LBB392
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4534 0f5c 9D030000 		.long	.LVUS64
  4535 0f60 02       		.uleb128 0x2
  4536 0f61 41030000 		.long	.LVL63
-GAS LISTING /tmp/ccLrD78V.s 			page 88
+GAS LISTING /tmp/ccp43NYq.s 			page 88
 
 
  4537 0f65 B5030000 		.long	0x3b5
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4591 1002 66030000 		.long	.LBB406
  4592 1006 0F000000 		.long	.LBE406-.LBB406
  4593 100a E7       		.byte	0xe7
-GAS LISTING /tmp/ccLrD78V.s 			page 89
+GAS LISTING /tmp/ccp43NYq.s 			page 89
 
 
  4594 100b 26100000 		.long	0x1026
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4648 10aa 9A030000 		.long	.LVL70
  4649 10ae B5030000 		.long	0x3b5
  4650 10b2 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 90
+GAS LISTING /tmp/ccp43NYq.s 			page 90
 
 
  4651 10b3 03       		.uleb128 0x3
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4705 1153 EE       		.byte	0xee
  4706 1154 6F110000 		.long	0x116f
  4707 1158 01       		.uleb128 0x1
-GAS LISTING /tmp/ccLrD78V.s 			page 91
+GAS LISTING /tmp/ccp43NYq.s 			page 91
 
 
  4708 1159 C91C0000 		.long	0x1cc9
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4762 11fb 00       		.byte	0
  4763 11fc 03       		.uleb128 0x3
  4764 11fd 8F1C0000 		.long	0x1c8f
-GAS LISTING /tmp/ccLrD78V.s 			page 92
+GAS LISTING /tmp/ccp43NYq.s 			page 92
 
 
  4765 1201 EE030000 		.long	.LBI428
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4819 12a1 01       		.uleb128 0x1
  4820 12a2 9A1C0000 		.long	0x1c9a
  4821 12a6 A7040000 		.long	.LLST82
-GAS LISTING /tmp/ccLrD78V.s 			page 93
+GAS LISTING /tmp/ccp43NYq.s 			page 93
 
 
  4822 12aa A5040000 		.long	.LVUS82
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4876 1346 A71C0000 		.long	0x1ca7
  4877 134a 44040000 		.long	.LBI442
  4878 134e 0200     		.value	.LVU344
-GAS LISTING /tmp/ccLrD78V.s 			page 94
+GAS LISTING /tmp/ccp43NYq.s 			page 94
 
 
  4879 1350 44040000 		.long	.LBB442
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4933 13ef 0F050000 		.long	.LLST89
  4934 13f3 0D050000 		.long	.LVUS89
  4935 13f7 02       		.uleb128 0x2
-GAS LISTING /tmp/ccLrD78V.s 			page 95
+GAS LISTING /tmp/ccp43NYq.s 			page 95
 
 
  4936 13f8 78040000 		.long	.LVL88
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  4990 1497 0200     		.value	.LVU372
  4991 1499 A0040000 		.long	.LBB456
  4992 149d 0D000000 		.long	.LBE456-.LBB456
-GAS LISTING /tmp/ccLrD78V.s 			page 96
+GAS LISTING /tmp/ccp43NYq.s 			page 96
 
 
  4993 14a1 0001     		.value	0x100
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5047 1544 02       		.uleb128 0x2
  5048 1545 D2040000 		.long	.LVL95
  5049 1549 B5030000 		.long	0x3b5
-GAS LISTING /tmp/ccLrD78V.s 			page 97
+GAS LISTING /tmp/ccp43NYq.s 			page 97
 
 
  5050 154d 00       		.byte	0
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5104 15ed 0C000000 		.long	.LBE470-.LBB470
  5105 15f1 0701     		.value	0x107
  5106 15f3 0E160000 		.long	0x160e
-GAS LISTING /tmp/ccLrD78V.s 			page 98
+GAS LISTING /tmp/ccp43NYq.s 			page 98
 
 
  5107 15f7 01       		.uleb128 0x1
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5161 1693 28050000 		.long	.LVL102
  5162 1697 B5030000 		.long	0x3b5
  5163 169b 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 99
+GAS LISTING /tmp/ccp43NYq.s 			page 99
 
 
  5164 169c 00       		.byte	0
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5218 1735 00       		.byte	0
  5219 1736 03       		.uleb128 0x3
  5220 1737 8F1C0000 		.long	0x1c8f
-GAS LISTING /tmp/ccLrD78V.s 			page 100
+GAS LISTING /tmp/ccp43NYq.s 			page 100
 
 
  5221 173b 56000000 		.long	.LBI488
@@ -5998,7 +5998,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5275 17db 01       		.uleb128 0x1
  5276 17dc B21C0000 		.long	0x1cb2
  5277 17e0 49060000 		.long	.LLST112
-GAS LISTING /tmp/ccLrD78V.s 			page 101
+GAS LISTING /tmp/ccp43NYq.s 			page 101
 
 
  5278 17e4 47060000 		.long	.LVUS112
@@ -6058,7 +6058,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5332 1880 BF1C0000 		.long	0x1cbf
  5333 1884 BB000000 		.long	.LBI502
  5334 1888 0200     		.value	.LVU466
-GAS LISTING /tmp/ccLrD78V.s 			page 102
+GAS LISTING /tmp/ccp43NYq.s 			page 102
 
 
  5335 188a BB000000 		.long	.LBB502
@@ -6118,7 +6118,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5389 1929 B1060000 		.long	.LLST119
  5390 192d AF060000 		.long	.LVUS119
  5391 1931 02       		.uleb128 0x2
-GAS LISTING /tmp/ccLrD78V.s 			page 103
+GAS LISTING /tmp/ccp43NYq.s 			page 103
 
 
  5392 1932 EA000000 		.long	.LVL117
@@ -6178,7 +6178,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5446 19c8 46000000 		.long	.LVL121
  5447 19cc B5030000 		.long	0x3b5
  5448 19d0 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 104
+GAS LISTING /tmp/ccp43NYq.s 			page 104
 
 
  5449 19d1 03       		.uleb128 0x3
@@ -6238,7 +6238,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5503 1a71 4B       		.byte	0x4b
  5504 1a72 8D1A0000 		.long	0x1a8d
  5505 1a76 01       		.uleb128 0x1
-GAS LISTING /tmp/ccLrD78V.s 			page 105
+GAS LISTING /tmp/ccp43NYq.s 			page 105
 
 
  5506 1a77 9A1C0000 		.long	0x1c9a
@@ -6298,7 +6298,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5560 1b19 00       		.byte	0
  5561 1b1a 03       		.uleb128 0x3
  5562 1b1b BF1C0000 		.long	0x1cbf
-GAS LISTING /tmp/ccLrD78V.s 			page 106
+GAS LISTING /tmp/ccp43NYq.s 			page 106
 
 
  5563 1b1f AF000000 		.long	.LBI534
@@ -6358,7 +6358,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5617 1bbf 01       		.uleb128 0x1
  5618 1bc0 C91C0000 		.long	0x1cc9
  5619 1bc4 89070000 		.long	.LLST135
-GAS LISTING /tmp/ccLrD78V.s 			page 107
+GAS LISTING /tmp/ccp43NYq.s 			page 107
 
 
  5620 1bc8 87070000 		.long	.LVUS135
@@ -6418,7 +6418,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5674 1c64 8F1C0000 		.long	0x1c8f
  5675 1c68 19010000 		.long	.LBI548
  5676 1c6c 0200     		.value	.LVU560
-GAS LISTING /tmp/ccLrD78V.s 			page 108
+GAS LISTING /tmp/ccp43NYq.s 			page 108
 
 
  5677 1c6e 19010000 		.long	.LBB548
@@ -6478,7 +6478,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5731 0006 17       		.uleb128 0x17
  5732 0007 B742     		.uleb128 0x2137
  5733 0009 17       		.uleb128 0x17
-GAS LISTING /tmp/ccLrD78V.s 			page 109
+GAS LISTING /tmp/ccp43NYq.s 			page 109
 
 
  5734 000a 00       		.byte	0
@@ -6538,7 +6538,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5788 0041 0F       		.uleb128 0xf
  5789 0042 00       		.byte	0
  5790 0043 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccLrD78V.s 			page 110
+GAS LISTING /tmp/ccp43NYq.s 			page 110
 
 
  5791 0044 21       		.uleb128 0x21
@@ -6598,7 +6598,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5845 007b 01       		.sleb128 1
  5846 007c 59       		.uleb128 0x59
  5847 007d 05       		.uleb128 0x5
-GAS LISTING /tmp/ccLrD78V.s 			page 111
+GAS LISTING /tmp/ccp43NYq.s 			page 111
 
 
  5848 007e 57       		.uleb128 0x57
@@ -6658,7 +6658,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5902 00b5 0B       		.uleb128 0xb
  5903 00b6 3B       		.uleb128 0x3b
  5904 00b7 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccLrD78V.s 			page 112
+GAS LISTING /tmp/ccp43NYq.s 			page 112
 
 
  5905 00b8 39       		.uleb128 0x39
@@ -6718,7 +6718,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  5959 00ee 01       		.byte	0x1
  5960 00ef 49       		.uleb128 0x49
  5961 00f0 13       		.uleb128 0x13
-GAS LISTING /tmp/ccLrD78V.s 			page 113
+GAS LISTING /tmp/ccp43NYq.s 			page 113
 
 
  5962 00f1 01       		.uleb128 0x1
@@ -6778,7 +6778,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6016 0128 00       		.byte	0
  6017 0129 14       		.uleb128 0x14
  6018 012a 2E       		.uleb128 0x2e
-GAS LISTING /tmp/ccLrD78V.s 			page 114
+GAS LISTING /tmp/ccp43NYq.s 			page 114
 
 
  6019 012b 01       		.byte	0x1
@@ -6838,7 +6838,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6073 0161 00       		.byte	0
  6074 0162 17       		.uleb128 0x17
  6075 0163 24       		.uleb128 0x24
-GAS LISTING /tmp/ccLrD78V.s 			page 115
+GAS LISTING /tmp/ccp43NYq.s 			page 115
 
 
  6076 0164 00       		.byte	0
@@ -6898,7 +6898,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6130 019a 19       		.uleb128 0x19
  6131 019b 3C       		.uleb128 0x3c
  6132 019c 19       		.uleb128 0x19
-GAS LISTING /tmp/ccLrD78V.s 			page 116
+GAS LISTING /tmp/ccp43NYq.s 			page 116
 
 
  6133 019d 00       		.byte	0
@@ -6958,7 +6958,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6187 01d3 18       		.uleb128 0x18
  6188 01d4 00       		.byte	0
  6189 01d5 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 117
+GAS LISTING /tmp/ccp43NYq.s 			page 117
 
 
  6190 01d6 1F       		.uleb128 0x1f
@@ -7018,7 +7018,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6244 020d 12       		.uleb128 0x12
  6245 020e 06       		.uleb128 0x6
  6246 020f 58       		.uleb128 0x58
-GAS LISTING /tmp/ccLrD78V.s 			page 118
+GAS LISTING /tmp/ccp43NYq.s 			page 118
 
 
  6247 0210 0B       		.uleb128 0xb
@@ -7078,7 +7078,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6301 0013 0D       		.uleb128 .LVL1-.LVL0
  6302 0014 06       		.uleb128 0x6
  6303 0015 03       		.byte	0x3
-GAS LISTING /tmp/ccLrD78V.s 			page 119
+GAS LISTING /tmp/ccp43NYq.s 			page 119
 
 
  6304 0016 00000000 		.long	.LC0
@@ -7138,7 +7138,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6358 0057 73000000 		.long	.LVL5
  6359 005b 0C       		.uleb128 .LVL6-.LVL5
  6360 005c 06       		.uleb128 0x6
-GAS LISTING /tmp/ccLrD78V.s 			page 120
+GAS LISTING /tmp/ccp43NYq.s 			page 120
 
 
  6361 005d 03       		.byte	0x3
@@ -7198,7 +7198,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6415 00a2 00       		.uleb128 .LVU50
  6416              	.LLST12:
  6417 00a3 08       		.byte	0x8
-GAS LISTING /tmp/ccLrD78V.s 			page 121
+GAS LISTING /tmp/ccp43NYq.s 			page 121
 
 
  6418 00a4 B3000000 		.long	.LVL10
@@ -7258,7 +7258,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6472 00eb 00       		.byte	0
  6473              	.LVUS17:
  6474 00ec 02       		.uleb128 .LVU68
-GAS LISTING /tmp/ccLrD78V.s 			page 122
+GAS LISTING /tmp/ccp43NYq.s 			page 122
 
 
  6475 00ed 00       		.uleb128 .LVU70
@@ -7318,7 +7318,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6529 0132 30       		.byte	0x30
  6530 0133 9F       		.byte	0x9f
  6531 0134 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 123
+GAS LISTING /tmp/ccp43NYq.s 			page 123
 
 
  6532              	.LVUS22:
@@ -7378,7 +7378,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6586 0179 06       		.uleb128 0x6
  6587 017a 03       		.byte	0x3
  6588 017b 60010000 		.long	.LC12
-GAS LISTING /tmp/ccLrD78V.s 			page 124
+GAS LISTING /tmp/ccp43NYq.s 			page 124
 
 
  6589 017f 9F       		.byte	0x9f
@@ -7438,7 +7438,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6643 01c0 0C       		.uleb128 .LVL30-.LVL29
  6644 01c1 06       		.uleb128 0x6
  6645 01c2 03       		.byte	0x3
-GAS LISTING /tmp/ccLrD78V.s 			page 125
+GAS LISTING /tmp/ccp43NYq.s 			page 125
 
 
  6646 01c3 06000000 		.long	.LC3
@@ -7498,7 +7498,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6700 0207 08       		.byte	0x8
  6701 0208 DE010000 		.long	.LVL34
  6702 020c 0A       		.uleb128 .LVL35-.LVL34
-GAS LISTING /tmp/ccLrD78V.s 			page 126
+GAS LISTING /tmp/ccp43NYq.s 			page 126
 
 
  6703 020d 02       		.uleb128 0x2
@@ -7558,7 +7558,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6757              	.LLST41:
  6758 024f 08       		.byte	0x8
  6759 0250 19020000 		.long	.LVL39
-GAS LISTING /tmp/ccLrD78V.s 			page 127
+GAS LISTING /tmp/ccp43NYq.s 			page 127
 
 
  6760 0254 0F       		.uleb128 .LVL40-.LVL39
@@ -7618,7 +7618,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6814 0296 00       		.uleb128 .LVU186
  6815              	.LLST46:
  6816 0297 08       		.byte	0x8
-GAS LISTING /tmp/ccLrD78V.s 			page 128
+GAS LISTING /tmp/ccp43NYq.s 			page 128
 
 
  6817 0298 57020000 		.long	.LVL44
@@ -7678,7 +7678,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6871              	.LVUS51:
  6872 02e1 02       		.uleb128 .LVU204
  6873 02e2 00       		.uleb128 .LVU206
-GAS LISTING /tmp/ccLrD78V.s 			page 129
+GAS LISTING /tmp/ccp43NYq.s 			page 129
 
 
  6874              	.LLST51:
@@ -7738,7 +7738,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6928 0328 00       		.byte	0
  6929              	.LVUS56:
  6930 0329 02       		.uleb128 .LVU224
-GAS LISTING /tmp/ccLrD78V.s 			page 130
+GAS LISTING /tmp/ccp43NYq.s 			page 130
 
 
  6931 032a 00       		.uleb128 .LVU226
@@ -7798,7 +7798,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  6985 036f 9F       		.byte	0x9f
  6986 0370 00       		.byte	0
  6987              	.LVUS61:
-GAS LISTING /tmp/ccLrD78V.s 			page 131
+GAS LISTING /tmp/ccp43NYq.s 			page 131
 
 
  6988 0371 02       		.uleb128 .LVU244
@@ -7858,7 +7858,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7042 03b6 03       		.byte	0x3
  7043 03b7 9C030000 		.long	.LC25
  7044 03bb 9F       		.byte	0x9f
-GAS LISTING /tmp/ccLrD78V.s 			page 132
+GAS LISTING /tmp/ccp43NYq.s 			page 132
 
 
  7045 03bc 00       		.byte	0
@@ -7918,7 +7918,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7099 03fd 06       		.uleb128 0x6
  7100 03fe 03       		.byte	0x3
  7101 03ff 06000000 		.long	.LC3
-GAS LISTING /tmp/ccLrD78V.s 			page 133
+GAS LISTING /tmp/ccp43NYq.s 			page 133
 
 
  7102 0403 9F       		.byte	0x9f
@@ -7978,7 +7978,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7156 0444 BF030000 		.long	.LVL73
  7157 0448 0A       		.uleb128 .LVL74-.LVL73
  7158 0449 02       		.uleb128 0x2
-GAS LISTING /tmp/ccLrD78V.s 			page 134
+GAS LISTING /tmp/ccp43NYq.s 			page 134
 
 
  7159 044a 31       		.byte	0x31
@@ -8038,7 +8038,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7213 048b 08       		.byte	0x8
  7214 048c FA030000 		.long	.LVL78
  7215 0490 0F       		.uleb128 .LVL79-.LVL78
-GAS LISTING /tmp/ccLrD78V.s 			page 135
+GAS LISTING /tmp/ccp43NYq.s 			page 135
 
 
  7216 0491 06       		.uleb128 0x6
@@ -8098,7 +8098,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7270              	.LLST85:
  7271 04d3 08       		.byte	0x8
  7272 04d4 38040000 		.long	.LVL83
-GAS LISTING /tmp/ccLrD78V.s 			page 136
+GAS LISTING /tmp/ccp43NYq.s 			page 136
 
 
  7273 04d8 0C       		.uleb128 .LVL84-.LVL83
@@ -8158,7 +8158,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7327 051d 02       		.uleb128 .LVU360
  7328 051e 00       		.uleb128 .LVU362
  7329              	.LLST90:
-GAS LISTING /tmp/ccLrD78V.s 			page 137
+GAS LISTING /tmp/ccp43NYq.s 			page 137
 
 
  7330 051f 08       		.byte	0x8
@@ -8218,7 +8218,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7384 0565 9F       		.byte	0x9f
  7385 0566 00       		.byte	0
  7386              	.LVUS95:
-GAS LISTING /tmp/ccLrD78V.s 			page 138
+GAS LISTING /tmp/ccp43NYq.s 			page 138
 
 
  7387 0567 02       		.uleb128 .LVU380
@@ -8278,7 +8278,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7441 05ac 30       		.byte	0x30
  7442 05ad 9F       		.byte	0x9f
  7443 05ae 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 139
+GAS LISTING /tmp/ccp43NYq.s 			page 139
 
 
  7444              	.LVUS100:
@@ -8338,7 +8338,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7498 05f3 06       		.uleb128 0x6
  7499 05f4 03       		.byte	0x3
  7500 05f5 00000000 		.long	.LC38
-GAS LISTING /tmp/ccLrD78V.s 			page 140
+GAS LISTING /tmp/ccp43NYq.s 			page 140
 
 
  7501 05f9 9F       		.byte	0x9f
@@ -8398,7 +8398,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7555 063a 78000000 		.long	.LVL108
  7556 063e 0F       		.uleb128 .LVL109-.LVL108
  7557 063f 06       		.uleb128 0x6
-GAS LISTING /tmp/ccLrD78V.s 			page 141
+GAS LISTING /tmp/ccp43NYq.s 			page 141
 
 
  7558 0640 03       		.byte	0x3
@@ -8458,7 +8458,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7612              	.LLST116:
  7613 0685 08       		.byte	0x8
  7614 0686 BB000000 		.long	.LVL113
-GAS LISTING /tmp/ccLrD78V.s 			page 142
+GAS LISTING /tmp/ccp43NYq.s 			page 142
 
 
  7615 068a 0A       		.uleb128 .LVL114-.LVL113
@@ -8518,7 +8518,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7669 06cc 00       		.uleb128 .LVU498
  7670              	.LLST122:
  7671 06cd 08       		.byte	0x8
-GAS LISTING /tmp/ccLrD78V.s 			page 143
+GAS LISTING /tmp/ccp43NYq.s 			page 143
 
 
  7672 06ce 2A000000 		.long	.LVL119
@@ -8578,7 +8578,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7726 071a 00       		.byte	0
  7727              	.LVUS128:
  7728 071b 02       		.uleb128 .LVU516
-GAS LISTING /tmp/ccLrD78V.s 			page 144
+GAS LISTING /tmp/ccp43NYq.s 			page 144
 
 
  7729 071c 00       		.uleb128 .LVU518
@@ -8638,7 +8638,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7783 0764 34       		.byte	0x34
  7784 0765 9F       		.byte	0x9f
  7785 0766 00       		.byte	0
-GAS LISTING /tmp/ccLrD78V.s 			page 145
+GAS LISTING /tmp/ccp43NYq.s 			page 145
 
 
  7786              	.LVUS133:
@@ -8698,7 +8698,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7840 07ab 06       		.uleb128 0x6
  7841 07ac 03       		.byte	0x3
  7842 07ad 08010000 		.long	.LC55
-GAS LISTING /tmp/ccLrD78V.s 			page 146
+GAS LISTING /tmp/ccp43NYq.s 			page 146
 
 
  7843 07b1 9F       		.byte	0x9f
@@ -8758,7 +8758,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7897 0012 00       		.uleb128 .LBB270-.LBB270
  7898 0013 06       		.uleb128 .LBE270-.LBB270
  7899 0014 04       		.byte	0x4
-GAS LISTING /tmp/ccLrD78V.s 			page 147
+GAS LISTING /tmp/ccp43NYq.s 			page 147
 
 
  7900 0015 12       		.uleb128 .LBB276-.LBB270
@@ -8818,7 +8818,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7954 0054 07       		.byte	0x7
  7955 0055 00000000 		.long	.LFB305
  7956 0059 B00A     		.uleb128 .LFE305-.LFB305
-GAS LISTING /tmp/ccLrD78V.s 			page 148
+GAS LISTING /tmp/ccp43NYq.s 			page 148
 
 
  7957 005b 07       		.byte	0x7
@@ -8878,7 +8878,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  7987 006b 474E5520 		.string	"GNU C17 11.4.0 -m32 -mtune=generic -march=i686 -ggdb -O2 -ffunction-sections -fdata-secti
  7987      43313720 
  7987      31312E34 
-GAS LISTING /tmp/ccLrD78V.s 			page 149
+GAS LISTING /tmp/ccp43NYq.s 			page 149
 
 
  7987      2E30202D 
@@ -8938,7 +8938,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  8009      6E746C6E 
  8009      00
  8010              	.LASF6:
-GAS LISTING /tmp/ccLrD78V.s 			page 150
+GAS LISTING /tmp/ccp43NYq.s 			page 150
 
 
  8011 01c8 5F466C6F 		.string	"_Float128"
@@ -8998,7 +8998,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  8039      737400
  8040              	.LASF40:
  8041 0255 65786563 		.string	"execute"
-GAS LISTING /tmp/ccLrD78V.s 			page 151
+GAS LISTING /tmp/ccp43NYq.s 			page 151
 
 
  8041      75746500 
@@ -9058,7 +9058,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  8066              	.LASF3:
  8067 02f7 6C6F6E67 		.string	"long int"
  8067      20696E74 
-GAS LISTING /tmp/ccLrD78V.s 			page 152
+GAS LISTING /tmp/ccp43NYq.s 			page 152
 
 
  8067      00
@@ -9108,7 +9108,7 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  8086      742F7274 
  8086      2F736F75 
  8087              	.LASF1:
- 8088 0034 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 8088 0034 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  8088      652F616C 
  8088      65782F43 
  8088      68696269 
@@ -9118,83 +9118,83 @@ GAS LISTING /tmp/ccLrD78V.s 			page 1
  8090      652F616C 
  8090      65782F43 
  8090      68696269 
-GAS LISTING /tmp/ccLrD78V.s 			page 153
+GAS LISTING /tmp/ccp43NYq.s 			page 153
 
 
  8090      4F532F64 
-GAS LISTING /tmp/ccLrD78V.s 			page 154
+GAS LISTING /tmp/ccp43NYq.s 			page 154
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 rt_test_sequence_001.c
-     /tmp/ccLrD78V.s:121    .text.rt_test_001_003_execute:0000000000000000 rt_test_001_003_execute
-     /tmp/ccLrD78V.s:3029   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccLrD78V.s:2180   .text.rt_test_001_002_execute:0000000000000000 rt_test_001_002_execute
-     /tmp/ccLrD78V.s:2572   .text.rt_test_001_001_execute:0000000000000000 rt_test_001_001_execute
-     /tmp/ccLrD78V.s:2976   .data.rel.ro.local.rt_test_sequence_001:0000000000000000 rt_test_sequence_001
-     /tmp/ccLrD78V.s:2984   .data.rel.ro.local.rt_test_sequence_001_array:0000000000000000 rt_test_sequence_001_array
-     /tmp/ccLrD78V.s:3020   .data.rel.ro.local.rt_test_001_001:0000000000000000 rt_test_001_001
-     /tmp/ccLrD78V.s:3008   .data.rel.ro.local.rt_test_001_002:0000000000000000 rt_test_001_002
-     /tmp/ccLrD78V.s:2996   .data.rel.ro.local.rt_test_001_003:0000000000000000 rt_test_001_003
-     /tmp/ccLrD78V.s:10     .rodata.rt_test_001_003_execute.str1.1:0000000000000000 .LC1
-     /tmp/ccLrD78V.s:12     .rodata.rt_test_001_003_execute.str1.1:0000000000000003 .LC2
-     /tmp/ccLrD78V.s:7      .rodata.rt_test_001_003_execute.str1.4:0000000000000000 .LC0
-     /tmp/ccLrD78V.s:14     .rodata.rt_test_001_003_execute.str1.1:0000000000000006 .LC3
-     /tmp/ccLrD78V.s:16     .rodata.rt_test_001_003_execute.str1.1:0000000000000007 .LC4
-     /tmp/ccLrD78V.s:20     .rodata.rt_test_001_003_execute.str1.4:000000000000002c .LC5
-     /tmp/ccLrD78V.s:23     .rodata.rt_test_001_003_execute.str1.4:0000000000000058 .LC6
-     /tmp/ccLrD78V.s:26     .rodata.rt_test_001_003_execute.str1.4:0000000000000084 .LC7
-     /tmp/ccLrD78V.s:29     .rodata.rt_test_001_003_execute.str1.4:00000000000000b0 .LC8
-     /tmp/ccLrD78V.s:32     .rodata.rt_test_001_003_execute.str1.4:00000000000000dc .LC9
-     /tmp/ccLrD78V.s:35     .rodata.rt_test_001_003_execute.str1.4:0000000000000108 .LC10
-     /tmp/ccLrD78V.s:38     .rodata.rt_test_001_003_execute.str1.4:0000000000000134 .LC11
-     /tmp/ccLrD78V.s:41     .rodata.rt_test_001_003_execute.str1.4:0000000000000160 .LC12
-     /tmp/ccLrD78V.s:44     .rodata.rt_test_001_003_execute.str1.4:000000000000018c .LC13
-     /tmp/ccLrD78V.s:47     .rodata.rt_test_001_003_execute.str1.4:00000000000001b8 .LC14
-     /tmp/ccLrD78V.s:50     .rodata.rt_test_001_003_execute.str1.4:00000000000001e4 .LC15
-     /tmp/ccLrD78V.s:53     .rodata.rt_test_001_003_execute.str1.4:0000000000000210 .LC16
-     /tmp/ccLrD78V.s:56     .rodata.rt_test_001_003_execute.str1.4:000000000000023c .LC17
-     /tmp/ccLrD78V.s:59     .rodata.rt_test_001_003_execute.str1.4:0000000000000268 .LC18
-     /tmp/ccLrD78V.s:62     .rodata.rt_test_001_003_execute.str1.4:0000000000000294 .LC19
-     /tmp/ccLrD78V.s:65     .rodata.rt_test_001_003_execute.str1.4:00000000000002c0 .LC20
-     /tmp/ccLrD78V.s:68     .rodata.rt_test_001_003_execute.str1.4:00000000000002ec .LC21
-     /tmp/ccLrD78V.s:71     .rodata.rt_test_001_003_execute.str1.4:0000000000000318 .LC22
-     /tmp/ccLrD78V.s:74     .rodata.rt_test_001_003_execute.str1.4:0000000000000344 .LC23
-     /tmp/ccLrD78V.s:77     .rodata.rt_test_001_003_execute.str1.4:0000000000000370 .LC24
-     /tmp/ccLrD78V.s:80     .rodata.rt_test_001_003_execute.str1.4:000000000000039c .LC25
-     /tmp/ccLrD78V.s:83     .rodata.rt_test_001_003_execute.str1.4:00000000000003c8 .LC26
-     /tmp/ccLrD78V.s:86     .rodata.rt_test_001_003_execute.str1.4:00000000000003f4 .LC27
-     /tmp/ccLrD78V.s:89     .rodata.rt_test_001_003_execute.str1.4:0000000000000420 .LC28
-     /tmp/ccLrD78V.s:92     .rodata.rt_test_001_003_execute.str1.4:000000000000044c .LC29
-     /tmp/ccLrD78V.s:95     .rodata.rt_test_001_003_execute.str1.4:0000000000000478 .LC30
-     /tmp/ccLrD78V.s:98     .rodata.rt_test_001_003_execute.str1.4:00000000000004a4 .LC31
-     /tmp/ccLrD78V.s:101    .rodata.rt_test_001_003_execute.str1.4:00000000000004d0 .LC32
-     /tmp/ccLrD78V.s:104    .rodata.rt_test_001_003_execute.str1.4:00000000000004fc .LC33
-     /tmp/ccLrD78V.s:107    .rodata.rt_test_001_003_execute.str1.4:0000000000000528 .LC34
-     /tmp/ccLrD78V.s:110    .rodata.rt_test_001_003_execute.str1.4:0000000000000554 .LC35
-     /tmp/ccLrD78V.s:113    .rodata.rt_test_001_003_execute.str1.4:0000000000000580 .LC36
-     /tmp/ccLrD78V.s:116    .rodata.rt_test_001_003_execute.str1.4:00000000000005ac .LC37
-     /tmp/ccLrD78V.s:2156   .rodata.rt_test_001_002_execute.str1.4:0000000000000000 .LC38
-     /tmp/ccLrD78V.s:2159   .rodata.rt_test_001_002_execute.str1.4:0000000000000034 .LC39
-     /tmp/ccLrD78V.s:2162   .rodata.rt_test_001_002_execute.str1.4:0000000000000060 .LC40
-     /tmp/ccLrD78V.s:2165   .rodata.rt_test_001_002_execute.str1.1:0000000000000000 .LC41
-     /tmp/ccLrD78V.s:2169   .rodata.rt_test_001_002_execute.str1.4:000000000000008c .LC42
-     /tmp/ccLrD78V.s:2172   .rodata.rt_test_001_002_execute.str1.4:00000000000000b8 .LC43
-     /tmp/ccLrD78V.s:2175   .rodata.rt_test_001_002_execute.str1.4:00000000000000e4 .LC44
-     /tmp/ccLrD78V.s:2533   .rodata.rt_test_001_001_execute.str1.4:0000000000000000 .LC45
-GAS LISTING /tmp/ccLrD78V.s 			page 155
+     /tmp/ccp43NYq.s:121    .text.rt_test_001_003_execute:0000000000000000 rt_test_001_003_execute
+     /tmp/ccp43NYq.s:3029   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccp43NYq.s:2180   .text.rt_test_001_002_execute:0000000000000000 rt_test_001_002_execute
+     /tmp/ccp43NYq.s:2572   .text.rt_test_001_001_execute:0000000000000000 rt_test_001_001_execute
+     /tmp/ccp43NYq.s:2976   .data.rel.ro.local.rt_test_sequence_001:0000000000000000 rt_test_sequence_001
+     /tmp/ccp43NYq.s:2984   .data.rel.ro.local.rt_test_sequence_001_array:0000000000000000 rt_test_sequence_001_array
+     /tmp/ccp43NYq.s:3020   .data.rel.ro.local.rt_test_001_001:0000000000000000 rt_test_001_001
+     /tmp/ccp43NYq.s:3008   .data.rel.ro.local.rt_test_001_002:0000000000000000 rt_test_001_002
+     /tmp/ccp43NYq.s:2996   .data.rel.ro.local.rt_test_001_003:0000000000000000 rt_test_001_003
+     /tmp/ccp43NYq.s:10     .rodata.rt_test_001_003_execute.str1.1:0000000000000000 .LC1
+     /tmp/ccp43NYq.s:12     .rodata.rt_test_001_003_execute.str1.1:0000000000000003 .LC2
+     /tmp/ccp43NYq.s:7      .rodata.rt_test_001_003_execute.str1.4:0000000000000000 .LC0
+     /tmp/ccp43NYq.s:14     .rodata.rt_test_001_003_execute.str1.1:0000000000000006 .LC3
+     /tmp/ccp43NYq.s:16     .rodata.rt_test_001_003_execute.str1.1:0000000000000007 .LC4
+     /tmp/ccp43NYq.s:20     .rodata.rt_test_001_003_execute.str1.4:000000000000002c .LC5
+     /tmp/ccp43NYq.s:23     .rodata.rt_test_001_003_execute.str1.4:0000000000000058 .LC6
+     /tmp/ccp43NYq.s:26     .rodata.rt_test_001_003_execute.str1.4:0000000000000084 .LC7
+     /tmp/ccp43NYq.s:29     .rodata.rt_test_001_003_execute.str1.4:00000000000000b0 .LC8
+     /tmp/ccp43NYq.s:32     .rodata.rt_test_001_003_execute.str1.4:00000000000000dc .LC9
+     /tmp/ccp43NYq.s:35     .rodata.rt_test_001_003_execute.str1.4:0000000000000108 .LC10
+     /tmp/ccp43NYq.s:38     .rodata.rt_test_001_003_execute.str1.4:0000000000000134 .LC11
+     /tmp/ccp43NYq.s:41     .rodata.rt_test_001_003_execute.str1.4:0000000000000160 .LC12
+     /tmp/ccp43NYq.s:44     .rodata.rt_test_001_003_execute.str1.4:000000000000018c .LC13
+     /tmp/ccp43NYq.s:47     .rodata.rt_test_001_003_execute.str1.4:00000000000001b8 .LC14
+     /tmp/ccp43NYq.s:50     .rodata.rt_test_001_003_execute.str1.4:00000000000001e4 .LC15
+     /tmp/ccp43NYq.s:53     .rodata.rt_test_001_003_execute.str1.4:0000000000000210 .LC16
+     /tmp/ccp43NYq.s:56     .rodata.rt_test_001_003_execute.str1.4:000000000000023c .LC17
+     /tmp/ccp43NYq.s:59     .rodata.rt_test_001_003_execute.str1.4:0000000000000268 .LC18
+     /tmp/ccp43NYq.s:62     .rodata.rt_test_001_003_execute.str1.4:0000000000000294 .LC19
+     /tmp/ccp43NYq.s:65     .rodata.rt_test_001_003_execute.str1.4:00000000000002c0 .LC20
+     /tmp/ccp43NYq.s:68     .rodata.rt_test_001_003_execute.str1.4:00000000000002ec .LC21
+     /tmp/ccp43NYq.s:71     .rodata.rt_test_001_003_execute.str1.4:0000000000000318 .LC22
+     /tmp/ccp43NYq.s:74     .rodata.rt_test_001_003_execute.str1.4:0000000000000344 .LC23
+     /tmp/ccp43NYq.s:77     .rodata.rt_test_001_003_execute.str1.4:0000000000000370 .LC24
+     /tmp/ccp43NYq.s:80     .rodata.rt_test_001_003_execute.str1.4:000000000000039c .LC25
+     /tmp/ccp43NYq.s:83     .rodata.rt_test_001_003_execute.str1.4:00000000000003c8 .LC26
+     /tmp/ccp43NYq.s:86     .rodata.rt_test_001_003_execute.str1.4:00000000000003f4 .LC27
+     /tmp/ccp43NYq.s:89     .rodata.rt_test_001_003_execute.str1.4:0000000000000420 .LC28
+     /tmp/ccp43NYq.s:92     .rodata.rt_test_001_003_execute.str1.4:000000000000044c .LC29
+     /tmp/ccp43NYq.s:95     .rodata.rt_test_001_003_execute.str1.4:0000000000000478 .LC30
+     /tmp/ccp43NYq.s:98     .rodata.rt_test_001_003_execute.str1.4:00000000000004a4 .LC31
+     /tmp/ccp43NYq.s:101    .rodata.rt_test_001_003_execute.str1.4:00000000000004d0 .LC32
+     /tmp/ccp43NYq.s:104    .rodata.rt_test_001_003_execute.str1.4:00000000000004fc .LC33
+     /tmp/ccp43NYq.s:107    .rodata.rt_test_001_003_execute.str1.4:0000000000000528 .LC34
+     /tmp/ccp43NYq.s:110    .rodata.rt_test_001_003_execute.str1.4:0000000000000554 .LC35
+     /tmp/ccp43NYq.s:113    .rodata.rt_test_001_003_execute.str1.4:0000000000000580 .LC36
+     /tmp/ccp43NYq.s:116    .rodata.rt_test_001_003_execute.str1.4:00000000000005ac .LC37
+     /tmp/ccp43NYq.s:2156   .rodata.rt_test_001_002_execute.str1.4:0000000000000000 .LC38
+     /tmp/ccp43NYq.s:2159   .rodata.rt_test_001_002_execute.str1.4:0000000000000034 .LC39
+     /tmp/ccp43NYq.s:2162   .rodata.rt_test_001_002_execute.str1.4:0000000000000060 .LC40
+     /tmp/ccp43NYq.s:2165   .rodata.rt_test_001_002_execute.str1.1:0000000000000000 .LC41
+     /tmp/ccp43NYq.s:2169   .rodata.rt_test_001_002_execute.str1.4:000000000000008c .LC42
+     /tmp/ccp43NYq.s:2172   .rodata.rt_test_001_002_execute.str1.4:00000000000000b8 .LC43
+     /tmp/ccp43NYq.s:2175   .rodata.rt_test_001_002_execute.str1.4:00000000000000e4 .LC44
+     /tmp/ccp43NYq.s:2533   .rodata.rt_test_001_001_execute.str1.4:0000000000000000 .LC45
+GAS LISTING /tmp/ccp43NYq.s 			page 155
 
 
-     /tmp/ccLrD78V.s:2536   .rodata.rt_test_001_001_execute.str1.1:0000000000000000 .LC46
-     /tmp/ccLrD78V.s:2540   .rodata.rt_test_001_001_execute.str1.4:000000000000002c .LC47
-     /tmp/ccLrD78V.s:2543   .rodata.rt_test_001_001_execute.str1.1:000000000000000a .LC48
-     /tmp/ccLrD78V.s:2547   .rodata.rt_test_001_001_execute.str1.4:0000000000000058 .LC49
-     /tmp/ccLrD78V.s:2550   .rodata.rt_test_001_001_execute.str1.1:000000000000001d .LC50
-     /tmp/ccLrD78V.s:2554   .rodata.rt_test_001_001_execute.str1.4:0000000000000084 .LC51
-     /tmp/ccLrD78V.s:2557   .rodata.rt_test_001_001_execute.str1.1:0000000000000028 .LC52
-     /tmp/ccLrD78V.s:2561   .rodata.rt_test_001_001_execute.str1.4:00000000000000b0 .LC53
-     /tmp/ccLrD78V.s:2564   .rodata.rt_test_001_001_execute.str1.4:00000000000000dc .LC54
-     /tmp/ccLrD78V.s:2567   .rodata.rt_test_001_001_execute.str1.4:0000000000000108 .LC55
+     /tmp/ccp43NYq.s:2536   .rodata.rt_test_001_001_execute.str1.1:0000000000000000 .LC46
+     /tmp/ccp43NYq.s:2540   .rodata.rt_test_001_001_execute.str1.4:000000000000002c .LC47
+     /tmp/ccp43NYq.s:2543   .rodata.rt_test_001_001_execute.str1.1:000000000000000a .LC48
+     /tmp/ccp43NYq.s:2547   .rodata.rt_test_001_001_execute.str1.4:0000000000000058 .LC49
+     /tmp/ccp43NYq.s:2550   .rodata.rt_test_001_001_execute.str1.1:000000000000001d .LC50
+     /tmp/ccp43NYq.s:2554   .rodata.rt_test_001_001_execute.str1.4:0000000000000084 .LC51
+     /tmp/ccp43NYq.s:2557   .rodata.rt_test_001_001_execute.str1.1:0000000000000028 .LC52
+     /tmp/ccp43NYq.s:2561   .rodata.rt_test_001_001_execute.str1.4:00000000000000b0 .LC53
+     /tmp/ccp43NYq.s:2564   .rodata.rt_test_001_001_execute.str1.4:00000000000000dc .LC54
+     /tmp/ccp43NYq.s:2567   .rodata.rt_test_001_001_execute.str1.4:0000000000000108 .LC55
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

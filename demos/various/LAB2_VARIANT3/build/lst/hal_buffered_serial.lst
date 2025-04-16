@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccsmAb39.s 			page 1
+GAS LISTING /tmp/ccYnofZv.s 			page 1
 
 
    1              		.file	"hal_buffered_serial.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/src/hal_buffered_serial.
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/src/hal_buffered_serial.
    5              		.section	.text.bsIncomingDataI,"ax",@progbits
    6              		.p2align 4
    7              		.globl	bsIncomingDataI
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
   53 002a E8FCFFFF 		call	iqPutI@PLT
   53      FF
   54              	.LVL1:
-GAS LISTING /tmp/ccsmAb39.s 			page 2
+GAS LISTING /tmp/ccYnofZv.s 			page 2
 
 
   55              		.loc 1 69 6 discriminator 1 view .LVU13
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  106      90
  107              	.L7:
  108              		.loc 2 960 1 view .LVU21
-GAS LISTING /tmp/ccsmAb39.s 			page 3
+GAS LISTING /tmp/ccYnofZv.s 			page 3
 
 
  109              	.LBE10:
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  161              	.LFB300:
  162              		.loc 1 88 43 is_stmt 1 view -0
  163              		.cfi_startproc
-GAS LISTING /tmp/ccsmAb39.s 			page 4
+GAS LISTING /tmp/ccYnofZv.s 			page 4
 
 
  164              		.loc 1 89 3 view .LVU32
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  214              	.LBI16:
  215              		.loc 2 956 20 view .LVU45
  216              	.LBB17:
-GAS LISTING /tmp/ccsmAb39.s 			page 5
+GAS LISTING /tmp/ccYnofZv.s 			page 5
 
 
  217              		.loc 2 959 3 view .LVU46
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  270              		.file 3 "/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h"
  271              		.file 4 "/usr/include/bits/types.h"
  272              		.file 5 "/usr/include/bits/stdint-intn.h"
-GAS LISTING /tmp/ccsmAb39.s 			page 6
+GAS LISTING /tmp/ccYnofZv.s 			page 6
 
 
  273              		.file 6 "/usr/include/bits/stdint-uintn.h"
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  327 0054 0C       		.byte	0xc
  328 0055 04       		.byte	0x4
  329 0056 59040000 		.long	.LASF5
-GAS LISTING /tmp/ccsmAb39.s 			page 7
+GAS LISTING /tmp/ccYnofZv.s 			page 7
 
 
  330 005a 08       		.uleb128 0x8
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  384 00bd 08       		.uleb128 0x8
  385 00be 01       		.byte	0x1
  386 00bf 06       		.byte	0x6
-GAS LISTING /tmp/ccsmAb39.s 			page 8
+GAS LISTING /tmp/ccYnofZv.s 			page 8
 
 
  387 00c0 E8050000 		.long	.LASF18
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  441 012f E6000000 		.long	0xe6
  442 0133 02       		.uleb128 0x2
  443 0134 EF040000 		.long	.LASF27
-GAS LISTING /tmp/ccsmAb39.s 			page 9
+GAS LISTING /tmp/ccYnofZv.s 			page 9
 
 
  444 0138 07       		.byte	0x7
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  498 01a1 0C       		.byte	0xc
  499 01a2 01       		.uleb128 0x1
  500 01a3 BB050000 		.long	.LASF33
-GAS LISTING /tmp/ccsmAb39.s 			page 10
+GAS LISTING /tmp/ccYnofZv.s 			page 10
 
 
  501 01a7 09       		.byte	0x9
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  555 020a 01       		.uleb128 0x1
  556 020b BF000000 		.long	.LASF41
  557 020f 09       		.byte	0x9
-GAS LISTING /tmp/ccsmAb39.s 			page 11
+GAS LISTING /tmp/ccYnofZv.s 			page 11
 
 
  558 0210 E8       		.byte	0xe8
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  612 027d 2F060000 		.long	.LASF50
  613 0281 E0       		.byte	0xe0
  614 0282 9701     		.value	0x197
-GAS LISTING /tmp/ccsmAb39.s 			page 12
+GAS LISTING /tmp/ccYnofZv.s 			page 12
 
 
  615 0284 08       		.byte	0x8
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  669 02fc DC       		.byte	0xdc
  670 02fd 00       		.byte	0
  671 02fe 02       		.uleb128 0x2
-GAS LISTING /tmp/ccsmAb39.s 			page 13
+GAS LISTING /tmp/ccYnofZv.s 			page 13
 
 
  672 02ff 10040000 		.long	.LASF59
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  726 0368 6D       		.byte	0x6d
  727 0369 12       		.byte	0x12
  728 036a E6000000 		.long	0xe6
-GAS LISTING /tmp/ccsmAb39.s 			page 14
+GAS LISTING /tmp/ccYnofZv.s 			page 14
 
 
  729 036e 0E       		.uleb128 0xe
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  783 03d7 47       		.byte	0x47
  784 03d8 1A       		.byte	0x1a
  785 03d9 DF030000 		.long	0x3df
-GAS LISTING /tmp/ccsmAb39.s 			page 15
+GAS LISTING /tmp/ccYnofZv.s 			page 15
 
 
  786 03dd 04       		.byte	0x4
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  840 0443 01       		.uleb128 0x1
  841 0444 04010000 		.long	.LASF70
  842 0448 0D       		.byte	0xd
-GAS LISTING /tmp/ccsmAb39.s 			page 16
+GAS LISTING /tmp/ccYnofZv.s 			page 16
 
 
  843 0449 65       		.byte	0x65
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  897 04ad 8E       		.byte	0x8e
  898 04ae 0F       		.byte	0xf
  899 04af BB000000 		.long	0xbb
-GAS LISTING /tmp/ccsmAb39.s 			page 17
+GAS LISTING /tmp/ccYnofZv.s 			page 17
 
 
  900 04b3 06       		.uleb128 0x6
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  954 0515 17       		.byte	0x17
  955 0516 1C050000 		.long	0x51c
  956 051a 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 18
+GAS LISTING /tmp/ccYnofZv.s 			page 18
 
 
  957 051b 00       		.byte	0
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1011 057e AB030000 		.long	0x3ab
  1012 0582 00       		.byte	0
  1013 0583 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 19
+GAS LISTING /tmp/ccYnofZv.s 			page 19
 
 
  1014 0584 02       		.uleb128 0x2
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1068 05ed 12       		.uleb128 0x12
  1069 05ee F8060000 		.long	.LASF96
  1070 05f2 B1       		.byte	0xb1
-GAS LISTING /tmp/ccsmAb39.s 			page 20
+GAS LISTING /tmp/ccYnofZv.s 			page 20
 
 
  1071 05f3 7F030000 		.long	0x37f
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1125 0671 21       		.byte	0x21
  1126 0672 3F010000 		.long	0x13f
  1127 0676 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 21
+GAS LISTING /tmp/ccYnofZv.s 			page 21
 
 
  1128 0677 03       		.uleb128 0x3
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1182 06dd 00       		.byte	0
  1183 06de 03       		.uleb128 0x3
  1184 06df A9060000 		.long	0x6a9
-GAS LISTING /tmp/ccsmAb39.s 			page 22
+GAS LISTING /tmp/ccYnofZv.s 			page 22
 
 
  1185 06e3 03       		.uleb128 0x3
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1239 075b 22       		.byte	0x22
  1240 075c E8060000 		.long	0x6e8
  1241 0760 0C       		.byte	0xc
-GAS LISTING /tmp/ccsmAb39.s 			page 23
+GAS LISTING /tmp/ccYnofZv.s 			page 23
 
 
  1242 0761 05       		.uleb128 0x5
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1296 07cf 19       		.byte	0x19
  1297 07d0 3F010000 		.long	0x13f
  1298 07d4 08       		.byte	0x8
-GAS LISTING /tmp/ccsmAb39.s 			page 24
+GAS LISTING /tmp/ccYnofZv.s 			page 24
 
 
  1299 07d5 01       		.uleb128 0x1
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1353 0844 58080000 		.long	0x858
  1354 0848 04       		.uleb128 0x4
  1355 0849 BB000000 		.long	0xbb
-GAS LISTING /tmp/ccsmAb39.s 			page 25
+GAS LISTING /tmp/ccYnofZv.s 			page 25
 
 
  1356 084d 04       		.uleb128 0x4
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1410 08d4 04       		.uleb128 0x4
  1411 08d5 2D000000 		.long	0x2d
  1412 08d9 04       		.uleb128 0x4
-GAS LISTING /tmp/ccsmAb39.s 			page 26
+GAS LISTING /tmp/ccYnofZv.s 			page 26
 
 
  1413 08da 73030000 		.long	0x373
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1467 0952 19       		.byte	0x19
  1468 0953 39000000 		.long	0x39
  1469 0957 08       		.byte	0x8
-GAS LISTING /tmp/ccsmAb39.s 			page 27
+GAS LISTING /tmp/ccYnofZv.s 			page 27
 
 
  1470 0958 01       		.uleb128 0x1
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1524 09be C3090000 		.long	0x9c3
  1525 09c2 00       		.byte	0
  1526 09c3 03       		.uleb128 0x3
-GAS LISTING /tmp/ccsmAb39.s 			page 28
+GAS LISTING /tmp/ccYnofZv.s 			page 28
 
 
  1527 09c4 25090000 		.long	0x925
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1581 0a2d 23       		.byte	0x23
  1582 0a2e FD0A0000 		.long	0xafd
  1583 0a32 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 29
+GAS LISTING /tmp/ccYnofZv.s 			page 29
 
 
  1584 0a33 01       		.uleb128 0x1
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1638 0a96 03       		.byte	0x3
  1639 0a97 58080000 		.long	0x858
  1640 0a9b 08       		.byte	0x8
-GAS LISTING /tmp/ccsmAb39.s 			page 30
+GAS LISTING /tmp/ccYnofZv.s 			page 30
 
 
  1641 0a9c 07       		.uleb128 0x7
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1695 0b02 18       		.uleb128 0x18
  1696 0b03 B0040000 		.long	.LASF155
  1697 0b07 3D01     		.value	0x13d
-GAS LISTING /tmp/ccsmAb39.s 			page 31
+GAS LISTING /tmp/ccYnofZv.s 			page 31
 
 
  1698 0b09 33010000 		.long	0x133
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1752 0b83 59       		.byte	0x59
  1753 0b84 0A       		.byte	0xa
  1754 0b85 33010000 		.long	0x133
-GAS LISTING /tmp/ccsmAb39.s 			page 32
+GAS LISTING /tmp/ccYnofZv.s 			page 32
 
 
  1755 0b89 10000000 		.long	.LLST7
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1809 0c13 DB0B0000 		.long	0xbdb
  1810 0c17 49000000 		.long	.LLST0
  1811 0c1b 43000000 		.long	.LVUS0
-GAS LISTING /tmp/ccsmAb39.s 			page 33
+GAS LISTING /tmp/ccYnofZv.s 			page 33
 
 
  1812 0c1f 19       		.uleb128 0x19
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1866 0cad C4000000 		.long	0xc4
  1867 0cb1 BC0C0000 		.long	0xcbc
  1868 0cb5 11       		.uleb128 0x11
-GAS LISTING /tmp/ccsmAb39.s 			page 34
+GAS LISTING /tmp/ccYnofZv.s 			page 34
 
 
  1869 0cb6 3E000000 		.long	0x3e
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1923 001b 0B       		.uleb128 0xb
  1924 001c 49       		.uleb128 0x49
  1925 001d 13       		.uleb128 0x13
-GAS LISTING /tmp/ccsmAb39.s 			page 35
+GAS LISTING /tmp/ccYnofZv.s 			page 35
 
 
  1926 001e 00       		.byte	0
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  1980 0054 07       		.uleb128 0x7
  1981 0055 0D       		.uleb128 0xd
  1982 0056 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 36
+GAS LISTING /tmp/ccYnofZv.s 			page 36
 
 
  1983 0057 03       		.uleb128 0x3
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2037 008d 00       		.byte	0
  2038 008e 49       		.uleb128 0x49
  2039 008f 13       		.uleb128 0x13
-GAS LISTING /tmp/ccsmAb39.s 			page 37
+GAS LISTING /tmp/ccYnofZv.s 			page 37
 
 
  2040 0090 00       		.byte	0
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2094 00c7 00       		.byte	0
  2095 00c8 00       		.byte	0
  2096 00c9 11       		.uleb128 0x11
-GAS LISTING /tmp/ccsmAb39.s 			page 38
+GAS LISTING /tmp/ccYnofZv.s 			page 38
 
 
  2097 00ca 21       		.uleb128 0x21
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2151 0101 13       		.uleb128 0x13
  2152 0102 00       		.byte	0
  2153 0103 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 39
+GAS LISTING /tmp/ccYnofZv.s 			page 39
 
 
  2154 0104 15       		.uleb128 0x15
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2208 013a 12       		.sleb128 18
  2209 013b 3B       		.uleb128 0x3b
  2210 013c 05       		.uleb128 0x5
-GAS LISTING /tmp/ccsmAb39.s 			page 40
+GAS LISTING /tmp/ccYnofZv.s 			page 40
 
 
  2211 013d 39       		.uleb128 0x39
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2265 0173 17       		.uleb128 0x17
  2266 0174 11       		.uleb128 0x11
  2267 0175 01       		.uleb128 0x1
-GAS LISTING /tmp/ccsmAb39.s 			page 41
+GAS LISTING /tmp/ccYnofZv.s 			page 41
 
 
  2268 0176 10       		.uleb128 0x10
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2322 01ad 20       		.uleb128 0x20
  2323 01ae 17       		.uleb128 0x17
  2324 01af 01       		.byte	0x1
-GAS LISTING /tmp/ccsmAb39.s 			page 42
+GAS LISTING /tmp/ccYnofZv.s 			page 42
 
 
  2325 01b0 0B       		.uleb128 0xb
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2379 01e6 0B       		.uleb128 0xb
  2380 01e7 3B       		.uleb128 0x3b
  2381 01e8 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccsmAb39.s 			page 43
+GAS LISTING /tmp/ccYnofZv.s 			page 43
 
 
  2382 01e9 39       		.uleb128 0x39
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2436 021f B742     		.uleb128 0x2137
  2437 0221 17       		.uleb128 0x17
  2438 0222 00       		.byte	0
-GAS LISTING /tmp/ccsmAb39.s 			page 44
+GAS LISTING /tmp/ccYnofZv.s 			page 44
 
 
  2439 0223 00       		.byte	0
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2493 025a 3B       		.uleb128 0x3b
  2494 025b 05       		.uleb128 0x5
  2495 025c 39       		.uleb128 0x39
-GAS LISTING /tmp/ccsmAb39.s 			page 45
+GAS LISTING /tmp/ccYnofZv.s 			page 45
 
 
  2496 025d 0B       		.uleb128 0xb
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2550 0015 04       		.byte	0x4
  2551 0016 00       		.uleb128 .LVL10-.LVL10
  2552 0017 24       		.uleb128 .LVL13-1-.LVL10
-GAS LISTING /tmp/ccsmAb39.s 			page 46
+GAS LISTING /tmp/ccYnofZv.s 			page 46
 
 
  2553 0018 01       		.uleb128 0x1
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2607 0051 02       		.uleb128 0x2
  2608 0052 91       		.byte	0x91
  2609 0053 00       		.sleb128 0
-GAS LISTING /tmp/ccsmAb39.s 			page 47
+GAS LISTING /tmp/ccYnofZv.s 			page 47
 
 
  2610 0054 04       		.byte	0x4
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2664 008b 02       		.uleb128 .LVU23
  2665 008c 00       		.uleb128 .LVU28
  2666              	.LLST5:
-GAS LISTING /tmp/ccsmAb39.s 			page 48
+GAS LISTING /tmp/ccYnofZv.s 			page 48
 
 
  2667 008d 08       		.byte	0x8
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2721 000d 40000000 		.long	.LBB8
  2722 0011 04       		.byte	0x4
  2723 0012 00       		.uleb128 .LBB8-.LBB8
-GAS LISTING /tmp/ccsmAb39.s 			page 49
+GAS LISTING /tmp/ccYnofZv.s 			page 49
 
 
  2724 0013 03       		.uleb128 .LBE8-.LBB8
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2767              	.LASF11:
  2768 0021 73697A65 		.string	"size_t"
  2768      5F7400
-GAS LISTING /tmp/ccsmAb39.s 			page 50
+GAS LISTING /tmp/ccYnofZv.s 			page 50
 
 
  2769              	.LASF79:
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2794      65642069 
  2795              	.LASF41:
  2796 00bf 64697370 		.string	"dispose"
-GAS LISTING /tmp/ccsmAb39.s 			page 51
+GAS LISTING /tmp/ccYnofZv.s 			page 51
 
 
  2796      6F736500 
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2824      5F6C6973 
  2824      7400
  2825              	.LASF52:
-GAS LISTING /tmp/ccsmAb39.s 			page 52
+GAS LISTING /tmp/ccYnofZv.s 			page 52
 
 
  2826 0158 76746C69 		.string	"vtlist"
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2854 01e5 5F5F7569 		.string	"__uint32_t"
  2854      6E743332 
  2854      5F7400
-GAS LISTING /tmp/ccsmAb39.s 			page 53
+GAS LISTING /tmp/ccYnofZv.s 			page 53
 
 
  2855              	.LASF35:
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2884      5F7400
  2885              	.LASF152:
  2886 027b 67657474 		.string	"gett"
-GAS LISTING /tmp/ccsmAb39.s 			page 54
+GAS LISTING /tmp/ccYnofZv.s 			page 54
 
 
  2886      00
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2914      69737400 
  2915              	.LASF108:
  2916 0307 63685F72 		.string	"ch_ready_list"
-GAS LISTING /tmp/ccsmAb39.s 			page 55
+GAS LISTING /tmp/ccYnofZv.s 			page 55
 
 
  2916      65616479 
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2940      696D6572 
  2940      735F6C69 
  2941              	.LASF128:
-GAS LISTING /tmp/ccsmAb39.s 			page 56
+GAS LISTING /tmp/ccYnofZv.s 			page 56
 
 
  2942 044f 715F636F 		.string	"q_counter"
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2967              	.LASF25:
  2968 04e7 74726566 		.string	"trefs_t"
  2968      735F7400 
-GAS LISTING /tmp/ccsmAb39.s 			page 57
+GAS LISTING /tmp/ccYnofZv.s 			page 57
 
 
  2969              	.LASF27:
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  2997              	.LASF91:
  2998 0580 72656769 		.string	"registry_t"
  2998      73747279 
-GAS LISTING /tmp/ccsmAb39.s 			page 58
+GAS LISTING /tmp/ccYnofZv.s 			page 58
 
 
  2998      5F7400
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  3028 060d 72656778 		.string	"regx86"
  3028      383600
  3029              	.LASF14:
-GAS LISTING /tmp/ccsmAb39.s 			page 59
+GAS LISTING /tmp/ccYnofZv.s 			page 59
 
 
  3030 0614 5F5F696E 		.string	"__int32_t"
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  3054 06aa 6D61736B 		.string	"mask"
  3054      00
  3055              	.LASF133:
-GAS LISTING /tmp/ccsmAb39.s 			page 60
+GAS LISTING /tmp/ccYnofZv.s 			page 60
 
 
  3056 06af 715F6E6F 		.string	"q_notify"
@@ -3598,11 +3598,11 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  3084      74687265 
  3084      616400
  3085              		.section	.debug_line_str,"MS",@progbits,1
-GAS LISTING /tmp/ccsmAb39.s 			page 61
+GAS LISTING /tmp/ccYnofZv.s 			page 61
 
 
  3086              	.LASF1:
- 3087 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 3087 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  3087      652F616C 
  3087      65782F43 
  3087      68696269 
@@ -3619,14 +3619,14 @@ GAS LISTING /tmp/ccsmAb39.s 			page 1
  3091      65782F43 
  3091      68696269 
  3091      4F532F64 
-GAS LISTING /tmp/ccsmAb39.s 			page 62
+GAS LISTING /tmp/ccYnofZv.s 			page 62
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_buffered_serial.c
-     /tmp/ccsmAb39.s:9      .text.bsIncomingDataI:0000000000000000 bsIncomingDataI
-     /tmp/ccsmAb39.s:261    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccsmAb39.s:159    .text.bsRequestDataI:0000000000000000 bsRequestDataI
+     /tmp/ccYnofZv.s:9      .text.bsIncomingDataI:0000000000000000 bsIncomingDataI
+     /tmp/ccYnofZv.s:261    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccYnofZv.s:159    .text.bsRequestDataI:0000000000000000 bsRequestDataI
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

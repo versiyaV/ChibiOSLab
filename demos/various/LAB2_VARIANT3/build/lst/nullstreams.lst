@@ -1,10 +1,10 @@
-GAS LISTING /tmp/cccrSs5G.s 			page 1
+GAS LISTING /tmp/ccdLB5ce.s 			page 1
 
 
    1              		.file	"nullstreams.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/lib/streams/nullstreams.
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/lib/streams/nullstreams.
    5              		.section	.text.writes,"ax",@progbits
    6              		.p2align 4
    7              		.type	writes, @function
@@ -58,7 +58,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
   55              		.cfi_endproc
   56              	.LFE301:
   57              		.size	put, .-put
-GAS LISTING /tmp/cccrSs5G.s 			page 2
+GAS LISTING /tmp/ccdLB5ce.s 			page 2
 
 
   58              		.section	.text.get,"ax",@progbits
@@ -118,7 +118,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  108              		.type	vmt, @object
  109              		.size	vmt, 24
  110              	vmt:
-GAS LISTING /tmp/cccrSs5G.s 			page 3
+GAS LISTING /tmp/ccdLB5ce.s 			page 3
 
 
  111 0000 00000000 		.long	0
@@ -178,7 +178,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  165 0040 01       		.uleb128 0x1
  166 0041 04       		.byte	0x4
  167 0042 05       		.byte	0x5
-GAS LISTING /tmp/cccrSs5G.s 			page 4
+GAS LISTING /tmp/ccdLB5ce.s 			page 4
 
 
  168 0043 C9010000 		.long	.LASF3
@@ -238,7 +238,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  222 00a3 8B010000 		.long	.LASF16
  223 00a7 05       		.uleb128 0x5
  224 00a8 9E010000 		.long	.LASF17
-GAS LISTING /tmp/cccrSs5G.s 			page 5
+GAS LISTING /tmp/ccdLB5ce.s 			page 5
 
 
  225 00ac 04       		.byte	0x4
@@ -298,7 +298,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  279 0127 9E000000 		.long	0x9e
  280 012b 02       		.uleb128 0x2
  281 012c B3000000 		.long	0xb3
-GAS LISTING /tmp/cccrSs5G.s 			page 6
+GAS LISTING /tmp/ccdLB5ce.s 			page 6
 
 
  282 0130 00       		.byte	0
@@ -358,7 +358,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  336 01a2 B3010000 		.long	0x1b3
  337 01a6 09       		.uleb128 0x9
  338 01a7 766D7400 		.string	"vmt"
-GAS LISTING /tmp/cccrSs5G.s 			page 7
+GAS LISTING /tmp/ccdLB5ce.s 			page 7
 
 
  339 01ab 40       		.byte	0x40
@@ -418,7 +418,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  393 0216 9E000000 		.long	0x9e
  394 021a 08       		.uleb128 0x8
  395 021b 6200     		.string	"b"
-GAS LISTING /tmp/cccrSs5G.s 			page 8
+GAS LISTING /tmp/ccdLB5ce.s 			page 8
 
 
  396 021d 4D       		.byte	0x4d
@@ -478,7 +478,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  450 028d 35       		.byte	0x35
  451 028e 1B       		.byte	0x1b
  452 028f 9E000000 		.long	0x9e
-GAS LISTING /tmp/cccrSs5G.s 			page 9
+GAS LISTING /tmp/ccdLB5ce.s 			page 9
 
 
  453 0293 02       		.uleb128 0x2
@@ -538,7 +538,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  507 02ef 17       		.uleb128 0x17
  508 02f0 4C020000 		.long	0x24c
  509 02f4 00000000 		.long	.LFB301
-GAS LISTING /tmp/cccrSs5G.s 			page 10
+GAS LISTING /tmp/ccdLB5ce.s 			page 10
 
 
  510 02f8 03000000 		.long	.LFE301-.LFB301
@@ -598,7 +598,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  564 0025 0B       		.uleb128 0xb
  565 0026 39       		.uleb128 0x39
  566 0027 0B       		.uleb128 0xb
-GAS LISTING /tmp/cccrSs5G.s 			page 11
+GAS LISTING /tmp/ccdLB5ce.s 			page 11
 
 
  567 0028 49       		.uleb128 0x49
@@ -658,7 +658,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  621 005e 00       		.byte	0
  622 005f 03       		.uleb128 0x3
  623 0060 08       		.uleb128 0x8
-GAS LISTING /tmp/cccrSs5G.s 			page 12
+GAS LISTING /tmp/ccdLB5ce.s 			page 12
 
 
  624 0061 3A       		.uleb128 0x3a
@@ -718,7 +718,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  678 0097 01       		.uleb128 0x1
  679 0098 12       		.uleb128 0x12
  680 0099 06       		.uleb128 0x6
-GAS LISTING /tmp/cccrSs5G.s 			page 13
+GAS LISTING /tmp/ccdLB5ce.s 			page 13
 
 
  681 009a 40       		.uleb128 0x40
@@ -778,7 +778,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  735 00d0 10       		.uleb128 0x10
  736 00d1 13       		.uleb128 0x13
  737 00d2 01       		.byte	0x1
-GAS LISTING /tmp/cccrSs5G.s 			page 14
+GAS LISTING /tmp/ccdLB5ce.s 			page 14
 
 
  738 00d3 03       		.uleb128 0x3
@@ -838,7 +838,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  792 0109 0B       		.uleb128 0xb
  793 010a 3B       		.uleb128 0x3b
  794 010b 0B       		.uleb128 0xb
-GAS LISTING /tmp/cccrSs5G.s 			page 15
+GAS LISTING /tmp/ccdLB5ce.s 			page 15
 
 
  795 010c 39       		.uleb128 0x39
@@ -898,7 +898,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  849 0142 40       		.uleb128 0x40
  850 0143 18       		.uleb128 0x18
  851 0144 7A       		.uleb128 0x7a
-GAS LISTING /tmp/cccrSs5G.s 			page 16
+GAS LISTING /tmp/ccdLB5ce.s 			page 16
 
 
  852 0145 19       		.uleb128 0x19
@@ -958,7 +958,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  906 0020 00000000 		.long	.LFB301
  907 0024 03000000 		.long	.LFE301-.LFB301
  908 0028 00000000 		.long	.LFB302
-GAS LISTING /tmp/cccrSs5G.s 			page 17
+GAS LISTING /tmp/ccdLB5ce.s 			page 17
 
 
  909 002c 06000000 		.long	.LFE302-.LFB302
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  951              	.LASF14:
  952 0029 5F5F696E 		.string	"__int32_t"
  952      7433325F 
-GAS LISTING /tmp/cccrSs5G.s 			page 18
+GAS LISTING /tmp/ccdLB5ce.s 			page 18
 
 
  952      7400
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  975              	.LASF5:
  976 0174 6C6F6E67 		.string	"long double"
  976      20646F75 
-GAS LISTING /tmp/cccrSs5G.s 			page 19
+GAS LISTING /tmp/ccdLB5ce.s 			page 19
 
 
  976      626C6500 
@@ -1132,13 +1132,13 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  1003      68616C2F 
  1003      6C69622F 
  1004              	.LASF1:
- 1005 002a 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 1005 002a 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  1005      652F616C 
  1005      65782F43 
  1005      68696269 
  1005      4F532F64 
  1006              		.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
-GAS LISTING /tmp/cccrSs5G.s 			page 20
+GAS LISTING /tmp/ccdLB5ce.s 			page 20
 
 
  1007 0059 2F686F6D 		.section	.note.GNU-stack,"",@progbits
@@ -1146,19 +1146,19 @@ GAS LISTING /tmp/cccrSs5G.s 			page 1
  1007      65782F43 
  1007      68696269 
  1007      4F532F64 
-GAS LISTING /tmp/cccrSs5G.s 			page 21
+GAS LISTING /tmp/ccdLB5ce.s 			page 21
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 nullstreams.c
-     /tmp/cccrSs5G.s:8      .text.writes:0000000000000000 writes
-     /tmp/cccrSs5G.s:26     .text.reads:0000000000000000 reads
-     /tmp/cccrSs5G.s:44     .text.put:0000000000000000 put
-     /tmp/cccrSs5G.s:61     .text.get:0000000000000000 get
-     /tmp/cccrSs5G.s:77     .text.unget:0000000000000000 unget
-     /tmp/cccrSs5G.s:89     .text.nullObjectInit:0000000000000000 nullObjectInit
-     /tmp/cccrSs5G.s:121    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/cccrSs5G.s:110    .data.rel.ro.local.vmt:0000000000000000 vmt
+     /tmp/ccdLB5ce.s:8      .text.writes:0000000000000000 writes
+     /tmp/ccdLB5ce.s:26     .text.reads:0000000000000000 reads
+     /tmp/ccdLB5ce.s:44     .text.put:0000000000000000 put
+     /tmp/ccdLB5ce.s:61     .text.get:0000000000000000 get
+     /tmp/ccdLB5ce.s:77     .text.unget:0000000000000000 unget
+     /tmp/ccdLB5ce.s:89     .text.nullObjectInit:0000000000000000 nullObjectInit
+     /tmp/ccdLB5ce.s:121    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccdLB5ce.s:110    .data.rel.ro.local.vmt:0000000000000000 vmt
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

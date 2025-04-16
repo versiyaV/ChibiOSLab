@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccOubyTA.s 			page 1
+GAS LISTING /tmp/ccKcaile.s 			page 1
 
 
    1              		.file	"hal_st.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/src/hal_st.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/src/hal_st.c"
    5              		.section	.text.stInit,"ax",@progbits
    6              		.p2align 4
    7              		.globl	stInit
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
   52 0000 A9000000 		.long	0xa9
   53 0004 0500     		.value	0x5
   54 0006 01       		.byte	0x1
-GAS LISTING /tmp/ccOubyTA.s 			page 2
+GAS LISTING /tmp/ccKcaile.s 			page 2
 
 
   55 0007 04       		.byte	0x4
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  109 0073 01       		.uleb128 0x1
  110 0074 08       		.byte	0x8
  111 0075 07       		.byte	0x7
-GAS LISTING /tmp/ccOubyTA.s 			page 3
+GAS LISTING /tmp/ccKcaile.s 			page 3
 
 
  112 0076 02010000 		.long	.LASF12
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  166 0018 11       		.uleb128 0x11
  167 0019 01       		.uleb128 0x1
  168 001a 10       		.uleb128 0x10
-GAS LISTING /tmp/ccOubyTA.s 			page 4
+GAS LISTING /tmp/ccKcaile.s 			page 4
 
 
  169 001b 17       		.uleb128 0x17
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  223 0051 7A       		.uleb128 0x7a
  224 0052 19       		.uleb128 0x19
  225 0053 00       		.byte	0
-GAS LISTING /tmp/ccOubyTA.s 			page 5
+GAS LISTING /tmp/ccKcaile.s 			page 5
 
 
  226 0054 00       		.byte	0
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  270              	.LASF16:
  271 001b 73745F6C 		.string	"st_lld_init"
  271      6C645F69 
-GAS LISTING /tmp/ccOubyTA.s 			page 6
+GAS LISTING /tmp/ccKcaile.s 			page 6
 
 
  271      6E697400 
@@ -358,14 +358,14 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  295      626C6500 
  296              	.LASF11:
  297 0166 73686F72 		.string	"short int"
-GAS LISTING /tmp/ccOubyTA.s 			page 7
+GAS LISTING /tmp/ccKcaile.s 			page 7
 
 
  297      7420696E 
  297      7400
  298              		.section	.debug_line_str,"MS",@progbits,1
  299              	.LASF1:
- 300 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 300 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  300      652F616C 
  300      65782F43 
  300      68696269 
@@ -382,13 +382,13 @@ GAS LISTING /tmp/ccOubyTA.s 			page 1
  304      65782F43 
  304      68696269 
  304      4F532F64 
-GAS LISTING /tmp/ccOubyTA.s 			page 8
+GAS LISTING /tmp/ccKcaile.s 			page 8
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_st.c
-     /tmp/ccOubyTA.s:9      .text.stInit:0000000000000000 stInit
-     /tmp/ccOubyTA.s:40     .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccKcaile.s:9      .text.stInit:0000000000000000 stInit
+     /tmp/ccKcaile.s:40     .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccD1vo6f.s 			page 1
+GAS LISTING /tmp/ccjTlQUr.s 			page 1
 
 
    1              		.file	"oslib_test_root.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../test/oslib/source/test/oslib_te
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../test/oslib/source/test/oslib_te
    5              		.globl	oslib_test_suite
    6              		.section	.rodata.str1.1,"aMS",@progbits,1
    7              	.LC0:
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
   51 0007 04       		.byte	0x4
   52 0008 00000000 		.long	.Ldebug_abbrev0
   53 000c 08       		.uleb128 0x8
-GAS LISTING /tmp/ccD1vo6f.s 			page 2
+GAS LISTING /tmp/ccjTlQUr.s 			page 2
 
 
   54 000d 42010000 		.long	.LASF35
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  108 0073 01       		.byte	0x1
  109 0074 06       		.byte	0x6
  110 0075 22020000 		.long	.LASF13
-GAS LISTING /tmp/ccD1vo6f.s 			page 3
+GAS LISTING /tmp/ccjTlQUr.s 			page 3
 
 
  111 0079 04       		.uleb128 0x4
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  165 00e5 7E000000 		.long	0x7e
  166 00e9 00       		.byte	0
  167 00ea 03       		.uleb128 0x3
-GAS LISTING /tmp/ccD1vo6f.s 			page 4
+GAS LISTING /tmp/ccjTlQUr.s 			page 4
 
 
  168 00eb 31020000 		.long	.LASF19
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  222 0160 18000000 		.long	.LASF25
  223 0164 03       		.byte	0x3
  224 0165 19       		.byte	0x19
-GAS LISTING /tmp/ccD1vo6f.s 			page 5
+GAS LISTING /tmp/ccjTlQUr.s 			page 5
 
 
  225 0166 1D       		.byte	0x1d
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  279 01d5 25000000 		.long	0x25
  280 01d9 09       		.byte	0x9
  281 01da 00       		.byte	0
-GAS LISTING /tmp/ccD1vo6f.s 			page 6
+GAS LISTING /tmp/ccjTlQUr.s 			page 6
 
 
  282 01db 04       		.uleb128 0x4
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  336 0020 00       		.byte	0
  337 0021 03       		.uleb128 0x3
  338 0022 0E       		.uleb128 0xe
-GAS LISTING /tmp/ccD1vo6f.s 			page 7
+GAS LISTING /tmp/ccjTlQUr.s 			page 7
 
 
  339 0023 3A       		.uleb128 0x3a
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  393 0059 01       		.sleb128 1
  394 005a 3B       		.uleb128 0x3b
  395 005b 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccD1vo6f.s 			page 8
+GAS LISTING /tmp/ccjTlQUr.s 			page 8
 
 
  396 005c 39       		.uleb128 0x39
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  450 0092 2F       		.uleb128 0x2f
  451 0093 0B       		.uleb128 0xb
  452 0094 00       		.byte	0
-GAS LISTING /tmp/ccD1vo6f.s 			page 9
+GAS LISTING /tmp/ccjTlQUr.s 			page 9
 
 
  453 0095 00       		.byte	0
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  503 0000 6F736C69 		.string	"oslib_test_sequence_001"
  503      625F7465 
  503      73745F73 
-GAS LISTING /tmp/ccD1vo6f.s 			page 10
+GAS LISTING /tmp/ccjTlQUr.s 			page 10
 
 
  503      65717565 
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  523      7369676E 
  523      65642069 
  524              	.LASF7:
-GAS LISTING /tmp/ccD1vo6f.s 			page 11
+GAS LISTING /tmp/ccjTlQUr.s 			page 11
 
 
  525 00e5 756E7369 		.string	"unsigned char"
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  547 0222 63686172 		.string	"char"
  547      00
  548              	.LASF22:
-GAS LISTING /tmp/ccD1vo6f.s 			page 12
+GAS LISTING /tmp/ccjTlQUr.s 			page 12
 
 
  549 0227 73657175 		.string	"sequences"
@@ -709,7 +709,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  569      6C00
  570              		.section	.debug_line_str,"MS",@progbits,1
  571              	.LASF1:
- 572 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 572 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  572      652F616C 
  572      65782F43 
  572      68696269 
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  574 002f 2E2E2F2E 		.string	"../../../test/oslib/source/test/oslib_test_root.c"
  574      2E2F2E2E 
  574      2F746573 
-GAS LISTING /tmp/ccD1vo6f.s 			page 13
+GAS LISTING /tmp/ccjTlQUr.s 			page 13
 
 
  574      742F6F73 
@@ -729,13 +729,13 @@ GAS LISTING /tmp/ccD1vo6f.s 			page 1
  576      65782F43 
  576      68696269 
  576      4F532F64 
-GAS LISTING /tmp/ccD1vo6f.s 			page 14
+GAS LISTING /tmp/ccjTlQUr.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 oslib_test_root.c
-     /tmp/ccD1vo6f.s:13     .data.rel.ro.local.oslib_test_suite:0000000000000000 oslib_test_suite
-     /tmp/ccD1vo6f.s:21     .data.rel.ro.oslib_test_suite_array:0000000000000000 oslib_test_suite_array
+     /tmp/ccjTlQUr.s:13     .data.rel.ro.local.oslib_test_suite:0000000000000000 oslib_test_suite
+     /tmp/ccjTlQUr.s:21     .data.rel.ro.oslib_test_suite_array:0000000000000000 oslib_test_suite_array
 
 UNDEFINED SYMBOLS
 oslib_test_sequence_001

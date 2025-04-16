@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccxiZP2p.s 			page 1
+GAS LISTING /tmp/ccdW2zkm.s 			page 1
 
 
    1              		.file	"hal.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/src/hal.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/src/hal.c"
    5              		.section	.text.halInit,"ax",@progbits
    6              		.p2align 4
    7              		.globl	halInit
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
   47      FF
   48              	.LVL2:
   49              		.loc 1 156 3 view .LVU8
-GAS LISTING /tmp/ccxiZP2p.s 			page 2
+GAS LISTING /tmp/ccdW2zkm.s 			page 2
 
 
   50 0051 E8FCFFFF 		call	stInit@PLT
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  103 002e 04       		.byte	0x4
  104 002f 07       		.byte	0x7
  105 0030 6C010000 		.long	.LASF2
-GAS LISTING /tmp/ccxiZP2p.s 			page 3
+GAS LISTING /tmp/ccdW2zkm.s 			page 3
 
 
  106 0034 01       		.uleb128 0x1
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  160 0094 14       		.byte	0x14
  161 0095 73000000 		.long	0x73
  162 0099 01       		.uleb128 0x1
-GAS LISTING /tmp/ccxiZP2p.s 			page 4
+GAS LISTING /tmp/ccdW2zkm.s 			page 4
 
 
  163 009a 01       		.byte	0x1
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  217 0109 F8       		.byte	0xf8
  218 010a 17       		.byte	0x17
  219 010b C9000000 		.long	0xc9
-GAS LISTING /tmp/ccxiZP2p.s 			page 5
+GAS LISTING /tmp/ccdW2zkm.s 			page 5
 
 
  220 010f 05       		.uleb128 0x5
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  274 0186 14       		.byte	0x14
  275 0187 03       		.byte	0x3
  276 0188 00       		.byte	0
-GAS LISTING /tmp/ccxiZP2p.s 			page 6
+GAS LISTING /tmp/ccdW2zkm.s 			page 6
 
 
  277              		.section	.debug_abbrev,"",@progbits
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  331 0034 00       		.byte	0
  332 0035 00       		.byte	0
  333 0036 05       		.uleb128 0x5
-GAS LISTING /tmp/ccxiZP2p.s 			page 7
+GAS LISTING /tmp/ccdW2zkm.s 			page 7
 
 
  334 0037 34       		.uleb128 0x34
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  388 006d 00       		.byte	0
  389 006e 00       		.byte	0
  390 006f 08       		.uleb128 0x8
-GAS LISTING /tmp/ccxiZP2p.s 			page 8
+GAS LISTING /tmp/ccdW2zkm.s 			page 8
 
 
  391 0070 0D       		.uleb128 0xd
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  445 00a6 00       		.byte	0
  446 00a7 0C       		.uleb128 0xc
  447 00a8 2E       		.uleb128 0x2e
-GAS LISTING /tmp/ccxiZP2p.s 			page 9
+GAS LISTING /tmp/ccdW2zkm.s 			page 9
 
 
  448 00a9 00       		.byte	0
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  502 00df 0B       		.uleb128 0xb
  503 00e0 27       		.uleb128 0x27
  504 00e1 19       		.uleb128 0x19
-GAS LISTING /tmp/ccxiZP2p.s 			page 10
+GAS LISTING /tmp/ccdW2zkm.s 			page 10
 
 
  505 00e2 20       		.uleb128 0x20
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  548      6720756E 
  548      7369676E 
  548      65642069 
-GAS LISTING /tmp/ccxiZP2p.s 			page 11
+GAS LISTING /tmp/ccdW2zkm.s 			page 11
 
 
  549              	.LASF7:
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  571              	.LASF13:
  572 0179 63686172 		.string	"char"
  572      00
-GAS LISTING /tmp/ccxiZP2p.s 			page 12
+GAS LISTING /tmp/ccdW2zkm.s 			page 12
 
 
  573              	.LASF23:
@@ -714,11 +714,11 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  598      6C00
  599              		.section	.debug_line_str,"MS",@progbits,1
  600              	.LASF1:
- 601 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 601 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  601      652F616C 
  601      65782F43 
  601      68696269 
-GAS LISTING /tmp/ccxiZP2p.s 			page 13
+GAS LISTING /tmp/ccdW2zkm.s 			page 13
 
 
  601      4F532F64 
@@ -734,13 +734,13 @@ GAS LISTING /tmp/ccxiZP2p.s 			page 1
  605      65782F43 
  605      68696269 
  605      4F532F64 
-GAS LISTING /tmp/ccxiZP2p.s 			page 14
+GAS LISTING /tmp/ccdW2zkm.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal.c
-     /tmp/ccxiZP2p.s:9      .text.halInit:0000000000000000 halInit
-     /tmp/ccxiZP2p.s:66     .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccdW2zkm.s:9      .text.halInit:0000000000000000 halInit
+     /tmp/ccdW2zkm.s:66     .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccCJLDOT.s 			page 1
+GAS LISTING /tmp/ccyAcD40.s 			page 1
 
 
    1              		.file	"chmemcore.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/oslib/src/chmemcore.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/oslib/src/chmemcore.c"
    5              		.section	.text.__core_init,"ax",@progbits
    6              		.p2align 4
    7              		.globl	__core_init
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
   47              		.loc 1 112 72 is_stmt 0 view .LVU14
   48 000b 53       		pushl	%ebx
   49              		.cfi_def_cfa_offset 8
-GAS LISTING /tmp/ccCJLDOT.s 			page 2
+GAS LISTING /tmp/ccyAcD40.s 			page 2
 
 
   50              		.cfi_offset 3, -8
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  101              		.p2align 4
  102              		.globl	chCoreAllocFromTopI
  103              		.type	chCoreAllocFromTopI, @function
-GAS LISTING /tmp/ccCJLDOT.s 			page 3
+GAS LISTING /tmp/ccyAcD40.s 			page 3
 
 
  104              	chCoreAllocFromTopI:
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  152              		.p2align 3
  153              	.L9:
  154              		.cfi_restore_state
-GAS LISTING /tmp/ccCJLDOT.s 			page 4
+GAS LISTING /tmp/ccyAcD40.s 			page 4
 
 
  155              		.loc 1 156 12 view .LVU47
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  207 0014 8B990000 		movl	ch_memcore@GOTOFF(%ecx), %ebx
  207      0000
  208 001a 01D8     		addl	%ebx, %eax
-GAS LISTING /tmp/ccCJLDOT.s 			page 5
+GAS LISTING /tmp/ccyAcD40.s 			page 5
 
 
  209 001c 8D4402FF 		leal	-1(%edx,%eax), %eax
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  259 0048 5B       		popl	%ebx
  260              		.cfi_remember_state
  261              		.cfi_restore 3
-GAS LISTING /tmp/ccCJLDOT.s 			page 6
+GAS LISTING /tmp/ccyAcD40.s 			page 6
 
 
  262              		.cfi_def_cfa_offset 4
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  313              		.cfi_def_cfa_offset 4
  314 005f C3       		ret
  315              		.cfi_endproc
-GAS LISTING /tmp/ccCJLDOT.s 			page 7
+GAS LISTING /tmp/ccyAcD40.s 			page 7
 
 
  316              	.LFE206:
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  366 0030 721E     		jb	.L17
  367              		.loc 1 159 3 is_stmt 1 view .LVU121
  368              		.loc 1 159 21 is_stmt 0 view .LVU122
-GAS LISTING /tmp/ccCJLDOT.s 			page 8
+GAS LISTING /tmp/ccyAcD40.s 			page 8
 
 
  369 0032 898A0400 		movl	%ecx, 4+ch_memcore@GOTOFF(%edx)
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  417              	.LBE61:
  418              	.LBE63:
  419              	.LBE65:
-GAS LISTING /tmp/ccCJLDOT.s 			page 9
+GAS LISTING /tmp/ccyAcD40.s 			page 9
 
 
  420              	.LBB66:
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  471              		.loc 1 221 25 view .LVU157
  472 000e 8B880000 		movl	ch_memcore@GOTOFF(%eax), %ecx
  472      0000
-GAS LISTING /tmp/ccCJLDOT.s 			page 10
+GAS LISTING /tmp/ccyAcD40.s 			page 10
 
 
  473              		.loc 1 223 42 view .LVU158
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  521              		.section	.text.__x86.get_pc_thunk.cx,"axG",@progbits,__x86.get_pc_thunk.cx,comdat
  522              		.globl	__x86.get_pc_thunk.cx
  523              		.hidden	__x86.get_pc_thunk.cx
-GAS LISTING /tmp/ccCJLDOT.s 			page 11
+GAS LISTING /tmp/ccyAcD40.s 			page 11
 
 
  524              		.type	__x86.get_pc_thunk.cx, @function
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  578 004f 0C       		.byte	0xc
  579 0050 04       		.byte	0x4
  580 0051 72020000 		.long	.LASF5
-GAS LISTING /tmp/ccCJLDOT.s 			page 12
+GAS LISTING /tmp/ccyAcD40.s 			page 12
 
 
  581 0055 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  635 00b8 02       		.uleb128 0x2
  636 00b9 60020000 		.long	.LASF18
  637 00bd 06       		.byte	0x6
-GAS LISTING /tmp/ccCJLDOT.s 			page 13
+GAS LISTING /tmp/ccyAcD40.s 			page 13
 
 
  638 00be 1A       		.byte	0x1a
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  692 0125 0C       		.byte	0xc
  693 0126 D0000000 		.long	0xd0
  694 012a 00       		.byte	0
-GAS LISTING /tmp/ccCJLDOT.s 			page 14
+GAS LISTING /tmp/ccyAcD40.s 			page 14
 
 
  695 012b 09       		.uleb128 0x9
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  749 019a 01       		.uleb128 0x1
  750 019b 9C       		.byte	0x9c
  751 019c 5A020000 		.long	0x25a
-GAS LISTING /tmp/ccCJLDOT.s 			page 15
+GAS LISTING /tmp/ccyAcD40.s 			page 15
 
 
  752 01a0 04       		.uleb128 0x4
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  806 0222 62000000 		.long	.LVUS17
  807 0226 03       		.uleb128 0x3
  808 0227 63030000 		.long	0x363
-GAS LISTING /tmp/ccCJLDOT.s 			page 16
+GAS LISTING /tmp/ccyAcD40.s 			page 16
 
 
  809 022b 7A000000 		.long	.LLST18
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  863 029d 7000     		.string	"p"
  864 029f B3       		.byte	0xb3
  865 02a0 9E000000 		.long	0x9e
-GAS LISTING /tmp/ccCJLDOT.s 			page 17
+GAS LISTING /tmp/ccyAcD40.s 			page 17
 
 
  866 02a4 8E000000 		.long	.LLST4
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  920 033a 06       		.uleb128 0x6
  921 033b 7B000000 		.long	.LASF22
  922 033f 91       		.byte	0x91
-GAS LISTING /tmp/ccCJLDOT.s 			page 18
+GAS LISTING /tmp/ccyAcD40.s 			page 18
 
 
  923 0340 22       		.byte	0x22
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  977 03bc 7000     		.string	"p"
  978 03be 71       		.byte	0x71
  979 03bf D0000000 		.long	0xd0
-GAS LISTING /tmp/ccCJLDOT.s 			page 19
+GAS LISTING /tmp/ccyAcD40.s 			page 19
 
 
  980 03c3 19       		.uleb128 0x19
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1034 043f A7000000 		.long	0xa7
  1035 0443 4E040000 		.long	0x44e
  1036 0447 0D       		.uleb128 0xd
-GAS LISTING /tmp/ccCJLDOT.s 			page 20
+GAS LISTING /tmp/ccyAcD40.s 			page 20
 
 
  1037 0448 39000000 		.long	0x39
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1091 04c0 07       		.uleb128 0x7
  1092 04c1 3A030000 		.long	0x33a
  1093 04c5 02       		.uleb128 0x2
-GAS LISTING /tmp/ccCJLDOT.s 			page 21
+GAS LISTING /tmp/ccyAcD40.s 			page 21
 
 
  1094 04c6 91       		.byte	0x91
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1148 001e 13       		.uleb128 0x13
  1149 001f 02       		.uleb128 0x2
  1150 0020 17       		.uleb128 0x17
-GAS LISTING /tmp/ccCJLDOT.s 			page 22
+GAS LISTING /tmp/ccyAcD40.s 			page 22
 
 
  1151 0021 B742     		.uleb128 0x2137
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1205 0059 02       		.uleb128 0x2
  1206 005a 18       		.uleb128 0x18
  1207 005b 00       		.byte	0
-GAS LISTING /tmp/ccCJLDOT.s 			page 23
+GAS LISTING /tmp/ccyAcD40.s 			page 23
 
 
  1208 005c 00       		.byte	0
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1262 0092 00       		.byte	0
  1263 0093 49       		.uleb128 0x49
  1264 0094 13       		.uleb128 0x13
-GAS LISTING /tmp/ccCJLDOT.s 			page 24
+GAS LISTING /tmp/ccyAcD40.s 			page 24
 
 
  1265 0095 2F       		.uleb128 0x2f
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1319 00cb 19       		.uleb128 0x19
  1320 00cc 03       		.uleb128 0x3
  1321 00cd 0E       		.uleb128 0xe
-GAS LISTING /tmp/ccCJLDOT.s 			page 25
+GAS LISTING /tmp/ccyAcD40.s 			page 25
 
 
  1322 00ce 3A       		.uleb128 0x3a
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1376 0104 34       		.uleb128 0x34
  1377 0105 00       		.byte	0
  1378 0106 03       		.uleb128 0x3
-GAS LISTING /tmp/ccCJLDOT.s 			page 26
+GAS LISTING /tmp/ccyAcD40.s 			page 26
 
 
  1379 0107 08       		.uleb128 0x8
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1433 0140 59       		.uleb128 0x59
  1434 0141 0B       		.uleb128 0xb
  1435 0142 57       		.uleb128 0x57
-GAS LISTING /tmp/ccCJLDOT.s 			page 27
+GAS LISTING /tmp/ccyAcD40.s 			page 27
 
 
  1436 0143 21       		.uleb128 0x21
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1490 017b 00       		.byte	0
  1491 017c 03       		.uleb128 0x3
  1492 017d 08       		.uleb128 0x8
-GAS LISTING /tmp/ccCJLDOT.s 			page 28
+GAS LISTING /tmp/ccyAcD40.s 			page 28
 
 
  1493 017e 3A       		.uleb128 0x3a
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1547 01b4 0B       		.uleb128 0xb
  1548 01b5 03       		.uleb128 0x3
  1549 01b6 08       		.uleb128 0x8
-GAS LISTING /tmp/ccCJLDOT.s 			page 29
+GAS LISTING /tmp/ccyAcD40.s 			page 29
 
 
  1550 01b7 00       		.byte	0
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1604 01ed 3B       		.uleb128 0x3b
  1605 01ee 0B       		.uleb128 0xb
  1606 01ef 39       		.uleb128 0x39
-GAS LISTING /tmp/ccCJLDOT.s 			page 30
+GAS LISTING /tmp/ccyAcD40.s 			page 30
 
 
  1607 01f0 0B       		.uleb128 0xb
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1661 0226 0B       		.uleb128 0xb
  1662 0227 3B       		.uleb128 0x3b
  1663 0228 05       		.uleb128 0x5
-GAS LISTING /tmp/ccCJLDOT.s 			page 31
+GAS LISTING /tmp/ccyAcD40.s 			page 31
 
 
  1664 0229 39       		.uleb128 0x39
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1718 000e 00       		.uleb128 .LVU140
  1719 000f 00       		.uleb128 0
  1720              	.LLST12:
-GAS LISTING /tmp/ccCJLDOT.s 			page 32
+GAS LISTING /tmp/ccyAcD40.s 			page 32
 
 
  1721 0010 06       		.byte	0x6
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1775 004b 00       		.byte	0
  1776              	.LVUS16:
  1777 004c 00       		.uleb128 .LVU108
-GAS LISTING /tmp/ccCJLDOT.s 			page 33
+GAS LISTING /tmp/ccyAcD40.s 			page 33
 
 
  1778 004d 01       		.uleb128 .LVU124
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1832 0087 01       		.uleb128 0x1
  1833 0088 51       		.byte	0x51
  1834 0089 00       		.byte	0
-GAS LISTING /tmp/ccCJLDOT.s 			page 34
+GAS LISTING /tmp/ccyAcD40.s 			page 34
 
 
  1835              	.LVUS4:
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1889 00c3 04       		.byte	0x4
  1890 00c4 36       		.uleb128 .LVL16-.LVL12
  1891 00c5 44       		.uleb128 .LVL18-.LVL12
-GAS LISTING /tmp/ccCJLDOT.s 			page 35
+GAS LISTING /tmp/ccyAcD40.s 			page 35
 
 
  1892 00c6 02       		.uleb128 0x2
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  1946 00ff 04       		.byte	0x4
  1947 0100 00       		.uleb128 .LVL14-.LVL14
  1948 0101 12       		.uleb128 .LVL15-.LVL14
-GAS LISTING /tmp/ccCJLDOT.s 			page 36
+GAS LISTING /tmp/ccyAcD40.s 			page 36
 
 
  1949 0102 01       		.uleb128 0x1
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2003 0139 1A       		.byte	0x1a
  2004 013a 9F       		.byte	0x9f
  2005 013b 04       		.byte	0x4
-GAS LISTING /tmp/ccCJLDOT.s 			page 37
+GAS LISTING /tmp/ccyAcD40.s 			page 37
 
 
  2006 013c 1F       		.uleb128 .LVL4-.LVL1
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2060 0177 91       		.byte	0x91
  2061 0178 00       		.sleb128 0
  2062 0179 06       		.byte	0x6
-GAS LISTING /tmp/ccCJLDOT.s 			page 38
+GAS LISTING /tmp/ccyAcD40.s 			page 38
 
 
  2063 017a 1C       		.byte	0x1c
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2117 0038 00000000 		.long	.LFB208
  2118 003c 22000000 		.long	.LFE208-.LFB208
  2119 0040 00000000 		.long	0
-GAS LISTING /tmp/ccCJLDOT.s 			page 39
+GAS LISTING /tmp/ccyAcD40.s 			page 39
 
 
  2120 0044 00000000 		.long	0
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2174 0041 04       		.byte	0x4
  2175 0042 20       		.uleb128 .LBB67-.LBB55
  2176 0043 26       		.uleb128 .LBE67-.LBB55
-GAS LISTING /tmp/ccCJLDOT.s 			page 40
+GAS LISTING /tmp/ccyAcD40.s 			page 40
 
 
  2177 0044 00       		.byte	0
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2217 0039 6368436F 		.string	"chCoreAllocFromBaseI"
  2217      7265416C 
  2217      6C6F6346 
-GAS LISTING /tmp/ccCJLDOT.s 			page 41
+GAS LISTING /tmp/ccyAcD40.s 			page 41
 
 
  2217      726F6D42 
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2242              	.LASF28:
  2243 017e 63685F6D 		.string	"ch_memcore"
  2243      656D636F 
-GAS LISTING /tmp/ccCJLDOT.s 			page 42
+GAS LISTING /tmp/ccyAcD40.s 			page 42
 
 
  2243      726500
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2265      6720696E 
  2265      7400
  2266              	.LASF16:
-GAS LISTING /tmp/ccCJLDOT.s 			page 43
+GAS LISTING /tmp/ccyAcD40.s 			page 43
 
 
  2267 022b 63686172 		.string	"char"
@@ -2568,7 +2568,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2289      6F636B00 
  2290              		.section	.debug_line_str,"MS",@progbits,1
  2291              	.LASF1:
- 2292 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 2292 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  2292      652F616C 
  2292      65782F43 
  2292      68696269 
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2294      2E2F2E2E 
  2294      2F6F732F 
  2294      6F736C69 
-GAS LISTING /tmp/ccCJLDOT.s 			page 44
+GAS LISTING /tmp/ccyAcD40.s 			page 44
 
 
  2294      622F7372 
@@ -2588,22 +2588,22 @@ GAS LISTING /tmp/ccCJLDOT.s 			page 1
  2296      65782F43 
  2296      68696269 
  2296      4F532F64 
-GAS LISTING /tmp/ccCJLDOT.s 			page 45
+GAS LISTING /tmp/ccyAcD40.s 			page 45
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chmemcore.c
-     /tmp/ccCJLDOT.s:9      .text.__core_init:0000000000000000 __core_init
-     /tmp/ccCJLDOT.s:503    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/ccCJLDOT.s:490    .bss.static_heap.0:0000000000000000 static_heap.0
-     /tmp/ccCJLDOT.s:497    .bss.ch_memcore:0000000000000000 ch_memcore
-     /tmp/ccCJLDOT.s:34     .text.chCoreAllocFromBaseI:0000000000000000 chCoreAllocFromBaseI
-     /tmp/ccCJLDOT.s:525    .text.__x86.get_pc_thunk.cx:0000000000000000 __x86.get_pc_thunk.cx
-     /tmp/ccCJLDOT.s:104    .text.chCoreAllocFromTopI:0000000000000000 chCoreAllocFromTopI
-     /tmp/ccCJLDOT.s:172    .text.chCoreAllocFromBase:0000000000000000 chCoreAllocFromBase
-     /tmp/ccCJLDOT.s:322    .text.chCoreAllocFromTop:0000000000000000 chCoreAllocFromTop
-     /tmp/ccCJLDOT.s:514    .text.__x86.get_pc_thunk.dx:0000000000000000 __x86.get_pc_thunk.dx
-     /tmp/ccCJLDOT.s:461    .text.chCoreGetStatusX:0000000000000000 chCoreGetStatusX
+     /tmp/ccyAcD40.s:9      .text.__core_init:0000000000000000 __core_init
+     /tmp/ccyAcD40.s:503    .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccyAcD40.s:490    .bss.static_heap.0:0000000000000000 static_heap.0
+     /tmp/ccyAcD40.s:497    .bss.ch_memcore:0000000000000000 ch_memcore
+     /tmp/ccyAcD40.s:34     .text.chCoreAllocFromBaseI:0000000000000000 chCoreAllocFromBaseI
+     /tmp/ccyAcD40.s:525    .text.__x86.get_pc_thunk.cx:0000000000000000 __x86.get_pc_thunk.cx
+     /tmp/ccyAcD40.s:104    .text.chCoreAllocFromTopI:0000000000000000 chCoreAllocFromTopI
+     /tmp/ccyAcD40.s:172    .text.chCoreAllocFromBase:0000000000000000 chCoreAllocFromBase
+     /tmp/ccyAcD40.s:322    .text.chCoreAllocFromTop:0000000000000000 chCoreAllocFromTop
+     /tmp/ccyAcD40.s:514    .text.__x86.get_pc_thunk.dx:0000000000000000 __x86.get_pc_thunk.dx
+     /tmp/ccyAcD40.s:461    .text.chCoreGetStatusX:0000000000000000 chCoreGetStatusX
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

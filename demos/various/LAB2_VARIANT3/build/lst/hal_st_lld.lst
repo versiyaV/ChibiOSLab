@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccl4DTIV.s 			page 1
+GAS LISTING /tmp/ccdesvwH.s 			page 1
 
 
    1              		.file	"hal_st_lld.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/ports/simulator/hal_st_l
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/ports/simulator/hal_st_l
    5              		.section	.text.st_lld_init,"ax",@progbits
    6              		.p2align 4
    7              		.globl	st_lld_init
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
   55 0045 53010000 		.long	.LASF5
   56 0049 01       		.uleb128 0x1
   57 004a 10       		.byte	0x10
-GAS LISTING /tmp/ccl4DTIV.s 			page 2
+GAS LISTING /tmp/ccdesvwH.s 			page 2
 
 
   58 004b 04       		.byte	0x4
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  112 0008 0E       		.uleb128 0xe
  113 0009 00       		.byte	0
  114 000a 00       		.byte	0
-GAS LISTING /tmp/ccl4DTIV.s 			page 3
+GAS LISTING /tmp/ccdesvwH.s 			page 3
 
 
  115 000b 02       		.uleb128 0x2
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  169 0041 00       		.byte	0
  170 0042 00       		.byte	0
  171              		.section	.debug_aranges,"",@progbits
-GAS LISTING /tmp/ccl4DTIV.s 			page 4
+GAS LISTING /tmp/ccdesvwH.s 			page 4
 
 
  172 0000 1C000000 		.long	0x1c
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  209      61743132 
  209      3800
  210              	.LASF9:
-GAS LISTING /tmp/ccl4DTIV.s 			page 5
+GAS LISTING /tmp/ccdesvwH.s 			page 5
 
 
  211 00e9 6C6F6E67 		.string	"long unsigned int"
@@ -287,7 +287,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  229      7400
  230              		.section	.debug_line_str,"MS",@progbits,1
  231              	.LASF1:
- 232 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 232 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  232      652F616C 
  232      65782F43 
  232      68696269 
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  234      2F6F732F 
  234      68616C2F 
  234      706F7274 
-GAS LISTING /tmp/ccl4DTIV.s 			page 6
+GAS LISTING /tmp/ccdesvwH.s 			page 6
 
 
  235              		.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
@@ -307,11 +307,11 @@ GAS LISTING /tmp/ccl4DTIV.s 			page 1
  236      65782F43 
  236      68696269 
  236      4F532F64 
-GAS LISTING /tmp/ccl4DTIV.s 			page 7
+GAS LISTING /tmp/ccdesvwH.s 			page 7
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_st_lld.c
-     /tmp/ccl4DTIV.s:9      .text.st_lld_init:0000000000000000 st_lld_init
+     /tmp/ccdesvwH.s:9      .text.st_lld_init:0000000000000000 st_lld_init
 
 NO UNDEFINED SYMBOLS

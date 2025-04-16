@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccepfCll.s 			page 1
+GAS LISTING /tmp/ccCLzOOf.s 			page 1
 
 
    1              		.file	"board.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/boards/simulator/board.c
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/boards/simulator/board.c
    5              		.section	.text.boardInit,"ax",@progbits
    6              		.p2align 4
    7              		.globl	boardInit
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
   51 002e 04       		.byte	0x4
   52 002f 07       		.byte	0x7
   53 0030 16000000 		.long	.LASF2
-GAS LISTING /tmp/ccepfCll.s 			page 2
+GAS LISTING /tmp/ccCLzOOf.s 			page 2
 
 
   54 0034 01       		.uleb128 0x1
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  108 0094 14       		.byte	0x14
  109 0095 73000000 		.long	0x73
  110 0099 01       		.uleb128 0x1
-GAS LISTING /tmp/ccepfCll.s 			page 3
+GAS LISTING /tmp/ccCLzOOf.s 			page 3
 
 
  111 009a 01       		.byte	0x1
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  165 0109 04       		.byte	0x4
  166 010a FA       		.byte	0xfa
  167 010b 18       		.byte	0x18
-GAS LISTING /tmp/ccepfCll.s 			page 4
+GAS LISTING /tmp/ccCLzOOf.s 			page 4
 
 
  168 010c FF000000 		.long	0xff
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  222 0021 04       		.sleb128 4
  223 0022 3B       		.uleb128 0x3b
  224 0023 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccepfCll.s 			page 5
+GAS LISTING /tmp/ccCLzOOf.s 			page 5
 
 
  225 0024 39       		.uleb128 0x39
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  279 005a 1B       		.uleb128 0x1b
  280 005b 1F       		.uleb128 0x1f
  281 005c 55       		.uleb128 0x55
-GAS LISTING /tmp/ccepfCll.s 			page 6
+GAS LISTING /tmp/ccCLzOOf.s 			page 6
 
 
  282 005d 17       		.uleb128 0x17
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  336 0093 0B       		.uleb128 0xb
  337 0094 02       		.uleb128 0x2
  338 0095 18       		.uleb128 0x18
-GAS LISTING /tmp/ccepfCll.s 			page 7
+GAS LISTING /tmp/ccCLzOOf.s 			page 7
 
 
  339 0096 00       		.byte	0
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  393              		.section	.debug_line,"",@progbits
  394              	.Ldebug_line0:
  395 0000 61000000 		.section	.debug_str,"MS",@progbits,1
-GAS LISTING /tmp/ccepfCll.s 			page 8
+GAS LISTING /tmp/ccCLzOOf.s 			page 8
 
 
  395      05000400 
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  417      676E6564 
  417      20636861 
  417      7200
-GAS LISTING /tmp/ccepfCll.s 			page 9
+GAS LISTING /tmp/ccCLzOOf.s 			page 9
 
 
  418              	.LASF13:
@@ -531,14 +531,14 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  441      6700
  442              		.section	.debug_line_str,"MS",@progbits,1
  443              	.LASF1:
- 444 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 444 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  444      652F616C 
  444      65782F43 
  444      68696269 
  444      4F532F64 
  445              	.LASF0:
  446 002f 2E2E2F2E 		.string	"../../../os/hal/boards/simulator/board.c"
-GAS LISTING /tmp/ccepfCll.s 			page 10
+GAS LISTING /tmp/ccCLzOOf.s 			page 10
 
 
  446      2E2F2E2E 
@@ -551,12 +551,12 @@ GAS LISTING /tmp/ccepfCll.s 			page 1
  448      65782F43 
  448      68696269 
  448      4F532F64 
-GAS LISTING /tmp/ccepfCll.s 			page 11
+GAS LISTING /tmp/ccCLzOOf.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 board.c
-     /tmp/ccepfCll.s:9      .text.boardInit:0000000000000000 boardInit
-     /tmp/ccepfCll.s:24     .rodata.pal_default_config:0000000000000000 pal_default_config
+     /tmp/ccCLzOOf.s:9      .text.boardInit:0000000000000000 boardInit
+     /tmp/ccCLzOOf.s:24     .rodata.pal_default_config:0000000000000000 pal_default_config
 
 NO UNDEFINED SYMBOLS

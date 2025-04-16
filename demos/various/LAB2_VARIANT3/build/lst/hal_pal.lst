@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccri1Yll.s 			page 1
+GAS LISTING /tmp/ccZJyca6.s 			page 1
 
 
    1              		.file	"hal_pal.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/hal/src/hal_pal.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/hal/src/hal_pal.c"
    5              		.section	.text.palReadBus,"ax",@progbits
    6              		.p2align 4
    7              		.globl	palReadBus
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
   55 000e 89D0     		movl	%edx, %eax
   56 0010 2354240C 		andl	12(%esp), %edx
   57 0014 D3E0     		sall	%cl, %eax
-GAS LISTING /tmp/ccri1Yll.s 			page 2
+GAS LISTING /tmp/ccZJyca6.s 			page 2
 
 
   58 0016 D3E2     		sall	%cl, %edx
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  109 002b 5B       		popl	%ebx
  110              		.cfi_restore 3
  111              		.cfi_def_cfa_offset 4
-GAS LISTING /tmp/ccri1Yll.s 			page 3
+GAS LISTING /tmp/ccZJyca6.s 			page 3
 
 
  112 002c C3       		ret
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  166 0043 0C       		.byte	0xc
  167 0044 04       		.byte	0x4
  168 0045 F7010000 		.long	.LASF5
-GAS LISTING /tmp/ccri1Yll.s 			page 4
+GAS LISTING /tmp/ccZJyca6.s 			page 4
 
 
  169 0049 01       		.uleb128 0x1
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  223 00ac 02       		.byte	0x2
  224 00ad 0F020000 		.long	.LASF17
  225 00b1 0A       		.uleb128 0xa
-GAS LISTING /tmp/ccri1Yll.s 			page 5
+GAS LISTING /tmp/ccZJyca6.s 			page 5
 
 
  226 00b2 05       		.byte	0x5
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  280 011e BB       		.byte	0xbb
  281 011f 19       		.byte	0x19
  282 0120 00010000 		.long	0x100
-GAS LISTING /tmp/ccri1Yll.s 			page 6
+GAS LISTING /tmp/ccZJyca6.s 			page 6
 
 
  283 0124 00       		.byte	0
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  337 0191 AC010000 		.long	.LASF27
  338 0195 71       		.byte	0x71
  339 0196 2F       		.byte	0x2f
-GAS LISTING /tmp/ccri1Yll.s 			page 7
+GAS LISTING /tmp/ccZJyca6.s 			page 7
 
 
  340 0197 F4000000 		.long	0xf4
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  394 020f 2D000000 		.long	0x2d
  395 0213 0B       		.byte	0xb
  396 0214 00       		.byte	0
-GAS LISTING /tmp/ccri1Yll.s 			page 8
+GAS LISTING /tmp/ccZJyca6.s 			page 8
 
 
  397 0215 03       		.uleb128 0x3
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  451 0011 0B       		.uleb128 0xb
  452 0012 3B       		.uleb128 0x3b
  453 0013 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccri1Yll.s 			page 9
+GAS LISTING /tmp/ccZJyca6.s 			page 9
 
 
  454 0014 39       		.uleb128 0x39
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  508 004a 00       		.byte	0
  509 004b 07       		.uleb128 0x7
  510 004c 34       		.uleb128 0x34
-GAS LISTING /tmp/ccri1Yll.s 			page 10
+GAS LISTING /tmp/ccZJyca6.s 			page 10
 
 
  511 004d 00       		.byte	0
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  565 0083 39       		.uleb128 0x39
  566 0084 21       		.uleb128 0x21
  567 0085 15       		.sleb128 21
-GAS LISTING /tmp/ccri1Yll.s 			page 11
+GAS LISTING /tmp/ccZJyca6.s 			page 11
 
 
  568 0086 49       		.uleb128 0x49
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  622 00bc 0B       		.uleb128 0xb
  623 00bd 39       		.uleb128 0x39
  624 00be 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccri1Yll.s 			page 12
+GAS LISTING /tmp/ccZJyca6.s 			page 12
 
 
  625 00bf 49       		.uleb128 0x49
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  679 00f5 13       		.uleb128 0x13
  680 00f6 00       		.byte	0
  681 00f7 00       		.byte	0
-GAS LISTING /tmp/ccri1Yll.s 			page 13
+GAS LISTING /tmp/ccZJyca6.s 			page 13
 
 
  682 00f8 12       		.uleb128 0x12
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  736 002c 00000000 		.long	0
  737              		.section	.debug_rnglists,"",@progbits
  738              	.Ldebug_ranges0:
-GAS LISTING /tmp/ccri1Yll.s 			page 14
+GAS LISTING /tmp/ccZJyca6.s 			page 14
 
 
  739 0000 1B000000 		.long	.Ldebug_ranges3-.Ldebug_ranges2
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  774              	.LASF31:
  775 004c 5F5F6675 		.string	"__func__"
  775      6E635F5F 
-GAS LISTING /tmp/ccri1Yll.s 			page 15
+GAS LISTING /tmp/ccZJyca6.s 			page 15
 
 
  775      00
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  797 019a 756E7369 		.string	"unsigned int"
  797      676E6564 
  797      20696E74 
-GAS LISTING /tmp/ccri1Yll.s 			page 16
+GAS LISTING /tmp/ccZJyca6.s 			page 16
 
 
  797      00
@@ -954,11 +954,11 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  825      7300
  826              		.section	.debug_line_str,"MS",@progbits,1
  827              	.LASF1:
- 828 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 828 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  828      652F616C 
  828      65782F43 
  828      68696269 
-GAS LISTING /tmp/ccri1Yll.s 			page 17
+GAS LISTING /tmp/ccZJyca6.s 			page 17
 
 
  828      4F532F64 
@@ -974,15 +974,15 @@ GAS LISTING /tmp/ccri1Yll.s 			page 1
  832      65782F43 
  832      68696269 
  832      4F532F64 
-GAS LISTING /tmp/ccri1Yll.s 			page 18
+GAS LISTING /tmp/ccZJyca6.s 			page 18
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 hal_pal.c
-     /tmp/ccri1Yll.s:9      .text.palReadBus:0000000000000000 palReadBus
-     /tmp/ccri1Yll.s:36     .text.palWriteBus:0000000000000000 palWriteBus
-     /tmp/ccri1Yll.s:75     .text.palSetBusMode:0000000000000000 palSetBusMode
-     /tmp/ccri1Yll.s:120    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccZJyca6.s:9      .text.palReadBus:0000000000000000 palReadBus
+     /tmp/ccZJyca6.s:36     .text.palWriteBus:0000000000000000 palWriteBus
+     /tmp/ccZJyca6.s:75     .text.palSetBusMode:0000000000000000 palSetBusMode
+     /tmp/ccZJyca6.s:120    .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_

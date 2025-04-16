@@ -1,10 +1,10 @@
-GAS LISTING /tmp/ccho4PzG.s 			page 1
+GAS LISTING /tmp/ccWDWsfF.s 			page 1
 
 
    1              		.file	"chmempools.c"
    2              		.text
    3              	.Ltext0:
-   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT2" "../../../os/oslib/src/chmempools.c"
+   4              		.file 0 "/home/alex/ChibiOS/demos/various/LAB2_VARIANT3" "../../../os/oslib/src/chmempools.c"
    5              		.section	.text.chPoolObjectInitAligned,"ax",@progbits
    6              		.p2align 4
    7              		.globl	chPoolObjectInitAligned
@@ -58,7 +58,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
   54 0000 C3       		ret
   55              		.cfi_endproc
   56              	.LFE216:
-GAS LISTING /tmp/ccho4PzG.s 			page 2
+GAS LISTING /tmp/ccWDWsfF.s 			page 2
 
 
   57              		.size	chPoolObjectDispose, .-chPoolObjectDispose
@@ -118,7 +118,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  108              	.LBB69:
  109              	.LBI69:
  110              		.file 2 "../../../os/oslib/include/chmempools.h"
-GAS LISTING /tmp/ccho4PzG.s 			page 3
+GAS LISTING /tmp/ccWDWsfF.s 			page 3
 
 
  111              		.loc 2 212 20 view .LVU32
@@ -178,7 +178,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  163 005a 5B       		popl	%ebx
  164              		.cfi_restore 3
  165              		.cfi_def_cfa_offset 16
-GAS LISTING /tmp/ccho4PzG.s 			page 4
+GAS LISTING /tmp/ccWDWsfF.s 			page 4
 
 
  166 005b 5E       		popl	%esi
@@ -238,7 +238,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  220              	.L13:
  221              		.cfi_restore_state
  222              	.LVL13:
-GAS LISTING /tmp/ccho4PzG.s 			page 5
+GAS LISTING /tmp/ccWDWsfF.s 			page 5
 
 
  223              	.LBB75:
@@ -298,7 +298,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  277              	.LBI89:
  278              		.file 4 "../../../os/common/ports/SIMIA32/chcore.h"
  279              		.loc 4 361 20 view .LVU90
-GAS LISTING /tmp/ccho4PzG.s 			page 6
+GAS LISTING /tmp/ccWDWsfF.s 			page 6
 
 
  280              	.LBB90:
@@ -358,7 +358,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  330              		.loc 1 161 3 view .LVU106
  331              		.loc 1 163 3 view .LVU107
  332              		.loc 1 163 6 is_stmt 0 view .LVU108
-GAS LISTING /tmp/ccho4PzG.s 			page 7
+GAS LISTING /tmp/ccWDWsfF.s 			page 7
 
 
  333 0020 85C0     		testl	%eax, %eax
@@ -418,7 +418,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  385              	.LBI98:
  386              		.loc 1 155 7 is_stmt 1 view .LVU127
  387              	.LBB99:
-GAS LISTING /tmp/ccho4PzG.s 			page 8
+GAS LISTING /tmp/ccWDWsfF.s 			page 8
 
 
  388              		.loc 1 166 8 view .LVU128
@@ -478,7 +478,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  441              		.loc 3 430 3 view .LVU144
  442              		.loc 3 430 3 view .LVU145
  443              		.loc 3 430 3 view .LVU146
-GAS LISTING /tmp/ccho4PzG.s 			page 9
+GAS LISTING /tmp/ccWDWsfF.s 			page 9
 
 
  444              		.loc 3 434 3 view .LVU147
@@ -538,7 +538,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  498              	chPoolFree:
  499              	.LVL24:
  500              	.LFB221:
-GAS LISTING /tmp/ccho4PzG.s 			page 10
+GAS LISTING /tmp/ccWDWsfF.s 			page 10
 
 
  501              		.loc 1 233 48 is_stmt 1 view -0
@@ -598,7 +598,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  553              		.loc 4 372 16 is_stmt 0 view .LVU191
  554 001a 8B810000 		movl	port_irq_sts@GOT(%ecx), %eax
  554      0000
-GAS LISTING /tmp/ccho4PzG.s 			page 11
+GAS LISTING /tmp/ccWDWsfF.s 			page 11
 
 
  555 0020 C7000000 		movl	$0, (%eax)
@@ -658,7 +658,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  605              		.loc 1 89 3 view .LVU206
  606              		.loc 1 89 13 is_stmt 0 view .LVU207
  607 0025 895014   		movl	%edx, 20(%eax)
-GAS LISTING /tmp/ccho4PzG.s 			page 12
+GAS LISTING /tmp/ccWDWsfF.s 			page 12
 
 
  608              		.loc 1 90 3 is_stmt 1 view .LVU208
@@ -718,7 +718,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  657      FF
  658              	.LVL33:
  659              		.loc 1 281 1 view .LVU221
-GAS LISTING /tmp/ccho4PzG.s 			page 13
+GAS LISTING /tmp/ccWDWsfF.s 			page 13
 
 
  660 0018 83C418   		addl	$24, %esp
@@ -778,7 +778,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  710      00000090 
  711              		.p2align 3
  712              	.L35:
-GAS LISTING /tmp/ccho4PzG.s 			page 14
+GAS LISTING /tmp/ccWDWsfF.s 			page 14
 
 
  713              		.loc 1 301 5 view .LVU231
@@ -838,7 +838,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  766              	.LBI154:
  767              		.loc 1 209 6 view .LVU248
  768              	.LBB156:
-GAS LISTING /tmp/ccho4PzG.s 			page 15
+GAS LISTING /tmp/ccWDWsfF.s 			page 15
 
 
  769              		.loc 1 210 3 view .LVU249
@@ -898,7 +898,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  821              		.loc 1 303 7 view .LVU273
  822 0050 037710   		addl	16(%edi), %esi
  823              	.LVL41:
-GAS LISTING /tmp/ccho4PzG.s 			page 16
+GAS LISTING /tmp/ccWDWsfF.s 			page 16
 
 
  824              	.LBB171:
@@ -958,7 +958,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  876              		.loc 1 325 3 view .LVU281
  877              		.loc 1 327 3 view .LVU282
  878              		.loc 1 324 57 is_stmt 0 view .LVU283
-GAS LISTING /tmp/ccho4PzG.s 			page 17
+GAS LISTING /tmp/ccWDWsfF.s 			page 17
 
 
  879 0000 56       		pushl	%esi
@@ -1018,7 +1018,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  930              		.loc 1 333 1 view .LVU301
  931 0031 83C404   		addl	$4, %esp
  932              		.cfi_remember_state
-GAS LISTING /tmp/ccho4PzG.s 			page 18
+GAS LISTING /tmp/ccWDWsfF.s 			page 18
 
 
  933              		.cfi_def_cfa_offset 12
@@ -1078,7 +1078,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  985              		.cfi_def_cfa_offset 4
  986              	.LVL52:
  987              	.LBB185:
-GAS LISTING /tmp/ccho4PzG.s 			page 19
+GAS LISTING /tmp/ccWDWsfF.s 			page 19
 
 
  988              	.LBB183:
@@ -1138,7 +1138,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1042              	.LBE199:
  1043              		.loc 1 350 56 is_stmt 0 view .LVU325
  1044 0000 57       		pushl	%edi
-GAS LISTING /tmp/ccho4PzG.s 			page 20
+GAS LISTING /tmp/ccWDWsfF.s 			page 20
 
 
  1045              		.cfi_def_cfa_offset 8
@@ -1198,7 +1198,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1094 002e 89C2     		movl	%eax, %edx
  1095              	.LVL58:
  1096              		.loc 1 328 3 is_stmt 1 view .LVU338
-GAS LISTING /tmp/ccho4PzG.s 			page 21
+GAS LISTING /tmp/ccWDWsfF.s 			page 21
 
 
  1097              		.loc 1 329 12 is_stmt 0 view .LVU339
@@ -1258,7 +1258,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1151              	.LBE224:
  1152              	.LBE223:
  1153              	.LBE222:
-GAS LISTING /tmp/ccho4PzG.s 			page 22
+GAS LISTING /tmp/ccWDWsfF.s 			page 22
 
 
  1154              	.LBE221:
@@ -1318,7 +1318,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1207 0060 FFD2     		call	*%edx
  1208              	.LVL66:
  1209              		.loc 1 169 5 is_stmt 1 view .LVU376
-GAS LISTING /tmp/ccho4PzG.s 			page 23
+GAS LISTING /tmp/ccWDWsfF.s 			page 23
 
 
  1210              		.loc 1 169 5 view .LVU377
@@ -1378,7 +1378,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1263 006b 5B       		popl	%ebx
  1264              		.cfi_restore 3
  1265              		.cfi_def_cfa_offset 12
-GAS LISTING /tmp/ccho4PzG.s 			page 24
+GAS LISTING /tmp/ccWDWsfF.s 			page 24
 
 
  1266 006c 5E       		popl	%esi
@@ -1438,7 +1438,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1318              	.LBE247:
  1319              	.LBE246:
  1320              	.LBE245:
-GAS LISTING /tmp/ccho4PzG.s 			page 25
+GAS LISTING /tmp/ccWDWsfF.s 			page 25
 
 
  1321              	.LBE244:
@@ -1498,7 +1498,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1371              	.LBB253:
  1372              	.LBI253:
  1373              		.loc 3 421 20 view .LVU422
-GAS LISTING /tmp/ccho4PzG.s 			page 26
+GAS LISTING /tmp/ccWDWsfF.s 			page 26
 
 
  1374              	.LBB254:
@@ -1558,7 +1558,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1427              		.section	.text.__x86.get_pc_thunk.bx,"axG",@progbits,__x86.get_pc_thunk.bx,comdat
  1428              		.globl	__x86.get_pc_thunk.bx
  1429              		.hidden	__x86.get_pc_thunk.bx
-GAS LISTING /tmp/ccho4PzG.s 			page 27
+GAS LISTING /tmp/ccWDWsfF.s 			page 27
 
 
  1430              		.type	__x86.get_pc_thunk.bx, @function
@@ -1618,7 +1618,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1484 0034 07       		.byte	0x7
  1485 0035 F8030000 		.long	.LASF2
  1486 0039 04       		.uleb128 0x4
-GAS LISTING /tmp/ccho4PzG.s 			page 28
+GAS LISTING /tmp/ccWDWsfF.s 			page 28
 
 
  1487 003a 02       		.byte	0x2
@@ -1678,7 +1678,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1541 009d 29       		.byte	0x29
  1542 009e 14       		.byte	0x14
  1543 009f 40000000 		.long	0x40
-GAS LISTING /tmp/ccho4PzG.s 			page 29
+GAS LISTING /tmp/ccWDWsfF.s 			page 29
 
 
  1544 00a3 02       		.uleb128 0x2
@@ -1738,7 +1738,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1598 010c 02       		.uleb128 0x2
  1599 010d A5000000 		.long	.LASF25
  1600 0111 0B       		.byte	0xb
-GAS LISTING /tmp/ccho4PzG.s 			page 30
+GAS LISTING /tmp/ccWDWsfF.s 			page 30
 
 
  1601 0112 3F       		.byte	0x3f
@@ -1798,7 +1798,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1655 0179 37       		.byte	0x37
  1656 017a F4000000 		.long	0xf4
  1657 017e 08       		.byte	0x8
-GAS LISTING /tmp/ccho4PzG.s 			page 31
+GAS LISTING /tmp/ccWDWsfF.s 			page 31
 
 
  1658 017f 00       		.byte	0
@@ -1858,7 +1858,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1712 01eb 42       		.byte	0x42
  1713 01ec 19       		.byte	0x19
  1714 01ed 26000000 		.long	0x26
-GAS LISTING /tmp/ccho4PzG.s 			page 32
+GAS LISTING /tmp/ccWDWsfF.s 			page 32
 
 
  1715 01f1 04       		.byte	0x4
@@ -1918,7 +1918,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1769 0257 80010000 		.long	0x180
  1770 025b 2F       		.uleb128 0x2f
  1771 025c 3E000000 		.long	.LASF71
-GAS LISTING /tmp/ccho4PzG.s 			page 33
+GAS LISTING /tmp/ccWDWsfF.s 			page 33
 
 
  1772 0260 0E       		.byte	0xe
@@ -1978,7 +1978,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1826 02d2 09020000 		.long	.LASF57
  1827 02d6 01       		.byte	0x1
  1828 02d7 5D01     		.value	0x15d
-GAS LISTING /tmp/ccho4PzG.s 			page 34
+GAS LISTING /tmp/ccWDWsfF.s 			page 34
 
 
  1829 02d9 07       		.byte	0x7
@@ -2038,7 +2038,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1883 0354 6201     		.value	0x162
  1884 0356 07       		.byte	0x7
  1885 0357 F2030000 		.long	0x3f2
-GAS LISTING /tmp/ccho4PzG.s 			page 35
+GAS LISTING /tmp/ccWDWsfF.s 			page 35
 
 
  1886 035b 35       		.uleb128 0x35
@@ -2098,7 +2098,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1940 03ec 63020000 		.long	0x263
  1941 03f0 00       		.byte	0
  1942 03f1 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 36
+GAS LISTING /tmp/ccWDWsfF.s 			page 36
 
 
  1943 03f2 1C       		.uleb128 0x1c
@@ -2158,7 +2158,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  1997 046b 1B       		.uleb128 0x1b
  1998 046c 676D7000 		.string	"gmp"
  1999 0470 2801     		.value	0x128
-GAS LISTING /tmp/ccho4PzG.s 			page 37
+GAS LISTING /tmp/ccWDWsfF.s 			page 37
 
 
  2000 0472 34       		.byte	0x34
@@ -2218,7 +2218,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2054 0500 30000000 		.long	.LBI147
  2055 0504 05       		.byte	.LVU236
  2056 0505 4D000000 		.long	.LLRL37
-GAS LISTING /tmp/ccho4PzG.s 			page 38
+GAS LISTING /tmp/ccWDWsfF.s 			page 38
 
 
  2057 0509 01       		.byte	0x1
@@ -2278,7 +2278,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2111 0597 48000000 		.long	.LVL39
  2112 059b 46020000 		.long	0x246
  2113 059f 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 39
+GAS LISTING /tmp/ccWDWsfF.s 			page 39
 
 
  2114 05a0 07       		.uleb128 0x7
@@ -2338,7 +2338,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2168 061c 18000000 		.long	.LVL33
  2169 0620 7E020000 		.long	0x27e
  2170 0624 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 40
+GAS LISTING /tmp/ccWDWsfF.s 			page 40
 
 
  2171 0625 0E       		.uleb128 0xe
@@ -2398,7 +2398,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2225 069e CD090000 		.long	0x9cd
  2226 06a2 35010000 		.long	.LLST27
  2227 06a6 33010000 		.long	.LVUS27
-GAS LISTING /tmp/ccho4PzG.s 			page 41
+GAS LISTING /tmp/ccWDWsfF.s 			page 41
 
 
  2228 06aa 01       		.uleb128 0x1
@@ -2458,7 +2458,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2282 0723 0C       		.uleb128 0xc
  2283 0724 7E020000 		.long	.LASF52
  2284 0728 3D070000 		.long	0x73d
-GAS LISTING /tmp/ccho4PzG.s 			page 42
+GAS LISTING /tmp/ccWDWsfF.s 			page 42
 
 
  2285 072c 00       		.byte	0
@@ -2518,7 +2518,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2339 07a7 20000000 		.long	.LBI96
  2340 07ab 03       		.byte	.LVU100
  2341 07ac 1B000000 		.long	.LLRL15
-GAS LISTING /tmp/ccho4PzG.s 			page 43
+GAS LISTING /tmp/ccWDWsfF.s 			page 43
 
 
  2342 07b0 BF       		.byte	0xbf
@@ -2578,7 +2578,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2396 0835 01       		.byte	0x1
  2397 0836 9B       		.byte	0x9b
  2398 0837 07       		.byte	0x7
-GAS LISTING /tmp/ccho4PzG.s 			page 44
+GAS LISTING /tmp/ccWDWsfF.s 			page 44
 
 
  2399 0838 B6000000 		.long	0xb6
@@ -2638,7 +2638,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2453 08bc 0C       		.uleb128 0xc
  2454 08bd 7E020000 		.long	.LASF52
  2455 08c1 73090000 		.long	0x973
-GAS LISTING /tmp/ccho4PzG.s 			page 45
+GAS LISTING /tmp/ccWDWsfF.s 			page 45
 
 
  2456 08c5 13       		.uleb128 0x13
@@ -2698,7 +2698,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2510 095b 6A020000 		.long	.LVUS9
  2511 095f 00       		.byte	0
  2512 0960 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 46
+GAS LISTING /tmp/ccWDWsfF.s 			page 46
 
 
  2513 0961 00       		.byte	0
@@ -2758,7 +2758,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2567 09d4 27       		.byte	0x27
  2568 09d5 32000000 		.long	0x32
  2569 09d9 12       		.uleb128 0x12
-GAS LISTING /tmp/ccho4PzG.s 			page 47
+GAS LISTING /tmp/ccWDWsfF.s 			page 47
 
 
  2570 09da F2020000 		.long	.LASF37
@@ -2818,7 +2818,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2624 0a52 3D       		.uleb128 0x3d
  2625 0a53 67020000 		.long	.LASF65
  2626 0a57 02       		.byte	0x2
-GAS LISTING /tmp/ccho4PzG.s 			page 48
+GAS LISTING /tmp/ccWDWsfF.s 			page 48
 
 
  2627 0a58 D4       		.byte	0xd4
@@ -2878,7 +2878,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2681 0ac7 04       		.sleb128 4
  2682 0ac8 06       		.uleb128 0x6
  2683 0ac9 CD090000 		.long	0x9cd
-GAS LISTING /tmp/ccho4PzG.s 			page 49
+GAS LISTING /tmp/ccWDWsfF.s 			page 49
 
 
  2684 0acd 02       		.uleb128 0x2
@@ -2938,7 +2938,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2738 0b48 AE020000 		.long	.LVUS12
  2739 0b4c 00       		.byte	0
  2740 0b4d 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 50
+GAS LISTING /tmp/ccWDWsfF.s 			page 50
 
 
  2741 0b4e 18       		.uleb128 0x18
@@ -2998,7 +2998,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2795 0bc9 00070000 		.long	0x700
  2796 0bcd D3020000 		.long	.LLST24
  2797 0bd1 D1020000 		.long	.LVUS24
-GAS LISTING /tmp/ccho4PzG.s 			page 51
+GAS LISTING /tmp/ccWDWsfF.s 			page 51
 
 
  2798 0bd5 03       		.uleb128 0x3
@@ -3058,7 +3058,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2852 0c69 05       		.uleb128 0x5
  2853 0c6a 7D000000 		.long	.LLRL49
  2854 0c6e 03       		.uleb128 0x3
-GAS LISTING /tmp/ccho4PzG.s 			page 52
+GAS LISTING /tmp/ccWDWsfF.s 			page 52
 
 
  2855 0c6f 4C080000 		.long	0x84c
@@ -3118,7 +3118,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2909 0ce8 9D0A0000 		.long	0xa9d
  2910 0cec 00000000 		.long	.LBI240
  2911 0cf0 04       		.byte	.LVU396
-GAS LISTING /tmp/ccho4PzG.s 			page 53
+GAS LISTING /tmp/ccWDWsfF.s 			page 53
 
 
  2912 0cf1 D1000000 		.long	.LLRL66
@@ -3178,7 +3178,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  2966 0d84 06000000 		.long	.LBE253-.LBB253
  2967 0d88 7901     		.value	0x179
  2968 0d8a A10D0000 		.long	0xda1
-GAS LISTING /tmp/ccho4PzG.s 			page 54
+GAS LISTING /tmp/ccWDWsfF.s 			page 54
 
 
  2969 0d8e 29       		.uleb128 0x29
@@ -3238,7 +3238,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3023 002a 0B       		.uleb128 0xb
  3024 002b 0B       		.uleb128 0xb
  3025 002c 3E       		.uleb128 0x3e
-GAS LISTING /tmp/ccho4PzG.s 			page 55
+GAS LISTING /tmp/ccWDWsfF.s 			page 55
 
 
  3026 002d 0B       		.uleb128 0xb
@@ -3298,7 +3298,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3080 0064 13       		.uleb128 0x13
  3081 0065 38       		.uleb128 0x38
  3082 0066 0B       		.uleb128 0xb
-GAS LISTING /tmp/ccho4PzG.s 			page 56
+GAS LISTING /tmp/ccWDWsfF.s 			page 56
 
 
  3083 0067 00       		.byte	0
@@ -3358,7 +3358,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3137 009e 03       		.sleb128 3
  3138 009f 00       		.byte	0
  3139 00a0 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 57
+GAS LISTING /tmp/ccWDWsfF.s 			page 57
 
 
  3140 00a1 0E       		.uleb128 0xe
@@ -3418,7 +3418,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3194 00d7 49       		.uleb128 0x49
  3195 00d8 13       		.uleb128 0x13
  3196 00d9 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 58
+GAS LISTING /tmp/ccWDWsfF.s 			page 58
 
 
  3197 00da 00       		.byte	0
@@ -3478,7 +3478,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3251 0111 01       		.byte	0x1
  3252 0112 31       		.uleb128 0x31
  3253 0113 13       		.uleb128 0x13
-GAS LISTING /tmp/ccho4PzG.s 			page 59
+GAS LISTING /tmp/ccWDWsfF.s 			page 59
 
 
  3254 0114 52       		.uleb128 0x52
@@ -3538,7 +3538,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3308 014b 00       		.byte	0
  3309 014c 00       		.byte	0
  3310 014d 19       		.uleb128 0x19
-GAS LISTING /tmp/ccho4PzG.s 			page 60
+GAS LISTING /tmp/ccWDWsfF.s 			page 60
 
 
  3311 014e 13       		.uleb128 0x13
@@ -3598,7 +3598,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3365 0184 18       		.uleb128 0x18
  3366 0185 00       		.byte	0
  3367 0186 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 61
+GAS LISTING /tmp/ccWDWsfF.s 			page 61
 
 
  3368 0187 1C       		.uleb128 0x1c
@@ -3658,7 +3658,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3422 01c0 20       		.uleb128 0x20
  3423 01c1 21       		.uleb128 0x21
  3424 01c2 03       		.sleb128 3
-GAS LISTING /tmp/ccho4PzG.s 			page 62
+GAS LISTING /tmp/ccWDWsfF.s 			page 62
 
 
  3425 01c3 01       		.uleb128 0x1
@@ -3718,7 +3718,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3479 01f9 01       		.uleb128 0x1
  3480 01fa 13       		.uleb128 0x13
  3481 01fb 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 63
+GAS LISTING /tmp/ccWDWsfF.s 			page 63
 
 
  3482 01fc 00       		.byte	0
@@ -3778,7 +3778,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3536 0234 3F       		.uleb128 0x3f
  3537 0235 19       		.uleb128 0x19
  3538 0236 03       		.uleb128 0x3
-GAS LISTING /tmp/ccho4PzG.s 			page 64
+GAS LISTING /tmp/ccWDWsfF.s 			page 64
 
 
  3539 0237 0E       		.uleb128 0xe
@@ -3838,7 +3838,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3593 026d 13       		.uleb128 0x13
  3594 026e 02       		.uleb128 0x2
  3595 026f 18       		.uleb128 0x18
-GAS LISTING /tmp/ccho4PzG.s 			page 65
+GAS LISTING /tmp/ccWDWsfF.s 			page 65
 
 
  3596 0270 00       		.byte	0
@@ -3898,7 +3898,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3650 02a8 52       		.uleb128 0x52
  3651 02a9 01       		.uleb128 0x1
  3652 02aa B842     		.uleb128 0x2138
-GAS LISTING /tmp/ccho4PzG.s 			page 66
+GAS LISTING /tmp/ccWDWsfF.s 			page 66
 
 
  3653 02ac 0B       		.uleb128 0xb
@@ -3958,7 +3958,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3707 02e3 34       		.uleb128 0x34
  3708 02e4 00       		.byte	0
  3709 02e5 03       		.uleb128 0x3
-GAS LISTING /tmp/ccho4PzG.s 			page 67
+GAS LISTING /tmp/ccWDWsfF.s 			page 67
 
 
  3710 02e6 0E       		.uleb128 0xe
@@ -4018,7 +4018,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3764 031c 3B       		.uleb128 0x3b
  3765 031d 0B       		.uleb128 0xb
  3766 031e 39       		.uleb128 0x39
-GAS LISTING /tmp/ccho4PzG.s 			page 68
+GAS LISTING /tmp/ccWDWsfF.s 			page 68
 
 
  3767 031f 0B       		.uleb128 0xb
@@ -4078,7 +4078,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3821 0355 18       		.uleb128 0x18
  3822 0356 7C       		.uleb128 0x7c
  3823 0357 19       		.uleb128 0x19
-GAS LISTING /tmp/ccho4PzG.s 			page 69
+GAS LISTING /tmp/ccWDWsfF.s 			page 69
 
 
  3824 0358 01       		.uleb128 0x1
@@ -4138,7 +4138,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3878 038f 3A       		.uleb128 0x3a
  3879 0390 0B       		.uleb128 0xb
  3880 0391 3B       		.uleb128 0x3b
-GAS LISTING /tmp/ccho4PzG.s 			page 70
+GAS LISTING /tmp/ccWDWsfF.s 			page 70
 
 
  3881 0392 05       		.uleb128 0x5
@@ -4198,7 +4198,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3935 03c8 39       		.uleb128 0x39
  3936 03c9 0B       		.uleb128 0xb
  3937 03ca 27       		.uleb128 0x27
-GAS LISTING /tmp/ccho4PzG.s 			page 71
+GAS LISTING /tmp/ccWDWsfF.s 			page 71
 
 
  3938 03cb 19       		.uleb128 0x19
@@ -4258,7 +4258,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  3992 0402 13       		.uleb128 0x13
  3993 0403 00       		.byte	0
  3994 0404 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 72
+GAS LISTING /tmp/ccWDWsfF.s 			page 72
 
 
  3995 0405 3C       		.uleb128 0x3c
@@ -4318,7 +4318,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4049 043b 31       		.uleb128 0x31
  4050 043c 13       		.uleb128 0x13
  4051 043d 52       		.uleb128 0x52
-GAS LISTING /tmp/ccho4PzG.s 			page 73
+GAS LISTING /tmp/ccWDWsfF.s 			page 73
 
 
  4052 043e 01       		.uleb128 0x1
@@ -4378,7 +4378,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4106 0475 00       		.byte	0
  4107 0476 00       		.byte	0
  4108 0477 00       		.byte	0
-GAS LISTING /tmp/ccho4PzG.s 			page 74
+GAS LISTING /tmp/ccWDWsfF.s 			page 74
 
 
  4109              		.section	.debug_loclists,"",@progbits
@@ -4438,7 +4438,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4163              	.LLST58:
  4164 003b 06       		.byte	0x6
  4165 003c 30000000 		.long	.LVL58
-GAS LISTING /tmp/ccho4PzG.s 			page 75
+GAS LISTING /tmp/ccWDWsfF.s 			page 75
 
 
  4166 0040 04       		.byte	0x4
@@ -4498,7 +4498,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4220 0078 50       		.byte	0x50
  4221 0079 04       		.byte	0x4
  4222 007a 13       		.uleb128 .LVL64-.LVL61
-GAS LISTING /tmp/ccho4PzG.s 			page 76
+GAS LISTING /tmp/ccWDWsfF.s 			page 76
 
 
  4223 007b 28       		.uleb128 .LVL66-1-.LVL61
@@ -4558,7 +4558,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4277 00b5 04       		.byte	0x4
  4278 00b6 00       		.uleb128 .LVL34-.LVL34
  4279 00b7 28       		.uleb128 .LVL36-.LVL34
-GAS LISTING /tmp/ccho4PzG.s 			page 77
+GAS LISTING /tmp/ccWDWsfF.s 			page 77
 
 
  4280 00b8 02       		.uleb128 0x2
@@ -4618,7 +4618,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4334 00f0 08       		.byte	0x8
  4335 00f1 3D000000 		.long	.LVL37
  4336 00f5 0B       		.uleb128 .LVL39-.LVL37
-GAS LISTING /tmp/ccho4PzG.s 			page 78
+GAS LISTING /tmp/ccWDWsfF.s 			page 78
 
 
  4337 00f6 01       		.uleb128 0x1
@@ -4678,7 +4678,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4391 0131 9F       		.byte	0x9f
  4392 0132 00       		.byte	0
  4393              	.LVUS27:
-GAS LISTING /tmp/ccho4PzG.s 			page 79
+GAS LISTING /tmp/ccWDWsfF.s 			page 79
 
 
  4394 0133 00       		.uleb128 .LVU197
@@ -4738,7 +4738,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4448 016d 02       		.uleb128 .LVU113
  4449 016e 00       		.uleb128 .LVU127
  4450 016f 00       		.uleb128 .LVU133
-GAS LISTING /tmp/ccho4PzG.s 			page 80
+GAS LISTING /tmp/ccWDWsfF.s 			page 80
 
 
  4451 0170 00       		.uleb128 .LVU133
@@ -4798,7 +4798,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4505 01a7 06       		.byte	0x6
  4506 01a8 33000000 		.long	.LVL19
  4507 01ac 04       		.byte	0x4
-GAS LISTING /tmp/ccho4PzG.s 			page 81
+GAS LISTING /tmp/ccWDWsfF.s 			page 81
 
 
  4508 01ad 00       		.uleb128 .LVL19-.LVL19
@@ -4858,7 +4858,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4562 01e4 00       		.uleb128 .LVU31
  4563 01e5 00       		.uleb128 .LVU51
  4564 01e6 00       		.uleb128 .LVU51
-GAS LISTING /tmp/ccho4PzG.s 			page 82
+GAS LISTING /tmp/ccWDWsfF.s 			page 82
 
 
  4565 01e7 00       		.uleb128 .LVU56
@@ -4918,7 +4918,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4619 0220 7F       		.sleb128 -1
  4620 0221 9F       		.byte	0x9f
  4621 0222 04       		.byte	0x4
-GAS LISTING /tmp/ccho4PzG.s 			page 83
+GAS LISTING /tmp/ccWDWsfF.s 			page 83
 
 
  4622 0223 3C       		.uleb128 .LVL7-.LVL2
@@ -4978,7 +4978,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4676 025e 00       		.byte	0
  4677              	.LVUS8:
  4678 025f 06       		.uleb128 .LVU37
-GAS LISTING /tmp/ccho4PzG.s 			page 84
+GAS LISTING /tmp/ccWDWsfF.s 			page 84
 
 
  4679 0260 01       		.uleb128 .LVU46
@@ -5038,7 +5038,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4733 0299 00       		.uleb128 .LVU73
  4734 029a 00       		.uleb128 .LVU79
  4735 029b 00       		.uleb128 .LVU79
-GAS LISTING /tmp/ccho4PzG.s 			page 85
+GAS LISTING /tmp/ccWDWsfF.s 			page 85
 
 
  4736 029c 00       		.uleb128 .LVU81
@@ -5098,7 +5098,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4790 02d8 0A       		.uleb128 .LVL27-.LVL25
  4791 02d9 02       		.uleb128 0x2
  4792 02da 91       		.byte	0x91
-GAS LISTING /tmp/ccho4PzG.s 			page 86
+GAS LISTING /tmp/ccWDWsfF.s 			page 86
 
 
  4793 02db 00       		.sleb128 0
@@ -5158,7 +5158,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4847 0314 00       		.byte	0
  4848              	.LVUS48:
  4849 0315 00       		.uleb128 .LVU286
-GAS LISTING /tmp/ccho4PzG.s 			page 87
+GAS LISTING /tmp/ccWDWsfF.s 			page 87
 
 
  4850 0316 00       		.uleb128 .LVU297
@@ -5218,7 +5218,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4904 034e 00       		.uleb128 .LVU309
  4905 034f 00       		.uleb128 .LVU309
  4906 0350 00       		.uleb128 .LVU310
-GAS LISTING /tmp/ccho4PzG.s 			page 88
+GAS LISTING /tmp/ccWDWsfF.s 			page 88
 
 
  4907              	.LLST51:
@@ -5278,7 +5278,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  4961 0389 27000000 		.long	.LVL69
  4962 038d 04       		.byte	0x4
  4963 038e 00       		.uleb128 .LVL69-.LVL69
-GAS LISTING /tmp/ccho4PzG.s 			page 89
+GAS LISTING /tmp/ccWDWsfF.s 			page 89
 
 
  4964 038f 0A       		.uleb128 .LVL71-1-.LVL69
@@ -5338,7 +5338,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5018 0000 7C000000 		.long	0x7c
  5019 0004 0200     		.value	0x2
  5020 0006 00000000 		.long	.Ldebug_info0
-GAS LISTING /tmp/ccho4PzG.s 			page 90
+GAS LISTING /tmp/ccWDWsfF.s 			page 90
 
 
  5021 000a 04       		.byte	0x4
@@ -5398,7 +5398,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5075 001b 05       		.byte	0x5
  5076 001c 18000000 		.long	.LBB96
  5077 0020 04       		.byte	0x4
-GAS LISTING /tmp/ccho4PzG.s 			page 91
+GAS LISTING /tmp/ccWDWsfF.s 			page 91
 
 
  5078 0021 00       		.uleb128 .LBB96-.LBB96
@@ -5458,7 +5458,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5132 0061 04       		.byte	0x4
  5133 0062 0D       		.uleb128 .LBB160-.LBB152
  5134 0063 18       		.uleb128 .LBE160-.LBB152
-GAS LISTING /tmp/ccho4PzG.s 			page 92
+GAS LISTING /tmp/ccWDWsfF.s 			page 92
 
 
  5135 0064 00       		.byte	0
@@ -5518,7 +5518,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5189 00a6 04       		.byte	0x4
  5190 00a7 3E       		.uleb128 .LBB235-.LBB204
  5191 00a8 50       		.uleb128 .LBE235-.LBB204
-GAS LISTING /tmp/ccho4PzG.s 			page 93
+GAS LISTING /tmp/ccWDWsfF.s 			page 93
 
 
  5192 00a9 04       		.byte	0x4
@@ -5578,7 +5578,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5246              	.LLRL70:
  5247 00e9 05       		.byte	0x5
  5248 00ea 18000000 		.long	.LBB246
-GAS LISTING /tmp/ccho4PzG.s 			page 94
+GAS LISTING /tmp/ccWDWsfF.s 			page 94
 
 
  5249 00ee 04       		.byte	0x4
@@ -5638,7 +5638,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5300      010101FB 
  5300      0E0D0001 
  5301              	.LASF47:
-GAS LISTING /tmp/ccho4PzG.s 			page 95
+GAS LISTING /tmp/ccWDWsfF.s 			page 95
 
 
  5302 0000 706F7274 		.string	"port_irq_sts"
@@ -5698,7 +5698,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5325              	.LASF25:
  5326 00a5 63685F71 		.string	"ch_queue_t"
  5326      75657565 
-GAS LISTING /tmp/ccho4PzG.s 			page 96
+GAS LISTING /tmp/ccWDWsfF.s 			page 96
 
 
  5326      5F7400
@@ -5758,7 +5758,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5348 01f7 71756575 		.string	"queue"
  5348      6500
  5349              	.LASF7:
-GAS LISTING /tmp/ccho4PzG.s 			page 97
+GAS LISTING /tmp/ccWDWsfF.s 			page 97
 
 
  5350 01fd 6C6F6E67 		.string	"long double"
@@ -5818,7 +5818,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5374 02a0 63684775 		.string	"chGuardedPoolFreeI"
  5374      61726465 
  5374      64506F6F 
-GAS LISTING /tmp/ccho4PzG.s 			page 98
+GAS LISTING /tmp/ccWDWsfF.s 			page 98
 
 
  5374      6C467265 
@@ -5878,7 +5878,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5398      7400
  5399              	.LASF59:
  5400 034d 6368506F 		.string	"chPoolAllocI"
-GAS LISTING /tmp/ccho4PzG.s 			page 99
+GAS LISTING /tmp/ccWDWsfF.s 			page 99
 
 
  5400      6F6C416C 
@@ -5938,7 +5938,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5425              	.LASF39:
  5426 03ee 706F6F6C 		.string	"pool"
  5426      00
-GAS LISTING /tmp/ccho4PzG.s 			page 100
+GAS LISTING /tmp/ccWDWsfF.s 			page 100
 
 
  5427              	.LASF27:
@@ -5970,7 +5970,7 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5440      00
  5441              		.section	.debug_line_str,"MS",@progbits,1
  5442              	.LASF1:
- 5443 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT2"
+ 5443 0000 2F686F6D 		.string	"/home/alex/ChibiOS/demos/various/LAB2_VARIANT3"
  5443      652F616C 
  5443      65782F43 
  5443      68696269 
@@ -5987,28 +5987,28 @@ GAS LISTING /tmp/ccho4PzG.s 			page 1
  5447      65782F43 
  5447      68696269 
  5447      4F532F64 
-GAS LISTING /tmp/ccho4PzG.s 			page 101
+GAS LISTING /tmp/ccWDWsfF.s 			page 101
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 chmempools.c
-     /tmp/ccho4PzG.s:9      .text.chPoolObjectInitAligned:0000000000000000 chPoolObjectInitAligned
-     /tmp/ccho4PzG.s:45     .text.chPoolObjectDispose:0000000000000000 chPoolObjectDispose
-     /tmp/ccho4PzG.s:62     .text.chPoolLoadArray:0000000000000000 chPoolLoadArray
-     /tmp/ccho4PzG.s:1442   .text.__x86.get_pc_thunk.bp:0000000000000000 __x86.get_pc_thunk.bp
-     /tmp/ccho4PzG.s:185    .text.chPoolAllocI:0000000000000000 chPoolAllocI
-     /tmp/ccho4PzG.s:264    .text.chPoolAlloc:0000000000000000 chPoolAlloc
-     /tmp/ccho4PzG.s:1409   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
-     /tmp/ccho4PzG.s:468    .text.chPoolFreeI:0000000000000000 chPoolFreeI
-     /tmp/ccho4PzG.s:498    .text.chPoolFree:0000000000000000 chPoolFree
-     /tmp/ccho4PzG.s:1420   .text.__x86.get_pc_thunk.cx:0000000000000000 __x86.get_pc_thunk.cx
-     /tmp/ccho4PzG.s:572    .text.chGuardedPoolObjectInitAligned:0000000000000000 chGuardedPoolObjectInitAligned
-     /tmp/ccho4PzG.s:1431   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
-     /tmp/ccho4PzG.s:636    .text.chGuardedPoolObjectDispose:0000000000000000 chGuardedPoolObjectDispose
-     /tmp/ccho4PzG.s:673    .text.chGuardedPoolLoadArray:0000000000000000 chGuardedPoolLoadArray
-     /tmp/ccho4PzG.s:871    .text.chGuardedPoolAllocTimeoutS:0000000000000000 chGuardedPoolAllocTimeoutS
-     /tmp/ccho4PzG.s:1024   .text.chGuardedPoolAllocTimeout:0000000000000000 chGuardedPoolAllocTimeout
-     /tmp/ccho4PzG.s:1280   .text.chGuardedPoolFree:0000000000000000 chGuardedPoolFree
+     /tmp/ccWDWsfF.s:9      .text.chPoolObjectInitAligned:0000000000000000 chPoolObjectInitAligned
+     /tmp/ccWDWsfF.s:45     .text.chPoolObjectDispose:0000000000000000 chPoolObjectDispose
+     /tmp/ccWDWsfF.s:62     .text.chPoolLoadArray:0000000000000000 chPoolLoadArray
+     /tmp/ccWDWsfF.s:1442   .text.__x86.get_pc_thunk.bp:0000000000000000 __x86.get_pc_thunk.bp
+     /tmp/ccWDWsfF.s:185    .text.chPoolAllocI:0000000000000000 chPoolAllocI
+     /tmp/ccWDWsfF.s:264    .text.chPoolAlloc:0000000000000000 chPoolAlloc
+     /tmp/ccWDWsfF.s:1409   .text.__x86.get_pc_thunk.ax:0000000000000000 __x86.get_pc_thunk.ax
+     /tmp/ccWDWsfF.s:468    .text.chPoolFreeI:0000000000000000 chPoolFreeI
+     /tmp/ccWDWsfF.s:498    .text.chPoolFree:0000000000000000 chPoolFree
+     /tmp/ccWDWsfF.s:1420   .text.__x86.get_pc_thunk.cx:0000000000000000 __x86.get_pc_thunk.cx
+     /tmp/ccWDWsfF.s:572    .text.chGuardedPoolObjectInitAligned:0000000000000000 chGuardedPoolObjectInitAligned
+     /tmp/ccWDWsfF.s:1431   .text.__x86.get_pc_thunk.bx:0000000000000000 __x86.get_pc_thunk.bx
+     /tmp/ccWDWsfF.s:636    .text.chGuardedPoolObjectDispose:0000000000000000 chGuardedPoolObjectDispose
+     /tmp/ccWDWsfF.s:673    .text.chGuardedPoolLoadArray:0000000000000000 chGuardedPoolLoadArray
+     /tmp/ccWDWsfF.s:871    .text.chGuardedPoolAllocTimeoutS:0000000000000000 chGuardedPoolAllocTimeoutS
+     /tmp/ccWDWsfF.s:1024   .text.chGuardedPoolAllocTimeout:0000000000000000 chGuardedPoolAllocTimeout
+     /tmp/ccWDWsfF.s:1280   .text.chGuardedPoolFree:0000000000000000 chGuardedPoolFree
 
 UNDEFINED SYMBOLS
 _GLOBAL_OFFSET_TABLE_
